@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 DATA_DIR = Path("data/daily")
-SITE_DIR = Path("site")
+SITE_DIR = Path("docs")
 
 def load_latest():
     files = sorted(DATA_DIR.glob("*.json"))
