@@ -118,7 +118,6 @@ def build_heatmap_html(pivot: pd.DataFrame, cap_abs: float):
 
     parts.append("</tbody></table></div>")
 
-    # f-string衝突を避けるため、テンプレ文字列 ${} を使わない
     script = f"""
 <script>
 (function() {{
@@ -155,32 +154,45 @@ def last_n_dates(df: pd.DataFrame, n: int, latest_day: str):
     return ds[-n:] if len(ds) >= 1 else []
 
 
-def ranking_table_for_dates(df: pd.DataFrame, dates: list[str], title: str):
+def ranking_table_for_dates_max(df: pd.DataFrame, dates: list[str], title: str):
+    """
+    期間内の「最大差枚(MAX)」でランキング
+    max_day = 最大差枚を出した日付
+    days = 期間内にデータがある日数
+    """
     d = df[df["date"].isin(dates)].copy()
     d = d.dropna(subset=["diff_medals"])
     if d.empty:
         return f"<h2>{title}</h2><p>該当データなし</p>"
 
-    # machine_name は最後に見つかったものを採用（同一台で表記揺れがあってもOK）
-    g = (
+    # 台ごとに最大差枚とその日付を取る
+    d["diff_medals"] = pd.to_numeric(d["diff_medals"], errors="coerce")
+    d = d.dropna(subset=["diff_medals"])
+
+    # machine_name は最後に見つかったものを採用
+    name_map = (
         d.sort_values(["date"])
-        .groupby("machine_id", as_index=False)
-        .agg(
-            machine_name=("machine_name", "last"),
-            days=("date", "nunique"),
-            sum_diff=("diff_medals", "sum"),
-            avg_diff=("diff_medals", "mean"),
-        )
+        .groupby("machine_id")["machine_name"]
+        .last()
+        .to_dict()
     )
 
-    g["sum_diff"] = g["sum_diff"].round(0).astype(int)
-    g["avg_diff"] = g["avg_diff"].round(1)
+    # days
+    days_map = d.groupby("machine_id")["date"].nunique().to_dict()
 
-    g = g.sort_values(["sum_diff", "avg_diff"], ascending=False).head(50)
+    # max と日付
+    idx = d.groupby("machine_id")["diff_medals"].idxmax()
+    best = d.loc[idx, ["machine_id", "date", "diff_medals"]].copy()
+    best = best.rename(columns={"date": "max_day", "diff_medals": "max_diff"})
+    best["machine_name"] = best["machine_id"].map(name_map)
+    best["days"] = best["machine_id"].map(days_map).fillna(0).astype(int)
+    best["max_diff"] = best["max_diff"].round(0).astype(int)
+
+    best = best.sort_values(["max_diff"], ascending=False).head(50)
 
     html = f"<h2>{title}</h2>"
-    html += '<p class="note">sum=期間合計差枚 / avg=期間平均差枚 / days=データがある日数</p>'
-    html += g[["machine_id", "machine_name", "days", "sum_diff", "avg_diff"]].to_html(index=False)
+    html += '<p class="note">max=期間内最大差枚 / max_day=最大差枚の日付 / days=データがある日数</p>'
+    html += best[["machine_id", "machine_name", "days", "max_diff", "max_day"]].to_html(index=False)
     return html
 
 
@@ -212,21 +224,21 @@ def main():
         body += "</ul>"
     save_page("index.html", "トップ", body)
 
-    # ranking: 最新日 / 直近7日 / 直近30日
+    # ranking: 最新日 / 直近7日 / 直近30日（MAX）
     d1 = [latest_day]
     d7 = last_n_dates(df, 7, latest_day)
     d30 = last_n_dates(df, 30, latest_day)
 
-    sec1 = ranking_table_for_dates(df, d1, f"差枚ランキング（{latest_day} / 1日）")
-    sec7 = ranking_table_for_dates(df, d7, f"差枚ランキング（直近7日：{d7[0]}〜{d7[-1]}）" if d7 else "差枚ランキング（直近7日）")
-    sec30 = ranking_table_for_dates(df, d30, f"差枚ランキング（直近30日：{d30[0]}〜{d30[-1]}）" if d30 else "差枚ランキング（直近30日）")
+    sec1 = ranking_table_for_dates_max(df, d1, f"差枚ランキング（{latest_day} / 1日）")
+    sec7 = ranking_table_for_dates_max(df, d7, f"差枚ランキング（直近7日 MAX：{d7[0]}〜{d7[-1]}）" if d7 else "差枚ランキング（直近7日 MAX）")
+    sec30 = ranking_table_for_dates_max(df, d30, f"差枚ランキング（直近30日 MAX：{d30[0]}〜{d30[-1]}）" if d30 else "差枚ランキング（直近30日 MAX）")
 
     ranking_html = f"""
-<h1>差枚ランキング</h1>
+<h1>差枚ランキング（期間内 最大値 MAX）</h1>
 <div class="btns">
   <button class="btn active" data-target="sec1">最新日</button>
-  <button class="btn" data-target="sec7">直近7日</button>
-  <button class="btn" data-target="sec30">直近30日</button>
+  <button class="btn" data-target="sec7">直近7日 MAX</button>
+  <button class="btn" data-target="sec30">直近30日 MAX</button>
 </div>
 
 <div id="sec1" class="section active">{sec1}</div>
@@ -254,7 +266,7 @@ def main():
 
     save_page("ranking.html", "差枚ランキング", ranking_html)
 
-    # heatmap（そのまま）
+    # heatmap
     dfh = df.dropna(subset=["date", "machine_id"]).copy()
     dfh["machine_id"] = dfh["machine_id"].astype(str)
 
