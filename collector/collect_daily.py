@@ -1,258 +1,311 @@
 import json
 import re
+import time
 from datetime import date
 from pathlib import Path
-from time import sleep
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urljoin, urlparse, parse_qs, urlencode
+from urllib.request import Request
+from http.cookiejar import CookieJar
+from urllib.request import build_opener, HTTPCookieProcessor
 
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
-
-BASE = "https://reitoweb.com"
-START_URL = "https://reitoweb.com/b_moba/doc/news.php?h=2&anchor=machine"
-MACHINE4_ENDPOINT = "https://reitoweb.com/b_moba/doc/machine4.php"
-
-SLOT_T_VALUE = "29"  # 1000/47枚S
 
 OUT_DIR = Path("data/daily")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+NEWS_URL = "https://reitoweb.com/b_moba/doc/news.php?h=2&anchor=machine"
+MACHINE4_URL = "https://reitoweb.com/b_moba/doc/machine4.php"
 
-def to_int(s):
-    if s is None:
-        return None
-    s = str(s).replace(",", "").replace("枚", "").strip()
-    if s in ("", "-", "—"):
-        return None
+H = "2"
+T = "29"  # 1000/47枚S
+
+CJ = CookieJar()
+OPENER = build_opener(HTTPCookieProcessor(CJ))
+
+
+def http_get(url: str, timeout=30) -> str:
+    req = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+    )
+    with OPENER.open(req, timeout=timeout) as r:
+        return r.read().decode("utf-8", errors="ignore")
+
+
+def http_post_machine4(payload: dict, referer: str, timeout=30) -> dict:
+    body = urlencode(payload).encode("utf-8")
+    req = Request(
+        MACHINE4_URL,
+        data=body,
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json, text/plain, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Referer": referer,
+            "Origin": "https://reitoweb.com",
+        },
+        method="POST",
+    )
+    with OPENER.open(req, timeout=timeout) as r:
+        txt = r.read().decode("utf-8", errors="ignore").strip()
+    return json.loads(txt)
+
+
+def to_int(x):
     try:
-        return int(s)
+        if x is None:
+            return None
+        if isinstance(x, (int, float)):
+            if str(x) == "nan":
+                return None
+            return int(x)
+        s = str(x).replace(",", "").strip()
+        if s == "" or s == "-":
+            return None
+        return int(float(s))
     except:
         return None
 
 
-def extract_query(url: str):
-    q = parse_qs(urlparse(url).query)
-
-    def get1(k, default=None):
-        v = q.get(k)
-        return v[0] if v else default
-
-    return {"h": get1("h", "2"), "t": get1("t"), "m": get1("m")}
-
-
-def get_machine_links(html: str):
-    soup = BeautifulSoup(html, "lxml")
+def get_data_links(news_html: str) -> list[str]:
+    soup = BeautifulSoup(news_html, "lxml")
     links = []
-
     for a in soup.select("a[href]"):
         href = a.get("href", "")
-        if "doc/data.php" not in href:
+        if "data.php" not in href:
             continue
-
-        if href.startswith("http"):
-            url = href
-        elif href.startswith("/"):
-            url = BASE + href
-        else:
-            url = BASE + "/b_moba/" + href
-
-        q = parse_qs(urlparse(url).query)
-        t = (q.get("t") or [None])[0]
-        if t != SLOT_T_VALUE:
+        full = urljoin(NEWS_URL, href)
+        qs = parse_qs(urlparse(full).query)
+        if qs.get("t", [""])[0] != T:
             continue
+        links.append(full)
 
-        links.append(url)
+    seen = set()
+    out = []
+    for u in links:
+        if u in seen:
+            continue
+        seen.add(u)
+        out.append(u)
+    return out
 
-    return list(dict.fromkeys(links))
 
+def extract_units_from_data_html(data_html: str, base_url: str) -> list[dict]:
+    """
+    data.php のHTMLから、台ごとの基本データ(BB/RB/ART/total_start/max_medals)を拾う。
+    台番号は machine.php?...&n=XXXX のリンクから取る（文字化けしない）。
+    """
+    soup = BeautifulSoup(data_html, "lxml")
 
-def parse_data_php(html: str):
-    soup = BeautifulSoup(html, "lxml")
-
-    machine_name = "UNKNOWN"
+    # 機種名（h3）
     h3 = soup.select_one("h3")
-    if h3:
-        machine_name = h3.get_text(strip=True)
+    machine_name = h3.get_text(strip=True) if h3 else "UNKNOWN"
 
-    text = soup.get_text("\n", strip=True)
-    matches = list(re.finditer(r"(\d{3,4})\s*(番台|台番|台番号)", text))
-    items = []
+    units = []
 
-    for i, m in enumerate(matches):
-        machine_id = m.group(1)
-        start = m.start()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
-        block = text[start:end]
+    # data.php は台ごとにまとまったブロックになってることが多いので、
+    # machine.phpリンクを起点にして、近い親要素から数字を拾う戦略
+    for a in soup.select('a[href*="machine.php"]'):
+        href = a.get("href", "")
+        full = urljoin(base_url, href)
+        qs = parse_qs(urlparse(full).query)
+        n = qs.get("n", [""])[0]
+        if not (n and n.isdigit() and 3 <= len(n) <= 4):
+            continue
+        machine_id = n.zfill(4)
 
-        bb = rb = art = None
-        m_stats = re.search(
-            r"BB\s*(\d+)回.*RB\s*(\d+)回.*AT[・･/／ ]?ART\s*(\d+)回",
-            block
-        )
-        if m_stats:
-            bb = to_int(m_stats.group(1))
-            rb = to_int(m_stats.group(2))
-            art = to_int(m_stats.group(3))
-        else:
-            m_bb = re.search(r"BB\s*(\d+)回", block)
-            m_rb = re.search(r"RB\s*(\d+)回", block)
-            m_art = re.search(r"AT[・･/／ ]?ART\s*(\d+)回", block)
-            if m_bb:
-                bb = to_int(m_bb.group(1))
-            if m_rb:
-                rb = to_int(m_rb.group(1))
-            if m_art:
-                art = to_int(m_art.group(1))
+        # 台ブロック探索（リンクの親付近のテキストから数値を拾う）
+        block = a.parent
+        for _ in range(5):
+            if block is None:
+                break
+            text = block.get_text(" ", strip=True)
+            # BB/RB/AT・ART などが近くに入っていそうなら採用
+            if ("BB" in text and "RB" in text) or ("累計" in text) or ("最大持玉" in text):
+                break
+            block = block.parent
 
-        max_medals = None
-        m_max = re.search(r"最大持玉(?:数)?\s*([0-9,]+)\s*枚", block)
-        if m_max:
-            max_medals = to_int(m_max.group(1))
+        text = block.get_text(" ", strip=True) if block else a.get_text(" ", strip=True)
 
-        items.append(
+        # BB/RB/ART/累計/最大持玉 をざっくり正規表現で拾う（多少崩れても耐える）
+        # ※表記揺れがあるので “数字”を優先して拾う
+        bb = rb = art = total_start = max_medals = None
+
+        m1 = re.search(r"BB\s*([0-9,]+)", text)
+        m2 = re.search(r"RB\s*([0-9,]+)", text)
+        m3 = re.search(r"(AT|ART|AT・ART)\s*([0-9,]+)", text)
+        m4 = re.search(r"(累計スタート|累計)\s*([0-9,]+)", text)
+        m5 = re.search(r"(最大持玉)\s*([0-9,]+)", text)
+
+        if m1:
+            bb = to_int(m1.group(1))
+        if m2:
+            rb = to_int(m2.group(1))
+        if m3:
+            art = to_int(m3.group(2))
+        if m4:
+            total_start = to_int(m4.group(2))
+        if m5:
+            max_medals = to_int(m5.group(2))
+
+        units.append(
             {
-                "machine_id": machine_id.zfill(4),
+                "machine_id": machine_id,
                 "machine_name": machine_name,
                 "bb": bb,
                 "rb": rb,
                 "art": art,
-                "total_start": None,
+                "total_start": total_start,
                 "max_medals": max_medals,
-                "diff_medals": None,
             }
         )
 
-    return items
+    # 重複除去（同じ台番号が複数拾われるケース対策）
+    seen = set()
+    out = []
+    for u in units:
+        key = u["machine_id"]
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(u)
+
+    return out
 
 
-def extract_total_and_diff(machine4_json: dict):
-    d = (machine4_json or {}).get("Data", {})
-    dd = d.get("data", [])
-    total_start = None
-    if isinstance(dd, list) and dd and isinstance(dd[0], dict):
-        total_start = dd[0].get("dTotalStart")
-
-    data_array = d.get("dataArray")
-    diff_medals = None
-
-    if isinstance(data_array, dict) and data_array:
-        # total_startキーがあればそこを採用（最終差枚扱い）
-        if total_start is not None:
-            try:
-                k = str(int(total_start))
-                if k in data_array:
-                    diff_medals = data_array.get(k)
-            except:
-                pass
-
-        # 無ければ最新点（キー最大）
-        if diff_medals is None:
-            try:
-                last_key = max(data_array.keys(), key=lambda x: int(x))
-                diff_medals = data_array.get(last_key)
-            except:
-                pass
-
-    return to_int(total_start), to_int(diff_medals)
+def extract_last_diff_from_dataarray(arr) -> int | None:
+    if not isinstance(arr, dict) or not arr:
+        return None
+    keys = []
+    for k in arr.keys():
+        try:
+            keys.append(int(k))
+        except:
+            pass
+    if not keys:
+        return None
+    last_k = str(max(keys))
+    return to_int(arr.get(last_k))
 
 
-def safe_goto(page, url: str, label: str = "") -> bool:
-    try:
-        page.goto(url, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(400)
-        return True
-    except Exception as e:
-        print(f"!! GOTO FAIL {label} url={url} err={e}")
-        return False
-
-
-def post_machine4_via_playwright(page, h: str, t: str, m: str, n: str):
-    """
-    ★urllibではなく、Playwrightの request を使って machine4.php を叩く（成功率UP）
-    """
-    payload = {"h": str(h), "t": str(t), "m": str(m), "n": str(n)}
-    resp = page.request.post(
-        MACHINE4_ENDPOINT,
-        data=json.dumps(payload),
-        headers={"Content-Type": "application/json"},
-        timeout=60000,
-    )
-    return resp.json()
+def fetch_machine4_for_unit(m: str, n: str, referer_machine_php: str, retry=2) -> dict | None:
+    payload = {"h": H, "t": T, "m": m, "n": n}
+    for _ in range(retry + 1):
+        try:
+            j = http_post_machine4(payload, referer=referer_machine_php, timeout=30)
+            if not isinstance(j, dict):
+                time.sleep(0.5)
+                continue
+            if j.get("Result") is False:
+                time.sleep(0.5)
+                continue
+            data = j.get("Data") or {}
+            # サービス側エラー
+            if isinstance(data, dict) and data.get("status") == "error":
+                return None
+            return data
+        except Exception:
+            time.sleep(0.5)
+    return None
 
 
 def main():
     today = date.today().isoformat()
     out_path = OUT_DIR / f"{today}.json"
 
-    skipped_urls = []
-    m4_fail = 0
-    total_rows = 0
+    print("OPEN:", NEWS_URL)
+    news_html = http_get(NEWS_URL)
+    links = get_data_links(news_html)
+    print(f"LINKS: {len(links)} (filtered t={T})")
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+    all_rows = []
+    filled_diff_total = 0
+    skipped_machine4_total = 0
 
-        print("OPEN:", START_URL)
-        if not safe_goto(page, START_URL, "START"):
-            raise SystemExit("Cannot open START_URL")
+    for idx, data_url in enumerate(links, start=1):
+        qs = parse_qs(urlparse(data_url).query)
+        m = qs.get("m", [""])[0]
+        if not m:
+            print(f"[{idx}/{len(links)}] skip (no m) url={data_url}")
+            continue
 
-        # スクロールで追加される場合に備えて最下部まで
-        last_h = 0
-        for _ in range(25):
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(800)
-            h = page.evaluate("document.body.scrollHeight")
-            if h == last_h:
-                break
-            last_h = h
+        try:
+            data_html = http_get(data_url)
+        except Exception as e:
+            print(f"[{idx}/{len(links)}] GET failed: {e} url={data_url}")
+            continue
 
-        links = get_machine_links(page.content())
-        print(f"LINKS: {len(links)} (filtered t={SLOT_T_VALUE})")
+        units = extract_units_from_data_html(data_html, data_url)
+        if not units:
+            dbg = Path("data") / "debug"
+            dbg.mkdir(parents=True, exist_ok=True)
+            (dbg / f"data_{m}.html").write_text(data_html, encoding="utf-8", errors="ignore")
+            print(f"[{idx}/{len(links)}] units=0 (saved debug html) url={data_url}")
+            continue
 
-        all_records = []
+        units_here = 0
+        filled_here = 0
+        skipped_here = 0
 
-        for i, data_url in enumerate(links, start=1):
-            ok = safe_goto(page, data_url, f"DATA {i}/{len(links)}")
-            if not ok:
-                skipped_urls.append(data_url)
+        for u in units:
+            units_here += 1
+            n = u["machine_id"]
+            machine_php_url = f"https://reitoweb.com/b_moba/doc/machine.php?h={H}&t={T}&m={m}&n={n}"
+
+            # ★まず data.php 由来の基本データで1行作る
+            item = {
+                "machine_id": n,
+                "machine_name": u["machine_name"],
+                "bb": u["bb"],
+                "rb": u["rb"],
+                "art": u["art"],
+                "total_start": u["total_start"],
+                "max_medals": u["max_medals"],
+                "diff_medals": None,  # 取れたら後で入れる
+                "date": today,
+                "source_url": data_url,
+                "m": m,
+            }
+
+            # ★次に machine4 が取れたら diff を上書き
+            data = fetch_machine4_for_unit(m, n, referer_machine_php=machine_php_url)
+            if not data:
+                skipped_here += 1
+                skipped_machine4_total += 1
+                all_rows.append(item)
+                time.sleep(0.1)
                 continue
 
-            items = parse_data_php(page.content())
-            q = extract_query(data_url)
-            h, m = q["h"], q["m"]
+            diff = extract_last_diff_from_dataarray(data.get("dataArray"))
+            item["diff_medals"] = diff
 
-            filled = 0
-            for it in items:
-                it["date"] = today
-                it["source_url"] = data_url
-                it["m"] = m
+            # machine4 側に機種名や最大持玉が入っていれば上書き（あれば精度UP）
+            if data.get("machineName"):
+                item["machine_name"] = data.get("machineName")
+            if data.get("max") is not None:
+                item["max_medals"] = to_int(data.get("max"))
 
-                try:
-                    m4 = post_machine4_via_playwright(page, h, SLOT_T_VALUE, m, it["machine_id"])
-                    total_start, diff_medals = extract_total_and_diff(m4)
-                    it["total_start"] = total_start
-                    it["diff_medals"] = diff_medals
-                    filled += 1
-                except Exception as e:
-                    m4_fail += 1
-                    it["total_start"] = None
-                    it["diff_medals"] = None
+            if item["diff_medals"] is not None:
+                filled_here += 1
+                filled_diff_total += 1
 
-                all_records.append(it)
+            all_rows.append(item)
+            time.sleep(0.1)
 
-            total_rows += len(items)
-            print(f"[{i}/{len(links)}] rows={len(items)} filled={filled} url={data_url}")
-            sleep(0.35)
+        print(
+            f"[{idx}/{len(links)}] units={units_here} filled_diff={filled_here} "
+            f"skipped_machine4={skipped_here} url={data_url}"
+        )
 
-        browser.close()
-
-    out_path.write_text(json.dumps(all_records, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Saved: {out_path} ({len(all_records)} records)")
-    print(f"Summary: LINKS={len(links)} total_rows={total_rows} SKIPPED_URLS={len(skipped_urls)} M4_fail={m4_fail}")
-    if skipped_urls:
-        print("First 10 skipped URLs:")
-        for u in skipped_urls[:10]:
-            print("  ", u)
+    out_path.write_text(json.dumps(all_rows, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(
+        f"Saved: {out_path} ({len(all_rows)} records) filled_diff_total={filled_diff_total} "
+        f"skipped_machine4_total={skipped_machine4_total}"
+    )
 
 
 if __name__ == "__main__":
