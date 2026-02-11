@@ -1,0 +1,12 @@
+body{font-family:system-ui;margin:16px;line-height:1.6}
+nav a{margin-right:10px}
+table{border-collapse:collapse}
+td,th{border:1px solid #ccc;padding:6px; text-align:right; white-space:nowrap}
+th{text-align:center; position:sticky; top:0; background:#fff; z-index:2}
+td:first-child, th:first-child{position:sticky; left:0; background:#fff; z-index:3; text-align:center}
+.note{color:#666;font-size:0.9em}
+.small{font-size:0.85em}
+.hm-wrap{overflow:auto; border:1px solid #ddd; max-height:75vh}
+.hm td{min-width:88px}
+.legend{display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:10px 0}
+.swatch{width:46px; height:14px; border:1px solid #ccc}
