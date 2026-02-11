@@ -4,7 +4,6 @@ from datetime import date
 from pathlib import Path
 from time import sleep
 from urllib.parse import urlparse, parse_qs
-import urllib.request
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -19,7 +18,7 @@ OUT_DIR = Path("data/daily")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def to_int(s: str):
+def to_int(s):
     if s is None:
         return None
     s = str(s).replace(",", "").replace("枚", "").strip()
@@ -38,17 +37,10 @@ def extract_query(url: str):
         v = q.get(k)
         return v[0] if v else default
 
-    return {
-        "h": get1("h", "2"),
-        "t": get1("t"),
-        "m": get1("m"),
-        "d": get1("d"),
-        "n": get1("n"),
-    }
+    return {"h": get1("h", "2"), "t": get1("t"), "m": get1("m")}
 
 
 def get_machine_links(html: str):
-    """news.php から data.php へのリンクを集め、t=29のみ残す"""
     soup = BeautifulSoup(html, "lxml")
     links = []
 
@@ -83,7 +75,6 @@ def parse_data_php(html: str):
         machine_name = h3.get_text(strip=True)
 
     text = soup.get_text("\n", strip=True)
-
     matches = list(re.finditer(r"(\d{3,4})\s*(番台|台番|台番号)", text))
     items = []
 
@@ -120,7 +111,7 @@ def parse_data_php(html: str):
 
         items.append(
             {
-                "machine_id": machine_id,
+                "machine_id": machine_id.zfill(4),
                 "machine_name": machine_name,
                 "bb": bb,
                 "rb": rb,
@@ -134,23 +125,9 @@ def parse_data_php(html: str):
     return items
 
 
-def post_machine4(h: str, t: str, m: str, n: str):
-    payload = {"h": str(h), "t": str(t), "m": str(m), "n": str(n)}
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(
-        MACHINE4_ENDPOINT,
-        data=data,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
-
-
 def extract_total_and_diff(machine4_json: dict):
     d = (machine4_json or {}).get("Data", {})
     dd = d.get("data", [])
-
     total_start = None
     if isinstance(dd, list) and dd and isinstance(dd[0], dict):
         total_start = dd[0].get("dTotalStart")
@@ -159,6 +136,7 @@ def extract_total_and_diff(machine4_json: dict):
     diff_medals = None
 
     if isinstance(data_array, dict) and data_array:
+        # total_startキーがあればそこを採用（最終差枚扱い）
         if total_start is not None:
             try:
                 k = str(int(total_start))
@@ -167,6 +145,7 @@ def extract_total_and_diff(machine4_json: dict):
             except:
                 pass
 
+        # 無ければ最新点（キー最大）
         if diff_medals is None:
             try:
                 last_key = max(data_array.keys(), key=lambda x: int(x))
@@ -178,17 +157,27 @@ def extract_total_and_diff(machine4_json: dict):
 
 
 def safe_goto(page, url: str, label: str = "") -> bool:
-    """
-    Actionsで止まりやすい networkidle を使わず、タイムアウトしてもスキップして続行。
-    """
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=90000)
-        # ちょい待ち（DOM整うまで）
-        page.wait_for_timeout(500)
+        page.wait_for_timeout(400)
         return True
     except Exception as e:
         print(f"!! GOTO FAIL {label} url={url} err={e}")
         return False
+
+
+def post_machine4_via_playwright(page, h: str, t: str, m: str, n: str):
+    """
+    ★urllibではなく、Playwrightの request を使って machine4.php を叩く（成功率UP）
+    """
+    payload = {"h": str(h), "t": str(t), "m": str(m), "n": str(n)}
+    resp = page.request.post(
+        MACHINE4_ENDPOINT,
+        data=json.dumps(payload),
+        headers={"Content-Type": "application/json"},
+        timeout=60000,
+    )
+    return resp.json()
 
 
 def main():
@@ -239,12 +228,12 @@ def main():
                 it["m"] = m
 
                 try:
-                    m4 = post_machine4(h, SLOT_T_VALUE, m, it["machine_id"].zfill(4))
+                    m4 = post_machine4_via_playwright(page, h, SLOT_T_VALUE, m, it["machine_id"])
                     total_start, diff_medals = extract_total_and_diff(m4)
                     it["total_start"] = total_start
                     it["diff_medals"] = diff_medals
                     filled += 1
-                except:
+                except Exception as e:
                     m4_fail += 1
                     it["total_start"] = None
                     it["diff_medals"] = None
@@ -253,7 +242,7 @@ def main():
 
             total_rows += len(items)
             print(f"[{i}/{len(links)}] rows={len(items)} filled={filled} url={data_url}")
-            sleep(0.4)
+            sleep(0.35)
 
         browser.close()
 
