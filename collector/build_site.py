@@ -154,33 +154,30 @@ def last_n_dates(df: pd.DataFrame, n: int, latest_day: str):
     return ds[-n:] if len(ds) >= 1 else []
 
 
-def ranking_table_for_dates_max(df: pd.DataFrame, dates: list[str], title: str):
+def ranking_table_for_dates_max_plus_only(df: pd.DataFrame, dates: list[str], title: str):
     """
-    期間内の「最大差枚(MAX)」でランキング
+    期間内の「最大差枚(MAX)」でランキング。ただしプラス差枚のみ（>0）
     max_day = 最大差枚を出した日付
     days = 期間内にデータがある日数
     """
     d = df[df["date"].isin(dates)].copy()
+    d["diff_medals"] = pd.to_numeric(d.get("diff_medals"), errors="coerce")
     d = d.dropna(subset=["diff_medals"])
+
+    # ★プラスだけ
+    d = d[d["diff_medals"] > 0]
+
     if d.empty:
-        return f"<h2>{title}</h2><p>該当データなし</p>"
+        return f"<h2>{title}</h2><p>該当データなし（プラス差枚がありません）</p>"
 
-    # 台ごとに最大差枚とその日付を取る
-    d["diff_medals"] = pd.to_numeric(d["diff_medals"], errors="coerce")
-    d = d.dropna(subset=["diff_medals"])
-
-    # machine_name は最後に見つかったものを採用
     name_map = (
         d.sort_values(["date"])
         .groupby("machine_id")["machine_name"]
         .last()
         .to_dict()
     )
-
-    # days
     days_map = d.groupby("machine_id")["date"].nunique().to_dict()
 
-    # max と日付
     idx = d.groupby("machine_id")["diff_medals"].idxmax()
     best = d.loc[idx, ["machine_id", "date", "diff_medals"]].copy()
     best = best.rename(columns={"date": "max_day", "diff_medals": "max_diff"})
@@ -191,7 +188,7 @@ def ranking_table_for_dates_max(df: pd.DataFrame, dates: list[str], title: str):
     best = best.sort_values(["max_diff"], ascending=False).head(50)
 
     html = f"<h2>{title}</h2>"
-    html += '<p class="note">max=期間内最大差枚 / max_day=最大差枚の日付 / days=データがある日数</p>'
+    html += '<p class="note">max=期間内最大差枚（プラスのみ） / max_day=最大差枚の日付 / days=データがある日数</p>'
     html += best[["machine_id", "machine_name", "days", "max_diff", "max_day"]].to_html(index=False)
     return html
 
@@ -214,7 +211,6 @@ def main():
 
     latest_day = str(df["date"].dropna().max())
 
-    # index
     body = f"<h1>最新日: {latest_day}</h1><p>総レコード: {len(df)}</p>"
     body += '<p class="note">※ 差枚(diff_medals) を元に集計しています</p>'
     if events:
@@ -224,17 +220,16 @@ def main():
         body += "</ul>"
     save_page("index.html", "トップ", body)
 
-    # ranking: 最新日 / 直近7日 / 直近30日（MAX）
     d1 = [latest_day]
     d7 = last_n_dates(df, 7, latest_day)
     d30 = last_n_dates(df, 30, latest_day)
 
-    sec1 = ranking_table_for_dates_max(df, d1, f"差枚ランキング（{latest_day} / 1日）")
-    sec7 = ranking_table_for_dates_max(df, d7, f"差枚ランキング（直近7日 MAX：{d7[0]}〜{d7[-1]}）" if d7 else "差枚ランキング（直近7日 MAX）")
-    sec30 = ranking_table_for_dates_max(df, d30, f"差枚ランキング（直近30日 MAX：{d30[0]}〜{d30[-1]}）" if d30 else "差枚ランキング（直近30日 MAX）")
+    sec1 = ranking_table_for_dates_max_plus_only(df, d1, f"差枚ランキング（{latest_day} / 1日）")
+    sec7 = ranking_table_for_dates_max_plus_only(df, d7, f"差枚ランキング（直近7日 MAX：{d7[0]}〜{d7[-1]}）" if d7 else "差枚ランキング（直近7日 MAX）")
+    sec30 = ranking_table_for_dates_max_plus_only(df, d30, f"差枚ランキング（直近30日 MAX：{d30[0]}〜{d30[-1]}）" if d30 else "差枚ランキング（直近30日 MAX）")
 
     ranking_html = f"""
-<h1>差枚ランキング（期間内 最大値 MAX）</h1>
+<h1>差枚ランキング（期間内 最大値 MAX / プラスのみ）</h1>
 <div class="btns">
   <button class="btn active" data-target="sec1">最新日</button>
   <button class="btn" data-target="sec7">直近7日 MAX</button>
@@ -266,7 +261,6 @@ def main():
 
     save_page("ranking.html", "差枚ランキング", ranking_html)
 
-    # heatmap
     dfh = df.dropna(subset=["date", "machine_id"]).copy()
     dfh["machine_id"] = dfh["machine_id"].astype(str)
 
