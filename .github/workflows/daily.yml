@@ -2,7 +2,7 @@ name: Daily Collect
 
 on:
   schedule:
-    - cron: "10 16 * * *"  # 日本時間 1:10（UTC 16:10）
+    - cron: "0 14 * * *"  # 日本時間 23:00（UTC 14:00）
   workflow_dispatch:
 
 jobs:
