@@ -13,8 +13,7 @@ BASE = "https://reitoweb.com"
 START_URL = "https://reitoweb.com/b_moba/doc/news.php?h=2&anchor=machine"
 MACHINE4_ENDPOINT = "https://reitoweb.com/b_moba/doc/machine4.php"
 
-# 1000／47枚S（スロット）だけに限定（URLの t=29 が該当）
-SLOT_T_VALUE = "29"
+SLOT_T_VALUE = "29"  # 1000/47枚S
 
 OUT_DIR = Path("data/daily")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -49,10 +48,7 @@ def extract_query(url: str):
 
 
 def get_machine_links(html: str):
-    """
-    news.php から data.php へのリンクを集める
-    ★1000／47枚S（t=29）だけに絞る
-    """
+    """news.php から data.php へのリンクを集め、t=29のみ残す"""
     soup = BeautifulSoup(html, "lxml")
     links = []
 
@@ -61,7 +57,6 @@ def get_machine_links(html: str):
         if "doc/data.php" not in href:
             continue
 
-        # 絶対URL化
         if href.startswith("http"):
             url = href
         elif href.startswith("/"):
@@ -69,7 +64,6 @@ def get_machine_links(html: str):
         else:
             url = BASE + "/b_moba/" + href
 
-        # ★ここで t=29 のみ残す（スロット1000/47枚S）
         q = parse_qs(urlparse(url).query)
         t = (q.get("t") or [None])[0]
         if t != SLOT_T_VALUE:
@@ -77,21 +71,10 @@ def get_machine_links(html: str):
 
         links.append(url)
 
-    # 重複削除（順序維持）
     return list(dict.fromkeys(links))
 
 
 def parse_data_php(html: str):
-    """
-    data.php は文章レイアウト例:
-      ##### 0729 番台
-      BB 15回 ／ RB 22回 ／ AT・ART 0回
-      最大持玉 725枚
-
-    表記ゆれ対応:
-      番台/台番/台番号
-      AT・ART / AT･ART / AT/ART / AT／ART / "AT ART"
-    """
     soup = BeautifulSoup(html, "lxml")
 
     machine_name = "UNKNOWN"
@@ -101,7 +84,6 @@ def parse_data_php(html: str):
 
     text = soup.get_text("\n", strip=True)
 
-    # 番台表記ゆれ対応
     matches = list(re.finditer(r"(\d{3,4})\s*(番台|台番|台番号)", text))
     items = []
 
@@ -112,8 +94,6 @@ def parse_data_php(html: str):
         block = text[start:end]
 
         bb = rb = art = None
-
-        # ステータス行の表記ゆれ対応
         m_stats = re.search(
             r"BB\s*(\d+)回.*RB\s*(\d+)回.*AT[・･/／ ]?ART\s*(\d+)回",
             block
@@ -123,7 +103,6 @@ def parse_data_php(html: str):
             rb = to_int(m_stats.group(2))
             art = to_int(m_stats.group(3))
         else:
-            # もう少し緩め（区切りが変な場合）
             m_bb = re.search(r"BB\s*(\d+)回", block)
             m_rb = re.search(r"RB\s*(\d+)回", block)
             m_art = re.search(r"AT[・･/／ ]?ART\s*(\d+)回", block)
@@ -134,7 +113,6 @@ def parse_data_php(html: str):
             if m_art:
                 art = to_int(m_art.group(1))
 
-        # 最大持玉の表記ゆれ対応（「最大持玉」「最大持玉数」など）
         max_medals = None
         m_max = re.search(r"最大持玉(?:数)?\s*([0-9,]+)\s*枚", block)
         if m_max:
@@ -157,10 +135,6 @@ def parse_data_php(html: str):
 
 
 def post_machine4(h: str, t: str, m: str, n: str):
-    """
-    machine4.php に POST して JSON を取得
-    POST_DATA: {"h":"2","t":"29","m":"99119916","n":"0771"}
-    """
     payload = {"h": str(h), "t": str(t), "m": str(m), "n": str(n)}
     data = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(
@@ -174,12 +148,6 @@ def post_machine4(h: str, t: str, m: str, n: str):
 
 
 def extract_total_and_diff(machine4_json: dict):
-    """
-    total_start: Data.data[0].dTotalStart
-    diff_medals: Data.dataArray の
-      - dTotalStartキーがあればその値（最終差枚として扱う）
-      - なければキー最大（最新点）の値
-    """
     d = (machine4_json or {}).get("Data", {})
     dd = d.get("data", [])
 
@@ -191,7 +159,6 @@ def extract_total_and_diff(machine4_json: dict):
     diff_medals = None
 
     if isinstance(data_array, dict) and data_array:
-        # まず total_start の点を優先
         if total_start is not None:
             try:
                 k = str(int(total_start))
@@ -200,7 +167,6 @@ def extract_total_and_diff(machine4_json: dict):
             except:
                 pass
 
-        # 無ければ最新点（キー最大）
         if diff_medals is None:
             try:
                 last_key = max(data_array.keys(), key=lambda x: int(x))
@@ -211,13 +177,26 @@ def extract_total_and_diff(machine4_json: dict):
     return to_int(total_start), to_int(diff_medals)
 
 
+def safe_goto(page, url: str, label: str = "") -> bool:
+    """
+    Actionsで止まりやすい networkidle を使わず、タイムアウトしてもスキップして続行。
+    """
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=90000)
+        # ちょい待ち（DOM整うまで）
+        page.wait_for_timeout(500)
+        return True
+    except Exception as e:
+        print(f"!! GOTO FAIL {label} url={url} err={e}")
+        return False
+
+
 def main():
     today = date.today().isoformat()
     out_path = OUT_DIR / f"{today}.json"
 
-    zero_urls = []
+    skipped_urls = []
     m4_fail = 0
-    total_links = 0
     total_rows = 0
 
     with sync_playwright() as p:
@@ -225,9 +204,10 @@ def main():
         page = browser.new_page()
 
         print("OPEN:", START_URL)
-        page.goto(START_URL, wait_until="networkidle")
+        if not safe_goto(page, START_URL, "START"):
+            raise SystemExit("Cannot open START_URL")
 
-        # 一覧がスクロールで追加される場合に備えて、最下部までスクロール
+        # スクロールで追加される場合に備えて最下部まで
         last_h = 0
         for _ in range(25):
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -238,31 +218,27 @@ def main():
             last_h = h
 
         links = get_machine_links(page.content())
-        total_links = len(links)
-        print("LINKS:", total_links, f"(filtered t={SLOT_T_VALUE})")
+        print(f"LINKS: {len(links)} (filtered t={SLOT_T_VALUE})")
 
         all_records = []
 
-        # ★全リンクを回す（スロットのみ）
         for i, data_url in enumerate(links, start=1):
-            page.goto(data_url, wait_until="networkidle")
+            ok = safe_goto(page, data_url, f"DATA {i}/{len(links)}")
+            if not ok:
+                skipped_urls.append(data_url)
+                continue
+
             items = parse_data_php(page.content())
-
-            if len(items) == 0:
-                zero_urls.append(data_url)
-                print(f"!! ZERO rows url={data_url}")
-
             q = extract_query(data_url)
-            h, t, m = q["h"], q["t"], q["m"]
+            h, m = q["h"], q["m"]
 
             filled = 0
             for it in items:
                 it["date"] = today
                 it["source_url"] = data_url
-                it["m"] = m  # デバッグ用（残してOK）
+                it["m"] = m
 
                 try:
-                    # t は必ず 29（スロット）を送る
                     m4 = post_machine4(h, SLOT_T_VALUE, m, it["machine_id"].zfill(4))
                     total_start, diff_medals = extract_total_and_diff(m4)
                     it["total_start"] = total_start
@@ -276,18 +252,17 @@ def main():
                 all_records.append(it)
 
             total_rows += len(items)
-            print(f"[{i}/{total_links}] rows={len(items)} filled={filled} url={data_url}")
-            sleep(0.6)
+            print(f"[{i}/{len(links)}] rows={len(items)} filled={filled} url={data_url}")
+            sleep(0.4)
 
         browser.close()
 
     out_path.write_text(json.dumps(all_records, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Saved: {out_path} ({len(all_records)} records)")
-    print(f"Summary: LINKS={total_links} total_rows={total_rows} ZERO_URLS={len(zero_urls)} M4_fail={m4_fail}")
-
-    if zero_urls:
-        print("\nFirst 20 ZERO rows URLs:")
-        for u in zero_urls[:20]:
+    print(f"Summary: LINKS={len(links)} total_rows={total_rows} SKIPPED_URLS={len(skipped_urls)} M4_fail={m4_fail}")
+    if skipped_urls:
+        print("First 10 skipped URLs:")
+        for u in skipped_urls[:10]:
             print("  ", u)
 
 
