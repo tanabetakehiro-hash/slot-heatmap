@@ -9,9 +9,11 @@
 <a href="ranking.html">差枚ランキング</a> |
 <a href="heatmap.html">差枚ヒートマップ</a>
 </nav><hr/>
-<h1>差枚ランキング（機種別 / 台別 切替）</h1>
+<h1>差枚ランキング</h1>
 <p class="note">
 MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レコードのうちプラスだった割合」（レコード基準）。
+「台別（全台）」は期間内に出てきた全台を表示します。
+「機種別」は機種名を選択すると、その機種の台別（全台）を表示します。
 </p>
 
 <div class="btns">
@@ -20,9 +22,10 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レ
   <button class="btn" data-target="sec30">直近30日</button>
 </div>
 
-<div id="sec1" class="section active"><div id="p1_root"><div class="subtabs">
-  <button class="pill active" data-group="machine">機種別</button>
-  <button class="pill" data-group="unit">台別</button>
+<div id="sec1" class="section active"><div id="p1_root"><h2>最新日（2026-02-11）</h2>
+<div class="subtabs">
+  <button class="pill active" data-group="unit">台別（全台）</button>
+  <button class="pill" data-group="machine">機種別（機種名選択）</button>
 </div>
 <div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
@@ -30,30 +33,38 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レ
   <button class="pill" data-m="sum">合計</button>
   <button class="pill" data-m="win">勝率</button>
 </div>
-<div class="block active" data-group="machine" data-metric="max"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="avg"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="sum"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="win"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="max"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="avg"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="sum"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="win"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
+<div class="block active" data-group="unit" data-metric="max"><h3>最新日（2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="avg"><h3>最新日（2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="sum"><h3>最新日（2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="win"><h3>最新日（2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="__picker__"><h3>最新日（2026-02-11）（機種別）</h3><p>該当データなし</p></div>
 <script>
 (function() {
   const root = document.getElementById("p1_root");
   const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
   const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
-  let curGroup = "machine";
+  let curGroup = "unit";
   let curMetric = "max";
 
   function render() {
     groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
     metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
-    root.querySelectorAll('.block').forEach(function(el) {
-      const g = el.getAttribute('data-group');
+
+    // unit: 指標一致だけ表示
+    root.querySelectorAll('.block[data-group="unit"]').forEach(function(el) {
       const m = el.getAttribute('data-metric');
-      el.classList.toggle('active', g === curGroup && m === curMetric);
+      el.classList.toggle('active', curGroup === "unit" && m === curMetric);
     });
+
+    // machine: pickerを表示し、内部の機種ブロックへ metric を渡す
+    const picker = root.querySelector('.block[data-group="machine"][data-metric="__picker__"]');
+    if (picker) {
+      picker.classList.toggle('active', curGroup === "machine");
+      const panel = picker.querySelector('[id$="_mpanel"]');
+      if (panel && panel._setMetric) {
+        panel._setMetric(curMetric);
+      }
+    }
   }
 
   groupBtns.forEach(function(b) {
@@ -73,9 +84,10 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レ
   render();
 })();
 </script></div></div>
-<div id="sec7" class="section"><div id="p7_root"><div class="subtabs">
-  <button class="pill active" data-group="machine">機種別</button>
-  <button class="pill" data-group="unit">台別</button>
+<div id="sec7" class="section"><div id="p7_root"><h2>直近7日（2026-02-11〜2026-02-11）</h2>
+<div class="subtabs">
+  <button class="pill active" data-group="unit">台別（全台）</button>
+  <button class="pill" data-group="machine">機種別（機種名選択）</button>
 </div>
 <div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
@@ -83,30 +95,38 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レ
   <button class="pill" data-m="sum">合計</button>
   <button class="pill" data-m="win">勝率</button>
 </div>
-<div class="block active" data-group="machine" data-metric="max"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="avg"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="sum"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="win"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="max"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="avg"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="sum"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="win"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block active" data-group="unit" data-metric="max"><h3>直近7日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="avg"><h3>直近7日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="sum"><h3>直近7日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="win"><h3>直近7日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="__picker__"><h3>直近7日（2026-02-11〜2026-02-11）（機種別）</h3><p>該当データなし</p></div>
 <script>
 (function() {
   const root = document.getElementById("p7_root");
   const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
   const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
-  let curGroup = "machine";
+  let curGroup = "unit";
   let curMetric = "max";
 
   function render() {
     groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
     metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
-    root.querySelectorAll('.block').forEach(function(el) {
-      const g = el.getAttribute('data-group');
+
+    // unit: 指標一致だけ表示
+    root.querySelectorAll('.block[data-group="unit"]').forEach(function(el) {
       const m = el.getAttribute('data-metric');
-      el.classList.toggle('active', g === curGroup && m === curMetric);
+      el.classList.toggle('active', curGroup === "unit" && m === curMetric);
     });
+
+    // machine: pickerを表示し、内部の機種ブロックへ metric を渡す
+    const picker = root.querySelector('.block[data-group="machine"][data-metric="__picker__"]');
+    if (picker) {
+      picker.classList.toggle('active', curGroup === "machine");
+      const panel = picker.querySelector('[id$="_mpanel"]');
+      if (panel && panel._setMetric) {
+        panel._setMetric(curMetric);
+      }
+    }
   }
 
   groupBtns.forEach(function(b) {
@@ -126,9 +146,10 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レ
   render();
 })();
 </script></div></div>
-<div id="sec30" class="section"><div id="p30_root"><div class="subtabs">
-  <button class="pill active" data-group="machine">機種別</button>
-  <button class="pill" data-group="unit">台別</button>
+<div id="sec30" class="section"><div id="p30_root"><h2>直近30日（2026-02-11〜2026-02-11）</h2>
+<div class="subtabs">
+  <button class="pill active" data-group="unit">台別（全台）</button>
+  <button class="pill" data-group="machine">機種別（機種名選択）</button>
 </div>
 <div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
@@ -136,30 +157,38 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レ
   <button class="pill" data-m="sum">合計</button>
   <button class="pill" data-m="win">勝率</button>
 </div>
-<div class="block active" data-group="machine" data-metric="max"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="avg"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="sum"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="machine" data-metric="win"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="max"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="avg"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="sum"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-group="unit" data-metric="win"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block active" data-group="unit" data-metric="max"><h3>直近30日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="avg"><h3>直近30日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="sum"><h3>直近30日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="win"><h3>直近30日（2026-02-11〜2026-02-11）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="__picker__"><h3>直近30日（2026-02-11〜2026-02-11）（機種別）</h3><p>該当データなし</p></div>
 <script>
 (function() {
   const root = document.getElementById("p30_root");
   const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
   const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
-  let curGroup = "machine";
+  let curGroup = "unit";
   let curMetric = "max";
 
   function render() {
     groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
     metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
-    root.querySelectorAll('.block').forEach(function(el) {
-      const g = el.getAttribute('data-group');
+
+    // unit: 指標一致だけ表示
+    root.querySelectorAll('.block[data-group="unit"]').forEach(function(el) {
       const m = el.getAttribute('data-metric');
-      el.classList.toggle('active', g === curGroup && m === curMetric);
+      el.classList.toggle('active', curGroup === "unit" && m === curMetric);
     });
+
+    // machine: pickerを表示し、内部の機種ブロックへ metric を渡す
+    const picker = root.querySelector('.block[data-group="machine"][data-metric="__picker__"]');
+    if (picker) {
+      picker.classList.toggle('active', curGroup === "machine");
+      const panel = picker.querySelector('[id$="_mpanel"]');
+      if (panel && panel._setMetric) {
+        panel._setMetric(curMetric);
+      }
+    }
   }
 
   groupBtns.forEach(function(b) {
