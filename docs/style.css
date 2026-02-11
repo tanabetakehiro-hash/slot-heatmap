@@ -13,11 +13,13 @@ td:first-child, th:first-child{text-align:center}
 .btns{display:flex; gap:8px; flex-wrap:wrap; margin:10px 0}
 .btn{padding:8px 10px; border:1px solid #aaa; border-radius:8px; cursor:pointer; background:#fff}
 .btn.active{border-color:#000; font-weight:700}
+
 .section{display:none}
 .section.active{display:block}
-.hr{margin:14px 0;border:0;border-top:1px solid #ddd}
+
 .subtabs{display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 12px}
 .pill{padding:6px 10px; border:1px solid #aaa; border-radius:999px; cursor:pointer; background:#fff; font-size:0.9em}
 .pill.active{border-color:#000; font-weight:700}
+
 .block{display:none}
 .block.active{display:block}

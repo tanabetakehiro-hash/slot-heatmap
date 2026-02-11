@@ -50,12 +50,14 @@ td:first-child, th:first-child{text-align:center}
 .btns{display:flex; gap:8px; flex-wrap:wrap; margin:10px 0}
 .btn{padding:8px 10px; border:1px solid #aaa; border-radius:8px; cursor:pointer; background:#fff}
 .btn.active{border-color:#000; font-weight:700}
+
 .section{display:none}
 .section.active{display:block}
-.hr{margin:14px 0;border:0;border-top:1px solid #ddd}
+
 .subtabs{display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 12px}
 .pill{padding:6px 10px; border:1px solid #aaa; border-radius:999px; cursor:pointer; background:#fff; font-size:0.9em}
 .pill.active{border-color:#000; font-weight:700}
+
 .block{display:none}
 .block.active{display:block}
 """.strip(),
@@ -164,14 +166,19 @@ def period_df(df: pd.DataFrame, dates: list[str]):
     d = df[df["date"].isin(dates)].copy()
     d["diff_medals"] = pd.to_numeric(d.get("diff_medals"), errors="coerce")
     d = d.dropna(subset=["diff_medals", "machine_id", "machine_name", "date"])
+    d["machine_id"] = d["machine_id"].astype(str)
+    d["machine_name"] = d["machine_name"].astype(str)
+    d["date"] = d["date"].astype(str)
     return d
 
 
-def _metric_tables_machine(d: pd.DataFrame, title: str):
-    """
-    機種別：MAX/AVG/SUMはプラス差枚のみ、WINはプラス率
-    """
-    # 集計ベース
+# =========================
+#  期間内 指標テーブル作成
+#  MAX/平均/合計 = プラス差枚のみ
+#  勝率 = レコード内でプラスだった割合
+# =========================
+
+def machine_tables(d: pd.DataFrame, title: str):
     d_valid = d.copy()
     d_pos = d_valid[d_valid["diff_medals"] > 0].copy()
 
@@ -179,48 +186,41 @@ def _metric_tables_machine(d: pd.DataFrame, title: str):
         empty = f"<h3>{title}（機種別）</h3><p>該当データなし</p>"
         return {"max": empty, "avg": empty, "sum": empty, "win": empty}
 
-    # units/days
     units_map = d_valid.groupby("machine_name")["machine_id"].nunique().to_dict()
     days_map = d_valid.groupby("machine_name")["date"].nunique().to_dict()
 
-    # WIN率（%）
-    pos_days = d_valid.assign(pos=(d_valid["diff_medals"] > 0).astype(int))
-    win = pos_days.groupby("machine_name").agg(
+    # 勝率（レコード基準）
+    win = d_valid.assign(pos=(d_valid["diff_medals"] > 0).astype(int)).groupby("machine_name").agg(
         win_rate=("pos", "mean"),
         samples=("pos", "count"),
     ).reset_index()
     win["units"] = win["machine_name"].map(units_map).fillna(0).astype(int)
     win["days"] = win["machine_name"].map(days_map).fillna(0).astype(int)
     win["win_rate"] = (win["win_rate"] * 100).round(1)
-
     win = win.sort_values(["win_rate", "samples"], ascending=False).head(50)
+
     win_html = f"<h3>{title}（機種別 / 勝率）</h3>"
-    win_html += '<p class="note">勝率=（差枚が取れた日のうちプラスだった割合） / units=台数 / days=日数 / samples=レコード数</p>'
+    win_html += '<p class="note">勝率=（差枚レコードのうちプラスだった割合） / units=台数 / days=日数 / samples=レコード数</p>'
     win_html += win[["machine_name", "units", "days", "win_rate", "samples"]].to_html(index=False)
 
-    # MAX/AVG/SUM（プラスのみ）
     if d_pos.empty:
         empty_pos = f"<h3>{title}（機種別）</h3><p>プラス差枚がありません</p>"
         return {"max": empty_pos, "avg": empty_pos, "sum": empty_pos, "win": win_html}
 
-    # MAX（プラスのみ）: 最大を出した台と日も
+    # MAX（プラスのみ）：最大を出した台番号・日付
     idx = d_pos.groupby("machine_name")["diff_medals"].idxmax()
     best = d_pos.loc[idx, ["machine_name", "machine_id", "date", "diff_medals"]].copy()
-    best = best.rename(columns={
-        "machine_id": "best_machine_id",
-        "date": "best_day",
-        "diff_medals": "max_plus",
-    })
+    best = best.rename(columns={"machine_id": "best_machine_id", "date": "best_day", "diff_medals": "max_plus"})
     best["units"] = best["machine_name"].map(units_map).fillna(0).astype(int)
     best["days"] = best["machine_name"].map(days_map).fillna(0).astype(int)
     best["max_plus"] = best["max_plus"].round(0).astype(int)
     best = best.sort_values(["max_plus"], ascending=False).head(50)
 
     max_html = f"<h3>{title}（機種別 / MAX）</h3>"
-    max_html += '<p class="note">MAX=期間内最大差枚（プラスのみ） / best_machine_id=最大を出した台 / best_day=日付</p>'
+    max_html += '<p class="note">MAX=期間内最大差枚（プラスのみ） / best_machine_id=最大を出した台番号 / best_day=日付</p>'
     max_html += best[["machine_name", "units", "days", "max_plus", "best_day", "best_machine_id"]].to_html(index=False)
 
-    # AVG/SUM（プラスのみ）
+    # 平均/合計（プラスのみ）
     ag = d_pos.groupby("machine_name").agg(
         avg_plus=("diff_medals", "mean"),
         sum_plus=("diff_medals", "sum"),
@@ -233,21 +233,18 @@ def _metric_tables_machine(d: pd.DataFrame, title: str):
 
     avg = ag.sort_values(["avg_plus", "pos_samples"], ascending=False).head(50)
     avg_html = f"<h3>{title}（機種別 / 平均）</h3>"
-    avg_html += '<p class="note">平均=プラス差枚のみの平均 / pos_samples=プラス差枚のレコード数</p>'
+    avg_html += '<p class="note">平均=プラス差枚のみの平均 / pos_samples=プラス差枚レコード数</p>'
     avg_html += avg[["machine_name", "units", "days", "avg_plus", "pos_samples"]].to_html(index=False)
 
     summ = ag.sort_values(["sum_plus", "pos_samples"], ascending=False).head(50)
     sum_html = f"<h3>{title}（機種別 / 合計）</h3>"
-    sum_html += '<p class="note">合計=プラス差枚のみの合計 / pos_samples=プラス差枚のレコード数</p>'
+    sum_html += '<p class="note">合計=プラス差枚のみの合計 / pos_samples=プラス差枚レコード数</p>'
     sum_html += summ[["machine_name", "units", "days", "sum_plus", "pos_samples"]].to_html(index=False)
 
     return {"max": max_html, "avg": avg_html, "sum": sum_html, "win": win_html}
 
 
-def _metric_tables_unit(d: pd.DataFrame, title: str):
-    """
-    台別：MAX/AVG/SUMはプラス差枚のみ、WINはプラス率
-    """
+def unit_tables(d: pd.DataFrame, title: str):
     d_valid = d.copy()
     d_pos = d_valid[d_valid["diff_medals"] > 0].copy()
 
@@ -255,14 +252,11 @@ def _metric_tables_unit(d: pd.DataFrame, title: str):
         empty = f"<h3>{title}（台別）</h3><p>該当データなし</p>"
         return {"max": empty, "avg": empty, "sum": empty, "win": empty}
 
-    # days
     days_map = d_valid.groupby("machine_id")["date"].nunique().to_dict()
-    # 機種名（最後の表記）
     name_map = d_valid.sort_values(["date"]).groupby("machine_id")["machine_name"].last().to_dict()
 
-    # WIN
-    pos_days = d_valid.assign(pos=(d_valid["diff_medals"] > 0).astype(int))
-    win = pos_days.groupby("machine_id").agg(
+    # 勝率（レコード基準）
+    win = d_valid.assign(pos=(d_valid["diff_medals"] > 0).astype(int)).groupby("machine_id").agg(
         win_rate=("pos", "mean"),
         samples=("pos", "count"),
     ).reset_index()
@@ -272,15 +266,14 @@ def _metric_tables_unit(d: pd.DataFrame, title: str):
     win = win.sort_values(["win_rate", "samples"], ascending=False).head(50)
 
     win_html = f"<h3>{title}（台別 / 勝率）</h3>"
-    win_html += '<p class="note">勝率=（差枚が取れた日のうちプラスだった割合） / samples=レコード数</p>'
+    win_html += '<p class="note">勝率=（差枚レコードのうちプラスだった割合） / samples=レコード数</p>'
     win_html += win[["machine_id", "machine_name", "days", "win_rate", "samples"]].to_html(index=False)
 
-    # MAX/AVG/SUM（プラスのみ）
     if d_pos.empty:
         empty_pos = f"<h3>{title}（台別）</h3><p>プラス差枚がありません</p>"
         return {"max": empty_pos, "avg": empty_pos, "sum": empty_pos, "win": win_html}
 
-    # MAX
+    # MAX（プラスのみ）
     idx = d_pos.groupby("machine_id")["diff_medals"].idxmax()
     best = d_pos.loc[idx, ["machine_id", "date", "diff_medals"]].copy()
     best = best.rename(columns={"date": "best_day", "diff_medals": "max_plus"})
@@ -293,7 +286,7 @@ def _metric_tables_unit(d: pd.DataFrame, title: str):
     max_html += '<p class="note">MAX=期間内最大差枚（プラスのみ） / best_day=日付</p>'
     max_html += best[["machine_id", "machine_name", "days", "max_plus", "best_day"]].to_html(index=False)
 
-    # AVG/SUM
+    # 平均/合計（プラスのみ）
     ag = d_pos.groupby("machine_id").agg(
         avg_plus=("diff_medals", "mean"),
         sum_plus=("diff_medals", "sum"),
@@ -306,24 +299,30 @@ def _metric_tables_unit(d: pd.DataFrame, title: str):
 
     avg = ag.sort_values(["avg_plus", "pos_samples"], ascending=False).head(50)
     avg_html = f"<h3>{title}（台別 / 平均）</h3>"
-    avg_html += '<p class="note">平均=プラス差枚のみの平均 / pos_samples=プラス差枚のレコード数</p>'
+    avg_html += '<p class="note">平均=プラス差枚のみの平均 / pos_samples=プラス差枚レコード数</p>'
     avg_html += avg[["machine_id", "machine_name", "days", "avg_plus", "pos_samples"]].to_html(index=False)
 
     summ = ag.sort_values(["sum_plus", "pos_samples"], ascending=False).head(50)
     sum_html = f"<h3>{title}（台別 / 合計）</h3>"
-    sum_html += '<p class="note">合計=プラス差枚のみの合計 / pos_samples=プラス差枚のレコード数</p>'
+    sum_html += '<p class="note">合計=プラス差枚のみの合計 / pos_samples=プラス差枚レコード数</p>'
     sum_html += summ[["machine_id", "machine_name", "days", "sum_plus", "pos_samples"]].to_html(index=False)
 
     return {"max": max_html, "avg": avg_html, "sum": sum_html, "win": win_html}
 
 
-def metric_switch_block(block_id_prefix: str, machine_tables: dict, unit_tables: dict):
+def switch_block(root_id: str, mt: dict, ut: dict):
     """
-    block_id_prefix 例: "p1" / "p7" / "p30"
+    期間ごとに
+      - 表示対象：機種別 / 台別
+      - 指標：MAX/平均/合計/勝率
+    を切替
     """
-    # 初期は max
     html = []
     html.append("""
+<div class="subtabs">
+  <button class="pill active" data-group="machine">機種別</button>
+  <button class="pill" data-group="unit">台別</button>
+</div>
 <div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
   <button class="pill" data-m="avg">平均</button>
@@ -332,35 +331,49 @@ def metric_switch_block(block_id_prefix: str, machine_tables: dict, unit_tables:
 </div>
 """.strip())
 
-    # 機種別
+    # 機種別ブロック
     for m in ["max", "avg", "sum", "win"]:
-        active = " active" if m == "max" else ""
-        html.append(f'<div class="block{active}" data-kind="machine" data-metric="{m}" id="{block_id_prefix}_machine_{m}">{machine_tables[m]}</div>')
+        active = " active" if (m == "max") else ""
+        html.append(f'<div class="block{active}" data-group="machine" data-metric="{m}">{mt[m]}</div>')
 
-    html.append('<hr class="hr"/>')
-
-    # 台別
+    # 台別ブロック（初期は非表示）
     for m in ["max", "avg", "sum", "win"]:
-        active = " active" if m == "max" else ""
-        html.append(f'<div class="block{active}" data-kind="unit" data-metric="{m}" id="{block_id_prefix}_unit_{m}">{unit_tables[m]}</div>')
+        html.append(f'<div class="block" data-group="unit" data-metric="{m}">{ut[m]}</div>')
 
-    # 切替JS（期間ブロック内だけを操作）
     html.append(f"""
 <script>
 (function() {{
-  const root = document.getElementById("{block_id_prefix}_root");
-  const pills = root.querySelectorAll(".pill");
-  function setMetric(m) {{
-    pills.forEach(p => p.classList.toggle("active", p.getAttribute("data-m") === m));
-    root.querySelectorAll(".block").forEach(b => {{
-      b.classList.toggle("active", b.getAttribute("data-metric") === m);
+  const root = document.getElementById("{root_id}");
+  const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
+  const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
+  let curGroup = "machine";
+  let curMetric = "max";
+
+  function render() {{
+    groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
+    metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
+    root.querySelectorAll('.block').forEach(function(el) {{
+      const g = el.getAttribute('data-group');
+      const m = el.getAttribute('data-metric');
+      el.classList.toggle('active', g === curGroup && m === curMetric);
     }});
   }}
-  pills.forEach(p => {{
-    p.addEventListener("click", function() {{
-      setMetric(p.getAttribute("data-m"));
+
+  groupBtns.forEach(function(b) {{
+    b.addEventListener('click', function() {{
+      curGroup = b.getAttribute('data-group');
+      render();
     }});
   }});
+
+  metricBtns.forEach(function(b) {{
+    b.addEventListener('click', function() {{
+      curMetric = b.getAttribute('data-m');
+      render();
+    }});
+  }});
+
+  render();
 }})();
 </script>
 """.strip())
@@ -370,10 +383,9 @@ def metric_switch_block(block_id_prefix: str, machine_tables: dict, unit_tables:
 
 def ranking_section(df: pd.DataFrame, dates: list[str], title: str, prefix: str):
     d = period_df(df, dates)
-    mt = _metric_tables_machine(d, title)
-    ut = _metric_tables_unit(d, title)
-    inner = metric_switch_block(prefix, mt, ut)
-    return f'<div id="{prefix}_root">{inner}</div>'
+    mt = machine_tables(d, title)
+    ut = unit_tables(d, title)
+    return f'<div id="{prefix}_root">{switch_block(f"{prefix}_root", mt, ut)}</div>'
 
 
 def main():
@@ -404,20 +416,19 @@ def main():
         body += "</ul>"
     save_page("index.html", "トップ", body)
 
-    # ranking（期間タブ + 指標ピル切替）
+    # ranking（期間タブ + 機種/台 選択 + 指標 選択）
     d1 = [latest_day]
     d7 = last_n_dates(df, 7, latest_day)
     d30 = last_n_dates(df, 30, latest_day)
 
     sec1 = ranking_section(df, d1, f"差枚ランキング（{latest_day} / 1日）", "p1")
-    sec7 = ranking_section(df, d7, f"差枚ランキング（直近7日）" + (f"：{d7[0]}〜{d7[-1]}" if d7 else ""), "p7")
-    sec30 = ranking_section(df, d30, f"差枚ランキング（直近30日）" + (f"：{d30[0]}〜{d30[-1]}" if d30 else ""), "p30")
+    sec7 = ranking_section(df, d7, "差枚ランキング（直近7日）" + (f"：{d7[0]}〜{d7[-1]}" if d7 else ""), "p7")
+    sec30 = ranking_section(df, d30, "差枚ランキング（直近30日）" + (f"：{d30[0]}〜{d30[-1]}" if d30 else ""), "p30")
 
     ranking_html = f"""
-<h1>差枚ランキング（プラス系指標 + 勝率）</h1>
+<h1>差枚ランキング（機種別 / 台別 切替）</h1>
 <p class="note">
-MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚が取れた日のうちプラスだった割合」。
-各期間ごとに「機種別（まとめ）」→（区切り線）→「台別」を表示します。
+MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レコードのうちプラスだった割合」（レコード基準）。
 </p>
 
 <div class="btns">

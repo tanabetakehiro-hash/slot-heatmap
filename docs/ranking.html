@@ -9,10 +9,9 @@
 <a href="ranking.html">差枚ランキング</a> |
 <a href="heatmap.html">差枚ヒートマップ</a>
 </nav><hr/>
-<h1>差枚ランキング（プラス系指標 + 勝率）</h1>
+<h1>差枚ランキング（機種別 / 台別 切替）</h1>
 <p class="note">
-MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚が取れた日のうちプラスだった割合」。
-各期間ごとに「機種別（まとめ）」→（区切り線）→「台別」を表示します。
+MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚レコードのうちプラスだった割合」（レコード基準）。
 </p>
 
 <div class="btns">
@@ -22,99 +21,162 @@ MAX/平均/合計は「プラス差枚のみ」で計算。勝率は「差枚が
 </div>
 
 <div id="sec1" class="section active"><div id="p1_root"><div class="subtabs">
+  <button class="pill active" data-group="machine">機種別</button>
+  <button class="pill" data-group="unit">台別</button>
+</div>
+<div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
   <button class="pill" data-m="avg">平均</button>
   <button class="pill" data-m="sum">合計</button>
   <button class="pill" data-m="win">勝率</button>
 </div>
-<div class="block active" data-kind="machine" data-metric="max" id="p1_machine_max"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="avg" id="p1_machine_avg"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="sum" id="p1_machine_sum"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="win" id="p1_machine_win"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
-<hr class="hr"/>
-<div class="block active" data-kind="unit" data-metric="max" id="p1_unit_max"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="avg" id="p1_unit_avg"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="sum" id="p1_unit_sum"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="win" id="p1_unit_win"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
+<div class="block active" data-group="machine" data-metric="max"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="avg"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="sum"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="win"><h3>差枚ランキング（2026-02-11 / 1日）（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="max"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="avg"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="sum"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="win"><h3>差枚ランキング（2026-02-11 / 1日）（台別）</h3><p>該当データなし</p></div>
 <script>
 (function() {
   const root = document.getElementById("p1_root");
-  const pills = root.querySelectorAll(".pill");
-  function setMetric(m) {
-    pills.forEach(p => p.classList.toggle("active", p.getAttribute("data-m") === m));
-    root.querySelectorAll(".block").forEach(b => {
-      b.classList.toggle("active", b.getAttribute("data-metric") === m);
+  const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
+  const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
+  let curGroup = "machine";
+  let curMetric = "max";
+
+  function render() {
+    groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
+    metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
+    root.querySelectorAll('.block').forEach(function(el) {
+      const g = el.getAttribute('data-group');
+      const m = el.getAttribute('data-metric');
+      el.classList.toggle('active', g === curGroup && m === curMetric);
     });
   }
-  pills.forEach(p => {
-    p.addEventListener("click", function() {
-      setMetric(p.getAttribute("data-m"));
+
+  groupBtns.forEach(function(b) {
+    b.addEventListener('click', function() {
+      curGroup = b.getAttribute('data-group');
+      render();
     });
   });
+
+  metricBtns.forEach(function(b) {
+    b.addEventListener('click', function() {
+      curMetric = b.getAttribute('data-m');
+      render();
+    });
+  });
+
+  render();
 })();
 </script></div></div>
 <div id="sec7" class="section"><div id="p7_root"><div class="subtabs">
+  <button class="pill active" data-group="machine">機種別</button>
+  <button class="pill" data-group="unit">台別</button>
+</div>
+<div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
   <button class="pill" data-m="avg">平均</button>
   <button class="pill" data-m="sum">合計</button>
   <button class="pill" data-m="win">勝率</button>
 </div>
-<div class="block active" data-kind="machine" data-metric="max" id="p7_machine_max"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="avg" id="p7_machine_avg"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="sum" id="p7_machine_sum"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="win" id="p7_machine_win"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<hr class="hr"/>
-<div class="block active" data-kind="unit" data-metric="max" id="p7_unit_max"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="avg" id="p7_unit_avg"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="sum" id="p7_unit_sum"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="win" id="p7_unit_win"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block active" data-group="machine" data-metric="max"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="avg"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="sum"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="win"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="max"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="avg"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="sum"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="win"><h3>差枚ランキング（直近7日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
 <script>
 (function() {
   const root = document.getElementById("p7_root");
-  const pills = root.querySelectorAll(".pill");
-  function setMetric(m) {
-    pills.forEach(p => p.classList.toggle("active", p.getAttribute("data-m") === m));
-    root.querySelectorAll(".block").forEach(b => {
-      b.classList.toggle("active", b.getAttribute("data-metric") === m);
+  const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
+  const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
+  let curGroup = "machine";
+  let curMetric = "max";
+
+  function render() {
+    groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
+    metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
+    root.querySelectorAll('.block').forEach(function(el) {
+      const g = el.getAttribute('data-group');
+      const m = el.getAttribute('data-metric');
+      el.classList.toggle('active', g === curGroup && m === curMetric);
     });
   }
-  pills.forEach(p => {
-    p.addEventListener("click", function() {
-      setMetric(p.getAttribute("data-m"));
+
+  groupBtns.forEach(function(b) {
+    b.addEventListener('click', function() {
+      curGroup = b.getAttribute('data-group');
+      render();
     });
   });
+
+  metricBtns.forEach(function(b) {
+    b.addEventListener('click', function() {
+      curMetric = b.getAttribute('data-m');
+      render();
+    });
+  });
+
+  render();
 })();
 </script></div></div>
 <div id="sec30" class="section"><div id="p30_root"><div class="subtabs">
+  <button class="pill active" data-group="machine">機種別</button>
+  <button class="pill" data-group="unit">台別</button>
+</div>
+<div class="subtabs">
   <button class="pill active" data-m="max">MAX</button>
   <button class="pill" data-m="avg">平均</button>
   <button class="pill" data-m="sum">合計</button>
   <button class="pill" data-m="win">勝率</button>
 </div>
-<div class="block active" data-kind="machine" data-metric="max" id="p30_machine_max"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="avg" id="p30_machine_avg"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="sum" id="p30_machine_sum"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="machine" data-metric="win" id="p30_machine_win"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
-<hr class="hr"/>
-<div class="block active" data-kind="unit" data-metric="max" id="p30_unit_max"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="avg" id="p30_unit_avg"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="sum" id="p30_unit_sum"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
-<div class="block" data-kind="unit" data-metric="win" id="p30_unit_win"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block active" data-group="machine" data-metric="max"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="avg"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="sum"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="machine" data-metric="win"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（機種別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="max"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="avg"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="sum"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
+<div class="block" data-group="unit" data-metric="win"><h3>差枚ランキング（直近30日）：2026-02-11〜2026-02-11（台別）</h3><p>該当データなし</p></div>
 <script>
 (function() {
   const root = document.getElementById("p30_root");
-  const pills = root.querySelectorAll(".pill");
-  function setMetric(m) {
-    pills.forEach(p => p.classList.toggle("active", p.getAttribute("data-m") === m));
-    root.querySelectorAll(".block").forEach(b => {
-      b.classList.toggle("active", b.getAttribute("data-metric") === m);
+  const groupBtns = root.querySelectorAll('.subtabs')[0].querySelectorAll('.pill');
+  const metricBtns = root.querySelectorAll('.subtabs')[1].querySelectorAll('.pill');
+  let curGroup = "machine";
+  let curMetric = "max";
+
+  function render() {
+    groupBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-group') === curGroup));
+    metricBtns.forEach(b => b.classList.toggle('active', b.getAttribute('data-m') === curMetric));
+    root.querySelectorAll('.block').forEach(function(el) {
+      const g = el.getAttribute('data-group');
+      const m = el.getAttribute('data-metric');
+      el.classList.toggle('active', g === curGroup && m === curMetric);
     });
   }
-  pills.forEach(p => {
-    p.addEventListener("click", function() {
-      setMetric(p.getAttribute("data-m"));
+
+  groupBtns.forEach(function(b) {
+    b.addEventListener('click', function() {
+      curGroup = b.getAttribute('data-group');
+      render();
     });
   });
+
+  metricBtns.forEach(function(b) {
+    b.addEventListener('click', function() {
+      curMetric = b.getAttribute('data-m');
+      render();
+    });
+  });
+
+  render();
 })();
 </script></div></div>
 
