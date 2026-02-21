@@ -1,48 +1,79 @@
-name: Daily Collect
+name: daily update
 
 on:
   schedule:
-    - cron: "0 14 * * *" # 23:00 JST (UTC 14:00)
-  workflow_dispatch:
+    # 毎日 23:10 JST（= 14:10 UTC）
+    - cron: "10 14 * * *"
+  workflow_dispatch: {}
 
-# ★これがないと push が 403 になります
+# 同時実行でpush競合しやすいので抑止
+concurrency:
+  group: slot-heatmap-daily
+  cancel-in-progress: false
+
+# GITHUB_TOKENでpushするために必要
 permissions:
   contents: write
 
 jobs:
-  collect_and_build:
+  run:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout main (full history)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
 
-      - name: Install deps
+      - name: Install dependencies
+        shell: bash
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
 
-      - name: Install Playwright Chromium
+      - name: Sync, generate, commit & push (rebase + retry)
+        shell: bash
         run: |
-          python -m playwright install --with-deps chromium
+          set -euo pipefail
 
-      - name: Collect daily data
-        run: |
-          python -u collector/collect_daily.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Build site (docs)
-        run: |
-          python -u collector/build_site.py
+          # ① リモート最新 main を取り込む（fetch first対策の本体）
+          git fetch origin main
+          git checkout -B main origin/main
+          git pull --rebase --autostash origin main
 
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add data/daily docs
-          git commit -m "daily update" || echo "No changes to commit"
-          git push
+          # ② 生成（ここだけ必要ならあなたのコマンドに変更）
+          python collect_daily.py
+
+          # ③ commit（差分なしなら終了）
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "daily update"
+
+          # ④ push（負けたらrebaseして数回リトライ）
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $i). Rebase and retry..."
+            git pull --rebase --autostash origin main
+            sleep $((i * 2))
+          done
+
+          echo "Push failed after retries"
+          exit 1
