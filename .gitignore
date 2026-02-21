@@ -1,0 +1,7 @@
+data/daily/
+data/debug/
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
