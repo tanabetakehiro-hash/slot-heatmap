@@ -4,6 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>slot-heatmap（レイトギャップ平和島）</title>
+
+  <meta name="theme-color" content="#0b0f17" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+
   <link rel="stylesheet" href="assets/style.css" />
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
@@ -66,9 +71,7 @@
     <section class="card">
       <h2 id="heatmapTitle">ヒートマップ（最大持玉）</h2>
       <div id="heatmap" class="plot"></div>
-      <p class="muted small">
-        セルをクリックすると、その日のランキングに切り替わります。
-      </p>
+      <p class="muted small">セルをクリックすると、その日のランキングに切り替わります。</p>
     </section>
 
     <section class="card">
@@ -94,9 +97,7 @@
 
     <section class="card">
       <h2>簡易予測（次回：移動平均）</h2>
-      <p class="muted small">
-        ※「勝てる保証」ではありません。過去データの平均から機械的に出しているだけの簡易版です。
-      </p>
+      <p class="muted small">※「勝てる保証」ではありません。過去データの平均から機械的に出しているだけの簡易版です。</p>
       <div class="tableWrap">
         <table id="predictTable">
           <thead>
@@ -110,7 +111,7 @@
           <tbody></tbody>
         </table>
       </div>
-      <div class="muted small">※ 予測は「最大持玉」のみ（今後、指標切替に対応できます）</div>
+      <div class="muted small">※ 予測は「最大持玉」のみ</div>
     </section>
 
     <footer class="footer muted">
@@ -119,5 +120,14 @@
   </main>
 
   <script src="assets/app.js"></script>
+
+  <!-- ★ Service Worker 登録 -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(console.warn);
+      });
+    }
+  </script>
 </body>
 </html>

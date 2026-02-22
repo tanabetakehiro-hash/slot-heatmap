@@ -4,6 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>台詳細 | slot-heatmap</title>
+
+  <meta name="theme-color" content="#0b0f17" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+
   <link rel="stylesheet" href="assets/style.css" />
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
@@ -69,5 +74,14 @@
   </main>
 
   <script src="assets/unit.js"></script>
+
+  <!-- ★ Service Worker 登録 -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(console.warn);
+      });
+    }
+  </script>
 </body>
 </html>
