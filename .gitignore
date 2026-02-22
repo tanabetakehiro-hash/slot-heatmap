@@ -1,7 +1,35 @@
-data/daily/
-data/debug/
-*.log
+# ===== Python =====
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===== venv =====
 .venv/
 venv/
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
+
+# ===== Playwright =====
+playwright-report/
+test-results/
+
+# ===== Project outputs (do NOT commit) =====
+data/debug/
+out_daily_*/
+out_daily_*/
+out_*/
+*.tmp
+*.bak
+
+# （もし間違って生成物が増えるならここに追加していく）
