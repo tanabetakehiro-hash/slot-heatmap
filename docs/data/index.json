@@ -9,11 +9,12 @@
     "2026-02-18",
     "2026-02-19",
     "2026-02-20",
-    "2026-02-21"
+    "2026-02-21",
+    "2026-02-22"
   ],
-  "latest_date": "2026-02-21",
+  "latest_date": "2026-02-22",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
-  "updated_at": "2026-02-22 13:30:45"
+  "updated_at": "2026-02-22 05:02:43"
 }
