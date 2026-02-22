@@ -1,0 +1,152 @@
+{
+  "unit_no": "0848",
+  "model_name_latest": "Ｌ東京喰種",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 9945,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 17,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 949,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 14,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 1222,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 22,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 829,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 27,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 9262,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 20,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 709,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 14,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 9837,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 15,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 4372,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 13,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 903,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 19,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 4537,
+      "diff_medals": 2497,
+      "bb": 0,
+      "rb": 23,
+      "total_start": 7954,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0848",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0848",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 4968,
+      "diff_medals": 574,
+      "bb": 0,
+      "rb": 15,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0848",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

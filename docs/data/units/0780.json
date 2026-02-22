@@ -1,0 +1,152 @@
+{
+  "unit_no": "0780",
+  "model_name_latest": "Ｓファンキージャグラー２ＫＴ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1798,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 13,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 745,
+      "diff_medals": null,
+      "bb": 12,
+      "rb": 12,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1278,
+      "diff_medals": null,
+      "bb": 23,
+      "rb": 11,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1312,
+      "diff_medals": null,
+      "bb": 21,
+      "rb": 10,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 698,
+      "diff_medals": null,
+      "bb": 16,
+      "rb": 11,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 2053,
+      "diff_medals": null,
+      "bb": 27,
+      "rb": 22,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1575,
+      "diff_medals": null,
+      "bb": 27,
+      "rb": 20,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 505,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 783,
+      "diff_medals": null,
+      "bb": 15,
+      "rb": 13,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1786,
+      "diff_medals": 539,
+      "bb": 18,
+      "rb": 14,
+      "total_start": 4618,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119996&n=0780",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0780",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1266,
+      "diff_medals": 414,
+      "bb": 20,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119996&n=0780",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

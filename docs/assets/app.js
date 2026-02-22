@@ -17,13 +17,13 @@ const els = {
 };
 
 let INDEX = null;
-let HISTORY = null;       // max_payout のみ（既存 history.json）
+let HISTORY = null;
 let PREDICTION = null;
 
 const state = {
   currentDate: null,
   heatmapDays: 30,
-  metric: "max_payout",   // "max_payout" | "diff_medals" | "bb_rb_sum"
+  metric: "max_payout",
   unitFilter: "",
   modelFilter: "__ALL__",
   dailyRows: [],
@@ -47,7 +47,6 @@ function normalizeFilter(s) {
   return String(s).trim();
 }
 
-/** model_name が無ければ machine_name などを使う */
 function getModelName(row) {
   const name = row?.model_name ?? row?.machine_name ?? row?.model ?? row?.name ?? "";
   return String(name).trim();
@@ -161,7 +160,6 @@ function updateModelOptionsFromDaily() {
     els.modelSelect.appendChild(opt);
   }
 
-  // 維持できなければ全機種
   const canKeep = Array.from(els.modelSelect.options).some(o => o.value === prev);
   const nextValue = canKeep ? prev : "__ALL__";
   els.modelSelect.value = nextValue;
@@ -196,7 +194,7 @@ function renderRanking(rows) {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td>${rank++}</td>
-      <td>${unitNo}</td>
+      <td><a class="link" href="unit.html?unit=${encodeURIComponent(unitNo)}">${unitNo}</a></td>
       <td class="wrap">${modelName}</td>
       <td class="num">${fmtNum(metricVal)}</td>
       <td class="num">${fmtNum(r.bb)}</td>
@@ -209,7 +207,6 @@ function renderRanking(rows) {
 }
 
 function renderPrediction(predObj) {
-  // 予測は最大持玉のみのまま（UIにも注記あり）
   els.predictTbody.innerHTML = "";
 
   if (!predObj) {
@@ -220,7 +217,6 @@ function renderPrediction(predObj) {
   }
 
   const unitToModel = buildUnitToModelMap(state.dailyRows);
-
   const hasAnyFilter = normalizeFilter(state.unitFilter) || (state.modelFilter && state.modelFilter !== "__ALL__");
 
   let list = [];
@@ -256,21 +252,14 @@ function renderPrediction(predObj) {
   }
 }
 
-/**
- * ヒートマップ：
- * - max_payout は history.json を使う
- * - diff_medals / bb_rb_sum は「選択中の日付のデータ」だけで簡易ヒートマップ（1日分）にする
- *   （差枚/BB+RB を日次で見たい場合は build_site 側で history を追加生成する拡張が必要）
- */
 function renderHeatmap() {
   updateTitles();
 
   const label = metricLabel(state.metric);
   const unitToModel = buildUnitToModelMap(state.dailyRows);
 
-  // units をフィルタ
   const unitsFiltered = [];
-  const values1day = []; // 1日分の z（指標切替時に使う）
+  const values1day = [];
   for (const r of state.dailyRows) {
     const unitNo = getUnitNo(r);
     if (!passesFiltersUnit(unitNo)) continue;
@@ -286,14 +275,12 @@ function renderHeatmap() {
     return;
   }
 
-  // max_payout：従来の履歴ヒートマップ
   if (state.metric === "max_payout") {
     const days = state.heatmapDays;
     const dates = HISTORY.dates.slice(-days);
     const unitsAll = HISTORY.units;
     const valuesAll = HISTORY.values.slice(-days);
 
-    // HISTORY の units index を作る（unitsFiltered を基準）
     const idx = [];
     const units = [];
     const setWanted = new Set(unitsFiltered);
@@ -344,7 +331,6 @@ function renderHeatmap() {
     return;
   }
 
-  // diff_medals / bb_rb_sum：1日分の簡易ヒートマップ（横一列）
   Plotly.purge("heatmap");
   const dates = [state.currentDate];
   const values = [values1day];
@@ -410,7 +396,6 @@ async function init() {
   INDEX = await fetchJson("data/index.json");
   els.updatedAt.textContent = `更新: ${INDEX.updated_at ?? ""}`;
 
-  // 日付
   els.dateSelect.innerHTML = "";
   for (const d of INDEX.dates) {
     const opt = document.createElement("option");
@@ -439,7 +424,7 @@ async function init() {
 
   els.daysSelect.addEventListener("change", async () => {
     state.heatmapDays = Number(els.daysSelect.value);
-    if (state.metric === "max_payout") renderHeatmap(); // max_payoutだけ日数が効く
+    if (state.metric === "max_payout") renderHeatmap();
   });
 
   if (els.metricSelect) {

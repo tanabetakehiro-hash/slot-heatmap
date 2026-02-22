@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>台詳細 | slot-heatmap</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <h1>台詳細</h1>
+      <p class="muted"><a class="link" href="./">← 戻る（トップ）</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="row">
+        <div class="col">
+          <div class="label">台番号</div>
+          <div id="unitLabel" style="font-size:18px;font-weight:700;"></div>
+          <div id="modelLabel" class="muted"></div>
+        </div>
+
+        <div class="col">
+          <label class="label" for="metricSelect2">指標</label>
+          <select id="metricSelect2">
+            <option value="max_payout" selected>最大持玉</option>
+            <option value="diff_medals">差枚</option>
+            <option value="bb_rb_sum">BB+RB</option>
+            <option value="total_start">累計スタート</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="meta">
+        <span id="updatedAt2" class="muted"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="chartTitle">推移</h2>
+      <div id="unitChart" class="plot"></div>
+      <div id="statLine" class="muted small"></div>
+    </section>
+
+    <section class="card">
+      <h2>日別一覧</h2>
+      <div class="tableWrap">
+        <table id="unitTable">
+          <thead>
+            <tr>
+              <th>日付</th>
+              <th>最大持玉</th>
+              <th>差枚</th>
+              <th>BB</th>
+              <th>RB</th>
+              <th>BB+RB</th>
+              <th>累計スタート</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="muted small">※ 空欄はデータ無し</div>
+    </section>
+  </main>
+
+  <script src="assets/unit.js"></script>
+</body>
+</html>

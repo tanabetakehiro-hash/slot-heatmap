@@ -14,15 +14,18 @@ from typing import Any, Dict, List, Optional, Tuple
 # =========================
 # 設定（必要ならここだけ変える）
 # =========================
-MAX_HISTORY_DAYS = 60  # ヒートマップに載せる最大日数（重ければ 30 などに）
+MAX_HISTORY_DAYS = 60  # 台詳細・ヒートマップに載せる最大日数（重ければ 30 などに）
 DAILY_DIR_REL = Path("data") / "daily"
+
 DOCS_DIR_REL = Path("docs")
 DOCS_DATA_DIR_REL = Path("docs") / "data"
 DOCS_DAILY_DIR_REL = Path("docs") / "data" / "daily"
+DOCS_UNITS_DIR_REL = Path("docs") / "data" / "units"
 
 HISTORY_JSON_REL = Path("docs") / "data" / "history.json"
 INDEX_JSON_REL = Path("docs") / "data" / "index.json"
 PREDICT_JSON_REL = Path("docs") / "data" / "prediction_next.json"
+UNITS_INDEX_JSON_REL = Path("docs") / "data" / "units_index.json"
 
 ANALYSIS_PREDICT_SCRIPT_REL = Path("analysis") / "predict_next_day.py"
 
@@ -55,7 +58,6 @@ def _to_int(v: Any) -> Optional[int]:
         s = str(v).strip()
         if s == "" or s.lower() == "nan":
             return None
-        # "1,234" 対応
         s = s.replace(",", "")
         return int(float(s))
     except Exception:
@@ -73,7 +75,6 @@ def _load_daily_file(path: Path, date_str: str) -> List[Row]:
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
-        # utf-8-sig 対応
         data = json.loads(path.read_text(encoding="utf-8-sig"))
 
     if not isinstance(data, list):
@@ -105,7 +106,6 @@ def _load_daily_file(path: Path, date_str: str) -> List[Row]:
         if row.unit_no and row.model_name:
             rows.append(row)
 
-    # 台番号で並べる（数字として比較できる場合は数字優先）
     def key_unit(x: Row) -> Tuple[int, str]:
         try:
             return (0, f"{int(x.unit_no):08d}")
@@ -117,12 +117,11 @@ def _load_daily_file(path: Path, date_str: str) -> List[Row]:
 
 
 def _ensure_dirs(repo_root: Path) -> None:
-    docs_dir = repo_root / DOCS_DIR_REL
     (repo_root / DOCS_DATA_DIR_REL).mkdir(parents=True, exist_ok=True)
     (repo_root / DOCS_DAILY_DIR_REL).mkdir(parents=True, exist_ok=True)
+    (repo_root / DOCS_UNITS_DIR_REL).mkdir(parents=True, exist_ok=True)
 
-    # GitHub Pages 用（念のため）
-    nojekyll = docs_dir / ".nojekyll"
+    nojekyll = (repo_root / DOCS_DIR_REL) / ".nojekyll"
     if not nojekyll.exists():
         nojekyll.write_text("", encoding="utf-8")
 
@@ -132,26 +131,25 @@ def _write_json(path: Path, obj: Any) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def _build_daily_outputs(repo_root: Path) -> Tuple[List[str], List[str], Dict[str, Dict[str, Optional[int]]]]:
+def _build_daily_outputs(repo_root: Path) -> Tuple[List[str], List[str], Dict[str, List[Row]], Dict[str, Dict[str, Optional[int]]]]:
     """
     returns:
       dates_sorted
       units_sorted
+      date_rows: date -> List[Row]
       date_to_unit_to_maxpayout
     """
     daily_dir = repo_root / DAILY_DIR_REL
     if not daily_dir.exists():
         raise FileNotFoundError(f"daily dir not found: {daily_dir}")
 
-    # data/daily の YYYY-MM-DD.json を拾う
     daily_files = sorted([p for p in daily_dir.glob("*.json") if p.is_file()])
 
     date_rows: Dict[str, List[Row]] = {}
     all_units: set[str] = set()
 
     for p in daily_files:
-        date_str = p.stem  # "2026-02-21"
-        # 日付っぽくないものはスキップ
+        date_str = p.stem
         try:
             datetime.strptime(date_str, "%Y-%m-%d")
         except Exception:
@@ -165,12 +163,8 @@ def _build_daily_outputs(repo_root: Path) -> Tuple[List[str], List[str], Dict[st
         for r in rows:
             all_units.add(r.unit_no)
 
-        # その日の一覧を docs/data/daily/<date>.json として保存（フロントがランキング表示に使う）
         out_daily_path = repo_root / DOCS_DAILY_DIR_REL / f"{date_str}.json"
-        out_daily_obj = {
-            "date": date_str,
-            "rows": [r.__dict__ for r in rows],
-        }
+        out_daily_obj = {"date": date_str, "rows": [r.__dict__ for r in rows]}
         _write_json(out_daily_path, out_daily_obj)
 
     dates_sorted = sorted(date_rows.keys())
@@ -179,7 +173,6 @@ def _build_daily_outputs(repo_root: Path) -> Tuple[List[str], List[str], Dict[st
         key=lambda x: (0, int(x)) if str(x).isdigit() else (1, str(x)),
     )
 
-    # 日×台 の max_payout マップ
     date_to_unit_to_max: Dict[str, Dict[str, Optional[int]]] = {}
     for d in dates_sorted:
         m: Dict[str, Optional[int]] = {}
@@ -187,11 +180,10 @@ def _build_daily_outputs(repo_root: Path) -> Tuple[List[str], List[str], Dict[st
             m[r.unit_no] = r.max_payout
         date_to_unit_to_max[d] = m
 
-    return dates_sorted, units_sorted, date_to_unit_to_max
+    return dates_sorted, units_sorted, date_rows, date_to_unit_to_max
 
 
 def _build_history(repo_root: Path, dates_sorted: List[str], units_sorted: List[str], date_to_unit_to_max: Dict[str, Dict[str, Optional[int]]]) -> Dict[str, Any]:
-    # 最新 MAX_HISTORY_DAYS に絞る
     use_dates = dates_sorted[-MAX_HISTORY_DAYS:] if len(dates_sorted) > MAX_HISTORY_DAYS else dates_sorted[:]
 
     values: List[List[Optional[int]]] = []
@@ -202,13 +194,84 @@ def _build_history(repo_root: Path, dates_sorted: List[str], units_sorted: List[
             row_vals.append(unit_map.get(u))
         values.append(row_vals)
 
-    history = {
+    return {
         "dates": use_dates,
         "units": units_sorted,
         "values": values,  # values[y][x] = max_payout
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
-    return history
+
+
+def _build_unit_series(repo_root: Path, use_dates: List[str], units_sorted: List[str], date_rows: Dict[str, List[Row]]) -> None:
+    # date -> unit -> Row
+    date_unit_map: Dict[str, Dict[str, Row]] = {}
+    for d, rows in date_rows.items():
+        m: Dict[str, Row] = {}
+        for r in rows:
+            m[r.unit_no] = r
+        date_unit_map[d] = m
+
+    # 最新日の機種名を units_index として保存（将来の機能拡張用）
+    latest_date = use_dates[-1]
+    latest_map = date_unit_map.get(latest_date, {})
+    units_index: List[Dict[str, Any]] = []
+    for u in units_sorted:
+        r = latest_map.get(u)
+        units_index.append({
+            "unit_no": u,
+            "model_name": r.model_name if r else None,
+        })
+    _write_json(repo_root / UNITS_INDEX_JSON_REL, {
+        "latest_date": latest_date,
+        "units": units_index,
+        "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    })
+
+    # 各台の時系列を docs/data/units/<unit>.json として出力
+    units_dir = repo_root / DOCS_UNITS_DIR_REL
+    for u in units_sorted:
+        series: List[Dict[str, Any]] = []
+        last_model: Optional[str] = None
+
+        for d in use_dates:
+            r = date_unit_map.get(d, {}).get(u)
+            if r:
+                last_model = r.model_name or last_model
+                series.append({
+                    "date": d,
+                    "unit_no": u,
+                    "model_name": r.model_name,
+                    "max_payout": r.max_payout,
+                    "diff_medals": r.diff_medals,
+                    "bb": r.bb,
+                    "rb": r.rb,
+                    "total_start": r.total_start,
+                    "detail_url": r.detail_url,
+                    "source_url": r.source_url,
+                })
+            else:
+                # データが無い日は null
+                series.append({
+                    "date": d,
+                    "unit_no": u,
+                    "model_name": last_model,
+                    "max_payout": None,
+                    "diff_medals": None,
+                    "bb": None,
+                    "rb": None,
+                    "total_start": None,
+                    "detail_url": None,
+                    "source_url": None,
+                })
+
+        out = {
+            "unit_no": u,
+            "model_name_latest": (latest_map.get(u).model_name if latest_map.get(u) else last_model),
+            "dates": use_dates,
+            "series": series,
+            "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        }
+        _write_json(units_dir / f"{u}.json", out)
 
 
 def _run_predict(repo_root: Path) -> None:
@@ -239,7 +302,7 @@ def main() -> None:
 
     _ensure_dirs(repo_root)
 
-    dates_sorted, units_sorted, date_to_unit_to_max = _build_daily_outputs(repo_root)
+    dates_sorted, units_sorted, date_rows, date_to_unit_to_max = _build_daily_outputs(repo_root)
     if not dates_sorted:
         raise RuntimeError("No daily data found under data/daily (YYYY-MM-DD.json).")
 
@@ -247,22 +310,27 @@ def main() -> None:
     _write_json(repo_root / HISTORY_JSON_REL, history)
     print(f"[OK] history written: {repo_root / HISTORY_JSON_REL}")
 
+    # ★ 台詳細用：各台の時系列 json を生成（MAX_HISTORY_DAYS 分）
+    use_dates = history["dates"]
+    _build_unit_series(repo_root, use_dates, units_sorted, date_rows)
+    print(f"[OK] unit series written: {repo_root / DOCS_UNITS_DIR_REL}")
+
     index_obj = {
         "dates": dates_sorted,
         "latest_date": dates_sorted[-1],
         "daily_path_format": "data/daily/{date}.json",
         "history_path": "data/history.json",
         "prediction_path": "data/prediction_next.json",
+        "units_path_format": "data/units/{unit}.json",
+        "units_index_path": "data/units_index.json",
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
     _write_json(repo_root / INDEX_JSON_REL, index_obj)
     print(f"[OK] index written: {repo_root / INDEX_JSON_REL}")
 
-    # 予測（analysis を使う：簡易の移動平均）
     _run_predict(repo_root)
 
-    # 注意：docs/index.html と docs/assets/* は “手で置く” 方針（誤上書きを防ぐため）
-    print("[INFO] Make sure docs/index.html and docs/assets/* exist for the UI.")
+    print("[INFO] docs/index.html and docs/unit.html are static UI files.")
 
 
 if __name__ == "__main__":

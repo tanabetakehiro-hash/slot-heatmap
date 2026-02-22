@@ -1,0 +1,152 @@
+{
+  "unit_no": "0744",
+  "model_name_latest": "ネオアイムジャグラーＥＸ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 371,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 5,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1486,
+      "diff_medals": null,
+      "bb": 19,
+      "rb": 17,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1824,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 26,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1208,
+      "diff_medals": null,
+      "bb": 20,
+      "rb": 18,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1346,
+      "diff_medals": null,
+      "bb": 28,
+      "rb": 25,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 2204,
+      "diff_medals": null,
+      "bb": 26,
+      "rb": 19,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1531,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 10,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1100,
+      "diff_medals": null,
+      "bb": 11,
+      "rb": 4,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 2702,
+      "diff_medals": null,
+      "bb": 32,
+      "rb": 25,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1157,
+      "diff_medals": -558,
+      "bb": 12,
+      "rb": 7,
+      "total_start": 3476,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120312&n=0744",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0744",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 1685,
+      "diff_medals": 563,
+      "bb": 24,
+      "rb": 11,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120312&n=0744",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

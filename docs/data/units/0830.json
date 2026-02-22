@@ -1,0 +1,152 @@
+{
+  "unit_no": "0830",
+  "model_name_latest": "Ｌかぐや様は告らせたい－Ｖ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 321,
+      "diff_medals": null,
+      "bb": 3,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 2063,
+      "diff_medals": null,
+      "bb": 15,
+      "rb": 5,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 3031,
+      "diff_medals": null,
+      "bb": 16,
+      "rb": 4,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1072,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1355,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 12,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1619,
+      "diff_medals": null,
+      "bb": 9,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 859,
+      "diff_medals": null,
+      "bb": 7,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 683,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 4,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1233,
+      "diff_medals": -3611,
+      "bb": 22,
+      "rb": 10,
+      "total_start": 6738,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1817,
+      "diff_medals": -907,
+      "bb": 13,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

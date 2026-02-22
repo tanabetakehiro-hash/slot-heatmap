@@ -1,0 +1,152 @@
+{
+  "unit_no": "0310",
+  "model_name_latest": "Ｌハナビ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0310",
+      "model_name": "Ｌうみねこのなく頃に２－Ｖ",
+      "max_payout": 1291,
+      "diff_medals": null,
+      "bb": 20,
+      "rb": 12,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0310",
+      "model_name": "Ｌうみねこのなく頃に２－Ｖ",
+      "max_payout": 2942,
+      "diff_medals": null,
+      "bb": 17,
+      "rb": 18,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0310",
+      "model_name": "Ｌうみねこのなく頃に２－Ｖ",
+      "max_payout": 2128,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 20,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0310",
+      "model_name": "Ｌうみねこのなく頃に２－Ｖ",
+      "max_payout": 3582,
+      "diff_medals": null,
+      "bb": 19,
+      "rb": 18,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 1245,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 18,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 1187,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 16,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 821,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 6,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 686,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 1287,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 14,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 1140,
+      "diff_medals": -1786,
+      "bb": 18,
+      "rb": 21,
+      "total_start": 7406,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0310",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0310",
+      "model_name": "Ｌハナビ",
+      "max_payout": 753,
+      "diff_medals": -1304,
+      "bb": 10,
+      "rb": 10,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0310",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

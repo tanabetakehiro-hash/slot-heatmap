@@ -1,0 +1,152 @@
+{
+  "unit_no": "0583",
+  "model_name_latest": "ＬモンキーターンＶ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 733,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 1061,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 15,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 839,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 16,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 1673,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 3805,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 25,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 3393,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 6,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 1492,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 1281,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 16,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 1253,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 1596,
+      "diff_medals": -2578,
+      "bb": 0,
+      "rb": 13,
+      "total_start": 6930,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120181&n=0583",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0583",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 4671,
+      "diff_medals": 3684,
+      "bb": 0,
+      "rb": 12,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120181&n=0583",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

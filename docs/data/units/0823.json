@@ -1,0 +1,152 @@
+{
+  "unit_no": "0823",
+  "model_name_latest": "Ｌからくりサーカス",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 167,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 3714,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 15,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 1453,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 4912,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 15,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 253,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 5,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 1015,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 801,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 5,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 1177,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 4618,
+      "diff_medals": 3798,
+      "bb": 0,
+      "rb": 14,
+      "total_start": 5771,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0823",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0823",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 3612,
+      "diff_medals": 1907,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0823",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

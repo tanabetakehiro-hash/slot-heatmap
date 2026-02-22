@@ -1,0 +1,152 @@
+{
+  "unit_no": "0707",
+  "model_name_latest": "ゴーゴージャグラー３",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 1845,
+      "diff_medals": null,
+      "bb": 27,
+      "rb": 21,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 715,
+      "diff_medals": null,
+      "bb": 13,
+      "rb": 15,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 1709,
+      "diff_medals": null,
+      "bb": 36,
+      "rb": 25,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 1787,
+      "diff_medals": null,
+      "bb": 31,
+      "rb": 17,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 840,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 12,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 587,
+      "diff_medals": null,
+      "bb": 9,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 516,
+      "diff_medals": null,
+      "bb": 9,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 826,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 29,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 1042,
+      "diff_medals": null,
+      "bb": 12,
+      "rb": 11,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 1423,
+      "diff_medals": 834,
+      "bb": 29,
+      "rb": 18,
+      "total_start": 6410,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120141&n=0707",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0707",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 2420,
+      "diff_medals": 1909,
+      "bb": 30,
+      "rb": 8,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120141&n=0707",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

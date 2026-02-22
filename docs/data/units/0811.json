@@ -1,0 +1,152 @@
+{
+  "unit_no": "0811",
+  "model_name_latest": "Ｌ北斗　転生の章２",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 10236,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 464,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 5815,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 15,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 5054,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 25,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 2060,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 14,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 1509,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 17,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 1598,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 2077,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 10,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 1879,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 11,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 3973,
+      "diff_medals": 2977,
+      "bb": 0,
+      "rb": 30,
+      "total_start": 9231,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0811",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0811",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 751,
+      "diff_medals": -4307,
+      "bb": 0,
+      "rb": 11,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0811",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

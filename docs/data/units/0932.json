@@ -1,0 +1,152 @@
+{
+  "unit_no": "0932",
+  "model_name_latest": "Ｌダーリン・イン・ザ・フランキス－⑤",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 470,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 43,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 2656,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 1174,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 1713,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 356,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 1223,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 403,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 695,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 1271,
+      "diff_medals": -2430,
+      "bb": 0,
+      "rb": 8,
+      "total_start": 2836,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0932",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0932",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 3269,
+      "diff_medals": 566,
+      "bb": 0,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0932",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

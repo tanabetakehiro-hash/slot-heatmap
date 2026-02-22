@@ -1,0 +1,152 @@
+{
+  "unit_no": "0944",
+  "model_name_latest": "Ｌ絶対衝激ＩＶ－Ｖ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 3589,
+      "diff_medals": null,
+      "bb": 38,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 2539,
+      "diff_medals": null,
+      "bb": 39,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 298,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 2555,
+      "diff_medals": null,
+      "bb": 38,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 202,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 92,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 407,
+      "diff_medals": null,
+      "bb": 7,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 1561,
+      "diff_medals": null,
+      "bb": 20,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 669,
+      "diff_medals": -1096,
+      "bb": 12,
+      "rb": 0,
+      "total_start": 1959,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120334&n=0944",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0944",
+      "model_name": "Ｌ絶対衝激ＩＶ－Ｖ",
+      "max_payout": 141,
+      "diff_medals": -845,
+      "bb": 1,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120334&n=0944",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120334&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

@@ -1,0 +1,152 @@
+{
+  "unit_no": "0335",
+  "model_name_latest": "Ｌモンスターハンターライズ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 274,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 423,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 3709,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 17,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 1357,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 251,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 3,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 97,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 1501,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 89,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 3416,
+      "diff_medals": 2551,
+      "bb": 0,
+      "rb": 25,
+      "total_start": 7930,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0335",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0335",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 251,
+      "diff_medals": -2676,
+      "bb": 0,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0335",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

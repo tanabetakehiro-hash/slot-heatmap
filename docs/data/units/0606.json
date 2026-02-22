@@ -1,0 +1,152 @@
+{
+  "unit_no": "0606",
+  "model_name_latest": "Ｌスマスロ北斗",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 601,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 1866,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 1147,
+      "diff_medals": null,
+      "bb": 17,
+      "rb": 5,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 461,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 1513,
+      "diff_medals": null,
+      "bb": 46,
+      "rb": 13,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 486,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 930,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 740,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 2310,
+      "diff_medals": 1221,
+      "bb": 27,
+      "rb": 3,
+      "total_start": 1439,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0606",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0606",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 3002,
+      "diff_medals": 927,
+      "bb": 33,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0606",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

@@ -1,0 +1,152 @@
+{
+  "unit_no": "0891",
+  "model_name_latest": "Ｌ革命機ヴァルヴレイヴ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 2447,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 25,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 493,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 2504,
+      "diff_medals": null,
+      "bb": 36,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 1112,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 27,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 1981,
+      "diff_medals": null,
+      "bb": 20,
+      "rb": 0,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 7654,
+      "diff_medals": null,
+      "bb": 57,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 415,
+      "diff_medals": -1415,
+      "bb": 1,
+      "rb": 0,
+      "total_start": 1230,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0891",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0891",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 3175,
+      "diff_medals": 2482,
+      "bb": 21,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0891",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

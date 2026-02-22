@@ -1,0 +1,152 @@
+{
+  "unit_no": "1010",
+  "model_name_latest": "沖ドキ！ＧＯＬＤ－３０",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 925,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1425,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 14,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 789,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 6201,
+      "diff_medals": null,
+      "bb": 40,
+      "rb": 12,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1216,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 4,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 780,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1692,
+      "diff_medals": null,
+      "bb": 17,
+      "rb": 10,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1650,
+      "diff_medals": null,
+      "bb": 19,
+      "rb": 11,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1203,
+      "diff_medals": null,
+      "bb": 8,
+      "rb": 11,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1910,
+      "diff_medals": -933,
+      "bb": 16,
+      "rb": 12,
+      "total_start": 3517,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1010",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "1010",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1153,
+      "diff_medals": -4330,
+      "bb": 19,
+      "rb": 12,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1010",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:19"
+}

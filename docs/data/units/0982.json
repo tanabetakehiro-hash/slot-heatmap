@@ -1,0 +1,152 @@
+{
+  "unit_no": "0982",
+  "model_name_latest": "沖ドキ！ＢＬＡＣＫ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 1391,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 17,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 921,
+      "diff_medals": null,
+      "bb": 12,
+      "rb": 12,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 956,
+      "diff_medals": null,
+      "bb": 7,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 1881,
+      "diff_medals": null,
+      "bb": 13,
+      "rb": 6,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 5064,
+      "diff_medals": null,
+      "bb": 29,
+      "rb": 16,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 783,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 604,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 8,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 1518,
+      "diff_medals": null,
+      "bb": 13,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 1550,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 14,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 1005,
+      "diff_medals": -3047,
+      "bb": 14,
+      "rb": 9,
+      "total_start": 4434,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120234&n=0982",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0982",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 5202,
+      "diff_medals": 4864,
+      "bb": 33,
+      "rb": 13,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120234&n=0982",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

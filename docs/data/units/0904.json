@@ -1,0 +1,152 @@
+{
+  "unit_no": "0904",
+  "model_name_latest": "Ｌゴッドイーター　リザレクション－Ｖ",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 899,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 1422,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 3217,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 7,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 1008,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 6,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 892,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 3246,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 218,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 272,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 1125,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 5127,
+      "diff_medals": 36,
+      "bb": 0,
+      "rb": 10,
+      "total_start": 6465,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120230&n=0904",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0904",
+      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
+      "max_payout": 271,
+      "diff_medals": -2150,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120230&n=0904",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

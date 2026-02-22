@@ -1,0 +1,152 @@
+{
+  "unit_no": "0328",
+  "model_name_latest": "Ｌ鉄拳６",
+  "dates": [
+    "2026-02-12",
+    "2026-02-13",
+    "2026-02-14",
+    "2026-02-15",
+    "2026-02-16",
+    "2026-02-17",
+    "2026-02-18",
+    "2026-02-19",
+    "2026-02-20",
+    "2026-02-21",
+    "2026-02-22"
+  ],
+  "series": [
+    {
+      "date": "2026-02-12",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 319,
+      "diff_medals": null,
+      "bb": 8,
+      "rb": 6,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-13",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 1566,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-14",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 1478,
+      "diff_medals": null,
+      "bb": 12,
+      "rb": 9,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-15",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 5558,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 25,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-16",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 3856,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 24,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-17",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 2119,
+      "diff_medals": null,
+      "bb": 33,
+      "rb": 24,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-18",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 1505,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 18,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-19",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 376,
+      "diff_medals": null,
+      "bb": 17,
+      "rb": 5,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-20",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 185,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 1,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-21",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 5740,
+      "diff_medals": 3725,
+      "bb": 33,
+      "rb": 28,
+      "total_start": 3258,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-02-22",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 1257,
+      "diff_medals": -1766,
+      "bb": 21,
+      "rb": 15,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    }
+  ],
+  "updated_at": "2026-02-22 22:19:18"
+}

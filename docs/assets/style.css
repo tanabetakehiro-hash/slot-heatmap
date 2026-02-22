@@ -59,12 +59,8 @@ select, input[type="text"] {
   color: var(--text);
   outline: none;
 }
-input[type="text"]::placeholder {
-  color: #6f84aa;
-}
-input[type="text"]:focus, select:focus {
-  border-color: #3c5585;
-}
+input[type="text"]::placeholder { color: #6f84aa; }
+input[type="text"]:focus, select:focus { border-color: #3c5585; }
 
 .meta { margin-top: 8px; display: flex; gap: 10px; flex-wrap: wrap; }
 .muted { color: var(--muted); }
@@ -92,6 +88,12 @@ th, td {
 th { text-align: left; color: var(--muted); position: sticky; top: 0; background: #0f1522; }
 td.num { text-align: right; }
 td.wrap { white-space: normal; }
+
+.link {
+  color: #cfe2ff;
+  text-decoration: underline;
+}
+.link:hover { opacity: 0.85; }
 
 .footer {
   margin-top: 10px;
