@@ -2,127 +2,10 @@
   "unit_no": "0337",
   "model_name_latest": "ＬＢクレアの秘宝伝",
   "dates": [
-    "2026-02-12",
-    "2026-02-13",
-    "2026-02-14",
-    "2026-02-15",
-    "2026-02-16",
-    "2026-02-17",
-    "2026-02-18",
-    "2026-02-19",
-    "2026-02-20",
     "2026-02-21",
     "2026-02-22"
   ],
   "series": [
-    {
-      "date": "2026-02-12",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 496,
-      "diff_medals": null,
-      "bb": 1,
-      "rb": 4,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-13",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 1315,
-      "diff_medals": null,
-      "bb": 11,
-      "rb": 5,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-14",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 1463,
-      "diff_medals": null,
-      "bb": 14,
-      "rb": 15,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-15",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 1009,
-      "diff_medals": null,
-      "bb": 7,
-      "rb": 4,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-16",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 789,
-      "diff_medals": null,
-      "bb": 7,
-      "rb": 7,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-17",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 999,
-      "diff_medals": null,
-      "bb": 7,
-      "rb": 4,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-18",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 446,
-      "diff_medals": null,
-      "bb": 2,
-      "rb": 1,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-19",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 5274,
-      "diff_medals": null,
-      "bb": 39,
-      "rb": 18,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
-    {
-      "date": "2026-02-20",
-      "unit_no": "0337",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 955,
-      "diff_medals": null,
-      "bb": 7,
-      "rb": 7,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
     {
       "date": "2026-02-21",
       "unit_no": "0337",
@@ -148,5 +31,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
     }
   ],
-  "updated_at": "2026-02-22 22:43:39"
+  "updated_at": "2026-02-23 00:02:07"
 }

@@ -2,127 +2,10 @@
   "unit_no": "0853",
   "model_name_latest": "Ｌ秘宝伝－５",
   "dates": [
-    "2026-02-12",
-    "2026-02-13",
-    "2026-02-14",
-    "2026-02-15",
-    "2026-02-16",
-    "2026-02-17",
-    "2026-02-18",
-    "2026-02-19",
-    "2026-02-20",
     "2026-02-21",
     "2026-02-22"
   ],
   "series": [
-    {
-      "date": "2026-02-12",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 569,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 4,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-13",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 762,
-      "diff_medals": null,
-      "bb": 10,
-      "rb": 6,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-14",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 6593,
-      "diff_medals": null,
-      "bb": 24,
-      "rb": 14,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-15",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 880,
-      "diff_medals": null,
-      "bb": 8,
-      "rb": 4,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-16",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 603,
-      "diff_medals": null,
-      "bb": 10,
-      "rb": 4,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-17",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 211,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 2,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-18",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 4816,
-      "diff_medals": null,
-      "bb": 32,
-      "rb": 16,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-19",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 1019,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 7,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
-    {
-      "date": "2026-02-20",
-      "unit_no": "0853",
-      "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 77,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 1,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
-    },
     {
       "date": "2026-02-21",
       "unit_no": "0853",
@@ -148,5 +31,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
     }
   ],
-  "updated_at": "2026-02-22 22:43:39"
+  "updated_at": "2026-02-23 00:02:07"
 }

@@ -2,127 +2,10 @@
   "unit_no": "0885",
   "model_name_latest": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
   "dates": [
-    "2026-02-12",
-    "2026-02-13",
-    "2026-02-14",
-    "2026-02-15",
-    "2026-02-16",
-    "2026-02-17",
-    "2026-02-18",
-    "2026-02-19",
-    "2026-02-20",
     "2026-02-21",
     "2026-02-22"
   ],
   "series": [
-    {
-      "date": "2026-02-12",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 461,
-      "diff_medals": null,
-      "bb": 9,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-13",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 130,
-      "diff_medals": null,
-      "bb": 1,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-14",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 2676,
-      "diff_medals": null,
-      "bb": 18,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-15",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 5000,
-      "diff_medals": null,
-      "bb": 27,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-16",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 1860,
-      "diff_medals": null,
-      "bb": 55,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-17",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 508,
-      "diff_medals": null,
-      "bb": 8,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-18",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 562,
-      "diff_medals": null,
-      "bb": 4,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-19",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 1076,
-      "diff_medals": null,
-      "bb": 41,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
-    {
-      "date": "2026-02-20",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 1459,
-      "diff_medals": null,
-      "bb": 16,
-      "rb": 0,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
     {
       "date": "2026-02-21",
       "unit_no": "0885",
@@ -148,5 +31,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
     }
   ],
-  "updated_at": "2026-02-22 22:43:39"
+  "updated_at": "2026-02-23 00:02:07"
 }
