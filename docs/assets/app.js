@@ -14,11 +14,21 @@ const els = {
   metricColName: document.getElementById("metricColName"),
   rankingTbody: document.querySelector("#rankingTable tbody"),
   predictTbody: document.querySelector("#predictTable tbody"),
+
+  floormap: document.getElementById("floormap"),
+  floormapStats: document.getElementById("floormapStats"),
 };
 
 let INDEX = null;
 let HISTORY = null;
 let PREDICTION = null;
+
+const FLOORMAP = {
+  loaded: false,
+  svg: null,
+  unitToRect: new Map(), // key: "729" など
+  unitToText: new Map(),
+};
 
 const state = {
   currentDate: null,
@@ -45,6 +55,34 @@ async function fetchJson(url) {
 function normalizeFilter(s) {
   if (!s) return "";
   return String(s).trim();
+}
+
+function isDigits(s) {
+  return /^\d+$/.test(String(s || "").trim());
+}
+
+function normUnitKey(u) {
+  const s = String(u ?? "").trim();
+  if (!isDigits(s)) return s;
+  return String(parseInt(s, 10)); // "0729" -> "729"
+}
+
+/** 台番号フィルタ：ゼロ埋めも考慮して部分一致 */
+function unitMatchesFilter(unitAny, filterRaw) {
+  const f = normalizeFilter(filterRaw);
+  if (!f) return true;
+
+  const u = String(unitAny ?? "").trim();
+  if (u.includes(f)) return true;
+
+  // 数字同士なら、ゼロ埋め4桁でも判定
+  if (isDigits(u) && isDigits(f)) {
+    const uNum = String(parseInt(u, 10));
+    const uPad = uNum.padStart(4, "0");  // 729 -> 0729
+    if (uNum.includes(String(parseInt(f, 10)))) return true;
+    if (uPad.includes(f)) return true;   // f="07" なら 0729 にヒット
+  }
+  return false;
 }
 
 function getModelName(row) {
@@ -90,22 +128,21 @@ function metricValueFromRow(row, metric) {
 function buildUnitToModelMap(rows) {
   const m = new Map();
   for (const r of rows || []) {
-    const u = getUnitNo(r);
+    const u = normUnitKey(getUnitNo(r));
     const model = getModelName(r);
     if (u && model) m.set(u, model);
   }
   return m;
 }
 
-function passesFiltersUnit(unitNo) {
-  const f = normalizeFilter(state.unitFilter);
-  if (!f) return true;
-  return String(unitNo ?? "").includes(f);
+function passesFiltersUnit(unitNoAny) {
+  return unitMatchesFilter(unitNoAny, state.unitFilter);
 }
 
-function passesFiltersModel(unitNo, unitToModel) {
+function passesFiltersModel(unitNoAny, unitToModel) {
   if (!state.modelFilter || state.modelFilter === "__ALL__") return true;
-  const model = unitToModel.get(String(unitNo ?? ""));
+  const key = normUnitKey(unitNoAny);
+  const model = unitToModel.get(key);
   return model === state.modelFilter;
 }
 
@@ -252,6 +289,11 @@ function renderPrediction(predObj) {
   }
 }
 
+/**
+ * ヒートマップ：
+ * - max_payout は history.json を使う
+ * - diff_medals / bb_rb_sum は 1日分（選択中の日付）を簡易ヒートマップ化
+ */
 function renderHeatmap() {
   updateTitles();
 
@@ -281,22 +323,18 @@ function renderHeatmap() {
     const unitsAll = HISTORY.units;
     const valuesAll = HISTORY.values.slice(-days);
 
+    const setWanted = new Set(unitsFiltered.map(normUnitKey));
     const idx = [];
     const units = [];
-    const setWanted = new Set(unitsFiltered);
     for (let i = 0; i < unitsAll.length; i++) {
-      const u = String(unitsAll[i]);
+      const u = normUnitKey(unitsAll[i]);
       if (setWanted.has(u)) {
         idx.push(i);
-        units.push(u);
+        units.push(unitsAll[i]);
       }
     }
 
-    const values = valuesAll.map(row => {
-      const out = [];
-      for (const i of idx) out.push(row[i]);
-      return out;
-    });
+    const values = valuesAll.map(row => idx.map(i => row[i]));
 
     const data = [{
       type: "heatmap",
@@ -316,16 +354,12 @@ function renderHeatmap() {
 
     const heatmapDiv = document.getElementById("heatmap");
     heatmapDiv.on("plotly_click", (ev) => {
-      try {
-        const pt = ev.points && ev.points[0];
-        if (!pt) return;
-        const clickedDate = pt.y;
-        if (clickedDate) {
-          els.dateSelect.value = clickedDate;
-          onDateChange(clickedDate);
-        }
-      } catch (e) {
-        console.warn(e);
+      const pt = ev.points && ev.points[0];
+      if (!pt) return;
+      const clickedDate = pt.y;
+      if (clickedDate) {
+        els.dateSelect.value = clickedDate;
+        onDateChange(clickedDate);
       }
     });
     return;
@@ -352,6 +386,161 @@ function renderHeatmap() {
   Plotly.newPlot("heatmap", data, layout, { responsive: true });
 }
 
+/* ===== フロアマップ（SVG） ===== */
+
+function hexToRgb(hex) {
+  const h = String(hex).replace("#", "");
+  return {
+    r: parseInt(h.slice(0, 2), 16),
+    g: parseInt(h.slice(2, 4), 16),
+    b: parseInt(h.slice(4, 6), 16),
+  };
+}
+function rgbToHex(r, g, b) {
+  const to2 = (x) => Math.max(0, Math.min(255, x)).toString(16).padStart(2, "0");
+  return (to2(r) + to2(g) + to2(b)).toUpperCase();
+}
+function lerp(a, b, t) { return a + (b - a) * t; }
+function lerpColor(c1, c2, t) {
+  const a = hexToRgb(c1);
+  const b = hexToRgb(c2);
+  return rgbToHex(lerp(a.r, b.r, t), lerp(a.g, b.g, t), lerp(a.b, b.b, t));
+}
+function luminance(hexNoHash) {
+  const c = hexToRgb("#" + hexNoHash);
+  return 0.2126 * c.r + 0.7152 * c.g + 0.0722 * c.b;
+}
+
+function colorForValue(metric, v, vmin, vmax, maxAbs) {
+  if (v === null || v === undefined || Number.isNaN(Number(v))) return null;
+
+  // 差枚：青(マイナス)→白(0)→赤(プラス)
+  if (metric === "diff_medals") {
+    if (!maxAbs || maxAbs <= 0) return null;
+    const t = Math.max(-1, Math.min(1, Number(v) / maxAbs)); // -1..1
+    if (t < 0) return lerpColor("#2B8CBE", "#FFFFFF", t + 1); // -1..0 => 0..1
+    return lerpColor("#FFFFFF", "#DE2D26", t);                // 0..1
+  }
+
+  // それ以外：白→赤
+  if (!(vmax > vmin)) return lerpColor("#FFFFFF", "#DE2D26", 0.5);
+  const t = Math.max(0, Math.min(1, (Number(v) - vmin) / (vmax - vmin)));
+  return lerpColor("#FFFFFF", "#DE2D26", t);
+}
+
+async function loadFloormapSvg() {
+  if (!els.floormap) return;
+  try {
+    const res = await fetch("assets/floormap.svg", { cache: "no-store" });
+    if (!res.ok) throw new Error("floormap.svg not found");
+    const text = await res.text();
+
+    // SVGをDOMとして挿入
+    els.floormap.innerHTML = text;
+    const svg = els.floormap.querySelector("svg");
+    if (!svg) throw new Error("svg parse failed");
+
+    FLOORMAP.svg = svg;
+    FLOORMAP.unitToRect.clear();
+    FLOORMAP.unitToText.clear();
+
+    svg.querySelectorAll("[data-unit]").forEach((g) => {
+      const unit = normUnitKey(g.getAttribute("data-unit"));
+      const rect = g.querySelector("rect");
+      const txt = g.querySelector("text");
+      if (rect) FLOORMAP.unitToRect.set(unit, rect);
+      if (txt) FLOORMAP.unitToText.set(unit, txt);
+
+      // クリックで台詳細へ
+      g.addEventListener("click", () => {
+        location.href = `unit.html?unit=${encodeURIComponent(unit)}`;
+      });
+    });
+
+    FLOORMAP.loaded = true;
+  } catch (e) {
+    FLOORMAP.loaded = false;
+    if (els.floormap) {
+      els.floormap.innerHTML = `<div class="muted" style="padding:12px;">floormap.svg がありません（SVG生成を実行してください）</div>`;
+    }
+  }
+}
+
+function renderFloormap() {
+  if (!FLOORMAP.loaded) return;
+
+  const unitToModel = buildUnitToModelMap(state.dailyRows);
+
+  // 台ごとの値マップ（keyは "729" など）
+  const valMap = new Map();
+  const activeUnits = new Set(); // フィルタに通ったユニット
+
+  const values = [];
+  const absValues = [];
+
+  for (const r of state.dailyRows || []) {
+    const uRaw = getUnitNo(r);
+    const uKey = normUnitKey(uRaw);
+
+    // filter判定は raw/ゼロ埋めも含める
+    const okUnit = passesFiltersUnit(uRaw);
+    const okModel = passesFiltersModel(uRaw, unitToModel);
+
+    const v = metricValueFromRow(r, state.metric);
+    valMap.set(uKey, v);
+
+    if (okUnit && okModel) {
+      activeUnits.add(uKey);
+      if (typeof v === "number" && !Number.isNaN(v)) {
+        values.push(v);
+        absValues.push(Math.abs(v));
+      }
+    }
+  }
+
+  const vmin = values.length ? Math.min(...values) : 0;
+  const vmax = values.length ? Math.max(...values) : 1;
+  const maxAbs = absValues.length ? Math.max(...absValues) : 0;
+
+  // 表示ステータス
+  if (els.floormapStats) {
+    els.floormapStats.textContent =
+      values.length
+        ? `範囲：min=${fmtNum(vmin)} / max=${fmtNum(vmax)}（${metricLabel(state.metric)}）`
+        : `範囲：データなし（フィルタ条件を確認）`;
+  }
+
+  // SVG上の全ユニットを塗る（active以外は薄く）
+  FLOORMAP.unitToRect.forEach((rect, unitKey) => {
+    const isActive = activeUnits.has(unitKey);
+    const v = valMap.get(unitKey);
+
+    if (!isActive) {
+      rect.setAttribute("fill", "#0F1522");
+      rect.setAttribute("fill-opacity", "0.25");
+      return;
+    }
+
+    const col = colorForValue(state.metric, v, vmin, vmax, maxAbs);
+    if (!col) {
+      rect.setAttribute("fill", "#0F1522");
+      rect.setAttribute("fill-opacity", "0.5");
+      return;
+    }
+
+    rect.setAttribute("fill", "#" + col);
+    rect.setAttribute("fill-opacity", "1.0");
+
+    const txt = FLOORMAP.unitToText.get(unitKey);
+    if (txt) {
+      const lum = luminance(col);
+      txt.setAttribute("fill", lum < 140 ? "#FFFFFF" : "#000000");
+    }
+  });
+}
+
+/* ===== ロード/イベント ===== */
+
 async function loadDaily(dateStr) {
   const url = INDEX.daily_path_format.replace("{date}", dateStr);
   const obj = await fetchJson(url);
@@ -374,6 +563,7 @@ async function onDateChange(dateStr) {
   await loadDaily(dateStr);
   renderHeatmap();
   renderPrediction(PREDICTION);
+  renderFloormap();
   setFilterStatus();
 }
 
@@ -382,6 +572,7 @@ function rerenderAll() {
   renderHeatmap();
   renderRanking(state.dailyRows);
   renderPrediction(PREDICTION);
+  renderFloormap();
 }
 
 function debounce(fn, ms) {
@@ -415,7 +606,10 @@ async function init() {
   await loadDaily(state.currentDate);
   await loadPrediction();
 
+  await loadFloormapSvg();
+
   renderHeatmap();
+  renderFloormap();
   setFilterStatus();
 
   els.dateSelect.addEventListener("change", async () => {
@@ -430,6 +624,7 @@ async function init() {
   if (els.metricSelect) {
     els.metricSelect.addEventListener("change", () => {
       state.metric = els.metricSelect.value || "max_payout";
+      updateTitles();
       rerenderAll();
     });
   }

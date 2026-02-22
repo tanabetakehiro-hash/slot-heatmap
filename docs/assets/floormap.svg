@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1938 924" preserveAspectRatio="xMidYMid meet">
+<style>
+.machine-rect{fill:#FFFFFF;}
+.machine-text{fill:#000000;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans JP',sans-serif;}
+.machine{cursor:pointer;}
+</style>
+<g id="unit-594" class="machine" data-unit="594">
+<rect class="machine-rect" x="0.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">594</text>
+</g>
+<g id="unit-595" class="machine" data-unit="595">
+<rect class="machine-rect" x="68.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">595</text>
+</g>
+<g id="unit-716" class="machine" data-unit="716">
+<rect class="machine-rect" x="272.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">716</text>
+</g>
+<g id="unit-715" class="machine" data-unit="715">
+<rect class="machine-rect" x="340.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">715</text>
+</g>
+<g id="unit-738" class="machine" data-unit="738">
+<rect class="machine-rect" x="442.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">738</text>
+</g>
+<g id="unit-739" class="machine" data-unit="739">
+<rect class="machine-rect" x="510.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">739</text>
+</g>
+<g id="unit-774" class="machine" data-unit="774">
+<rect class="machine-rect" x="612.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">774</text>
+</g>
+<g id="unit-775" class="machine" data-unit="775">
+<rect class="machine-rect" x="680.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">775</text>
+</g>
+<g id="unit-802" class="machine" data-unit="802">
+<rect class="machine-rect" x="782.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">802</text>
+</g>
+<g id="unit-803" class="machine" data-unit="803">
+<rect class="machine-rect" x="850.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">803</text>
+</g>
+<g id="unit-834" class="machine" data-unit="834">
+<rect class="machine-rect" x="952.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">834</text>
+</g>
+<g id="unit-835" class="machine" data-unit="835">
+<rect class="machine-rect" x="1020.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">835</text>
+</g>
+<g id="unit-862" class="machine" data-unit="862">
+<rect class="machine-rect" x="1122.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">862</text>
+</g>
+<g id="unit-863" class="machine" data-unit="863">
+<rect class="machine-rect" x="1190.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">863</text>
+</g>
+<g id="unit-894" class="machine" data-unit="894">
+<rect class="machine-rect" x="1292.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">894</text>
+</g>
+<g id="unit-895" class="machine" data-unit="895">
+<rect class="machine-rect" x="1360.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">895</text>
+</g>
+<g id="unit-922" class="machine" data-unit="922">
+<rect class="machine-rect" x="1462.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">922</text>
+</g>
+<g id="unit-923" class="machine" data-unit="923">
+<rect class="machine-rect" x="1530.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">923</text>
+</g>
+<g id="unit-950" class="machine" data-unit="950">
+<rect class="machine-rect" x="1632.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">950</text>
+</g>
+<g id="unit-951" class="machine" data-unit="951">
+<rect class="machine-rect" x="1700.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">951</text>
+</g>
+<g id="unit-982" class="machine" data-unit="982">
+<rect class="machine-rect" x="1802.0" y="0.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="11.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">982</text>
+</g>
+<g id="unit-593" class="machine" data-unit="593">
+<rect class="machine-rect" x="0.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">593</text>
+</g>
+<g id="unit-596" class="machine" data-unit="596">
+<rect class="machine-rect" x="68.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">596</text>
+</g>
+<g id="unit-715" class="machine" data-unit="715">
+<rect class="machine-rect" x="272.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">715</text>
+</g>
+<g id="unit-716" class="machine" data-unit="716">
+<rect class="machine-rect" x="340.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">716</text>
+</g>
+<g id="unit-737" class="machine" data-unit="737">
+<rect class="machine-rect" x="442.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">737</text>
+</g>
+<g id="unit-740" class="machine" data-unit="740">
+<rect class="machine-rect" x="510.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">740</text>
+</g>
+<g id="unit-773" class="machine" data-unit="773">
+<rect class="machine-rect" x="612.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">773</text>
+</g>
+<g id="unit-776" class="machine" data-unit="776">
+<rect class="machine-rect" x="680.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">776</text>
+</g>
+<g id="unit-801" class="machine" data-unit="801">
+<rect class="machine-rect" x="782.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">801</text>
+</g>
+<g id="unit-804" class="machine" data-unit="804">
+<rect class="machine-rect" x="850.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">804</text>
+</g>
+<g id="unit-833" class="machine" data-unit="833">
+<rect class="machine-rect" x="952.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">833</text>
+</g>
+<g id="unit-836" class="machine" data-unit="836">
+<rect class="machine-rect" x="1020.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">836</text>
+</g>
+<g id="unit-861" class="machine" data-unit="861">
+<rect class="machine-rect" x="1122.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">861</text>
+</g>
+<g id="unit-864" class="machine" data-unit="864">
+<rect class="machine-rect" x="1190.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">864</text>
+</g>
+<g id="unit-893" class="machine" data-unit="893">
+<rect class="machine-rect" x="1292.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">893</text>
+</g>
+<g id="unit-896" class="machine" data-unit="896">
+<rect class="machine-rect" x="1360.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">896</text>
+</g>
+<g id="unit-921" class="machine" data-unit="921">
+<rect class="machine-rect" x="1462.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">921</text>
+</g>
+<g id="unit-924" class="machine" data-unit="924">
+<rect class="machine-rect" x="1530.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">924</text>
+</g>
+<g id="unit-949" class="machine" data-unit="949">
+<rect class="machine-rect" x="1632.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">949</text>
+</g>
+<g id="unit-952" class="machine" data-unit="952">
+<rect class="machine-rect" x="1700.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">952</text>
+</g>
+<g id="unit-981" class="machine" data-unit="981">
+<rect class="machine-rect" x="1802.0" y="22.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="33.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">981</text>
+</g>
+<g id="unit-592" class="machine" data-unit="592">
+<rect class="machine-rect" x="0.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">592</text>
+</g>
+<g id="unit-597" class="machine" data-unit="597">
+<rect class="machine-rect" x="68.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">597</text>
+</g>
+<g id="unit-714" class="machine" data-unit="714">
+<rect class="machine-rect" x="272.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">714</text>
+</g>
+<g id="unit-717" class="machine" data-unit="717">
+<rect class="machine-rect" x="340.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">717</text>
+</g>
+<g id="unit-736" class="machine" data-unit="736">
+<rect class="machine-rect" x="442.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">736</text>
+</g>
+<g id="unit-741" class="machine" data-unit="741">
+<rect class="machine-rect" x="510.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">741</text>
+</g>
+<g id="unit-772" class="machine" data-unit="772">
+<rect class="machine-rect" x="612.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">772</text>
+</g>
+<g id="unit-777" class="machine" data-unit="777">
+<rect class="machine-rect" x="680.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">777</text>
+</g>
+<g id="unit-800" class="machine" data-unit="800">
+<rect class="machine-rect" x="782.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">800</text>
+</g>
+<g id="unit-805" class="machine" data-unit="805">
+<rect class="machine-rect" x="850.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">805</text>
+</g>
+<g id="unit-832" class="machine" data-unit="832">
+<rect class="machine-rect" x="952.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">832</text>
+</g>
+<g id="unit-837" class="machine" data-unit="837">
+<rect class="machine-rect" x="1020.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">837</text>
+</g>
+<g id="unit-860" class="machine" data-unit="860">
+<rect class="machine-rect" x="1122.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">860</text>
+</g>
+<g id="unit-865" class="machine" data-unit="865">
+<rect class="machine-rect" x="1190.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">865</text>
+</g>
+<g id="unit-892" class="machine" data-unit="892">
+<rect class="machine-rect" x="1292.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">892</text>
+</g>
+<g id="unit-897" class="machine" data-unit="897">
+<rect class="machine-rect" x="1360.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">897</text>
+</g>
+<g id="unit-920" class="machine" data-unit="920">
+<rect class="machine-rect" x="1462.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">920</text>
+</g>
+<g id="unit-925" class="machine" data-unit="925">
+<rect class="machine-rect" x="1530.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">925</text>
+</g>
+<g id="unit-948" class="machine" data-unit="948">
+<rect class="machine-rect" x="1632.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">948</text>
+</g>
+<g id="unit-953" class="machine" data-unit="953">
+<rect class="machine-rect" x="1700.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">953</text>
+</g>
+<g id="unit-980" class="machine" data-unit="980">
+<rect class="machine-rect" x="1802.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">980</text>
+</g>
+<g id="unit-983" class="machine" data-unit="983">
+<rect class="machine-rect" x="1870.0" y="44.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="55.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">983</text>
+</g>
+<g id="unit-591" class="machine" data-unit="591">
+<rect class="machine-rect" x="0.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">591</text>
+</g>
+<g id="unit-598" class="machine" data-unit="598">
+<rect class="machine-rect" x="68.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">598</text>
+</g>
+<g id="unit-713" class="machine" data-unit="713">
+<rect class="machine-rect" x="272.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">713</text>
+</g>
+<g id="unit-718" class="machine" data-unit="718">
+<rect class="machine-rect" x="340.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">718</text>
+</g>
+<g id="unit-735" class="machine" data-unit="735">
+<rect class="machine-rect" x="442.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">735</text>
+</g>
+<g id="unit-742" class="machine" data-unit="742">
+<rect class="machine-rect" x="510.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">742</text>
+</g>
+<g id="unit-771" class="machine" data-unit="771">
+<rect class="machine-rect" x="612.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">771</text>
+</g>
+<g id="unit-778" class="machine" data-unit="778">
+<rect class="machine-rect" x="680.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">778</text>
+</g>
+<g id="unit-799" class="machine" data-unit="799">
+<rect class="machine-rect" x="782.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">799</text>
+</g>
+<g id="unit-806" class="machine" data-unit="806">
+<rect class="machine-rect" x="850.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">806</text>
+</g>
+<g id="unit-831" class="machine" data-unit="831">
+<rect class="machine-rect" x="952.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">831</text>
+</g>
+<g id="unit-838" class="machine" data-unit="838">
+<rect class="machine-rect" x="1020.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">838</text>
+</g>
+<g id="unit-859" class="machine" data-unit="859">
+<rect class="machine-rect" x="1122.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">859</text>
+</g>
+<g id="unit-866" class="machine" data-unit="866">
+<rect class="machine-rect" x="1190.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">866</text>
+</g>
+<g id="unit-891" class="machine" data-unit="891">
+<rect class="machine-rect" x="1292.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">891</text>
+</g>
+<g id="unit-898" class="machine" data-unit="898">
+<rect class="machine-rect" x="1360.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">898</text>
+</g>
+<g id="unit-919" class="machine" data-unit="919">
+<rect class="machine-rect" x="1462.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">919</text>
+</g>
+<g id="unit-926" class="machine" data-unit="926">
+<rect class="machine-rect" x="1530.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">926</text>
+</g>
+<g id="unit-947" class="machine" data-unit="947">
+<rect class="machine-rect" x="1632.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">947</text>
+</g>
+<g id="unit-954" class="machine" data-unit="954">
+<rect class="machine-rect" x="1700.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">954</text>
+</g>
+<g id="unit-979" class="machine" data-unit="979">
+<rect class="machine-rect" x="1802.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">979</text>
+</g>
+<g id="unit-984" class="machine" data-unit="984">
+<rect class="machine-rect" x="1870.0" y="66.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="77.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">984</text>
+</g>
+<g id="unit-590" class="machine" data-unit="590">
+<rect class="machine-rect" x="0.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">590</text>
+</g>
+<g id="unit-599" class="machine" data-unit="599">
+<rect class="machine-rect" x="68.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">599</text>
+</g>
+<g id="unit-712" class="machine" data-unit="712">
+<rect class="machine-rect" x="272.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">712</text>
+</g>
+<g id="unit-719" class="machine" data-unit="719">
+<rect class="machine-rect" x="340.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">719</text>
+</g>
+<g id="unit-734" class="machine" data-unit="734">
+<rect class="machine-rect" x="442.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">734</text>
+</g>
+<g id="unit-743" class="machine" data-unit="743">
+<rect class="machine-rect" x="510.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">743</text>
+</g>
+<g id="unit-770" class="machine" data-unit="770">
+<rect class="machine-rect" x="612.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">770</text>
+</g>
+<g id="unit-779" class="machine" data-unit="779">
+<rect class="machine-rect" x="680.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">779</text>
+</g>
+<g id="unit-798" class="machine" data-unit="798">
+<rect class="machine-rect" x="782.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">798</text>
+</g>
+<g id="unit-807" class="machine" data-unit="807">
+<rect class="machine-rect" x="850.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">807</text>
+</g>
+<g id="unit-830" class="machine" data-unit="830">
+<rect class="machine-rect" x="952.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">830</text>
+</g>
+<g id="unit-839" class="machine" data-unit="839">
+<rect class="machine-rect" x="1020.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">839</text>
+</g>
+<g id="unit-858" class="machine" data-unit="858">
+<rect class="machine-rect" x="1122.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">858</text>
+</g>
+<g id="unit-867" class="machine" data-unit="867">
+<rect class="machine-rect" x="1190.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">867</text>
+</g>
+<g id="unit-890" class="machine" data-unit="890">
+<rect class="machine-rect" x="1292.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">890</text>
+</g>
+<g id="unit-899" class="machine" data-unit="899">
+<rect class="machine-rect" x="1360.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">899</text>
+</g>
+<g id="unit-918" class="machine" data-unit="918">
+<rect class="machine-rect" x="1462.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">918</text>
+</g>
+<g id="unit-927" class="machine" data-unit="927">
+<rect class="machine-rect" x="1530.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">927</text>
+</g>
+<g id="unit-946" class="machine" data-unit="946">
+<rect class="machine-rect" x="1632.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">946</text>
+</g>
+<g id="unit-955" class="machine" data-unit="955">
+<rect class="machine-rect" x="1700.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">955</text>
+</g>
+<g id="unit-978" class="machine" data-unit="978">
+<rect class="machine-rect" x="1802.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">978</text>
+</g>
+<g id="unit-985" class="machine" data-unit="985">
+<rect class="machine-rect" x="1870.0" y="88.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="99.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">985</text>
+</g>
+<g id="unit-589" class="machine" data-unit="589">
+<rect class="machine-rect" x="0.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">589</text>
+</g>
+<g id="unit-600" class="machine" data-unit="600">
+<rect class="machine-rect" x="68.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">600</text>
+</g>
+<g id="unit-711" class="machine" data-unit="711">
+<rect class="machine-rect" x="272.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">711</text>
+</g>
+<g id="unit-720" class="machine" data-unit="720">
+<rect class="machine-rect" x="340.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">720</text>
+</g>
+<g id="unit-733" class="machine" data-unit="733">
+<rect class="machine-rect" x="442.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">733</text>
+</g>
+<g id="unit-744" class="machine" data-unit="744">
+<rect class="machine-rect" x="510.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">744</text>
+</g>
+<g id="unit-769" class="machine" data-unit="769">
+<rect class="machine-rect" x="612.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">769</text>
+</g>
+<g id="unit-780" class="machine" data-unit="780">
+<rect class="machine-rect" x="680.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">780</text>
+</g>
+<g id="unit-797" class="machine" data-unit="797">
+<rect class="machine-rect" x="782.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">797</text>
+</g>
+<g id="unit-808" class="machine" data-unit="808">
+<rect class="machine-rect" x="850.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">808</text>
+</g>
+<g id="unit-829" class="machine" data-unit="829">
+<rect class="machine-rect" x="952.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">829</text>
+</g>
+<g id="unit-840" class="machine" data-unit="840">
+<rect class="machine-rect" x="1020.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">840</text>
+</g>
+<g id="unit-857" class="machine" data-unit="857">
+<rect class="machine-rect" x="1122.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">857</text>
+</g>
+<g id="unit-868" class="machine" data-unit="868">
+<rect class="machine-rect" x="1190.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">868</text>
+</g>
+<g id="unit-889" class="machine" data-unit="889">
+<rect class="machine-rect" x="1292.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">889</text>
+</g>
+<g id="unit-900" class="machine" data-unit="900">
+<rect class="machine-rect" x="1360.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">900</text>
+</g>
+<g id="unit-917" class="machine" data-unit="917">
+<rect class="machine-rect" x="1462.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">917</text>
+</g>
+<g id="unit-928" class="machine" data-unit="928">
+<rect class="machine-rect" x="1530.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">928</text>
+</g>
+<g id="unit-945" class="machine" data-unit="945">
+<rect class="machine-rect" x="1632.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">945</text>
+</g>
+<g id="unit-956" class="machine" data-unit="956">
+<rect class="machine-rect" x="1700.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">956</text>
+</g>
+<g id="unit-977" class="machine" data-unit="977">
+<rect class="machine-rect" x="1802.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">977</text>
+</g>
+<g id="unit-986" class="machine" data-unit="986">
+<rect class="machine-rect" x="1870.0" y="110.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="121.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">986</text>
+</g>
+<g id="unit-588" class="machine" data-unit="588">
+<rect class="machine-rect" x="0.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">588</text>
+</g>
+<g id="unit-601" class="machine" data-unit="601">
+<rect class="machine-rect" x="68.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">601</text>
+</g>
+<g id="unit-710" class="machine" data-unit="710">
+<rect class="machine-rect" x="272.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">710</text>
+</g>
+<g id="unit-721" class="machine" data-unit="721">
+<rect class="machine-rect" x="340.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">721</text>
+</g>
+<g id="unit-732" class="machine" data-unit="732">
+<rect class="machine-rect" x="442.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">732</text>
+</g>
+<g id="unit-745" class="machine" data-unit="745">
+<rect class="machine-rect" x="510.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">745</text>
+</g>
+<g id="unit-768" class="machine" data-unit="768">
+<rect class="machine-rect" x="612.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">768</text>
+</g>
+<g id="unit-781" class="machine" data-unit="781">
+<rect class="machine-rect" x="680.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">781</text>
+</g>
+<g id="unit-796" class="machine" data-unit="796">
+<rect class="machine-rect" x="782.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">796</text>
+</g>
+<g id="unit-809" class="machine" data-unit="809">
+<rect class="machine-rect" x="850.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">809</text>
+</g>
+<g id="unit-828" class="machine" data-unit="828">
+<rect class="machine-rect" x="952.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">828</text>
+</g>
+<g id="unit-841" class="machine" data-unit="841">
+<rect class="machine-rect" x="1020.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">841</text>
+</g>
+<g id="unit-856" class="machine" data-unit="856">
+<rect class="machine-rect" x="1122.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">856</text>
+</g>
+<g id="unit-869" class="machine" data-unit="869">
+<rect class="machine-rect" x="1190.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">869</text>
+</g>
+<g id="unit-888" class="machine" data-unit="888">
+<rect class="machine-rect" x="1292.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">888</text>
+</g>
+<g id="unit-901" class="machine" data-unit="901">
+<rect class="machine-rect" x="1360.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">901</text>
+</g>
+<g id="unit-916" class="machine" data-unit="916">
+<rect class="machine-rect" x="1462.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">916</text>
+</g>
+<g id="unit-929" class="machine" data-unit="929">
+<rect class="machine-rect" x="1530.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">929</text>
+</g>
+<g id="unit-944" class="machine" data-unit="944">
+<rect class="machine-rect" x="1632.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">944</text>
+</g>
+<g id="unit-957" class="machine" data-unit="957">
+<rect class="machine-rect" x="1700.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">957</text>
+</g>
+<g id="unit-976" class="machine" data-unit="976">
+<rect class="machine-rect" x="1802.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">976</text>
+</g>
+<g id="unit-987" class="machine" data-unit="987">
+<rect class="machine-rect" x="1870.0" y="132.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="143.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">987</text>
+</g>
+<g id="unit-587" class="machine" data-unit="587">
+<rect class="machine-rect" x="0.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">587</text>
+</g>
+<g id="unit-602" class="machine" data-unit="602">
+<rect class="machine-rect" x="68.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">602</text>
+</g>
+<g id="unit-709" class="machine" data-unit="709">
+<rect class="machine-rect" x="272.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">709</text>
+</g>
+<g id="unit-722" class="machine" data-unit="722">
+<rect class="machine-rect" x="340.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">722</text>
+</g>
+<g id="unit-731" class="machine" data-unit="731">
+<rect class="machine-rect" x="442.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">731</text>
+</g>
+<g id="unit-746" class="machine" data-unit="746">
+<rect class="machine-rect" x="510.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">746</text>
+</g>
+<g id="unit-767" class="machine" data-unit="767">
+<rect class="machine-rect" x="612.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">767</text>
+</g>
+<g id="unit-782" class="machine" data-unit="782">
+<rect class="machine-rect" x="680.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">782</text>
+</g>
+<g id="unit-795" class="machine" data-unit="795">
+<rect class="machine-rect" x="782.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">795</text>
+</g>
+<g id="unit-810" class="machine" data-unit="810">
+<rect class="machine-rect" x="850.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">810</text>
+</g>
+<g id="unit-827" class="machine" data-unit="827">
+<rect class="machine-rect" x="952.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">827</text>
+</g>
+<g id="unit-842" class="machine" data-unit="842">
+<rect class="machine-rect" x="1020.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">842</text>
+</g>
+<g id="unit-855" class="machine" data-unit="855">
+<rect class="machine-rect" x="1122.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">855</text>
+</g>
+<g id="unit-870" class="machine" data-unit="870">
+<rect class="machine-rect" x="1190.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">870</text>
+</g>
+<g id="unit-887" class="machine" data-unit="887">
+<rect class="machine-rect" x="1292.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">887</text>
+</g>
+<g id="unit-902" class="machine" data-unit="902">
+<rect class="machine-rect" x="1360.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">902</text>
+</g>
+<g id="unit-915" class="machine" data-unit="915">
+<rect class="machine-rect" x="1462.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">915</text>
+</g>
+<g id="unit-930" class="machine" data-unit="930">
+<rect class="machine-rect" x="1530.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">930</text>
+</g>
+<g id="unit-943" class="machine" data-unit="943">
+<rect class="machine-rect" x="1632.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">943</text>
+</g>
+<g id="unit-958" class="machine" data-unit="958">
+<rect class="machine-rect" x="1700.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">958</text>
+</g>
+<g id="unit-975" class="machine" data-unit="975">
+<rect class="machine-rect" x="1802.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">975</text>
+</g>
+<g id="unit-988" class="machine" data-unit="988">
+<rect class="machine-rect" x="1870.0" y="154.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="165.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">988</text>
+</g>
+<g id="unit-586" class="machine" data-unit="586">
+<rect class="machine-rect" x="0.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">586</text>
+</g>
+<g id="unit-603" class="machine" data-unit="603">
+<rect class="machine-rect" x="68.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">603</text>
+</g>
+<g id="unit-708" class="machine" data-unit="708">
+<rect class="machine-rect" x="272.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">708</text>
+</g>
+<g id="unit-723" class="machine" data-unit="723">
+<rect class="machine-rect" x="340.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">723</text>
+</g>
+<g id="unit-730" class="machine" data-unit="730">
+<rect class="machine-rect" x="442.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">730</text>
+</g>
+<g id="unit-747" class="machine" data-unit="747">
+<rect class="machine-rect" x="510.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">747</text>
+</g>
+<g id="unit-766" class="machine" data-unit="766">
+<rect class="machine-rect" x="612.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">766</text>
+</g>
+<g id="unit-783" class="machine" data-unit="783">
+<rect class="machine-rect" x="680.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">783</text>
+</g>
+<g id="unit-794" class="machine" data-unit="794">
+<rect class="machine-rect" x="782.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">794</text>
+</g>
+<g id="unit-811" class="machine" data-unit="811">
+<rect class="machine-rect" x="850.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">811</text>
+</g>
+<g id="unit-826" class="machine" data-unit="826">
+<rect class="machine-rect" x="952.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">826</text>
+</g>
+<g id="unit-843" class="machine" data-unit="843">
+<rect class="machine-rect" x="1020.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">843</text>
+</g>
+<g id="unit-854" class="machine" data-unit="854">
+<rect class="machine-rect" x="1122.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">854</text>
+</g>
+<g id="unit-871" class="machine" data-unit="871">
+<rect class="machine-rect" x="1190.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">871</text>
+</g>
+<g id="unit-886" class="machine" data-unit="886">
+<rect class="machine-rect" x="1292.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">886</text>
+</g>
+<g id="unit-903" class="machine" data-unit="903">
+<rect class="machine-rect" x="1360.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">903</text>
+</g>
+<g id="unit-914" class="machine" data-unit="914">
+<rect class="machine-rect" x="1462.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">914</text>
+</g>
+<g id="unit-931" class="machine" data-unit="931">
+<rect class="machine-rect" x="1530.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">931</text>
+</g>
+<g id="unit-942" class="machine" data-unit="942">
+<rect class="machine-rect" x="1632.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">942</text>
+</g>
+<g id="unit-959" class="machine" data-unit="959">
+<rect class="machine-rect" x="1700.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">959</text>
+</g>
+<g id="unit-974" class="machine" data-unit="974">
+<rect class="machine-rect" x="1802.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">974</text>
+</g>
+<g id="unit-989" class="machine" data-unit="989">
+<rect class="machine-rect" x="1870.0" y="176.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="187.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">989</text>
+</g>
+<g id="unit-585" class="machine" data-unit="585">
+<rect class="machine-rect" x="0.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">585</text>
+</g>
+<g id="unit-604" class="machine" data-unit="604">
+<rect class="machine-rect" x="68.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">604</text>
+</g>
+<g id="unit-707" class="machine" data-unit="707">
+<rect class="machine-rect" x="272.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">707</text>
+</g>
+<g id="unit-724" class="machine" data-unit="724">
+<rect class="machine-rect" x="340.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">724</text>
+</g>
+<g id="unit-729" class="machine" data-unit="729">
+<rect class="machine-rect" x="442.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="459.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">729</text>
+</g>
+<g id="unit-748" class="machine" data-unit="748">
+<rect class="machine-rect" x="510.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">748</text>
+</g>
+<g id="unit-765" class="machine" data-unit="765">
+<rect class="machine-rect" x="612.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">765</text>
+</g>
+<g id="unit-784" class="machine" data-unit="784">
+<rect class="machine-rect" x="680.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">784</text>
+</g>
+<g id="unit-793" class="machine" data-unit="793">
+<rect class="machine-rect" x="782.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">793</text>
+</g>
+<g id="unit-812" class="machine" data-unit="812">
+<rect class="machine-rect" x="850.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">812</text>
+</g>
+<g id="unit-825" class="machine" data-unit="825">
+<rect class="machine-rect" x="952.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">825</text>
+</g>
+<g id="unit-844" class="machine" data-unit="844">
+<rect class="machine-rect" x="1020.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">844</text>
+</g>
+<g id="unit-853" class="machine" data-unit="853">
+<rect class="machine-rect" x="1122.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">853</text>
+</g>
+<g id="unit-872" class="machine" data-unit="872">
+<rect class="machine-rect" x="1190.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">872</text>
+</g>
+<g id="unit-885" class="machine" data-unit="885">
+<rect class="machine-rect" x="1292.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">885</text>
+</g>
+<g id="unit-904" class="machine" data-unit="904">
+<rect class="machine-rect" x="1360.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">904</text>
+</g>
+<g id="unit-913" class="machine" data-unit="913">
+<rect class="machine-rect" x="1462.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">913</text>
+</g>
+<g id="unit-932" class="machine" data-unit="932">
+<rect class="machine-rect" x="1530.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">932</text>
+</g>
+<g id="unit-941" class="machine" data-unit="941">
+<rect class="machine-rect" x="1632.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">941</text>
+</g>
+<g id="unit-960" class="machine" data-unit="960">
+<rect class="machine-rect" x="1700.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">960</text>
+</g>
+<g id="unit-973" class="machine" data-unit="973">
+<rect class="machine-rect" x="1802.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">973</text>
+</g>
+<g id="unit-990" class="machine" data-unit="990">
+<rect class="machine-rect" x="1870.0" y="198.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="209.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">990</text>
+</g>
+<g id="unit-584" class="machine" data-unit="584">
+<rect class="machine-rect" x="0.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">584</text>
+</g>
+<g id="unit-605" class="machine" data-unit="605">
+<rect class="machine-rect" x="68.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">605</text>
+</g>
+<g id="unit-706" class="machine" data-unit="706">
+<rect class="machine-rect" x="272.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">706</text>
+</g>
+<g id="unit-725" class="machine" data-unit="725">
+<rect class="machine-rect" x="340.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">725</text>
+</g>
+<g id="unit-749" class="machine" data-unit="749">
+<rect class="machine-rect" x="510.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">749</text>
+</g>
+<g id="unit-764" class="machine" data-unit="764">
+<rect class="machine-rect" x="612.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">764</text>
+</g>
+<g id="unit-785" class="machine" data-unit="785">
+<rect class="machine-rect" x="680.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">785</text>
+</g>
+<g id="unit-792" class="machine" data-unit="792">
+<rect class="machine-rect" x="782.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">792</text>
+</g>
+<g id="unit-813" class="machine" data-unit="813">
+<rect class="machine-rect" x="850.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">813</text>
+</g>
+<g id="unit-824" class="machine" data-unit="824">
+<rect class="machine-rect" x="952.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">824</text>
+</g>
+<g id="unit-845" class="machine" data-unit="845">
+<rect class="machine-rect" x="1020.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">845</text>
+</g>
+<g id="unit-852" class="machine" data-unit="852">
+<rect class="machine-rect" x="1122.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">852</text>
+</g>
+<g id="unit-873" class="machine" data-unit="873">
+<rect class="machine-rect" x="1190.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">873</text>
+</g>
+<g id="unit-884" class="machine" data-unit="884">
+<rect class="machine-rect" x="1292.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">884</text>
+</g>
+<g id="unit-905" class="machine" data-unit="905">
+<rect class="machine-rect" x="1360.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">905</text>
+</g>
+<g id="unit-912" class="machine" data-unit="912">
+<rect class="machine-rect" x="1462.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">912</text>
+</g>
+<g id="unit-933" class="machine" data-unit="933">
+<rect class="machine-rect" x="1530.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">933</text>
+</g>
+<g id="unit-940" class="machine" data-unit="940">
+<rect class="machine-rect" x="1632.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">940</text>
+</g>
+<g id="unit-961" class="machine" data-unit="961">
+<rect class="machine-rect" x="1700.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">961</text>
+</g>
+<g id="unit-972" class="machine" data-unit="972">
+<rect class="machine-rect" x="1802.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">972</text>
+</g>
+<g id="unit-991" class="machine" data-unit="991">
+<rect class="machine-rect" x="1870.0" y="220.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="231.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">991</text>
+</g>
+<g id="unit-583" class="machine" data-unit="583">
+<rect class="machine-rect" x="0.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">583</text>
+</g>
+<g id="unit-606" class="machine" data-unit="606">
+<rect class="machine-rect" x="68.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">606</text>
+</g>
+<g id="unit-705" class="machine" data-unit="705">
+<rect class="machine-rect" x="272.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">705</text>
+</g>
+<g id="unit-726" class="machine" data-unit="726">
+<rect class="machine-rect" x="340.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">726</text>
+</g>
+<g id="unit-750" class="machine" data-unit="750">
+<rect class="machine-rect" x="510.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">750</text>
+</g>
+<g id="unit-763" class="machine" data-unit="763">
+<rect class="machine-rect" x="612.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">763</text>
+</g>
+<g id="unit-786" class="machine" data-unit="786">
+<rect class="machine-rect" x="680.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">786</text>
+</g>
+<g id="unit-791" class="machine" data-unit="791">
+<rect class="machine-rect" x="782.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">791</text>
+</g>
+<g id="unit-814" class="machine" data-unit="814">
+<rect class="machine-rect" x="850.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">814</text>
+</g>
+<g id="unit-823" class="machine" data-unit="823">
+<rect class="machine-rect" x="952.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">823</text>
+</g>
+<g id="unit-846" class="machine" data-unit="846">
+<rect class="machine-rect" x="1020.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">846</text>
+</g>
+<g id="unit-851" class="machine" data-unit="851">
+<rect class="machine-rect" x="1122.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">851</text>
+</g>
+<g id="unit-874" class="machine" data-unit="874">
+<rect class="machine-rect" x="1190.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">874</text>
+</g>
+<g id="unit-883" class="machine" data-unit="883">
+<rect class="machine-rect" x="1292.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">883</text>
+</g>
+<g id="unit-906" class="machine" data-unit="906">
+<rect class="machine-rect" x="1360.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">906</text>
+</g>
+<g id="unit-911" class="machine" data-unit="911">
+<rect class="machine-rect" x="1462.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">911</text>
+</g>
+<g id="unit-934" class="machine" data-unit="934">
+<rect class="machine-rect" x="1530.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">934</text>
+</g>
+<g id="unit-939" class="machine" data-unit="939">
+<rect class="machine-rect" x="1632.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">939</text>
+</g>
+<g id="unit-962" class="machine" data-unit="962">
+<rect class="machine-rect" x="1700.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">962</text>
+</g>
+<g id="unit-971" class="machine" data-unit="971">
+<rect class="machine-rect" x="1802.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">971</text>
+</g>
+<g id="unit-992" class="machine" data-unit="992">
+<rect class="machine-rect" x="1870.0" y="242.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="253.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">992</text>
+</g>
+<g id="unit-582" class="machine" data-unit="582">
+<rect class="machine-rect" x="0.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">582</text>
+</g>
+<g id="unit-607" class="machine" data-unit="607">
+<rect class="machine-rect" x="68.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">607</text>
+</g>
+<g id="unit-704" class="machine" data-unit="704">
+<rect class="machine-rect" x="272.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">704</text>
+</g>
+<g id="unit-727" class="machine" data-unit="727">
+<rect class="machine-rect" x="340.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">727</text>
+</g>
+<g id="unit-751" class="machine" data-unit="751">
+<rect class="machine-rect" x="510.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">751</text>
+</g>
+<g id="unit-762" class="machine" data-unit="762">
+<rect class="machine-rect" x="612.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">762</text>
+</g>
+<g id="unit-787" class="machine" data-unit="787">
+<rect class="machine-rect" x="680.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">787</text>
+</g>
+<g id="unit-790" class="machine" data-unit="790">
+<rect class="machine-rect" x="782.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">790</text>
+</g>
+<g id="unit-815" class="machine" data-unit="815">
+<rect class="machine-rect" x="850.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">815</text>
+</g>
+<g id="unit-822" class="machine" data-unit="822">
+<rect class="machine-rect" x="952.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">822</text>
+</g>
+<g id="unit-847" class="machine" data-unit="847">
+<rect class="machine-rect" x="1020.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">847</text>
+</g>
+<g id="unit-850" class="machine" data-unit="850">
+<rect class="machine-rect" x="1122.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">850</text>
+</g>
+<g id="unit-875" class="machine" data-unit="875">
+<rect class="machine-rect" x="1190.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">875</text>
+</g>
+<g id="unit-882" class="machine" data-unit="882">
+<rect class="machine-rect" x="1292.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">882</text>
+</g>
+<g id="unit-907" class="machine" data-unit="907">
+<rect class="machine-rect" x="1360.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">907</text>
+</g>
+<g id="unit-910" class="machine" data-unit="910">
+<rect class="machine-rect" x="1462.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">910</text>
+</g>
+<g id="unit-935" class="machine" data-unit="935">
+<rect class="machine-rect" x="1530.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">935</text>
+</g>
+<g id="unit-938" class="machine" data-unit="938">
+<rect class="machine-rect" x="1632.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">938</text>
+</g>
+<g id="unit-963" class="machine" data-unit="963">
+<rect class="machine-rect" x="1700.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">963</text>
+</g>
+<g id="unit-970" class="machine" data-unit="970">
+<rect class="machine-rect" x="1802.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">970</text>
+</g>
+<g id="unit-993" class="machine" data-unit="993">
+<rect class="machine-rect" x="1870.0" y="264.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="275.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">993</text>
+</g>
+<g id="unit-581" class="machine" data-unit="581">
+<rect class="machine-rect" x="0.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">581</text>
+</g>
+<g id="unit-608" class="machine" data-unit="608">
+<rect class="machine-rect" x="68.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">608</text>
+</g>
+<g id="unit-703" class="machine" data-unit="703">
+<rect class="machine-rect" x="272.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">703</text>
+</g>
+<g id="unit-728" class="machine" data-unit="728">
+<rect class="machine-rect" x="340.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="357.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">728</text>
+</g>
+<g id="unit-752" class="machine" data-unit="752">
+<rect class="machine-rect" x="510.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">752</text>
+</g>
+<g id="unit-761" class="machine" data-unit="761">
+<rect class="machine-rect" x="612.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">761</text>
+</g>
+<g id="unit-788" class="machine" data-unit="788">
+<rect class="machine-rect" x="680.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="697.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">788</text>
+</g>
+<g id="unit-789" class="machine" data-unit="789">
+<rect class="machine-rect" x="782.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="799.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">789</text>
+</g>
+<g id="unit-816" class="machine" data-unit="816">
+<rect class="machine-rect" x="850.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">816</text>
+</g>
+<g id="unit-821" class="machine" data-unit="821">
+<rect class="machine-rect" x="952.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">821</text>
+</g>
+<g id="unit-848" class="machine" data-unit="848">
+<rect class="machine-rect" x="1020.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1037.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">848</text>
+</g>
+<g id="unit-849" class="machine" data-unit="849">
+<rect class="machine-rect" x="1122.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1139.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">849</text>
+</g>
+<g id="unit-876" class="machine" data-unit="876">
+<rect class="machine-rect" x="1190.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">876</text>
+</g>
+<g id="unit-881" class="machine" data-unit="881">
+<rect class="machine-rect" x="1292.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">881</text>
+</g>
+<g id="unit-908" class="machine" data-unit="908">
+<rect class="machine-rect" x="1360.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">908</text>
+</g>
+<g id="unit-909" class="machine" data-unit="909">
+<rect class="machine-rect" x="1462.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">909</text>
+</g>
+<g id="unit-936" class="machine" data-unit="936">
+<rect class="machine-rect" x="1530.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">936</text>
+</g>
+<g id="unit-937" class="machine" data-unit="937">
+<rect class="machine-rect" x="1632.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">937</text>
+</g>
+<g id="unit-964" class="machine" data-unit="964">
+<rect class="machine-rect" x="1700.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">964</text>
+</g>
+<g id="unit-969" class="machine" data-unit="969">
+<rect class="machine-rect" x="1802.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">969</text>
+</g>
+<g id="unit-994" class="machine" data-unit="994">
+<rect class="machine-rect" x="1870.0" y="286.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="297.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">994</text>
+</g>
+<g id="unit-580" class="machine" data-unit="580">
+<rect class="machine-rect" x="0.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">580</text>
+</g>
+<g id="unit-609" class="machine" data-unit="609">
+<rect class="machine-rect" x="68.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">609</text>
+</g>
+<g id="unit-702" class="machine" data-unit="702">
+<rect class="machine-rect" x="272.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">702</text>
+</g>
+<g id="unit-753" class="machine" data-unit="753">
+<rect class="machine-rect" x="510.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">753</text>
+</g>
+<g id="unit-760" class="machine" data-unit="760">
+<rect class="machine-rect" x="612.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">760</text>
+</g>
+<g id="unit-817" class="machine" data-unit="817">
+<rect class="machine-rect" x="850.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">817</text>
+</g>
+<g id="unit-820" class="machine" data-unit="820">
+<rect class="machine-rect" x="952.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">820</text>
+</g>
+<g id="unit-877" class="machine" data-unit="877">
+<rect class="machine-rect" x="1190.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">877</text>
+</g>
+<g id="unit-880" class="machine" data-unit="880">
+<rect class="machine-rect" x="1292.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">880</text>
+</g>
+<g id="unit-965" class="machine" data-unit="965">
+<rect class="machine-rect" x="1700.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">965</text>
+</g>
+<g id="unit-968" class="machine" data-unit="968">
+<rect class="machine-rect" x="1802.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">968</text>
+</g>
+<g id="unit-995" class="machine" data-unit="995">
+<rect class="machine-rect" x="1870.0" y="308.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="319.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">995</text>
+</g>
+<g id="unit-579" class="machine" data-unit="579">
+<rect class="machine-rect" x="0.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">579</text>
+</g>
+<g id="unit-610" class="machine" data-unit="610">
+<rect class="machine-rect" x="68.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">610</text>
+</g>
+<g id="unit-701" class="machine" data-unit="701">
+<rect class="machine-rect" x="272.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="289.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">701</text>
+</g>
+<g id="unit-754" class="machine" data-unit="754">
+<rect class="machine-rect" x="510.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">754</text>
+</g>
+<g id="unit-759" class="machine" data-unit="759">
+<rect class="machine-rect" x="612.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="629.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">759</text>
+</g>
+<g id="unit-818" class="machine" data-unit="818">
+<rect class="machine-rect" x="850.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="867.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">818</text>
+</g>
+<g id="unit-819" class="machine" data-unit="819">
+<rect class="machine-rect" x="952.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="969.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">819</text>
+</g>
+<g id="unit-878" class="machine" data-unit="878">
+<rect class="machine-rect" x="1190.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">878</text>
+</g>
+<g id="unit-879" class="machine" data-unit="879">
+<rect class="machine-rect" x="1292.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">879</text>
+</g>
+<g id="unit-966" class="machine" data-unit="966">
+<rect class="machine-rect" x="1700.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">966</text>
+</g>
+<g id="unit-967" class="machine" data-unit="967">
+<rect class="machine-rect" x="1802.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">967</text>
+</g>
+<g id="unit-996" class="machine" data-unit="996">
+<rect class="machine-rect" x="1870.0" y="330.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="341.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">996</text>
+</g>
+<g id="unit-578" class="machine" data-unit="578">
+<rect class="machine-rect" x="0.0" y="352.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="363.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">578</text>
+</g>
+<g id="unit-611" class="machine" data-unit="611">
+<rect class="machine-rect" x="68.0" y="352.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="363.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">611</text>
+</g>
+<g id="unit-755" class="machine" data-unit="755">
+<rect class="machine-rect" x="510.0" y="352.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="363.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">755</text>
+</g>
+<g id="unit-577" class="machine" data-unit="577">
+<rect class="machine-rect" x="0.0" y="374.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="385.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">577</text>
+</g>
+<g id="unit-612" class="machine" data-unit="612">
+<rect class="machine-rect" x="68.0" y="374.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="385.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">612</text>
+</g>
+<g id="unit-756" class="machine" data-unit="756">
+<rect class="machine-rect" x="510.0" y="374.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="385.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">756</text>
+</g>
+<g id="unit-757" class="machine" data-unit="757">
+<rect class="machine-rect" x="510.0" y="396.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="407.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">757</text>
+</g>
+<g id="unit-758" class="machine" data-unit="758">
+<rect class="machine-rect" x="510.0" y="418.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="527.0" y="429.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">758</text>
+</g>
+<g id="unit-324" class="machine" data-unit="324">
+<rect class="machine-rect" x="0.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">324</text>
+</g>
+<g id="unit-325" class="machine" data-unit="325">
+<rect class="machine-rect" x="68.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">325</text>
+</g>
+<g id="unit-1018" class="machine" data-unit="1018">
+<rect class="machine-rect" x="1190.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1207.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1018</text>
+</g>
+<g id="unit-1017" class="machine" data-unit="1017">
+<rect class="machine-rect" x="1224.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1241.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1017</text>
+</g>
+<g id="unit-1016" class="machine" data-unit="1016">
+<rect class="machine-rect" x="1258.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1275.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1016</text>
+</g>
+<g id="unit-1015" class="machine" data-unit="1015">
+<rect class="machine-rect" x="1292.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1309.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1015</text>
+</g>
+<g id="unit-1014" class="machine" data-unit="1014">
+<rect class="machine-rect" x="1326.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1343.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1014</text>
+</g>
+<g id="unit-1013" class="machine" data-unit="1013">
+<rect class="machine-rect" x="1360.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1377.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1013</text>
+</g>
+<g id="unit-1012" class="machine" data-unit="1012">
+<rect class="machine-rect" x="1394.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1411.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1012</text>
+</g>
+<g id="unit-1011" class="machine" data-unit="1011">
+<rect class="machine-rect" x="1428.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1445.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1011</text>
+</g>
+<g id="unit-1010" class="machine" data-unit="1010">
+<rect class="machine-rect" x="1462.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1479.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1010</text>
+</g>
+<g id="unit-1009" class="machine" data-unit="1009">
+<rect class="machine-rect" x="1496.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1513.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1009</text>
+</g>
+<g id="unit-1008" class="machine" data-unit="1008">
+<rect class="machine-rect" x="1530.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1547.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1008</text>
+</g>
+<g id="unit-1007" class="machine" data-unit="1007">
+<rect class="machine-rect" x="1564.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1581.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1007</text>
+</g>
+<g id="unit-1006" class="machine" data-unit="1006">
+<rect class="machine-rect" x="1598.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1615.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1006</text>
+</g>
+<g id="unit-1005" class="machine" data-unit="1005">
+<rect class="machine-rect" x="1632.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1649.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1005</text>
+</g>
+<g id="unit-1004" class="machine" data-unit="1004">
+<rect class="machine-rect" x="1666.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1683.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1004</text>
+</g>
+<g id="unit-1003" class="machine" data-unit="1003">
+<rect class="machine-rect" x="1700.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1717.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1003</text>
+</g>
+<g id="unit-1002" class="machine" data-unit="1002">
+<rect class="machine-rect" x="1734.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1751.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1002</text>
+</g>
+<g id="unit-1001" class="machine" data-unit="1001">
+<rect class="machine-rect" x="1768.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1785.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1001</text>
+</g>
+<g id="unit-1000" class="machine" data-unit="1000">
+<rect class="machine-rect" x="1802.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1819.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">1000</text>
+</g>
+<g id="unit-999" class="machine" data-unit="999">
+<rect class="machine-rect" x="1836.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1853.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">999</text>
+</g>
+<g id="unit-998" class="machine" data-unit="998">
+<rect class="machine-rect" x="1870.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1887.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">998</text>
+</g>
+<g id="unit-997" class="machine" data-unit="997">
+<rect class="machine-rect" x="1904.0" y="528.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="1921.0" y="539.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">997</text>
+</g>
+<g id="unit-323" class="machine" data-unit="323">
+<rect class="machine-rect" x="0.0" y="550.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="561.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">323</text>
+</g>
+<g id="unit-326" class="machine" data-unit="326">
+<rect class="machine-rect" x="68.0" y="550.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="561.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">326</text>
+</g>
+<g id="unit-322" class="machine" data-unit="322">
+<rect class="machine-rect" x="0.0" y="572.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="583.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">322</text>
+</g>
+<g id="unit-327" class="machine" data-unit="327">
+<rect class="machine-rect" x="68.0" y="572.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="583.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">327</text>
+</g>
+<g id="unit-321" class="machine" data-unit="321">
+<rect class="machine-rect" x="0.0" y="594.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="605.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">321</text>
+</g>
+<g id="unit-328" class="machine" data-unit="328">
+<rect class="machine-rect" x="68.0" y="594.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="605.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">328</text>
+</g>
+<g id="unit-320" class="machine" data-unit="320">
+<rect class="machine-rect" x="0.0" y="616.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="627.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">320</text>
+</g>
+<g id="unit-329" class="machine" data-unit="329">
+<rect class="machine-rect" x="68.0" y="616.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="627.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">329</text>
+</g>
+<g id="unit-319" class="machine" data-unit="319">
+<rect class="machine-rect" x="0.0" y="638.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="649.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">319</text>
+</g>
+<g id="unit-330" class="machine" data-unit="330">
+<rect class="machine-rect" x="68.0" y="638.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="649.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">330</text>
+</g>
+<g id="unit-318" class="machine" data-unit="318">
+<rect class="machine-rect" x="0.0" y="660.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="671.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">318</text>
+</g>
+<g id="unit-331" class="machine" data-unit="331">
+<rect class="machine-rect" x="68.0" y="660.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="671.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">331</text>
+</g>
+<g id="unit-317" class="machine" data-unit="317">
+<rect class="machine-rect" x="0.0" y="682.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="693.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">317</text>
+</g>
+<g id="unit-332" class="machine" data-unit="332">
+<rect class="machine-rect" x="68.0" y="682.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="693.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">332</text>
+</g>
+<g id="unit-316" class="machine" data-unit="316">
+<rect class="machine-rect" x="0.0" y="704.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="715.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">316</text>
+</g>
+<g id="unit-333" class="machine" data-unit="333">
+<rect class="machine-rect" x="68.0" y="704.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="715.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">333</text>
+</g>
+<g id="unit-315" class="machine" data-unit="315">
+<rect class="machine-rect" x="0.0" y="726.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="737.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">315</text>
+</g>
+<g id="unit-334" class="machine" data-unit="334">
+<rect class="machine-rect" x="68.0" y="726.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="737.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">334</text>
+</g>
+<g id="unit-314" class="machine" data-unit="314">
+<rect class="machine-rect" x="0.0" y="748.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="759.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">314</text>
+</g>
+<g id="unit-335" class="machine" data-unit="335">
+<rect class="machine-rect" x="68.0" y="748.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="759.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">335</text>
+</g>
+<g id="unit-313" class="machine" data-unit="313">
+<rect class="machine-rect" x="0.0" y="770.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="781.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">313</text>
+</g>
+<g id="unit-336" class="machine" data-unit="336">
+<rect class="machine-rect" x="68.0" y="770.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="781.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">336</text>
+</g>
+<g id="unit-312" class="machine" data-unit="312">
+<rect class="machine-rect" x="0.0" y="792.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="803.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">312</text>
+</g>
+<g id="unit-337" class="machine" data-unit="337">
+<rect class="machine-rect" x="68.0" y="792.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="803.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">337</text>
+</g>
+<g id="unit-311" class="machine" data-unit="311">
+<rect class="machine-rect" x="0.0" y="814.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="825.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">311</text>
+</g>
+<g id="unit-338" class="machine" data-unit="338">
+<rect class="machine-rect" x="68.0" y="814.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="825.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">338</text>
+</g>
+<g id="unit-310" class="machine" data-unit="310">
+<rect class="machine-rect" x="0.0" y="836.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="847.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">310</text>
+</g>
+<g id="unit-339" class="machine" data-unit="339">
+<rect class="machine-rect" x="68.0" y="836.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="847.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">339</text>
+</g>
+<g id="unit-309" class="machine" data-unit="309">
+<rect class="machine-rect" x="0.0" y="858.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="869.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">309</text>
+</g>
+<g id="unit-340" class="machine" data-unit="340">
+<rect class="machine-rect" x="68.0" y="858.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="869.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">340</text>
+</g>
+<g id="unit-308" class="machine" data-unit="308">
+<rect class="machine-rect" x="0.0" y="880.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="891.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">308</text>
+</g>
+<g id="unit-341" class="machine" data-unit="341">
+<rect class="machine-rect" x="68.0" y="880.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="891.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">341</text>
+</g>
+<g id="unit-307" class="machine" data-unit="307">
+<rect class="machine-rect" x="0.0" y="902.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="17.0" y="913.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">307</text>
+</g>
+<g id="unit-342" class="machine" data-unit="342">
+<rect class="machine-rect" x="68.0" y="902.0" width="34.0" height="22.0" stroke="#1c2433" stroke-width="1.2" />
+<text class="machine-text" x="85.0" y="913.0" font-size="10.0" text-anchor="middle" dominant-baseline="central">342</text>
+</g>
+</svg>

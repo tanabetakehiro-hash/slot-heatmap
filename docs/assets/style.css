@@ -100,3 +100,17 @@ td.wrap { white-space: normal; }
   text-align: center;
   font-size: 12px;
 }
+
+/* ===== フロアマップ ===== */
+.floormapWrap{
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #0f1522;
+  overflow: auto;
+  padding: 10px;
+}
+.floormap svg{
+  display: block;
+  width: max-content;   /* 横に長いのでスクロール前提 */
+  height: auto;
+}

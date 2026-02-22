@@ -16,7 +16,7 @@
   <header class="header">
     <div class="header__inner">
       <h1>slot-heatmap</h1>
-      <p class="muted">収集データから「ヒートマップ / ランキング / 簡易予測（移動平均）」を表示</p>
+      <p class="muted">収集データから「ヒートマップ / ランキング / フロアマップ / 台詳細 / 簡易予測」を表示</p>
     </div>
   </header>
 
@@ -44,13 +44,13 @@
             <option value="diff_medals">差枚</option>
             <option value="bb_rb_sum">BB+RB</option>
           </select>
-          <div class="muted small">※ ヒートマップとランキングが同じ指標で切り替わります</div>
+          <div class="muted small">※ ヒートマップ/ランキング/フロアマップが同じ指標で切り替わります</div>
         </div>
 
         <div class="col">
           <label class="label" for="unitSearch">台番号検索（部分一致）</label>
           <input id="unitSearch" type="text" inputmode="numeric" placeholder="例：0729 / 729 / 07" />
-          <div class="muted small">※ 入力すると、ヒートマップ・ランキング・予測がその台番号だけに絞られます</div>
+          <div class="muted small">※ 入力すると、表示が絞り込まれます</div>
         </div>
 
         <div class="col">
@@ -72,6 +72,19 @@
       <h2 id="heatmapTitle">ヒートマップ（最大持玉）</h2>
       <div id="heatmap" class="plot"></div>
       <p class="muted small">セルをクリックすると、その日のランキングに切り替わります。</p>
+    </section>
+
+    <!-- ★ フロアマップ（SVG） -->
+    <section class="card">
+      <h2 id="floormapTitle">フロアマップ（同指標）</h2>
+      <div id="floormapStats" class="muted small"></div>
+      <div class="floormapWrap">
+        <div id="floormap" class="floormap"></div>
+      </div>
+      <p class="muted small">
+        ・台番号をタップで「台詳細」へ。<br>
+        ・色は選択中の指標（最大持玉/差枚/BB+RB）で塗ります。
+      </p>
     </section>
 
     <section class="card">
@@ -121,7 +134,6 @@
 
   <script src="assets/app.js"></script>
 
-  <!-- ★ Service Worker 登録 -->
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
