@@ -23,6 +23,7 @@
           <label class="label" for="dateSelect">表示日</label>
           <select id="dateSelect"></select>
         </div>
+
         <div class="col">
           <label class="label" for="daysSelect">ヒートマップ日数</label>
           <select id="daysSelect">
@@ -31,10 +32,17 @@
             <option value="60">60日</option>
           </select>
         </div>
+
+        <div class="col">
+          <label class="label" for="unitSearch">台番号検索（部分一致）</label>
+          <input id="unitSearch" type="text" inputmode="numeric" placeholder="例：0729 / 729 / 07" />
+          <div class="muted small">※ 入力すると、ヒートマップ・ランキング・予測がその台番号だけに絞られます</div>
+        </div>
       </div>
 
       <div class="meta">
         <span id="updatedAt" class="muted"></span>
+        <span id="filterStatus" class="muted"></span>
       </div>
     </section>
 
@@ -42,7 +50,7 @@
       <h2>ヒートマップ（最大持玉）</h2>
       <div id="heatmap" class="plot"></div>
       <p class="muted small">
-        セルをクリックすると、その日のランキングに切り替えます。
+        セルをクリックすると、その日のランキングに切り替わります。
       </p>
     </section>
 

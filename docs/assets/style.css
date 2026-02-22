@@ -50,16 +50,23 @@ h2 { margin: 0 0 10px 0; font-size: 16px; }
 .col { min-width: 220px; flex: 1; }
 
 .label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-select {
+select, input[type="text"] {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid var(--border);
   background: #0f1522;
   color: var(--text);
+  outline: none;
+}
+input[type="text"]::placeholder {
+  color: #6f84aa;
+}
+input[type="text"]:focus, select:focus {
+  border-color: #3c5585;
 }
 
-.meta { margin-top: 8px; }
+.meta { margin-top: 8px; display: flex; gap: 10px; flex-wrap: wrap; }
 .muted { color: var(--muted); }
 .small { font-size: 12px; }
 
