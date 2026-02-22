@@ -5,6 +5,7 @@ const els = {
   dateSelect: document.getElementById("dateSelect"),
   daysSelect: document.getElementById("daysSelect"),
   unitSearch: document.getElementById("unitSearch"),
+  modelSelect: document.getElementById("modelSelect"),
   updatedAt: document.getElementById("updatedAt"),
   filterStatus: document.getElementById("filterStatus"),
   rankingTbody: document.querySelector("#rankingTable tbody"),
@@ -19,6 +20,7 @@ const state = {
   currentDate: null,
   heatmapDays: 30,
   unitFilter: "",
+  modelFilter: "__ALL__", // "__ALL__" = 全機種
   dailyRows: [],
 };
 
@@ -39,38 +41,86 @@ function setOptions(selectEl, values, selectedValue) {
   selectEl.innerHTML = "";
   for (const v of values) {
     const opt = document.createElement("option");
-    opt.value = v;
-    opt.textContent = v;
-    if (v === selectedValue) opt.selected = true;
+    opt.value = v.value;
+    opt.textContent = v.label;
+    if (v.value === selectedValue) opt.selected = true;
     selectEl.appendChild(opt);
   }
 }
 
 function normalizeFilter(s) {
   if (!s) return "";
-  // 数字以外も一応許すが、空白は除去
   return String(s).trim();
 }
 
-function filterByUnitNo(rows, filter) {
-  const f = normalizeFilter(filter);
-  if (!f) return rows;
-  return rows.filter(r => String(r.unit_no ?? "").includes(f));
+function buildUnitToModelMap(rows) {
+  const m = new Map();
+  for (const r of rows || []) {
+    const u = String(r.unit_no ?? "");
+    const model = String(r.model_name ?? "");
+    if (u && model) m.set(u, model);
+  }
+  return m;
+}
+
+function passesFiltersUnit(unitNo, unitFilter) {
+  const f = normalizeFilter(unitFilter);
+  if (!f) return true;
+  return String(unitNo ?? "").includes(f);
+}
+
+function passesFiltersModel(unitNo, modelFilter, unitToModel) {
+  if (!modelFilter || modelFilter === "__ALL__") return true;
+  const model = unitToModel.get(String(unitNo ?? ""));
+  return model === modelFilter;
+}
+
+function filterRows(rows) {
+  const unitToModel = buildUnitToModelMap(state.dailyRows);
+  const out = [];
+  for (const r of rows || []) {
+    if (!passesFiltersUnit(r.unit_no, state.unitFilter)) continue;
+    if (!passesFiltersModel(r.unit_no, state.modelFilter, unitToModel)) continue;
+    out.push(r);
+  }
+  return out;
 }
 
 function setFilterStatus() {
-  const f = normalizeFilter(state.unitFilter);
-  if (!f) {
-    els.filterStatus.textContent = "";
-    return;
+  const parts = [];
+  const uf = normalizeFilter(state.unitFilter);
+  if (uf) parts.push(`台番号=${uf}`);
+  if (state.modelFilter && state.modelFilter !== "__ALL__") parts.push(`機種=${state.modelFilter}`);
+
+  els.filterStatus.textContent = parts.length ? `｜フィルタ：${parts.join(" / ")}` : "";
+}
+
+function updateModelOptionsFromDaily() {
+  const prev = els.modelSelect.value || "__ALL__";
+
+  const models = new Set();
+  for (const r of state.dailyRows || []) {
+    const name = String(r.model_name ?? "").trim();
+    if (name) models.add(name);
   }
-  els.filterStatus.textContent = `｜フィルタ：${f}`;
+  const sorted = Array.from(models).sort((a, b) => a.localeCompare(b, "ja"));
+
+  const options = [
+    { value: "__ALL__", label: "全機種" },
+    ...sorted.map(x => ({ value: x, label: x })),
+  ];
+
+  // 前の選択が残っていれば維持、なければ全機種
+  const nextValue = options.some(o => o.value === prev) ? prev : "__ALL__";
+  setOptions(els.modelSelect, options, nextValue);
+
+  state.modelFilter = nextValue;
+  setFilterStatus();
 }
 
 function renderRanking(rows) {
-  const filtered = filterByUnitNo(rows, state.unitFilter);
+  const filtered = filterRows(rows);
 
-  // 最大持玉 desc
   const sorted = [...filtered].sort((a, b) => {
     const av = (a.max_payout ?? -999999);
     const bv = (b.max_payout ?? -999999);
@@ -80,7 +130,7 @@ function renderRanking(rows) {
   els.rankingTbody.innerHTML = "";
   if (sorted.length === 0) {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td colspan="8" class="muted">該当する台番号がありません</td>`;
+    tr.innerHTML = `<td colspan="8" class="muted">該当する台がありません（フィルタ条件を確認）</td>`;
     els.rankingTbody.appendChild(tr);
     return;
   }
@@ -103,8 +153,6 @@ function renderRanking(rows) {
 }
 
 function renderPrediction(predObj) {
-  const f = normalizeFilter(state.unitFilter);
-
   els.predictTbody.innerHTML = "";
 
   if (!predObj) {
@@ -114,23 +162,27 @@ function renderPrediction(predObj) {
     return;
   }
 
-  // フィルタ無し：top を表示
-  // フィルタ有り：all から該当台だけ拾って pred_max_payout desc
+  const unitToModel = buildUnitToModelMap(state.dailyRows);
+
+  // フィルタ無しなら top、フィルタ有りなら all から拾う（機種フィルタは unitToModel で判定）
+  const hasAnyFilter = normalizeFilter(state.unitFilter) || (state.modelFilter && state.modelFilter !== "__ALL__");
+
   let list = [];
-  if (!f) {
+  if (!hasAnyFilter) {
     list = (predObj.top || []).slice(0, 30);
   } else {
     const all = predObj.all || [];
     list = all
-      .filter(p => String(p.unit_no ?? "").includes(f))
       .filter(p => typeof p.pred_max_payout === "number")
+      .filter(p => passesFiltersUnit(p.unit_no, state.unitFilter))
+      .filter(p => passesFiltersModel(p.unit_no, state.modelFilter, unitToModel))
       .sort((a, b) => (b.pred_max_payout - a.pred_max_payout))
       .slice(0, 30);
   }
 
   if (list.length === 0) {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td colspan="4" class="muted">該当する台番号がありません</td>`;
+    tr.innerHTML = `<td colspan="4" class="muted">該当する台がありません（フィルタ条件を確認）</td>`;
     els.predictTbody.appendChild(tr);
     return;
   }
@@ -149,42 +201,36 @@ function renderPrediction(predObj) {
 }
 
 function renderHeatmap(history, days) {
-  const f = normalizeFilter(state.unitFilter);
+  const unitToModel = buildUnitToModelMap(state.dailyRows);
 
   const dates = history.dates.slice(-days);
   const unitsAll = history.units;
   const valuesAll = history.values.slice(-days);
 
-  // フィルタ対象の units と index を作る
-  let units = unitsAll;
-  let idx = null;
-
-  if (f) {
-    idx = [];
-    units = [];
-    for (let i = 0; i < unitsAll.length; i++) {
-      if (String(unitsAll[i]).includes(f)) {
-        idx.push(i);
-        units.push(unitsAll[i]);
-      }
-    }
+  // フィルタに合う units の index を作る
+  const idx = [];
+  const units = [];
+  for (let i = 0; i < unitsAll.length; i++) {
+    const u = unitsAll[i];
+    if (!passesFiltersUnit(u, state.unitFilter)) continue;
+    if (!passesFiltersModel(u, state.modelFilter, unitToModel)) continue;
+    idx.push(i);
+    units.push(u);
   }
 
-  // z を絞る
+  // 該当なし表示
+  if (units.length === 0) {
+    Plotly.purge("heatmap");
+    const div = document.getElementById("heatmap");
+    div.innerHTML = `<div class="muted" style="padding:12px;">該当する台がありません（フィルタ条件を確認）</div>`;
+    return;
+  }
+
   const values = valuesAll.map(row => {
-    if (!idx) return row;
     const out = [];
     for (const i of idx) out.push(row[i]);
     return out;
   });
-
-  // 該当なし表示
-  if (f && units.length === 0) {
-    Plotly.purge("heatmap");
-    const div = document.getElementById("heatmap");
-    div.innerHTML = `<div class="muted" style="padding:12px;">該当する台番号がありません</div>`;
-    return;
-  }
 
   const data = [{
     type: "heatmap",
@@ -222,6 +268,7 @@ async function loadDaily(dateStr) {
   const url = INDEX.daily_path_format.replace("{date}", dateStr);
   const obj = await fetchJson(url);
   state.dailyRows = obj.rows || [];
+  updateModelOptionsFromDaily();
   renderRanking(state.dailyRows);
 }
 
@@ -237,6 +284,10 @@ async function loadPrediction() {
 async function onDateChange(dateStr) {
   state.currentDate = dateStr;
   await loadDaily(dateStr);
+  // 機種フィルタによりヒートマップ/予測も変わるので再描画
+  renderHeatmap(HISTORY, state.heatmapDays);
+  renderPrediction(PREDICTION);
+  setFilterStatus();
 }
 
 function rerenderAll() {
@@ -258,17 +309,31 @@ async function init() {
   INDEX = await fetchJson("data/index.json");
   els.updatedAt.textContent = `更新: ${INDEX.updated_at ?? ""}`;
 
-  setOptions(els.dateSelect, INDEX.dates, INDEX.latest_date);
+  // 日付
+  els.dateSelect.innerHTML = "";
+  for (const d of INDEX.dates) {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    if (d === INDEX.latest_date) opt.selected = true;
+    els.dateSelect.appendChild(opt);
+  }
   state.currentDate = INDEX.latest_date;
 
   HISTORY = await fetchJson(INDEX.history_path);
 
   state.heatmapDays = Number(els.daysSelect.value);
+
+  // 初回ロード（dailyRows → model options → ranking）
+  await loadDaily(state.currentDate);
+
+  // 初回ヒートマップ
   renderHeatmap(HISTORY, state.heatmapDays);
 
-  await onDateChange(state.currentDate);
+  // 予測
   await loadPrediction();
 
+  // イベント
   els.dateSelect.addEventListener("change", async () => {
     await onDateChange(els.dateSelect.value);
   });
@@ -282,8 +347,12 @@ async function init() {
     state.unitFilter = els.unitSearch.value;
     rerenderAll();
   }, 200);
-
   els.unitSearch.addEventListener("input", onSearch);
+
+  els.modelSelect.addEventListener("change", () => {
+    state.modelFilter = els.modelSelect.value || "__ALL__";
+    rerenderAll();
+  });
 
   setFilterStatus();
 }
