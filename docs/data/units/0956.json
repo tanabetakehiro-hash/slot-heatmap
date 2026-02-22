@@ -139,14 +139,14 @@
       "date": "2026-02-22",
       "unit_no": "0956",
       "model_name": "Ｌガールズ＆パンツァー最終",
-      "max_payout": 781,
-      "diff_medals": -3290,
-      "bb": 14,
-      "rb": 17,
+      "max_payout": 116,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 4,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120198&n=0956",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120198&d=1"
     }
   ],
-  "updated_at": "2026-02-22 22:19:18"
+  "updated_at": "2026-02-22 22:43:39"
 }

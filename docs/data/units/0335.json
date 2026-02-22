@@ -140,13 +140,13 @@
       "unit_no": "0335",
       "model_name": "Ｌモンスターハンターライズ",
       "max_payout": 251,
-      "diff_medals": -2676,
+      "diff_medals": null,
       "bb": 0,
-      "rb": 7,
+      "rb": 5,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0335",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-02-22 22:19:18"
+  "updated_at": "2026-02-22 22:43:39"
 }

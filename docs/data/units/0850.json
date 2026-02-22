@@ -139,14 +139,14 @@
       "date": "2026-02-22",
       "unit_no": "0850",
       "model_name": "Ｌ東京リベンジャーズ",
-      "max_payout": 1872,
-      "diff_medals": -913,
+      "max_payout": 637,
+      "diff_medals": null,
       "bb": 0,
-      "rb": 15,
+      "rb": 7,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120327&n=0850",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120327&d=1"
     }
   ],
-  "updated_at": "2026-02-22 22:19:18"
+  "updated_at": "2026-02-22 22:43:39"
 }
