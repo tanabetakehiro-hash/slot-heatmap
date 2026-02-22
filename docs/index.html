@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>slot-heatmap（レイトギャップ平和島）</title>
   <link rel="stylesheet" href="assets/style.css" />
-  <!-- Plotly（CDN） -->
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 </head>
 <body>
@@ -34,6 +33,16 @@
         </div>
 
         <div class="col">
+          <label class="label" for="metricSelect">表示指標</label>
+          <select id="metricSelect">
+            <option value="max_payout" selected>最大持玉</option>
+            <option value="diff_medals">差枚</option>
+            <option value="bb_rb_sum">BB+RB</option>
+          </select>
+          <div class="muted small">※ ヒートマップとランキングが同じ指標で切り替わります</div>
+        </div>
+
+        <div class="col">
           <label class="label" for="unitSearch">台番号検索（部分一致）</label>
           <input id="unitSearch" type="text" inputmode="numeric" placeholder="例：0729 / 729 / 07" />
           <div class="muted small">※ 入力すると、ヒートマップ・ランキング・予測がその台番号だけに絞られます</div>
@@ -55,7 +64,7 @@
     </section>
 
     <section class="card">
-      <h2>ヒートマップ（最大持玉）</h2>
+      <h2 id="heatmapTitle">ヒートマップ（最大持玉）</h2>
       <div id="heatmap" class="plot"></div>
       <p class="muted small">
         セルをクリックすると、その日のランキングに切り替わります。
@@ -63,7 +72,7 @@
     </section>
 
     <section class="card">
-      <h2>ランキング（最大持玉）</h2>
+      <h2 id="rankingTitle">ランキング（最大持玉）</h2>
       <div class="tableWrap">
         <table id="rankingTable">
           <thead>
@@ -71,7 +80,7 @@
               <th>#</th>
               <th>台番号</th>
               <th>機種</th>
-              <th>最大持玉</th>
+              <th id="metricColName">最大持玉</th>
               <th>BB</th>
               <th>RB</th>
               <th>累計スタート</th>
@@ -101,6 +110,7 @@
           <tbody></tbody>
         </table>
       </div>
+      <div class="muted small">※ 予測は「最大持玉」のみ（今後、指標切替に対応できます）</div>
     </section>
 
     <footer class="footer muted">
