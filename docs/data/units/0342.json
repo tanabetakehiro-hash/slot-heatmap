@@ -23,13 +23,13 @@
       "unit_no": "0342",
       "model_name": "ＬＢアレックス　ブライト",
       "max_payout": 718,
-      "diff_medals": null,
-      "bb": 2,
-      "rb": 1,
+      "diff_medals": -1134,
+      "bb": 7,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120310&n=0342",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120310&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

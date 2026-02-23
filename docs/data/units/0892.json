@@ -22,14 +22,14 @@
       "date": "2026-02-22",
       "unit_no": "0892",
       "model_name": "Ｌ革命機ヴァルヴレイヴ",
-      "max_payout": 0,
-      "diff_medals": 0,
-      "bb": 0,
+      "max_payout": 779,
+      "diff_medals": -474,
+      "bb": 5,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0892",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

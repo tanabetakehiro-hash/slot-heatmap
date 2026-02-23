@@ -23,13 +23,13 @@
       "unit_no": "0340",
       "model_name": "Ｌうみねこのなく頃に２－Ｖ",
       "max_payout": 786,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 2,
+      "diff_medals": -1122,
+      "bb": 12,
+      "rb": 13,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120348&n=0340",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

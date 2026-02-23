@@ -22,14 +22,14 @@
       "date": "2026-02-22",
       "unit_no": "0333",
       "model_name": "Ｌモンスターハンターライズ",
-      "max_payout": 2138,
-      "diff_medals": null,
+      "max_payout": 2645,
+      "diff_medals": -1039,
       "bb": 0,
-      "rb": 3,
+      "rb": 11,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0333",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

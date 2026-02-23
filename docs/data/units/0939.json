@@ -23,13 +23,13 @@
       "unit_no": "0939",
       "model_name": "Ｌ少女☆歌劇レヴュースタァライト－Ｖ",
       "max_payout": 1488,
-      "diff_medals": null,
-      "bb": 14,
+      "diff_medals": -215,
+      "bb": 38,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120276&n=0939",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120276&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

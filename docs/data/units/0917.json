@@ -22,14 +22,14 @@
       "date": "2026-02-22",
       "unit_no": "0917",
       "model_name": "Ｌ戦国乙女４",
-      "max_payout": 996,
-      "diff_medals": null,
-      "bb": 5,
+      "max_payout": 4726,
+      "diff_medals": 3567,
+      "bb": 26,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120155&n=0917",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120155&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

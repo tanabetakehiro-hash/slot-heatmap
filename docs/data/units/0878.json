@@ -23,7 +23,7 @@
       "unit_no": "0878",
       "model_name": "ＬゴブリンスレイヤーＩＩ－⑤",
       "max_payout": 1522,
-      "diff_medals": null,
+      "diff_medals": -2228,
       "bb": 0,
       "rb": 0,
       "total_start": 0,
@@ -31,5 +31,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120352&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }

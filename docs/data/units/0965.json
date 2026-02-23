@@ -23,13 +23,13 @@
       "unit_no": "0965",
       "model_name": "Ｌ攻殻機動隊－Ｖ",
       "max_payout": 5683,
-      "diff_medals": null,
+      "diff_medals": 1640,
       "bb": 0,
-      "rb": 3,
+      "rb": 21,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120350&n=0965",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120350&d=1"
     }
   ],
-  "updated_at": "2026-02-23 00:02:07"
+  "updated_at": "2026-02-23 11:40:46"
 }
