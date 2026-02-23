@@ -1,0 +1,149 @@
+:root{
+  --bg:#0b0f19;
+  --card:#121a2b;
+  --text:#e7ecff;
+  --muted:#aab4d6;
+  --line:rgba(255,255,255,.12);
+}
+
+*{ box-sizing:border-box; }
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.topbar{
+  position: sticky;
+  top:0;
+  z-index:10;
+  padding:12px 14px;
+  background: rgba(11,15,25,.86);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  display:flex;
+  gap:12px;
+  align-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title{
+  font-size:16px;
+  font-weight:700;
+}
+
+.controls{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size:14px;
+}
+.controls input, .controls select, .controls button{
+  margin-left:6px;
+  padding:6px 8px;
+  border-radius:10px;
+  border:1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+}
+.controls button{
+  cursor:pointer;
+}
+
+.wrap{
+  padding: 14px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.note{
+  color: var(--muted);
+  margin: 6px 0 10px;
+  font-size: 13px;
+}
+
+.legend{
+  background: rgba(18,26,43,.7);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+.legend-title{
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.legend-bar{
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+}
+.legend-labels{
+  margin-top: 6px;
+  display:flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.svg-wrap{
+  background: rgba(18,26,43,.7);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 10px;
+}
+
+#floorSvg{
+  width: 100%;
+  height: auto;
+  display:block;
+}
+
+.floor-bg{
+  fill: rgba(255,255,255,.02);
+}
+
+.machine-rect{
+  stroke: rgba(255,255,255,.25);
+  stroke-width: 1;
+}
+.machine-label{
+  font-size: 12px;
+  fill: rgba(255,255,255,.92);
+  pointer-events: none;
+}
+.machine-value{
+  font-size: 12px;
+  fill: rgba(255,255,255,.75);
+  pointer-events: none;
+}
+
+.tooltip{
+  position: absolute;
+  min-width: 220px;
+  max-width: 320px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(18,26,43,.95);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 32px rgba(0,0,0,.4);
+  color: var(--text);
+  font-size: 13px;
+  pointer-events: none;
+}
+.tt-title{
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.tt-row{
+  color: var(--muted);
+  margin-top: 2px;
+}
+.tt-row b{
+  color: var(--text);
+}

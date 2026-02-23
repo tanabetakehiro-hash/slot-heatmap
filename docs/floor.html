@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>フロアマップ</title>
+  <link rel="stylesheet" href="./assets/floor.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="title">フロアマップ</div>
+
+    <div class="controls">
+      <label>
+        日付：
+        <input id="dateInput" type="date" />
+      </label>
+
+      <label>
+        指標：
+        <select id="metricSelect">
+          <option value="diff_medals">差枚（diff_medals）</option>
+          <option value="max_medals">最大持玉（max_medals）</option>
+          <option value="total_start">累計スタート（total_start）</option>
+        </select>
+      </label>
+
+      <button id="reloadBtn" type="button">読み込み</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="note" id="status"></div>
+
+    <div class="legend">
+      <div class="legend-title">凡例</div>
+      <div class="legend-bar" id="legendBar"></div>
+      <div class="legend-labels">
+        <span id="legendMin">min</span>
+        <span id="legendMid">0</span>
+        <span id="legendMax">max</span>
+      </div>
+    </div>
+
+    <div class="svg-wrap">
+      <svg id="floorSvg" role="img" aria-label="フロアマップ"></svg>
+    </div>
+
+    <div id="tooltip" class="tooltip" hidden></div>
+  </main>
+
+  <script src="./assets/floor.js"></script>
+</body>
+</html>

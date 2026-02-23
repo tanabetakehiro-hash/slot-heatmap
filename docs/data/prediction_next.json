@@ -1,2650 +1,2650 @@
 {
-  "target_date": "2026-02-23",
+  "target_date": "2026-02-24",
   "method": "moving_average",
-  "window_days": 2,
-  "generated_at": "2026-02-23 11:40:46",
+  "window_days": 3,
+  "generated_at": "2026-02-23 23:54:40",
   "top": [
     {
+      "unit_no": "0836",
+      "pred_max_payout": 8800.3,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
       "unit_no": "0789",
-      "pred_max_payout": 10290.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 8486.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0994",
-      "pred_max_payout": 9807.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 7090.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0827",
-      "pred_max_payout": 9173.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0836",
-      "pred_max_payout": 8899.5,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0795",
-      "pred_max_payout": 8563.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0580",
-      "pred_max_payout": 8436.5,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0324",
-      "pred_max_payout": 7633.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 6667.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0900",
-      "pred_max_payout": 7278.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 6154.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0902",
-      "pred_max_payout": 7155.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0931",
+      "pred_max_payout": 5919.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0590",
-      "pred_max_payout": 7129.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0795",
+      "pred_max_payout": 5914.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0937",
-      "pred_max_payout": 7071.5,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0837",
-      "pred_max_payout": 6743.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0839",
-      "pred_max_payout": 6645.5,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0802",
-      "pred_max_payout": 6405.5,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0876",
-      "pred_max_payout": 6315.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0835",
-      "pred_max_payout": 6229.5,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0834",
-      "pred_max_payout": 6094.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0580",
+      "pred_max_payout": 5819.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0793",
-      "pred_max_payout": 6052.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "1015",
-      "pred_max_payout": 5987.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0589",
-      "pred_max_payout": 5898.0,
-      "based_on_days": 2,
-      "window_days": 2
-    },
-    {
-      "unit_no": "0611",
-      "pred_max_payout": 5801.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5613.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0845",
-      "pred_max_payout": 5493.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5612.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0846",
-      "pred_max_payout": 5259.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0324",
+      "pred_max_payout": 5560.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0798",
-      "pred_max_payout": 5226.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0811",
+      "pred_max_payout": 5528.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0586",
-      "pred_max_payout": 5146.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0835",
+      "pred_max_payout": 5504.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0927",
-      "pred_max_payout": 4897.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0589",
+      "pred_max_payout": 5298.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0318",
-      "pred_max_payout": 4876.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0837",
+      "pred_max_payout": 5253.7,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0902",
+      "pred_max_payout": 5084.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0897",
-      "pred_max_payout": 4815.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5081.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0965",
-      "pred_max_payout": 4792.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "1015",
+      "pred_max_payout": 5048.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0790",
-      "pred_max_payout": 4782.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0590",
+      "pred_max_payout": 4957.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0848",
-      "pred_max_payout": 4752.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0937",
+      "pred_max_payout": 4956.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0844",
-      "pred_max_payout": 4673.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0846",
+      "pred_max_payout": 4952.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0332",
-      "pred_max_payout": 4533.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0834",
+      "pred_max_payout": 4950.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0841",
-      "pred_max_payout": 4504.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0799",
+      "pred_max_payout": 4908.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0578",
-      "pred_max_payout": 4454.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0798",
+      "pred_max_payout": 4829.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0577",
-      "pred_max_payout": 4426.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0896",
+      "pred_max_payout": 4825.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0956",
-      "pred_max_payout": 4388.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0889",
+      "pred_max_payout": 4654.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0316",
-      "pred_max_payout": 4374.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4605.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0926",
-      "pred_max_payout": 4316.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0802",
+      "pred_max_payout": 4605.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0903",
-      "pred_max_payout": 4293.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0839",
+      "pred_max_payout": 4592.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0329",
-      "pred_max_payout": 4279.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0804",
+      "pred_max_payout": 4567.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0879",
-      "pred_max_payout": 4277.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0790",
+      "pred_max_payout": 4470.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0853",
-      "pred_max_payout": 4259.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0876",
+      "pred_max_payout": 4469.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0992",
-      "pred_max_payout": 4171.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0844",
+      "pred_max_payout": 4447.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0823",
-      "pred_max_payout": 4115.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0841",
+      "pred_max_payout": 4369.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0894",
-      "pred_max_payout": 4009.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0800",
+      "pred_max_payout": 4352.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "1017",
-      "pred_max_payout": 4004.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0810",
+      "pred_max_payout": 4279.0,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0318",
+      "pred_max_payout": 4180.3,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0851",
+      "pred_max_payout": 4153.7,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0794",
+      "pred_max_payout": 4096.0,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0332",
+      "pred_max_payout": 4089.0,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0333",
+      "pred_max_payout": 4048.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0842",
-      "pred_max_payout": 3933.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4046.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0919",
-      "pred_max_payout": 3926.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0966",
+      "pred_max_payout": 4023.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
-      "unit_no": "0916",
-      "pred_max_payout": 3881.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "unit_no": "0611",
+      "pred_max_payout": 4003.7,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0935",
+      "pred_max_payout": 3995.0,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0848",
+      "pred_max_payout": 3925.3,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0331",
+      "pred_max_payout": 3904.3,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0965",
+      "pred_max_payout": 3871.0,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0606",
+      "pred_max_payout": 3851.0,
+      "based_on_days": 3,
+      "window_days": 3
+    },
+    {
+      "unit_no": "0586",
+      "pred_max_payout": 3848.7,
+      "based_on_days": 3,
+      "window_days": 3
     }
   ],
   "all": [
     {
       "unit_no": "0307",
-      "pred_max_payout": 1395.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1096.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0308",
-      "pred_max_payout": 1236.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1076.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0309",
-      "pred_max_payout": 2161.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1694.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0310",
-      "pred_max_payout": 1085.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1039.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0311",
-      "pred_max_payout": 1368.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1033.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0312",
-      "pred_max_payout": 2046.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1652.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0313",
-      "pred_max_payout": 1000.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 939.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0314",
-      "pred_max_payout": 1598.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1189.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0315",
-      "pred_max_payout": 1838.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1288.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0316",
-      "pred_max_payout": 4374.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4605.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0317",
-      "pred_max_payout": 3726.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3518.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0318",
-      "pred_max_payout": 4876.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4180.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0319",
-      "pred_max_payout": 2344.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3041.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0320",
-      "pred_max_payout": 3279.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3066.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0321",
-      "pred_max_payout": 1554.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2728.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0322",
-      "pred_max_payout": 2254.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2427.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0323",
-      "pred_max_payout": 1137.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1921.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0324",
-      "pred_max_payout": 7633.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5560.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0325",
-      "pred_max_payout": 3241.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2459.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0326",
-      "pred_max_payout": 1033.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2608.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0327",
-      "pred_max_payout": 1467.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2804.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0328",
-      "pred_max_payout": 3498.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2956.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0329",
-      "pred_max_payout": 4279.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3698.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0330",
-      "pred_max_payout": 2705.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2377.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0331",
-      "pred_max_payout": 3672.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3904.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0332",
-      "pred_max_payout": 4533.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4089.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0333",
-      "pred_max_payout": 2554.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4048.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0334",
-      "pred_max_payout": 3409.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3537.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0335",
-      "pred_max_payout": 1833.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1608.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0336",
-      "pred_max_payout": 1027.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 931.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0337",
-      "pred_max_payout": 892.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 772.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0338",
-      "pred_max_payout": 1431.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1604.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0339",
-      "pred_max_payout": 2313.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2673.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0340",
-      "pred_max_payout": 1065.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1216.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0341",
-      "pred_max_payout": 2016.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1558.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0342",
-      "pred_max_payout": 2083.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2137.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0577",
-      "pred_max_payout": 4426.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3839.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0578",
-      "pred_max_payout": 4454.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3424.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0579",
       "pred_max_payout": 0.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0580",
-      "pred_max_payout": 8436.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5819.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0581",
-      "pred_max_payout": 718.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 729.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0582",
-      "pred_max_payout": 1428.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1419.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0583",
-      "pred_max_payout": 3133.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3568.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0584",
       "pred_max_payout": 0.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0585",
-      "pred_max_payout": 1896.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1743.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0586",
-      "pred_max_payout": 5146.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3848.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0587",
-      "pred_max_payout": 2285.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1769.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0588",
-      "pred_max_payout": 1846.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3055.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0589",
-      "pred_max_payout": 5898.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5298.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0590",
-      "pred_max_payout": 7129.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4957.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0591",
-      "pred_max_payout": 2548.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2036.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0592",
-      "pred_max_payout": 2927.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2213.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0593",
-      "pred_max_payout": 2062.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1995.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0594",
-      "pred_max_payout": 2538.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1988.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0595",
-      "pred_max_payout": 1074.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 843.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0596",
-      "pred_max_payout": 565.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 668.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0597",
-      "pred_max_payout": 1294.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1377.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0598",
-      "pred_max_payout": 2823.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2006.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0599",
-      "pred_max_payout": 695.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 539.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0600",
-      "pred_max_payout": 1544.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1794.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0601",
-      "pred_max_payout": 920.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1318.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0602",
-      "pred_max_payout": 282.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 526.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0603",
-      "pred_max_payout": 1233.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1019.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0604",
-      "pred_max_payout": 455.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 616.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0605",
-      "pred_max_payout": 1004.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 726.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0606",
-      "pred_max_payout": 2656.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3851.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0607",
-      "pred_max_payout": 594.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1352.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0608",
-      "pred_max_payout": 1883.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1632.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0609",
-      "pred_max_payout": 2196.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1540.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0610",
-      "pred_max_payout": 731.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2693.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0611",
-      "pred_max_payout": 5801.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4003.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0612",
-      "pred_max_payout": 959.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 866.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0701",
-      "pred_max_payout": 1492.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1362.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0702",
-      "pred_max_payout": 1037.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1001.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0703",
-      "pred_max_payout": 1260.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1452.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0704",
-      "pred_max_payout": 2159.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1612.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0705",
-      "pred_max_payout": 3470.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2951.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0706",
-      "pred_max_payout": 1409.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1928.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0707",
-      "pred_max_payout": 2012.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1706.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0708",
-      "pred_max_payout": 1119.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1121.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0709",
-      "pred_max_payout": 1699.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1427.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0710",
-      "pred_max_payout": 1931.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1980.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0711",
-      "pred_max_payout": 2311.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2208.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0712",
-      "pred_max_payout": 696.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 617.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0713",
-      "pred_max_payout": 1132.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1486.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0714",
-      "pred_max_payout": 942.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1044.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0715",
-      "pred_max_payout": 1300.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1230.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0716",
-      "pred_max_payout": 1808.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1458.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0717",
-      "pred_max_payout": 1004.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 772.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0718",
-      "pred_max_payout": 1251.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1598.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0719",
-      "pred_max_payout": 1289.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1125.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0720",
-      "pred_max_payout": 1225.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1544.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0721",
-      "pred_max_payout": 1117.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 966.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0722",
-      "pred_max_payout": 1101.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1452.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0723",
-      "pred_max_payout": 1364.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1148.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0724",
-      "pred_max_payout": 1304.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1025.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0725",
-      "pred_max_payout": 1425.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1264.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0726",
-      "pred_max_payout": 876.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 933.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0727",
-      "pred_max_payout": 1079.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1836.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0728",
-      "pred_max_payout": 972.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 793.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0729",
-      "pred_max_payout": 928.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1310.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0730",
-      "pred_max_payout": 1935.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1505.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0731",
-      "pred_max_payout": 1463.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1515.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0732",
-      "pred_max_payout": 1168.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1223.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0733",
-      "pred_max_payout": 1699.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1378.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0734",
-      "pred_max_payout": 756.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 789.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0735",
-      "pred_max_payout": 1556.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1428.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0736",
-      "pred_max_payout": 2173.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1770.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0737",
-      "pred_max_payout": 1606.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1272.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0738",
-      "pred_max_payout": 851.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 935.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0739",
-      "pred_max_payout": 2407.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1767.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0740",
-      "pred_max_payout": 709.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1037.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0741",
-      "pred_max_payout": 1826.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2160.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0742",
-      "pred_max_payout": 1063.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1296.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0743",
-      "pred_max_payout": 835.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 856.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0744",
-      "pred_max_payout": 1421.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1241.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0745",
-      "pred_max_payout": 1090.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1051.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0746",
-      "pred_max_payout": 1693.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1507.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0747",
-      "pred_max_payout": 570.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1039.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0748",
-      "pred_max_payout": 2201.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1709.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0749",
-      "pred_max_payout": 1289.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1310.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0750",
-      "pred_max_payout": 2977.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2390.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0751",
-      "pred_max_payout": 768.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1250.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0752",
-      "pred_max_payout": 953.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 851.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0753",
-      "pred_max_payout": 1143.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 932.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0754",
-      "pred_max_payout": 940.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1438.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0755",
-      "pred_max_payout": 2115.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1579.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0756",
-      "pred_max_payout": 1504.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1621.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0757",
-      "pred_max_payout": 1666.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1332.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0758",
-      "pred_max_payout": 1187.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1324.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0759",
-      "pred_max_payout": 1725.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1566.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0760",
-      "pred_max_payout": 2766.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2069.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0761",
-      "pred_max_payout": 1994.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1945.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0762",
-      "pred_max_payout": 2533.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2111.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0763",
-      "pred_max_payout": 1774.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1726.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0764",
-      "pred_max_payout": 1059.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1407.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0765",
-      "pred_max_payout": 1290.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1575.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0766",
-      "pred_max_payout": 802.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 885.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0767",
-      "pred_max_payout": 1145.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1527.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0768",
-      "pred_max_payout": 832.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 930.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0769",
-      "pred_max_payout": 3140.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2397.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0770",
-      "pred_max_payout": 1113.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1173.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0771",
-      "pred_max_payout": 1555.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1355.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0772",
-      "pred_max_payout": 919.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1136.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0773",
-      "pred_max_payout": 1297.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1141.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0774",
-      "pred_max_payout": 1739.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1386.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0775",
-      "pred_max_payout": 1724.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1618.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0776",
-      "pred_max_payout": 1574.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1341.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0777",
-      "pred_max_payout": 1404.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1100.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0778",
-      "pred_max_payout": 902.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1153.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0779",
-      "pred_max_payout": 2228.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1931.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0780",
-      "pred_max_payout": 1526.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1248.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0781",
-      "pred_max_payout": 1171.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 964.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0782",
-      "pred_max_payout": 2069.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1828.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0783",
-      "pred_max_payout": 1127.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1369.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0784",
-      "pred_max_payout": 1487.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1152.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0785",
-      "pred_max_payout": 1045.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1175.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0786",
-      "pred_max_payout": 1091.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1084.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0787",
-      "pred_max_payout": 1377.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1156.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0788",
-      "pred_max_payout": 1681.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2079.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0789",
-      "pred_max_payout": 10290.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 8486.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0790",
-      "pred_max_payout": 4782.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4470.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0791",
-      "pred_max_payout": 2605.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3021.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0792",
-      "pred_max_payout": 1987.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1837.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0793",
-      "pred_max_payout": 6052.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5613.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0794",
-      "pred_max_payout": 2826.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4096.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0795",
-      "pred_max_payout": 8563.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5914.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0796",
-      "pred_max_payout": 1804.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1764.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0797",
-      "pred_max_payout": 2237.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1830.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0798",
-      "pred_max_payout": 5226.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4829.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0799",
-      "pred_max_payout": 3530.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4908.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0800",
-      "pred_max_payout": 2491.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4352.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0801",
-      "pred_max_payout": 3667.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2614.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0802",
-      "pred_max_payout": 6405.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4605.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0803",
-      "pred_max_payout": 2069.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2087.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0804",
-      "pred_max_payout": 3160.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4567.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0805",
-      "pred_max_payout": 1151.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1536.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0806",
-      "pred_max_payout": 1219.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3301.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0807",
-      "pred_max_payout": 2370.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2144.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0808",
-      "pred_max_payout": 2255.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1880.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0809",
-      "pred_max_payout": 2209.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1838.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0810",
-      "pred_max_payout": 2258.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4279.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0811",
-      "pred_max_payout": 2362.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5528.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0812",
-      "pred_max_payout": 1755.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1752.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0813",
-      "pred_max_payout": 3240.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2959.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0814",
-      "pred_max_payout": 1988.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1616.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0815",
-      "pred_max_payout": 2768.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2113.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0816",
-      "pred_max_payout": 3202.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3145.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0817",
-      "pred_max_payout": 1020.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1026.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0818",
-      "pred_max_payout": 3153.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2633.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0819",
-      "pred_max_payout": 2637.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2244.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0820",
-      "pred_max_payout": 2341.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2050.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0821",
-      "pred_max_payout": 614.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2079.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0822",
-      "pred_max_payout": 1687.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1332.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0823",
-      "pred_max_payout": 4115.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3046.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0824",
-      "pred_max_payout": 270.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 510.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0825",
-      "pred_max_payout": 956.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 783.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0826",
-      "pred_max_payout": 1173.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 909.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0827",
-      "pred_max_payout": 9173.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 6667.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0828",
-      "pred_max_payout": 3450.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2549.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0829",
-      "pred_max_payout": 3269.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3672.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0830",
-      "pred_max_payout": 1525.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1368.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0831",
-      "pred_max_payout": 3439.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3289.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0832",
-      "pred_max_payout": 3137.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2195.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0833",
-      "pred_max_payout": 2978.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3319.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0834",
-      "pred_max_payout": 6094.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4950.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0835",
-      "pred_max_payout": 6229.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5504.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0836",
-      "pred_max_payout": 8899.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 8800.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0837",
-      "pred_max_payout": 6743.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5253.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0838",
-      "pred_max_payout": 2304.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2618.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0839",
-      "pred_max_payout": 6645.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4592.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0840",
-      "pred_max_payout": 1083.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1702.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0841",
-      "pred_max_payout": 4504.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4369.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0842",
-      "pred_max_payout": 3933.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4046.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0843",
-      "pred_max_payout": 984.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1251.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0844",
-      "pred_max_payout": 4673.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4447.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0845",
-      "pred_max_payout": 5493.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5612.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0846",
-      "pred_max_payout": 5259.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4952.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0847",
-      "pred_max_payout": 3304.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2464.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0848",
-      "pred_max_payout": 4752.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3925.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0849",
-      "pred_max_payout": 1846.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1377.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0850",
-      "pred_max_payout": 2484.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2581.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0851",
-      "pred_max_payout": 2914.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4153.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0852",
-      "pred_max_payout": 1658.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1841.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0853",
-      "pred_max_payout": 4259.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3351.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0854",
-      "pred_max_payout": 2566.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2037.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0855",
-      "pred_max_payout": 3415.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2350.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0856",
-      "pred_max_payout": 1561.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1356.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0857",
-      "pred_max_payout": 1433.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3340.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0858",
-      "pred_max_payout": 2647.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2121.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0859",
-      "pred_max_payout": 844.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 670.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0860",
-      "pred_max_payout": 1443.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2647.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0861",
-      "pred_max_payout": 452.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 679.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0862",
-      "pred_max_payout": 3229.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2611.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0863",
-      "pred_max_payout": 892.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 821.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0864",
-      "pred_max_payout": 603.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 495.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0865",
-      "pred_max_payout": 1029.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1334.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0866",
-      "pred_max_payout": 985.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 765.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0867",
-      "pred_max_payout": 1542.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1322.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0868",
-      "pred_max_payout": 1178.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1134.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0869",
-      "pred_max_payout": 2307.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2427.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0870",
-      "pred_max_payout": 1263.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1080.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0871",
-      "pred_max_payout": 1980.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1879.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0872",
-      "pred_max_payout": 1913.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1759.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0873",
-      "pred_max_payout": 656.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 519.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0874",
-      "pred_max_payout": 1792.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1502.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0875",
-      "pred_max_payout": 1674.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1729.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0876",
-      "pred_max_payout": 6315.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4469.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0877",
-      "pred_max_payout": 2110.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2672.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0878",
-      "pred_max_payout": 1368.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1223.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0879",
-      "pred_max_payout": 4277.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3229.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0880",
-      "pred_max_payout": 1745.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1487.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0881",
-      "pred_max_payout": 2318.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1861.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0882",
-      "pred_max_payout": 1748.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1412.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0883",
-      "pred_max_payout": 856.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1068.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0884",
-      "pred_max_payout": 2107.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1488.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0885",
-      "pred_max_payout": 1534.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1290.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0886",
-      "pred_max_payout": 955.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 912.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0887",
-      "pred_max_payout": 1914.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1480.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0888",
-      "pred_max_payout": 1521.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2297.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0889",
-      "pred_max_payout": 3629.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4654.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0890",
-      "pred_max_payout": 952.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 859.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0891",
-      "pred_max_payout": 1795.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1346.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0892",
-      "pred_max_payout": 983.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1125.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0893",
-      "pred_max_payout": 1369.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1521.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0894",
-      "pred_max_payout": 4009.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2831.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0895",
-      "pred_max_payout": 1237.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1340.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0896",
-      "pred_max_payout": 3111.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4825.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0897",
-      "pred_max_payout": 4815.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5081.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0898",
-      "pred_max_payout": 1862.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2164.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0899",
-      "pred_max_payout": 1571.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1950.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0900",
-      "pred_max_payout": 7278.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 6154.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0901",
-      "pred_max_payout": 3239.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3200.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0902",
-      "pred_max_payout": 7155.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5084.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0903",
-      "pred_max_payout": 4293.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2943.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0904",
-      "pred_max_payout": 2699.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2331.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0905",
-      "pred_max_payout": 2059.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1508.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0906",
-      "pred_max_payout": 1082.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1333.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0907",
-      "pred_max_payout": 1974.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1504.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0908",
-      "pred_max_payout": 2841.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2345.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0909",
-      "pred_max_payout": 3779.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3075.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0910",
-      "pred_max_payout": 2049.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2622.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0911",
-      "pred_max_payout": 2314.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1842.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0912",
-      "pred_max_payout": 3769.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3474.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0913",
-      "pred_max_payout": 3825.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2755.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0914",
-      "pred_max_payout": 2383.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1803.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0915",
-      "pred_max_payout": 1238.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1526.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0916",
-      "pred_max_payout": 3881.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2822.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0917",
-      "pred_max_payout": 3017.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2238.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0918",
-      "pred_max_payout": 273.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 725.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0919",
-      "pred_max_payout": 3926.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2789.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0920",
-      "pred_max_payout": 2679.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1923.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0921",
-      "pred_max_payout": 1516.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1410.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0922",
-      "pred_max_payout": 1130.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1829.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0923",
-      "pred_max_payout": 1073.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1342.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0924",
-      "pred_max_payout": 3531.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3136.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0925",
-      "pred_max_payout": 890.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2877.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0926",
-      "pred_max_payout": 4316.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3262.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0927",
-      "pred_max_payout": 4897.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3488.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0928",
-      "pred_max_payout": 2663.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2531.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0929",
-      "pred_max_payout": 1757.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1598.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0930",
-      "pred_max_payout": 740.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1583.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0931",
-      "pred_max_payout": 3775.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5919.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0932",
-      "pred_max_payout": 2270.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2037.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0933",
-      "pred_max_payout": 1342.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1383.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0934",
-      "pred_max_payout": 2142.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2095.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0935",
-      "pred_max_payout": 3015.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3995.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0936",
-      "pred_max_payout": 1742.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1686.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0937",
-      "pred_max_payout": 7071.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4956.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0938",
-      "pred_max_payout": 642.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 579.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0939",
-      "pred_max_payout": 2541.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2283.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0940",
-      "pred_max_payout": 3373.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2405.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0941",
-      "pred_max_payout": 1691.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1347.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0942",
-      "pred_max_payout": 2014.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1934.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0943",
-      "pred_max_payout": 2477.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2141.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0944",
-      "pred_max_payout": 405.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 331.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0945",
-      "pred_max_payout": 1969.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1330.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0946",
-      "pred_max_payout": 814.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2339.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0947",
-      "pred_max_payout": 762.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 591.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0948",
-      "pred_max_payout": 1357.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 984.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0949",
-      "pred_max_payout": 514.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1332.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0950",
-      "pred_max_payout": 784.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 769.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0951",
-      "pred_max_payout": 1871.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1937.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0952",
-      "pred_max_payout": 2233.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1543.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0953",
-      "pred_max_payout": 1129.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1627.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0954",
-      "pred_max_payout": 897.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 722.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0955",
-      "pred_max_payout": 1203.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 897.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0956",
-      "pred_max_payout": 4388.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3436.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0957",
-      "pred_max_payout": 1423.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1560.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0958",
-      "pred_max_payout": 1439.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1030.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0959",
-      "pred_max_payout": 2162.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1712.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0960",
-      "pred_max_payout": 1942.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1518.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0961",
-      "pred_max_payout": 1247.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 934.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0962",
-      "pred_max_payout": 384.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 408.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0963",
-      "pred_max_payout": 3231.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2374.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0964",
-      "pred_max_payout": 1268.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1422.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0965",
-      "pred_max_payout": 4792.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3871.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0966",
-      "pred_max_payout": 1411.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 4023.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0967",
-      "pred_max_payout": 2368.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1997.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0968",
-      "pred_max_payout": 1991.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2446.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0969",
-      "pred_max_payout": 2316.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2263.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0970",
-      "pred_max_payout": 1487.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1713.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0971",
-      "pred_max_payout": 1706.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1651.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0972",
-      "pred_max_payout": 2335.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1943.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0973",
-      "pred_max_payout": 2044.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1790.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0974",
-      "pred_max_payout": 1726.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1481.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0975",
-      "pred_max_payout": 2261.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1842.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0976",
-      "pred_max_payout": 3138.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3062.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0977",
-      "pred_max_payout": 3449.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2811.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0978",
-      "pred_max_payout": 2150.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2038.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0979",
-      "pred_max_payout": 2208.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1803.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0980",
-      "pred_max_payout": 1401.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1330.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0981",
-      "pred_max_payout": 2666.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2427.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0982",
-      "pred_max_payout": 3103.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2737.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0983",
-      "pred_max_payout": 1845.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2134.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0984",
-      "pred_max_payout": 1921.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1621.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0985",
-      "pred_max_payout": 1927.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1431.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0986",
-      "pred_max_payout": 2017.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2123.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0987",
-      "pred_max_payout": 2231.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2081.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0988",
-      "pred_max_payout": 1252.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1143.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0989",
-      "pred_max_payout": 1489.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2040.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0990",
-      "pred_max_payout": 3796.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3252.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0991",
-      "pred_max_payout": 1106.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1251.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0992",
-      "pred_max_payout": 4171.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3766.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0993",
-      "pred_max_payout": 3353.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2705.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0994",
-      "pred_max_payout": 9807.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 7090.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0995",
-      "pred_max_payout": 2258.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2229.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0996",
-      "pred_max_payout": 3455.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3186.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0997",
-      "pred_max_payout": 2636.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2205.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0998",
-      "pred_max_payout": 3509.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3641.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "0999",
-      "pred_max_payout": 2620.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2409.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1000",
-      "pred_max_payout": 2091.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2021.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1001",
-      "pred_max_payout": 2675.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2611.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1002",
-      "pred_max_payout": 1910.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1678.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1003",
-      "pred_max_payout": 2609.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2794.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1004",
-      "pred_max_payout": 2154.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3668.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1005",
-      "pred_max_payout": 2551.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3297.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1006",
-      "pred_max_payout": 3108.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2786.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1007",
-      "pred_max_payout": 2449.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1973.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1008",
-      "pred_max_payout": 2748.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2859.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1009",
-      "pred_max_payout": 2018.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2295.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1010",
-      "pred_max_payout": 1531.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2887.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1011",
-      "pred_max_payout": 2566.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2221.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1012",
-      "pred_max_payout": 3208.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2708.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1013",
-      "pred_max_payout": 3755.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2958.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1014",
-      "pred_max_payout": 3801.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2996.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1015",
-      "pred_max_payout": 5987.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 5048.7,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1016",
-      "pred_max_payout": 1787.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 1608.3,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1017",
-      "pred_max_payout": 4004.0,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 3473.0,
+      "based_on_days": 3,
+      "window_days": 3
     },
     {
       "unit_no": "1018",
-      "pred_max_payout": 2122.5,
-      "based_on_days": 2,
-      "window_days": 2
+      "pred_max_payout": 2048.7,
+      "based_on_days": 3,
+      "window_days": 3
     }
   ]
 }
