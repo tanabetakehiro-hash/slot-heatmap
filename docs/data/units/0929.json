@@ -6,7 +6,8 @@
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
-    "2026-02-25"
+    "2026-02-25",
+    "2026-02-26"
   ],
   "series": [
     {
@@ -49,10 +50,10 @@
       "date": "2026-02-24",
       "unit_no": "0929",
       "model_name": "Ｌ化物語",
-      "max_payout": 1279,
-      "diff_medals": null,
+      "max_payout": 1057,
+      "diff_medals": -2494,
       "bb": 0,
-      "rb": 12,
+      "rb": 9,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120339&n=0929",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120339&d=1"
@@ -68,7 +69,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120339&n=0929",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120339&d=1"
+    },
+    {
+      "date": "2026-02-26",
+      "unit_no": "0929",
+      "model_name": "Ｌ化物語",
+      "max_payout": 2342,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 14,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120339&n=0929",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120339&d=1"
     }
   ],
-  "updated_at": "2026-02-24 17:57:57"
+  "updated_at": "2026-02-25 18:01:28"
 }
