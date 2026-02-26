@@ -31,5 +31,6 @@ out_daily_*/
 out_*/
 *.tmp
 *.bak
+tools/replace_date.py
 
 # （もし間違って生成物が増えるならここに追加していく）
