@@ -7,7 +7,8 @@
     "2026-02-23",
     "2026-02-24",
     "2026-02-25",
-    "2026-02-26"
+    "2026-02-26",
+    "2026-02-27"
   ],
   "series": [
     {
@@ -62,9 +63,9 @@
       "date": "2026-02-25",
       "unit_no": "0939",
       "model_name": "Ｌ少女☆歌劇レヴュースタァライト－Ｖ",
-      "max_payout": 888,
-      "diff_medals": null,
-      "bb": 10,
+      "max_payout": 4534,
+      "diff_medals": 3833,
+      "bb": 48,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120276&n=0939",
@@ -81,7 +82,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120276&n=0939",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120276&d=1"
+    },
+    {
+      "date": "2026-02-27",
+      "unit_no": "0939",
+      "model_name": "Ｌ少女☆歌劇レヴュースタァライト－Ｖ",
+      "max_payout": 5432,
+      "diff_medals": null,
+      "bb": 42,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120276&n=0939",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120276&d=1"
     }
   ],
-  "updated_at": "2026-02-25 18:01:28"
+  "updated_at": "2026-02-26 18:03:31"
 }

@@ -7,7 +7,8 @@
     "2026-02-23",
     "2026-02-24",
     "2026-02-25",
-    "2026-02-26"
+    "2026-02-26",
+    "2026-02-27"
   ],
   "series": [
     {
@@ -62,10 +63,10 @@
       "date": "2026-02-25",
       "unit_no": "0785",
       "model_name": "Ｓファンキージャグラー２ＫＴ",
-      "max_payout": 1447,
-      "diff_medals": null,
+      "max_payout": 1228,
+      "diff_medals": 658,
       "bb": 14,
-      "rb": 10,
+      "rb": 13,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119996&n=0785",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
@@ -81,7 +82,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119996&n=0785",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
+    },
+    {
+      "date": "2026-02-27",
+      "unit_no": "0785",
+      "model_name": "Ｓファンキージャグラー２ＫＴ",
+      "max_payout": 1734,
+      "diff_medals": null,
+      "bb": 30,
+      "rb": 16,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119996&n=0785",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
     }
   ],
-  "updated_at": "2026-02-25 18:01:28"
+  "updated_at": "2026-02-26 18:03:31"
 }
