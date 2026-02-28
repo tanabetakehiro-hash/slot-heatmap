@@ -100,14 +100,14 @@
       "date": "2026-02-28",
       "unit_no": "0895",
       "model_name": "Ｌチバリヨ２プラス",
-      "max_payout": 5140,
+      "max_payout": 1794,
       "diff_medals": null,
-      "bb": 24,
-      "rb": 9,
+      "bb": 27,
+      "rb": 12,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120269&n=0895",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120269&d=1"
     }
   ],
-  "updated_at": "2026-02-27 16:11:41"
+  "updated_at": "2026-02-28 15:09:48"
 }

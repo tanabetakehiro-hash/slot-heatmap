@@ -100,14 +100,14 @@
       "date": "2026-02-28",
       "unit_no": "0324",
       "model_name": "Ｌ炎炎ノ消防隊２",
-      "max_payout": 5751,
+      "max_payout": 3918,
       "diff_medals": null,
       "bb": 0,
-      "rb": 19,
+      "rb": 20,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0324",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
     }
   ],
-  "updated_at": "2026-02-27 16:11:41"
+  "updated_at": "2026-02-28 15:09:48"
 }

@@ -100,14 +100,14 @@
       "date": "2026-02-28",
       "unit_no": "0933",
       "model_name": "Ｌマギアレコード",
-      "max_payout": 6582,
+      "max_payout": 2213,
       "diff_medals": null,
-      "bb": 18,
+      "bb": 22,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120283&n=0933",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120283&d=1"
     }
   ],
-  "updated_at": "2026-02-27 16:11:41"
+  "updated_at": "2026-02-28 15:09:48"
 }
