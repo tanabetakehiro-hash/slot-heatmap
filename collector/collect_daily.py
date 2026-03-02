@@ -466,6 +466,58 @@ def parse_diff_from_machine4_json(j: Dict[str, Any]) -> Tuple[Optional[int], str
     return None, "no_diff_in_json"
 
 
+def parse_total_start_from_machine4_json(j: Dict[str, Any]) -> Tuple[Optional[int], str]:
+    """
+    machine4.php JSON から「累計スタート（dTotalStart）」を取り出す。
+
+    - ユーザー要望：Data.data の「最初（=当日扱いのことが多い）」の dTotalStart を優先して使う
+    """
+    if not isinstance(j, dict):
+        return None, "not_dict"
+
+    if j.get("Result") is False:
+        err = j.get("Error") or {}
+        code = err.get("ErrorCode")
+        msg = err.get("ErrorMessage")
+        return None, f"result_false:{code}:{msg}"
+
+    data = j.get("Data")
+    if not isinstance(data, dict):
+        return None, "no_Data"
+
+    # 最優先：Data.data[0].dTotalStart
+    data_list = data.get("data")
+    if isinstance(data_list, list) and data_list:
+        first = data_list[0]
+        if isinstance(first, dict):
+            vv = safe_int(first.get("dTotalStart"))
+            if vv is not None:
+                return vv, "Data.data[0].dTotalStart"
+
+        # 念のため：最初に見つかった dTotalStart
+        for idx, item in enumerate(data_list):
+            if not isinstance(item, dict):
+                continue
+            vv = safe_int(item.get("dTotalStart"))
+            if vv is not None:
+                return vv, f"Data.data[{idx}].dTotalStart"
+
+    # 予備：Data 直下の候補キー
+    scalar_candidates = [
+        "dTotalStart",
+        "totalStart",
+        "TotalStart",
+        "total_start",
+        "TotalStartValue",
+    ]
+    for key in scalar_candidates:
+        vv = safe_int(data.get(key))
+        if vv is not None:
+            return vv, f"Data.{key}"
+
+    return None, "no_total_start_in_json"
+
+
 # ----------------------------
 # Main
 # ----------------------------
@@ -486,10 +538,12 @@ def main() -> None:
 
     api_diff_log = os.path.join(debug_dir, "machine_api_diff.log")
     api_json_log = os.path.join(debug_dir, "machine_api_json.log")
+    api_total_log = os.path.join(debug_dir, "machine_api_total.log")
     api_json_save_dir = os.path.join(debug_dir, "machine4_json")
     ensure_dir(api_json_save_dir)
 
     log_line(api_diff_log, f"[{now_ts_str()}] START collect_daily date={date_str}")
+    log_line(api_total_log, f"[{now_ts_str()}] START collect_daily date={date_str}")
 
     print(f"OPEN: {NEWS_URL}")
 
@@ -544,7 +598,7 @@ def main() -> None:
 
     # 3) machine.php + machine4
     filled_bb = filled_rb = filled_art = 0
-    filled_max = filled_total = filled_diff_text = 0
+    filled_max = filled_total = filled_total_api = filled_diff_text = 0
     filled_diff_api = 0
     skipped_machine_total = 0
     parse_fail_total = 0
@@ -576,7 +630,7 @@ def main() -> None:
             pass
 
         cache: Dict[str, Dict[str, Optional[int]]] = {}
-        api_cache: Dict[str, Tuple[Optional[int], str]] = {}
+        api_cache: Dict[str, Tuple[Optional[int], str, Optional[int], str]] = {}
 
         for i, u in enumerate(all_units, start=1):
             m_value = u.get("m", "")
@@ -666,21 +720,42 @@ def main() -> None:
                 u["diff_reason"] = "machine_text"
                 filled_diff_text += 1
 
-            # ---- machine4 API diff fallback ----
-            if u.get("diff_medals") is None:
+            # ---- machine4 API diff / total_start fallback ----
+            need_diff_api = u.get("diff_medals") is None
+            need_total_api = (safe_int(u.get("total_start")) or 0) == 0
+
+            if need_diff_api or need_total_api:
                 api_key_base = f"m={m_value}&n={zfill_n(n_value)}"
-                got_diff = None
-                got_reason = ""
+
+                got_diff: Optional[int] = None
+                got_diff_reason = ""
+                last_diff_reason = ""
+
+                got_total: Optional[int] = None
+                got_total_reason = ""
+                last_total_reason = ""
+
                 got_json_saved = ""
 
                 for d_value in (1, 0, 2):
                     api_key = f"{api_key_base}&d={d_value}"
+
+                    # cache
                     if api_key in api_cache:
-                        diff_val, reason = api_cache[api_key]
-                        if diff_val is not None:
-                            got_diff, got_reason = diff_val, reason
+                        diff_val, diff_reason, total_val, total_reason = api_cache[api_key]
+
+                        if got_diff is None and diff_val is not None:
+                            got_diff, got_diff_reason = diff_val, diff_reason
+                        elif diff_reason:
+                            last_diff_reason = diff_reason
+
+                        if got_total is None and total_val is not None:
+                            got_total, got_total_reason = total_val, total_reason
+                        elif total_reason:
+                            last_total_reason = total_reason
+
+                        if (not need_diff_api or got_diff is not None) and (not need_total_api or got_total is not None):
                             break
-                        got_reason = reason
                         continue
 
                     rand_wait()
@@ -689,13 +764,22 @@ def main() -> None:
                     ts = now_ts_str()
 
                     if j is None:
-                        api_cache[api_key] = (None, f"machine4 json fetch failed {fail_reason}")
-                        log_line(
-                            api_diff_log,
-                            f"[{ts}] MISS diff m={m_value} n={zfill_n(n_value)} d={d_value} url={url} "
-                            f"reason=machine4 json fetch failed {fail_reason}",
-                        )
-                        got_reason = f"machine4 json fetch failed {fail_reason}"
+                        miss_reason = f"machine4 json fetch failed {fail_reason}"
+                        api_cache[api_key] = (None, miss_reason, None, miss_reason)
+
+                        if need_diff_api:
+                            log_line(
+                                api_diff_log,
+                                f"[{ts}] MISS diff m={m_value} n={zfill_n(n_value)} d={d_value} url={url} reason={miss_reason}",
+                            )
+                            last_diff_reason = miss_reason
+                        if need_total_api:
+                            log_line(
+                                api_total_log,
+                                f"[{ts}] MISS total_start m={m_value} n={zfill_n(n_value)} d={d_value} url={url} reason={miss_reason}",
+                            )
+                            last_total_reason = miss_reason
+
                         time.sleep(random.uniform(0.2, 0.6))
                         continue
 
@@ -709,47 +793,76 @@ def main() -> None:
                             json.dump(j, f, ensure_ascii=False, indent=2)
                         got_json_saved = save_path
                     except Exception:
-                        pass
+                        got_json_saved = ""
 
-                    diff_val, reason = parse_diff_from_machine4_json(j)
-                    api_cache[api_key] = (diff_val, reason)
+                    diff_val, diff_reason = parse_diff_from_machine4_json(j)
+                    total_val, total_reason = parse_total_start_from_machine4_json(j)
+                    api_cache[api_key] = (diff_val, diff_reason, total_val, total_reason)
 
-                    if diff_val is not None:
-                        got_diff, got_reason = diff_val, reason
-                        log_line(
-                            api_diff_log,
-                            f"[{ts}] HIT diff={diff_val} d={d_value} page={url} json={MACHINE4_URL} "
-                            f"path={reason} saved={got_json_saved}",
-                        )
+                    # diff logs / capture
+                    if need_diff_api:
+                        if diff_val is not None and got_diff is None:
+                            got_diff, got_diff_reason = diff_val, diff_reason
+                            log_line(
+                                api_diff_log,
+                                f"[{ts}] HIT diff={diff_val} d={d_value} page={url} json={MACHINE4_URL} path={diff_reason} saved={got_json_saved}",
+                            )
+                        else:
+                            log_line(
+                                api_diff_log,
+                                f"[{ts}] MISS diff m={m_value} n={zfill_n(n_value)} d={d_value} url={url} reason={diff_reason} saved={got_json_saved}",
+                            )
+                            if diff_reason:
+                                last_diff_reason = diff_reason
+
+                    # total_start logs / capture
+                    if need_total_api:
+                        if total_val is not None and got_total is None:
+                            got_total, got_total_reason = total_val, total_reason
+                            log_line(
+                                api_total_log,
+                                f"[{ts}] HIT total_start={total_val} d={d_value} page={url} json={MACHINE4_URL} path={total_reason} saved={got_json_saved}",
+                            )
+                        else:
+                            log_line(
+                                api_total_log,
+                                f"[{ts}] MISS total_start m={m_value} n={zfill_n(n_value)} d={d_value} url={url} reason={total_reason} saved={got_json_saved}",
+                            )
+                            if total_reason:
+                                last_total_reason = total_reason
+
+                    if (not need_diff_api or got_diff is not None) and (not need_total_api or got_total is not None):
                         break
 
-                    log_line(
-                        api_diff_log,
-                        f"[{ts}] MISS diff m={m_value} n={zfill_n(n_value)} d={d_value} url={url} "
-                        f"reason={reason} saved={got_json_saved}",
-                    )
-                    got_reason = reason
+                # total_start を API で補完（0 / None のとき）
+                if need_total_api and got_total is not None:
+                    u["total_start"] = got_total
+                    filled_total_api += 1
 
-                # ★ここが今回の本題：no_diff_in_json かつ 当日完全0なら「差枚0」として扱う
-                if got_diff is None and got_reason == "no_diff_in_json":
-                    bb0 = (u.get("bb") or 0) == 0
-                    rb0 = (u.get("rb") or 0) == 0
-                    art0 = (u.get("art") or 0) == 0
-                    ts0 = (u.get("total_start") or 0) == 0
-                    mx0 = (u.get("max_medals") or 0) == 0
-                    if bb0 and rb0 and art0 and ts0 and mx0:
-                        u["diff_medals"] = 0
-                        u["diff_reason"] = "no_play_or_no_update(diff=0)"
+                # diff_medals を API で補完（None のとき）
+                if need_diff_api:
+                    final_diff_reason = got_diff_reason or last_diff_reason or "unknown"
+
+                    # no_diff_in_json かつ 当日完全0なら「差枚0」として扱う
+                    if got_diff is None and final_diff_reason == "no_diff_in_json":
+                        bb0 = (u.get("bb") or 0) == 0
+                        rb0 = (u.get("rb") or 0) == 0
+                        art0 = (u.get("art") or 0) == 0
+                        ts0 = (safe_int(u.get("total_start")) or 0) == 0
+                        mx0 = (u.get("max_medals") or 0) == 0
+                        if bb0 and rb0 and art0 and ts0 and mx0:
+                            u["diff_medals"] = 0
+                            u["diff_reason"] = "no_play_or_no_update(diff=0)"
+                        else:
+                            u["diff_reason"] = final_diff_reason
+                            api_miss_total += 1
+                    elif got_diff is not None:
+                        u["diff_medals"] = got_diff
+                        u["diff_reason"] = got_diff_reason or final_diff_reason
+                        filled_diff_api += 1
                     else:
-                        u["diff_reason"] = got_reason
+                        u["diff_reason"] = final_diff_reason
                         api_miss_total += 1
-                elif got_diff is not None:
-                    u["diff_medals"] = got_diff
-                    u["diff_reason"] = got_reason
-                    filled_diff_api += 1
-                else:
-                    u["diff_reason"] = got_reason
-                    api_miss_total += 1
 
         browser.close()
 
@@ -760,7 +873,7 @@ def main() -> None:
 
     print(
         f"Saved: {out_path} ({len(all_units)} records) "
-        f"filled(bb/rb/art/max/total/diff_text/diff_api)=({filled_bb}/{filled_rb}/{filled_art}/{filled_max}/{filled_total}/{filled_diff_text}/{filled_diff_api}) "
+        f"filled(bb/rb/art/max/total_text/total_api/diff_text/diff_api)=({filled_bb}/{filled_rb}/{filled_art}/{filled_max}/{filled_total}/{filled_total_api}/{filled_diff_text}/{filled_diff_api}) "
         f"skipped_machine_total={skipped_machine_total} parse_fail_total={parse_fail_total} "
         f"wrong_page_total={wrong_page_total} skipped_page_total={skipped_page_total} api_miss_total={api_miss_total}"
     )
@@ -768,7 +881,7 @@ def main() -> None:
         "logs: "
         f"{news_fetch_log} / {data_fetch_log} / {data_units_zero_log} / "
         f"{mach_fetch_log} / {mach_parse_log} / {mach_wrong_page_log} / "
-        f"{api_diff_log} / {api_json_log}"
+        f"{api_diff_log} / {api_json_log} / {api_total_log}"
     )
 
 
