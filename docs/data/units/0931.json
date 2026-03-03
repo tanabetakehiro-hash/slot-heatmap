@@ -1,6 +1,6 @@
 {
   "unit_no": "0931",
-  "model_name_latest": "Ｌダーリン・イン・ザ・フランキス－⑤",
+  "model_name_latest": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
   "dates": [
     "2026-02-21",
     "2026-02-22",
@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0931",
       "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
-      "max_payout": 445,
-      "diff_medals": null,
+      "max_payout": 1871,
+      "diff_medals": -3266,
       "bb": 0,
-      "rb": 2,
+      "rb": 27,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0931",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0931",
       "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
-      "max_payout": 1871,
-      "diff_medals": null,
+      "max_payout": 1720,
+      "diff_medals": -315,
       "bb": 0,
-      "rb": 27,
+      "rb": 6,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0931",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0931",
       "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
       "max_payout": 709,
-      "diff_medals": null,
+      "diff_medals": -400,
       "bb": 0,
       "rb": 3,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0931",
       "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
       "max_payout": 3693,
-      "diff_medals": null,
+      "diff_medals": 2030,
       "bb": 0,
       "rb": 9,
-      "total_start": 0,
+      "total_start": 3089,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0931",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0931",
+      "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
+      "max_payout": 895,
+      "diff_medals": -1756,
+      "bb": 13,
+      "rb": 0,
+      "total_start": 2503,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0931",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0931",
+      "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
+      "max_payout": 1489,
+      "diff_medals": null,
+      "bb": 9,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0931",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

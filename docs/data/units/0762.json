@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0762",
       "model_name": "ＳマイジャグラーＶ",
-      "max_payout": 697,
-      "diff_medals": null,
-      "bb": 20,
-      "rb": 16,
+      "max_payout": 2784,
+      "diff_medals": 666,
+      "bb": 32,
+      "rb": 40,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0762",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0762",
       "model_name": "ＳマイジャグラーＶ",
-      "max_payout": 2784,
-      "diff_medals": null,
-      "bb": 32,
-      "rb": 40,
+      "max_payout": 657,
+      "diff_medals": -773,
+      "bb": 6,
+      "rb": 5,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0762",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0762",
       "model_name": "ＳマイジャグラーＶ",
       "max_payout": 575,
-      "diff_medals": null,
+      "diff_medals": -1867,
       "bb": 14,
       "rb": 10,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0762",
       "model_name": "ＳマイジャグラーＶ",
       "max_payout": 2214,
-      "diff_medals": null,
+      "diff_medals": 945,
       "bb": 31,
+      "rb": 16,
+      "total_start": 6772,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0762",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0762",
+      "model_name": "ＳマイジャグラーＶ",
+      "max_payout": 1189,
+      "diff_medals": -868,
+      "bb": 19,
+      "rb": 22,
+      "total_start": 6490,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0762",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0762",
+      "model_name": "ＳマイジャグラーＶ",
+      "max_payout": 1757,
+      "diff_medals": null,
+      "bb": 21,
       "rb": 16,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0762",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }

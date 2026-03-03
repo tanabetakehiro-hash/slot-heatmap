@@ -1,6 +1,6 @@
 {
   "unit_no": "0964",
-  "model_name_latest": "Ｌネオプラネット",
+  "model_name_latest": "Ｌダーリン・イン・ザ・フランキス－⑤",
   "dates": [
     "2026-02-21",
     "2026-02-22",
@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0964",
       "model_name": "Ｌネオプラネット",
-      "max_payout": 1581,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 6,
+      "max_payout": 601,
+      "diff_medals": -242,
+      "bb": 3,
+      "rb": 2,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120333&n=0964",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120333&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0964",
       "model_name": "Ｌネオプラネット",
-      "max_payout": 601,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 2,
+      "max_payout": 1065,
+      "diff_medals": -184,
+      "bb": 5,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120333&n=0964",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120333&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0964",
       "model_name": "Ｌネオプラネット",
       "max_payout": 369,
-      "diff_medals": null,
+      "diff_medals": -1775,
       "bb": 1,
       "rb": 4,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0964",
       "model_name": "Ｌネオプラネット",
       "max_payout": 373,
-      "diff_medals": null,
+      "diff_medals": -2845,
       "bb": 3,
       "rb": 4,
-      "total_start": 0,
+      "total_start": 2711,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120333&n=0964",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120333&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0964",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 287,
+      "diff_medals": -1436,
+      "bb": 0,
+      "rb": 7,
+      "total_start": 1327,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0964",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0964",
+      "model_name": "Ｌダーリン・イン・ザ・フランキス－⑤",
+      "max_payout": 219,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120319&n=0964",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120319&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0866",
       "model_name": "Ｌバイオハザード５",
-      "max_payout": 0,
-      "diff_medals": 0,
+      "max_payout": 1317,
+      "diff_medals": -1427,
       "bb": 0,
-      "rb": 0,
+      "rb": 12,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0866",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0866",
       "model_name": "Ｌバイオハザード５",
-      "max_payout": 1317,
-      "diff_medals": null,
+      "max_payout": 994,
+      "diff_medals": -1006,
       "bb": 0,
-      "rb": 12,
+      "rb": 5,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0866",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0866",
       "model_name": "Ｌバイオハザード５",
       "max_payout": 487,
-      "diff_medals": null,
+      "diff_medals": -2194,
       "bb": 0,
       "rb": 5,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0866",
       "model_name": "Ｌバイオハザード５",
       "max_payout": 2197,
-      "diff_medals": null,
+      "diff_medals": -2192,
       "bb": 0,
       "rb": 9,
+      "total_start": 5538,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0866",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0866",
+      "model_name": "Ｌバイオハザード５",
+      "max_payout": 375,
+      "diff_medals": -1197,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 1770,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0866",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0866",
+      "model_name": "Ｌバイオハザード５",
+      "max_payout": 154,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0866",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

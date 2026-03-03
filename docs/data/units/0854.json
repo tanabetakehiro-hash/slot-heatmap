@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0854",
       "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 742,
-      "diff_medals": null,
-      "bb": 4,
-      "rb": 2,
+      "max_payout": 3053,
+      "diff_medals": -472,
+      "bb": 24,
+      "rb": 8,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120347&n=0854",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0854",
       "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 3053,
-      "diff_medals": null,
-      "bb": 24,
-      "rb": 8,
+      "max_payout": 325,
+      "diff_medals": -1505,
+      "bb": 5,
+      "rb": 6,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120347&n=0854",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0854",
       "model_name": "Ｌ秘宝伝－５",
       "max_payout": 1676,
-      "diff_medals": null,
+      "diff_medals": -616,
       "bb": 11,
       "rb": 7,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0854",
       "model_name": "Ｌ秘宝伝－５",
       "max_payout": 404,
-      "diff_medals": null,
+      "diff_medals": -3052,
       "bb": 4,
       "rb": 5,
+      "total_start": 2800,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120347&n=0854",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0854",
+      "model_name": "Ｌ秘宝伝－５",
+      "max_payout": 2102,
+      "diff_medals": 42,
+      "bb": 10,
+      "rb": 10,
+      "total_start": 2296,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120347&n=0854",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0854",
+      "model_name": "Ｌ秘宝伝－５",
+      "max_payout": 361,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 1,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120347&n=0854",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

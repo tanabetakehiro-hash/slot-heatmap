@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0772",
       "model_name": "ＳアイムジャグラーＥＸ",
-      "max_payout": 1415,
-      "diff_medals": null,
-      "bb": 19,
-      "rb": 22,
+      "max_payout": 1234,
+      "diff_medals": -527,
+      "bb": 18,
+      "rb": 16,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0772",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0772",
       "model_name": "ＳアイムジャグラーＥＸ",
-      "max_payout": 1234,
-      "diff_medals": null,
-      "bb": 18,
-      "rb": 16,
+      "max_payout": 1124,
+      "diff_medals": 121,
+      "bb": 11,
+      "rb": 7,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0772",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0772",
       "model_name": "ＳアイムジャグラーＥＸ",
       "max_payout": 412,
-      "diff_medals": null,
+      "diff_medals": -1858,
       "bb": 4,
       "rb": 2,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0772",
       "model_name": "ＳアイムジャグラーＥＸ",
       "max_payout": 740,
-      "diff_medals": null,
+      "diff_medals": -1088,
       "bb": 17,
       "rb": 19,
+      "total_start": 5978,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0772",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0772",
+      "model_name": "ＳアイムジャグラーＥＸ",
+      "max_payout": 2854,
+      "diff_medals": 2124,
+      "bb": 23,
+      "rb": 24,
+      "total_start": 4929,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0772",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0772",
+      "model_name": "ＳアイムジャグラーＥＸ",
+      "max_payout": 597,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 13,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0772",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }

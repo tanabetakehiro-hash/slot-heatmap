@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,9 +79,9 @@
       "date": "2026-02-26",
       "unit_no": "0935",
       "model_name": "Ｌマギアレコード",
-      "max_payout": 1345,
-      "diff_medals": null,
-      "bb": 5,
+      "max_payout": 1440,
+      "diff_medals": -2768,
+      "bb": 23,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120283&n=0935",
@@ -89,9 +91,9 @@
       "date": "2026-02-27",
       "unit_no": "0935",
       "model_name": "Ｌマギアレコード",
-      "max_payout": 1440,
-      "diff_medals": null,
-      "bb": 23,
+      "max_payout": 6691,
+      "diff_medals": 3952,
+      "bb": 14,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120283&n=0935",
@@ -102,7 +104,7 @@
       "unit_no": "0935",
       "model_name": "Ｌマギアレコード",
       "max_payout": 4577,
-      "diff_medals": null,
+      "diff_medals": 3120,
       "bb": 20,
       "rb": 0,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0935",
       "model_name": "Ｌマギアレコード",
       "max_payout": 2128,
-      "diff_medals": null,
+      "diff_medals": -92,
       "bb": 14,
+      "rb": 0,
+      "total_start": 4707,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120283&n=0935",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120283&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0935",
+      "model_name": "Ｌマギアレコード",
+      "max_payout": 632,
+      "diff_medals": -490,
+      "bb": 3,
+      "rb": 0,
+      "total_start": 1025,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120283&n=0935",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120283&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0935",
+      "model_name": "Ｌマギアレコード",
+      "max_payout": 41,
+      "diff_medals": null,
+      "bb": 1,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120283&n=0935",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120283&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

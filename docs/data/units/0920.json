@@ -1,6 +1,6 @@
 {
   "unit_no": "0920",
-  "model_name_latest": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
+  "model_name_latest": "Ｌモンスターハンターライズ",
   "dates": [
     "2026-02-21",
     "2026-02-22",
@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,9 +79,9 @@
       "date": "2026-02-26",
       "unit_no": "0920",
       "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
-      "max_payout": 342,
-      "diff_medals": null,
-      "bb": 7,
+      "max_payout": 5451,
+      "diff_medals": 1426,
+      "bb": 51,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0920",
@@ -89,9 +91,9 @@
       "date": "2026-02-27",
       "unit_no": "0920",
       "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
-      "max_payout": 5451,
-      "diff_medals": null,
-      "bb": 51,
+      "max_payout": 87,
+      "diff_medals": -1130,
+      "bb": 1,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0920",
@@ -102,7 +104,7 @@
       "unit_no": "0920",
       "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
       "max_payout": 3841,
-      "diff_medals": null,
+      "diff_medals": 1910,
       "bb": 22,
       "rb": 0,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0920",
       "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
       "max_payout": 2932,
-      "diff_medals": null,
+      "diff_medals": -795,
       "bb": 12,
       "rb": 0,
-      "total_start": 0,
+      "total_start": 2531,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0920",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0920",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 146,
+      "diff_medals": -934,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 721,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0920",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0920",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 3,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0920",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

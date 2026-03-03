@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0311",
       "model_name": "Ｌハナビ",
-      "max_payout": 322,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 4,
+      "max_payout": 643,
+      "diff_medals": -1521,
+      "bb": 14,
+      "rb": 13,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0311",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0311",
       "model_name": "Ｌハナビ",
-      "max_payout": 643,
-      "diff_medals": null,
-      "bb": 14,
-      "rb": 13,
+      "max_payout": 861,
+      "diff_medals": -215,
+      "bb": 10,
+      "rb": 11,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0311",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0311",
       "model_name": "Ｌハナビ",
       "max_payout": 873,
-      "diff_medals": null,
+      "diff_medals": -1069,
       "bb": 7,
       "rb": 7,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0311",
       "model_name": "Ｌハナビ",
       "max_payout": 1221,
-      "diff_medals": null,
+      "diff_medals": -1762,
       "bb": 17,
       "rb": 19,
+      "total_start": 6556,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0311",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0311",
+      "model_name": "Ｌハナビ",
+      "max_payout": 590,
+      "diff_medals": -759,
+      "bb": 5,
+      "rb": 3,
+      "total_start": 2090,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0311",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0311",
+      "model_name": "Ｌハナビ",
+      "max_payout": 626,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0311",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }

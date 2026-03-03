@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "1016",
       "model_name": "沖ドキ！ＧＯＬＤ－３０",
-      "max_payout": 1751,
-      "diff_medals": null,
-      "bb": 16,
-      "rb": 2,
+      "max_payout": 2584,
+      "diff_medals": -2143,
+      "bb": 35,
+      "rb": 17,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1016",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "1016",
       "model_name": "沖ドキ！ＧＯＬＤ－３０",
-      "max_payout": 2584,
-      "diff_medals": null,
-      "bb": 35,
-      "rb": 17,
+      "max_payout": 1026,
+      "diff_medals": 600,
+      "bb": 5,
+      "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1016",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "1016",
       "model_name": "沖ドキ！ＧＯＬＤ－３０",
       "max_payout": 2187,
-      "diff_medals": null,
+      "diff_medals": 1028,
       "bb": 24,
       "rb": 6,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "1016",
       "model_name": "沖ドキ！ＧＯＬＤ－３０",
       "max_payout": 2047,
-      "diff_medals": null,
+      "diff_medals": 1886,
       "bb": 9,
       "rb": 6,
+      "total_start": 415,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1016",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "1016",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 1856,
+      "diff_medals": 269,
+      "bb": 9,
+      "rb": 8,
+      "total_start": 1515,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1016",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "1016",
+      "model_name": "沖ドキ！ＧＯＬＤ－３０",
+      "max_payout": 3,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1016",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

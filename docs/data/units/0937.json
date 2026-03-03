@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0937",
       "model_name": "Ｌ無職転生－Ｖ",
-      "max_payout": 977,
-      "diff_medals": null,
+      "max_payout": 2146,
+      "diff_medals": -2031,
       "bb": 0,
-      "rb": 10,
+      "rb": 22,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120340&n=0937",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120340&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0937",
       "model_name": "Ｌ無職転生－Ｖ",
-      "max_payout": 2146,
-      "diff_medals": null,
+      "max_payout": 797,
+      "diff_medals": -2875,
       "bb": 0,
-      "rb": 22,
+      "rb": 17,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120340&n=0937",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120340&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0937",
       "model_name": "Ｌ無職転生－Ｖ",
       "max_payout": 7207,
-      "diff_medals": null,
+      "diff_medals": 5119,
       "bb": 0,
       "rb": 30,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0937",
       "model_name": "Ｌ無職転生－Ｖ",
       "max_payout": 4572,
-      "diff_medals": null,
+      "diff_medals": 2643,
       "bb": 0,
       "rb": 19,
+      "total_start": 6898,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120340&n=0937",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120340&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0937",
+      "model_name": "Ｌ無職転生－Ｖ",
+      "max_payout": 880,
+      "diff_medals": -2387,
+      "bb": 0,
+      "rb": 16,
+      "total_start": 4403,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120340&n=0937",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120340&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0937",
+      "model_name": "Ｌ無職転生－Ｖ",
+      "max_payout": 3850,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 14,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120340&n=0937",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120340&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

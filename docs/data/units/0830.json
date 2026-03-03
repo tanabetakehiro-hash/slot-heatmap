@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0830",
       "model_name": "Ｌかぐや様は告らせたい－Ｖ",
-      "max_payout": 313,
-      "diff_medals": null,
-      "bb": 6,
-      "rb": 4,
+      "max_payout": 5331,
+      "diff_medals": 1670,
+      "bb": 45,
+      "rb": 10,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0830",
       "model_name": "Ｌかぐや様は告らせたい－Ｖ",
-      "max_payout": 5331,
-      "diff_medals": null,
-      "bb": 45,
-      "rb": 10,
+      "max_payout": 9923,
+      "diff_medals": 9060,
+      "bb": 33,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0830",
       "model_name": "Ｌかぐや様は告らせたい－Ｖ",
       "max_payout": 5561,
-      "diff_medals": null,
+      "diff_medals": 1894,
       "bb": 21,
       "rb": 7,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0830",
       "model_name": "Ｌかぐや様は告らせたい－Ｖ",
       "max_payout": 1378,
-      "diff_medals": null,
+      "diff_medals": -566,
       "bb": 8,
       "rb": 2,
+      "total_start": 1889,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 625,
+      "diff_medals": -3943,
+      "bb": 6,
+      "rb": 7,
+      "total_start": 3848,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0830",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1271,
+      "diff_medals": null,
+      "bb": 24,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0830",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

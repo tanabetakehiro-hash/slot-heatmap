@@ -1,6 +1,6 @@
 {
   "unit_no": "0339",
-  "model_name_latest": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
+  "model_name_latest": "ＬＢサンダーＶ",
   "dates": [
     "2026-02-21",
     "2026-02-22",
@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0339",
       "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
-      "max_payout": 1267,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 7,
+      "max_payout": 2170,
+      "diff_medals": 1244,
+      "bb": 15,
+      "rb": 14,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0339",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0339",
       "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
-      "max_payout": 2170,
-      "diff_medals": null,
-      "bb": 15,
-      "rb": 14,
+      "max_payout": 1846,
+      "diff_medals": 1202,
+      "bb": 13,
+      "rb": 8,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0339",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0339",
       "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
       "max_payout": 2237,
-      "diff_medals": null,
+      "diff_medals": -980,
       "bb": 18,
       "rb": 20,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0339",
       "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
       "max_payout": 3633,
-      "diff_medals": null,
+      "diff_medals": 1754,
       "bb": 22,
       "rb": 16,
-      "total_start": 0,
+      "total_start": 6541,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0339",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0339",
+      "model_name": "ＬＢサンダーＶ",
+      "max_payout": 692,
+      "diff_medals": -832,
+      "bb": 9,
+      "rb": 11,
+      "total_start": 3337,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0339",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0339",
+      "model_name": "ＬＢサンダーＶ",
+      "max_payout": 318,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0339",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }

@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0900",
       "model_name": "Ｌ主役は銭形５",
-      "max_payout": 1927,
-      "diff_medals": null,
+      "max_payout": 538,
+      "diff_medals": -1307,
       "bb": 0,
-      "rb": 5,
+      "rb": 2,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0900",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
@@ -89,8 +91,8 @@
       "date": "2026-02-27",
       "unit_no": "0900",
       "model_name": "Ｌ主役は銭形５",
-      "max_payout": 538,
-      "diff_medals": null,
+      "max_payout": 87,
+      "diff_medals": -1551,
       "bb": 0,
       "rb": 2,
       "total_start": 0,
@@ -102,7 +104,7 @@
       "unit_no": "0900",
       "model_name": "Ｌ主役は銭形５",
       "max_payout": 4393,
-      "diff_medals": null,
+      "diff_medals": 2329,
       "bb": 0,
       "rb": 8,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0900",
       "model_name": "Ｌ主役は銭形５",
       "max_payout": 237,
-      "diff_medals": null,
+      "diff_medals": -4268,
       "bb": 0,
       "rb": 5,
+      "total_start": 3416,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0900",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0900",
+      "model_name": "Ｌ主役は銭形５",
+      "max_payout": 2953,
+      "diff_medals": -61,
+      "bb": 0,
+      "rb": 5,
+      "total_start": 3463,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0900",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0900",
+      "model_name": "Ｌ主役は銭形５",
+      "max_payout": 1084,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0900",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

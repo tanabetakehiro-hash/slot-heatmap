@@ -1,6 +1,6 @@
 {
   "unit_no": "0316",
-  "model_name_latest": "Ｌモンスターハンターライズ",
+  "model_name_latest": "Ｌうみねこのなく頃に２－Ｖ",
   "dates": [
     "2026-02-21",
     "2026-02-22",
@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0316",
       "model_name": "Ｌモンスターハンターライズ",
-      "max_payout": 0,
-      "diff_medals": 0,
+      "max_payout": 2913,
+      "diff_medals": 395,
       "bb": 0,
-      "rb": 0,
+      "rb": 15,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0316",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0316",
       "model_name": "Ｌモンスターハンターライズ",
-      "max_payout": 2913,
-      "diff_medals": null,
+      "max_payout": 3,
+      "diff_medals": -661,
       "bb": 0,
-      "rb": 15,
+      "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0316",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0316",
       "model_name": "Ｌモンスターハンターライズ",
       "max_payout": 1468,
-      "diff_medals": null,
+      "diff_medals": -1880,
       "bb": 0,
       "rb": 6,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0316",
       "model_name": "Ｌモンスターハンターライズ",
       "max_payout": 885,
-      "diff_medals": null,
+      "diff_medals": -3457,
       "bb": 0,
       "rb": 14,
-      "total_start": 0,
+      "total_start": 6817,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0316",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0316",
+      "model_name": "Ｌうみねこのなく頃に２－Ｖ",
+      "max_payout": 1768,
+      "diff_medals": 448,
+      "bb": 15,
+      "rb": 15,
+      "total_start": 5394,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120348&n=0316",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0316",
+      "model_name": "Ｌうみねこのなく頃に２－Ｖ",
+      "max_payout": 1630,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 11,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120348&n=0316",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }

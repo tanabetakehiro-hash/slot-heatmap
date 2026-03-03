@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0924",
       "model_name": "Ｌスーパーブラックジャック",
-      "max_payout": 5182,
-      "diff_medals": null,
+      "max_payout": 2315,
+      "diff_medals": -1539,
       "bb": 0,
-      "rb": 2,
+      "rb": 9,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0924",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0924",
       "model_name": "Ｌスーパーブラックジャック",
-      "max_payout": 2315,
-      "diff_medals": null,
+      "max_payout": 1092,
+      "diff_medals": -2825,
       "bb": 0,
-      "rb": 9,
+      "rb": 8,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0924",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0924",
       "model_name": "Ｌスーパーブラックジャック",
       "max_payout": 2236,
-      "diff_medals": null,
+      "diff_medals": -1992,
       "bb": 0,
       "rb": 6,
       "total_start": 0,
@@ -114,6 +116,30 @@
       "unit_no": "0924",
       "model_name": "Ｌスーパーブラックジャック",
       "max_payout": 398,
+      "diff_medals": -4319,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 4756,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0924",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0924",
+      "model_name": "Ｌスーパーブラックジャック",
+      "max_payout": 1365,
+      "diff_medals": -133,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 1969,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0924",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0924",
+      "model_name": "Ｌスーパーブラックジャック",
+      "max_payout": 294,
       "diff_medals": null,
       "bb": 0,
       "rb": 3,
@@ -122,5 +148,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

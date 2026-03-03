@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,9 +79,9 @@
       "date": "2026-02-26",
       "unit_no": "0888",
       "model_name": "Ｌゴジラ対エヴァンゲリオン－Ｖ",
-      "max_payout": 127,
-      "diff_medals": null,
-      "bb": 2,
+      "max_payout": 608,
+      "diff_medals": -1212,
+      "bb": 17,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120191&n=0888",
@@ -89,9 +91,9 @@
       "date": "2026-02-27",
       "unit_no": "0888",
       "model_name": "Ｌゴジラ対エヴァンゲリオン－Ｖ",
-      "max_payout": 608,
-      "diff_medals": null,
-      "bb": 17,
+      "max_payout": 13,
+      "diff_medals": -166,
+      "bb": 0,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120191&n=0888",
@@ -102,7 +104,7 @@
       "unit_no": "0888",
       "model_name": "Ｌゴジラ対エヴァンゲリオン－Ｖ",
       "max_payout": 1570,
-      "diff_medals": null,
+      "diff_medals": 44,
       "bb": 16,
       "rb": 0,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0888",
       "model_name": "Ｌゴジラ対エヴァンゲリオン－Ｖ",
       "max_payout": 4895,
-      "diff_medals": null,
+      "diff_medals": 3300,
       "bb": 12,
+      "rb": 0,
+      "total_start": 3271,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120191&n=0888",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120191&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0888",
+      "model_name": "Ｌゴジラ対エヴァンゲリオン－Ｖ",
+      "max_payout": 0,
+      "diff_medals": 0,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120191&n=0888",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120191&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0888",
+      "model_name": "Ｌゴジラ対エヴァンゲリオン－Ｖ",
+      "max_payout": 201,
+      "diff_medals": null,
+      "bb": 6,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120191&n=0888",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120191&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

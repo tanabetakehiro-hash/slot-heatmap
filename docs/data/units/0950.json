@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0950",
       "model_name": "Ｌバキ強くなりたくば喰らえ",
-      "max_payout": 1076,
-      "diff_medals": null,
+      "max_payout": 409,
+      "diff_medals": -1549,
       "bb": 0,
-      "rb": 1,
+      "rb": 7,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120102&n=0950",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120102&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0950",
       "model_name": "Ｌバキ強くなりたくば喰らえ",
-      "max_payout": 409,
-      "diff_medals": null,
+      "max_payout": 1451,
+      "diff_medals": -1077,
       "bb": 0,
-      "rb": 7,
+      "rb": 18,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120102&n=0950",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120102&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0950",
       "model_name": "Ｌバキ強くなりたくば喰らえ",
       "max_payout": 9732,
-      "diff_medals": null,
+      "diff_medals": 9391,
       "bb": 0,
       "rb": 6,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0950",
       "model_name": "Ｌバキ強くなりたくば喰らえ",
       "max_payout": 995,
-      "diff_medals": null,
+      "diff_medals": 103,
       "bb": 0,
       "rb": 7,
+      "total_start": 2165,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120102&n=0950",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120102&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0950",
+      "model_name": "Ｌバキ強くなりたくば喰らえ",
+      "max_payout": 595,
+      "diff_medals": -737,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 1181,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120102&n=0950",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120102&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0950",
+      "model_name": "Ｌバキ強くなりたくば喰らえ",
+      "max_payout": 288,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 4,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120102&n=0950",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120102&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

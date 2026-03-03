@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0721",
       "model_name": "ウルトラミラクルジャグラー",
-      "max_payout": 1864,
-      "diff_medals": null,
-      "bb": 33,
-      "rb": 18,
+      "max_payout": 665,
+      "diff_medals": -1067,
+      "bb": 20,
+      "rb": 22,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120262&n=0721",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120262&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0721",
       "model_name": "ウルトラミラクルジャグラー",
-      "max_payout": 665,
-      "diff_medals": null,
-      "bb": 20,
-      "rb": 22,
+      "max_payout": 2596,
+      "diff_medals": 1906,
+      "bb": 24,
+      "rb": 15,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120262&n=0721",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120262&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0721",
       "model_name": "ウルトラミラクルジャグラー",
       "max_payout": 522,
-      "diff_medals": null,
+      "diff_medals": -196,
       "bb": 5,
       "rb": 2,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0721",
       "model_name": "ウルトラミラクルジャグラー",
       "max_payout": 2185,
-      "diff_medals": null,
+      "diff_medals": 1730,
       "bb": 38,
       "rb": 29,
+      "total_start": 8756,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120262&n=0721",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120262&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0721",
+      "model_name": "ウルトラミラクルジャグラー",
+      "max_payout": 602,
+      "diff_medals": -327,
+      "bb": 5,
+      "rb": 1,
+      "total_start": 1429,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120262&n=0721",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120262&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0721",
+      "model_name": "ウルトラミラクルジャグラー",
+      "max_payout": 548,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 7,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120262&n=0721",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120262&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }

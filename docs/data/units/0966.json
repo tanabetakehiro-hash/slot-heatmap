@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0966",
       "model_name": "ＬアズールレーンＴＨＥ　ＡＮＩＭＡＴＩＯＮ－Ｖ",
-      "max_payout": 3188,
-      "diff_medals": null,
+      "max_payout": 2643,
+      "diff_medals": -88,
       "bb": 0,
-      "rb": 14,
+      "rb": 20,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120318&n=0966",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120318&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0966",
       "model_name": "ＬアズールレーンＴＨＥ　ＡＮＩＭＡＴＩＯＮ－Ｖ",
-      "max_payout": 2643,
-      "diff_medals": null,
+      "max_payout": 914,
+      "diff_medals": -5108,
       "bb": 0,
-      "rb": 20,
+      "rb": 30,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120318&n=0966",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120318&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0966",
       "model_name": "ＬアズールレーンＴＨＥ　ＡＮＩＭＡＴＩＯＮ－Ｖ",
       "max_payout": 1531,
-      "diff_medals": null,
+      "diff_medals": -3043,
       "bb": 0,
       "rb": 28,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0966",
       "model_name": "ＬアズールレーンＴＨＥ　ＡＮＩＭＡＴＩＯＮ－Ｖ",
       "max_payout": 5132,
-      "diff_medals": null,
+      "diff_medals": 4553,
       "bb": 0,
       "rb": 16,
+      "total_start": 5686,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120318&n=0966",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120318&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0966",
+      "model_name": "ＬアズールレーンＴＨＥ　ＡＮＩＭＡＴＩＯＮ－Ｖ",
+      "max_payout": 1260,
+      "diff_medals": -662,
+      "bb": 0,
+      "rb": 16,
+      "total_start": 3299,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120318&n=0966",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120318&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0966",
+      "model_name": "ＬアズールレーンＴＨＥ　ＡＮＩＭＡＴＩＯＮ－Ｖ",
+      "max_payout": 870,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120318&n=0966",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120318&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:32"
 }

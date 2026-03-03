@@ -10,7 +10,9 @@
     "2026-02-26",
     "2026-02-27",
     "2026-02-28",
-    "2026-03-01"
+    "2026-03-01",
+    "2026-03-02",
+    "2026-03-04"
   ],
   "series": [
     {
@@ -77,10 +79,10 @@
       "date": "2026-02-26",
       "unit_no": "0328",
       "model_name": "Ｌ鉄拳６",
-      "max_payout": 225,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 1,
+      "max_payout": 1710,
+      "diff_medals": -2134,
+      "bb": 27,
+      "rb": 18,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
@@ -89,10 +91,10 @@
       "date": "2026-02-27",
       "unit_no": "0328",
       "model_name": "Ｌ鉄拳６",
-      "max_payout": 1710,
-      "diff_medals": null,
-      "bb": 27,
-      "rb": 18,
+      "max_payout": 981,
+      "diff_medals": -1513,
+      "bb": 10,
+      "rb": 6,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
@@ -102,7 +104,7 @@
       "unit_no": "0328",
       "model_name": "Ｌ鉄拳６",
       "max_payout": 6667,
-      "diff_medals": null,
+      "diff_medals": 5176,
       "bb": 35,
       "rb": 42,
       "total_start": 0,
@@ -114,13 +116,37 @@
       "unit_no": "0328",
       "model_name": "Ｌ鉄拳６",
       "max_payout": 5264,
-      "diff_medals": null,
+      "diff_medals": 3633,
       "bb": 17,
       "rb": 27,
+      "total_start": 1882,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-03-02",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 1514,
+      "diff_medals": 542,
+      "bb": 14,
+      "rb": 12,
+      "total_start": 1493,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-03-04",
+      "unit_no": "0328",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 8534,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 39,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0328",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
     }
   ],
-  "updated_at": "2026-03-01 15:10:31"
+  "updated_at": "2026-03-03 16:48:31"
 }
