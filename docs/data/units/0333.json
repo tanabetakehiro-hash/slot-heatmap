@@ -12,7 +12,8 @@
     "2026-02-28",
     "2026-03-01",
     "2026-03-02",
-    "2026-03-04"
+    "2026-03-04",
+    "2026-03-05"
   ],
   "series": [
     {
@@ -146,7 +147,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0333",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
+    },
+    {
+      "date": "2026-03-05",
+      "unit_no": "0333",
+      "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
+      "max_payout": 1859,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0333",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
     }
   ],
-  "updated_at": "2026-03-03 16:48:31"
+  "updated_at": "2026-03-04 16:20:57"
 }
