@@ -165,14 +165,14 @@
       "date": "2026-03-06",
       "unit_no": "0927",
       "model_name": "Ｌ化物語",
-      "max_payout": 153,
+      "max_payout": 2492,
       "diff_medals": null,
       "bb": 0,
-      "rb": 1,
+      "rb": 19,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120339&n=0927",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120339&d=1"
     }
   ],
-  "updated_at": "2026-03-05 15:18:20"
+  "updated_at": "2026-03-06 15:12:30"
 }

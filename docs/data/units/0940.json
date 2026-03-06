@@ -165,14 +165,14 @@
       "date": "2026-03-06",
       "unit_no": "0940",
       "model_name": "Ｌ防振り",
-      "max_payout": 1231,
+      "max_payout": 2909,
       "diff_medals": null,
-      "bb": 10,
-      "rb": 4,
+      "bb": 35,
+      "rb": 30,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0940",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
     }
   ],
-  "updated_at": "2026-03-05 15:18:20"
+  "updated_at": "2026-03-06 15:12:30"
 }

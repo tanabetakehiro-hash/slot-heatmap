@@ -165,14 +165,14 @@
       "date": "2026-03-06",
       "unit_no": "0989",
       "model_name": "Ｌ沖ドキ！ＤＵＯ　アンコール",
-      "max_payout": 4597,
+      "max_payout": 1773,
       "diff_medals": null,
-      "bb": 27,
-      "rb": 4,
+      "bb": 30,
+      "rb": 20,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120342&n=0989",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120342&d=1"
     }
   ],
-  "updated_at": "2026-03-05 15:18:20"
+  "updated_at": "2026-03-06 15:12:30"
 }

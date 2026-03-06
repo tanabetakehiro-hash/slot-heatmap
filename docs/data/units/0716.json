@@ -165,14 +165,14 @@
       "date": "2026-03-06",
       "unit_no": "0716",
       "model_name": "ジャグラーガールズＳＳ",
-      "max_payout": 1474,
+      "max_payout": 990,
       "diff_medals": null,
-      "bb": 22,
-      "rb": 26,
+      "bb": 23,
+      "rb": 17,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120214&n=0716",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120214&d=1"
     }
   ],
-  "updated_at": "2026-03-05 15:18:20"
+  "updated_at": "2026-03-06 15:12:30"
 }

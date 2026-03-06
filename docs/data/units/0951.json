@@ -165,14 +165,14 @@
       "date": "2026-03-06",
       "unit_no": "0951",
       "model_name": "Ｌルパン三世　大航海者の秘宝",
-      "max_payout": 3,
+      "max_payout": 6215,
       "diff_medals": null,
       "bb": 0,
-      "rb": 0,
+      "rb": 10,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120263&n=0951",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120263&d=1"
     }
   ],
-  "updated_at": "2026-03-05 15:18:20"
+  "updated_at": "2026-03-06 15:12:30"
 }

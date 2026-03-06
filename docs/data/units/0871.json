@@ -165,14 +165,14 @@
       "date": "2026-03-06",
       "unit_no": "0871",
       "model_name": "Ｌいざ！番長",
-      "max_payout": 3818,
+      "max_payout": 4616,
       "diff_medals": null,
       "bb": 0,
-      "rb": 7,
+      "rb": 22,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0871",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
     }
   ],
-  "updated_at": "2026-03-05 15:18:20"
+  "updated_at": "2026-03-06 15:12:30"
 }
