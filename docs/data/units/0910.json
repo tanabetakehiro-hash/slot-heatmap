@@ -243,14 +243,14 @@
       "date": "2026-03-13",
       "unit_no": "0910",
       "model_name": "Ｌとある科学超電磁砲２－⑤",
-      "max_payout": 807,
+      "max_payout": 258,
       "diff_medals": null,
       "bb": 0,
-      "rb": 1,
+      "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0910",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
     }
   ],
-  "updated_at": "2026-03-12 15:24:03"
+  "updated_at": "2026-03-13 15:23:25"
 }

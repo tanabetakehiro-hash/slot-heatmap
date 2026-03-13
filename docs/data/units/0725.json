@@ -243,14 +243,14 @@
       "date": "2026-03-13",
       "unit_no": "0725",
       "model_name": "ハッピージャグラーＶＩＩＩ",
-      "max_payout": 374,
+      "max_payout": 242,
       "diff_medals": null,
-      "bb": 2,
-      "rb": 1,
+      "bb": 1,
+      "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120096&n=0725",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120096&d=1"
     }
   ],
-  "updated_at": "2026-03-12 15:24:03"
+  "updated_at": "2026-03-13 15:23:25"
 }

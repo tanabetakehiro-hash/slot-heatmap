@@ -243,14 +243,14 @@
       "date": "2026-03-13",
       "unit_no": "0580",
       "model_name": "ＬモンキーターンＶ",
-      "max_payout": 3841,
+      "max_payout": 1121,
       "diff_medals": null,
       "bb": 0,
-      "rb": 10,
+      "rb": 4,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120181&n=0580",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
     }
   ],
-  "updated_at": "2026-03-12 15:24:03"
+  "updated_at": "2026-03-13 15:23:25"
 }

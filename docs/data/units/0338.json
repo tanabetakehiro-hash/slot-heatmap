@@ -243,14 +243,14 @@
       "date": "2026-03-13",
       "unit_no": "0338",
       "model_name": "ＬＢサンダーＶ",
-      "max_payout": 720,
+      "max_payout": 1452,
       "diff_medals": null,
-      "bb": 5,
-      "rb": 4,
-      "total_start": 0,
+      "bb": 9,
+      "rb": 7,
+      "total_start": 2581,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0338",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
     }
   ],
-  "updated_at": "2026-03-12 15:24:03"
+  "updated_at": "2026-03-13 15:23:25"
 }
