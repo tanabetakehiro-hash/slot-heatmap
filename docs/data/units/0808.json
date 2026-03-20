@@ -308,14 +308,14 @@
       "date": "2026-03-20",
       "unit_no": "0808",
       "model_name": "Ｌ北斗　転生の章２",
-      "max_payout": 2154,
+      "max_payout": 882,
       "diff_medals": null,
       "bb": 0,
-      "rb": 14,
+      "rb": 9,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0808",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
     }
   ],
-  "updated_at": "2026-03-19 15:41:14"
+  "updated_at": "2026-03-20 15:43:35"
 }

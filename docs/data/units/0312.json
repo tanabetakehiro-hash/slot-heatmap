@@ -308,14 +308,14 @@
       "date": "2026-03-20",
       "unit_no": "0312",
       "model_name": "Ｌハナビ",
-      "max_payout": 3028,
+      "max_payout": 421,
       "diff_medals": null,
-      "bb": 30,
-      "rb": 27,
+      "bb": 4,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0312",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
     }
   ],
-  "updated_at": "2026-03-19 15:41:14"
+  "updated_at": "2026-03-20 15:43:35"
 }

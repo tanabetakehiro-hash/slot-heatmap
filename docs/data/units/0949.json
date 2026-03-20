@@ -308,14 +308,14 @@
       "date": "2026-03-20",
       "unit_no": "0949",
       "model_name": "Ｌわたしの幸せな結婚",
-      "max_payout": 117,
+      "max_payout": 401,
       "diff_medals": null,
-      "bb": 2,
+      "bb": 5,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120311&n=0949",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120311&d=1"
     }
   ],
-  "updated_at": "2026-03-19 15:41:15"
+  "updated_at": "2026-03-20 15:43:35"
 }

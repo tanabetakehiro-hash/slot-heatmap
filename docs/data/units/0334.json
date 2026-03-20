@@ -308,14 +308,14 @@
       "date": "2026-03-20",
       "unit_no": "0334",
       "model_name": "ＬＢマジカルハロウィン　ボーナストリガー",
-      "max_payout": 717,
+      "max_payout": 1335,
       "diff_medals": null,
-      "bb": 4,
-      "rb": 2,
+      "bb": 12,
+      "rb": 5,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120326&n=0334",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120326&d=1"
     }
   ],
-  "updated_at": "2026-03-19 15:41:14"
+  "updated_at": "2026-03-20 15:43:35"
 }

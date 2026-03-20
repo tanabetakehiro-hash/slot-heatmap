@@ -308,14 +308,14 @@
       "date": "2026-03-20",
       "unit_no": "0316",
       "model_name": "Ｌうみねこのなく頃に２－Ｖ",
-      "max_payout": 1749,
+      "max_payout": 995,
       "diff_medals": null,
-      "bb": 21,
-      "rb": 18,
+      "bb": 9,
+      "rb": 14,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120348&n=0316",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120348&d=1"
     }
   ],
-  "updated_at": "2026-03-19 15:41:14"
+  "updated_at": "2026-03-20 15:43:35"
 }

@@ -308,14 +308,14 @@
       "date": "2026-03-20",
       "unit_no": "0308",
       "model_name": "ＬＢニューキングハナハナＶ",
-      "max_payout": 958,
+      "max_payout": 1295,
       "diff_medals": null,
-      "bb": 16,
-      "rb": 8,
+      "bb": 19,
+      "rb": 11,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120346&n=0308",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120346&d=1"
     }
   ],
-  "updated_at": "2026-03-19 15:41:14"
+  "updated_at": "2026-03-20 15:43:35"
 }
