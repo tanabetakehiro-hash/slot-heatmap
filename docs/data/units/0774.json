@@ -25,7 +25,8 @@
     "2026-03-15",
     "2026-03-17",
     "2026-03-18",
-    "2026-03-20"
+    "2026-03-20",
+    "2026-03-21"
   ],
   "series": [
     {
@@ -315,7 +316,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0774",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
+    },
+    {
+      "date": "2026-03-21",
+      "unit_no": "0774",
+      "model_name": "ＳアイムジャグラーＥＸ",
+      "max_payout": 1262,
+      "diff_medals": null,
+      "bb": 23,
+      "rb": 18,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0774",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
     }
   ],
-  "updated_at": "2026-03-20 15:43:35"
+  "updated_at": "2026-03-21 15:23:35"
 }
