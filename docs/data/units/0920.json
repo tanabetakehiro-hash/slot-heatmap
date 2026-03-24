@@ -28,7 +28,8 @@
     "2026-03-20",
     "2026-03-21",
     "2026-03-22",
-    "2026-03-24"
+    "2026-03-24",
+    "2026-03-25"
   ],
   "series": [
     {
@@ -354,7 +355,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0920",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-03-25",
+      "unit_no": "0920",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 214,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0920",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-03-23 15:55:22"
+  "updated_at": "2026-03-24 16:01:53"
 }

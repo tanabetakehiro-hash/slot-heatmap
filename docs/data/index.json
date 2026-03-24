@@ -26,13 +26,14 @@
     "2026-03-20",
     "2026-03-21",
     "2026-03-22",
-    "2026-03-24"
+    "2026-03-24",
+    "2026-03-25"
   ],
-  "latest_date": "2026-03-24",
+  "latest_date": "2026-03-25",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-03-23 15:55:22"
+  "updated_at": "2026-03-24 16:01:53"
 }

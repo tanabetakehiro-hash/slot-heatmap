@@ -28,7 +28,8 @@
     "2026-03-20",
     "2026-03-21",
     "2026-03-22",
-    "2026-03-24"
+    "2026-03-24",
+    "2026-03-25"
   ],
   "series": [
     {
@@ -354,7 +355,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0599",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-03-25",
+      "unit_no": "0599",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 1458,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0599",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
     }
   ],
-  "updated_at": "2026-03-23 15:55:22"
+  "updated_at": "2026-03-24 16:01:53"
 }
