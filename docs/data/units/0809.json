@@ -31,7 +31,8 @@
     "2026-03-24",
     "2026-03-25",
     "2026-03-26",
-    "2026-03-27"
+    "2026-03-27",
+    "2026-03-28"
   ],
   "series": [
     {
@@ -393,7 +394,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0809",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-03-28",
+      "unit_no": "0809",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 996,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 6,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0809",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
     }
   ],
-  "updated_at": "2026-03-26 16:14:12"
+  "updated_at": "2026-03-27 15:45:54"
 }
