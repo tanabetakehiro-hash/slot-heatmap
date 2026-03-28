@@ -399,14 +399,14 @@
       "date": "2026-03-28",
       "unit_no": "0947",
       "model_name": "Ｌマジカルハロウィン８",
-      "max_payout": 1124,
+      "max_payout": 180,
       "diff_medals": null,
-      "bb": 20,
+      "bb": 7,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120179&n=0947",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120179&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }

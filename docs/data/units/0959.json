@@ -399,14 +399,14 @@
       "date": "2026-03-28",
       "unit_no": "0959",
       "model_name": "Ｌ転生したら剣でした",
-      "max_payout": 109,
+      "max_payout": 221,
       "diff_medals": null,
       "bb": 0,
-      "rb": 1,
+      "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120320&n=0959",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120320&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }

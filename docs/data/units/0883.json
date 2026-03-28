@@ -399,14 +399,14 @@
       "date": "2026-03-28",
       "unit_no": "0883",
       "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 418,
+      "max_payout": 601,
       "diff_medals": null,
-      "bb": 8,
+      "bb": 12,
       "rb": 0,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120187&n=0883",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }

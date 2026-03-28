@@ -399,7 +399,7 @@
       "date": "2026-03-28",
       "unit_no": "0954",
       "model_name": "Ｌ麻雀物語",
-      "max_payout": 350,
+      "max_payout": 916,
       "diff_medals": null,
       "bb": 0,
       "rb": 1,
@@ -408,5 +408,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120293&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }

@@ -399,14 +399,14 @@
       "date": "2026-03-28",
       "unit_no": "0759",
       "model_name": "ＳマイジャグラーＶ",
-      "max_payout": 916,
+      "max_payout": 1525,
       "diff_medals": null,
-      "bb": 12,
-      "rb": 17,
+      "bb": 20,
+      "rb": 25,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0759",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }

@@ -399,14 +399,14 @@
       "date": "2026-03-28",
       "unit_no": "0314",
       "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 568,
+      "max_payout": 447,
       "diff_medals": null,
-      "bb": 3,
-      "rb": 4,
+      "bb": 2,
+      "rb": 2,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120322&n=0314",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }

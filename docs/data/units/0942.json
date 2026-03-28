@@ -399,7 +399,7 @@
       "date": "2026-03-28",
       "unit_no": "0942",
       "model_name": "Ｌ　ＨＥＹ！エリートサラリーマン鏡",
-      "max_payout": 1165,
+      "max_payout": 346,
       "diff_medals": null,
       "bb": 0,
       "rb": 2,
@@ -408,5 +408,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120104&d=1"
     }
   ],
-  "updated_at": "2026-03-27 15:45:54"
+  "updated_at": "2026-03-28 15:25:32"
 }
