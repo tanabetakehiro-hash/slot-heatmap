@@ -32,7 +32,8 @@
     "2026-03-25",
     "2026-03-26",
     "2026-03-27",
-    "2026-03-28"
+    "2026-03-28",
+    "2026-03-29"
   ],
   "series": [
     {
@@ -406,7 +407,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0318",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
+    },
+    {
+      "date": "2026-03-29",
+      "unit_no": "0318",
+      "model_name": "Ｌ炎炎ノ消防隊２",
+      "max_payout": 4787,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 16,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0318",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
     }
   ],
-  "updated_at": "2026-03-28 15:25:32"
+  "updated_at": "2026-03-29 15:27:12"
 }

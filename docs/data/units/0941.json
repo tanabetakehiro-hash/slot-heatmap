@@ -32,7 +32,8 @@
     "2026-03-25",
     "2026-03-26",
     "2026-03-27",
-    "2026-03-28"
+    "2026-03-28",
+    "2026-03-29"
   ],
   "series": [
     {
@@ -406,7 +407,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120278&n=0941",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120278&d=1"
+    },
+    {
+      "date": "2026-03-29",
+      "unit_no": "0941",
+      "model_name": "Ｌアリフレタ職業デ世界最強－Ｖ",
+      "max_payout": 163,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120278&n=0941",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120278&d=1"
     }
   ],
-  "updated_at": "2026-03-28 15:25:32"
+  "updated_at": "2026-03-29 15:27:12"
 }
