@@ -34,7 +34,8 @@
     "2026-03-27",
     "2026-03-28",
     "2026-03-29",
-    "2026-03-31"
+    "2026-03-31",
+    "2026-04-01"
   ],
   "series": [
     {
@@ -432,7 +433,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120338&n=0946",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120338&d=1"
+    },
+    {
+      "date": "2026-04-01",
+      "unit_no": "0946",
+      "model_name": "Ｌバーニングエクスプレス－Ｖ",
+      "max_payout": 605,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120338&n=0946",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120338&d=1"
     }
   ],
-  "updated_at": "2026-03-30 16:06:49"
+  "updated_at": "2026-03-31 15:57:55"
 }
