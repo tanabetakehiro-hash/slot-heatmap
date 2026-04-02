@@ -36,7 +36,8 @@
     "2026-03-29",
     "2026-03-31",
     "2026-04-01",
-    "2026-04-02"
+    "2026-04-02",
+    "2026-04-03"
   ],
   "series": [
     {
@@ -458,7 +459,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120173&n=0938",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120173&d=1"
+    },
+    {
+      "date": "2026-04-03",
+      "unit_no": "0938",
+      "model_name": "Ｌパチスロ　ラブ嬢３　Ｗご指名",
+      "max_payout": 695,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120173&n=0938",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120173&d=1"
     }
   ],
-  "updated_at": "2026-04-01 16:22:38"
+  "updated_at": "2026-04-02 15:55:51"
 }
