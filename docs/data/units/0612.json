@@ -477,14 +477,14 @@
       "date": "2026-04-04",
       "unit_no": "0612",
       "model_name": "Ｌ甲鉄城のカバネリ海門決戦",
-      "max_payout": 5856,
+      "max_payout": 800,
       "diff_medals": null,
       "bb": 0,
-      "rb": 18,
+      "rb": 20,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120354&n=0612",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120354&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }

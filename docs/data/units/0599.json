@@ -477,14 +477,14 @@
       "date": "2026-04-04",
       "unit_no": "0599",
       "model_name": "Ｌスマスロ北斗",
-      "max_payout": 129,
+      "max_payout": 403,
       "diff_medals": null,
-      "bb": 1,
-      "rb": 1,
+      "bb": 8,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0599",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }

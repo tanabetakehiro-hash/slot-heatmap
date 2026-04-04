@@ -477,7 +477,7 @@
       "date": "2026-04-04",
       "unit_no": "0836",
       "model_name": "Ｌ東京喰種",
-      "max_payout": 2044,
+      "max_payout": 5996,
       "diff_medals": null,
       "bb": 0,
       "rb": 12,
@@ -486,5 +486,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }

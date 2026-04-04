@@ -477,14 +477,14 @@
       "date": "2026-04-04",
       "unit_no": "0721",
       "model_name": "ウルトラミラクルジャグラー",
-      "max_payout": 3533,
+      "max_payout": 1984,
       "diff_medals": null,
-      "bb": 31,
-      "rb": 18,
+      "bb": 24,
+      "rb": 13,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120262&n=0721",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120262&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }

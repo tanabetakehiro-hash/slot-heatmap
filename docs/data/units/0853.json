@@ -477,14 +477,14 @@
       "date": "2026-04-04",
       "unit_no": "0853",
       "model_name": "Ｌ秘宝伝－５",
-      "max_payout": 3041,
+      "max_payout": 1888,
       "diff_medals": null,
-      "bb": 12,
-      "rb": 3,
+      "bb": 11,
+      "rb": 10,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120347&n=0853",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120347&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }

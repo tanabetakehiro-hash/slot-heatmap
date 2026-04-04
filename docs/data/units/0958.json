@@ -477,14 +477,14 @@
       "date": "2026-04-04",
       "unit_no": "0958",
       "model_name": "Ｌ頭文字Ｄ　２ｎｄ",
-      "max_payout": 2053,
+      "max_payout": 880,
       "diff_medals": null,
       "bb": 0,
-      "rb": 2,
+      "rb": 4,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120249&n=0958",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120249&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }

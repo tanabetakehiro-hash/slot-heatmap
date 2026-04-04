@@ -477,14 +477,14 @@
       "date": "2026-04-04",
       "unit_no": "0963",
       "model_name": "Ｌ忍魂参　奥義皆伝ノ章",
-      "max_payout": 119,
+      "max_payout": 265,
       "diff_medals": null,
       "bb": 0,
-      "rb": 3,
+      "rb": 6,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120204&n=0963",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120204&d=1"
     }
   ],
-  "updated_at": "2026-04-03 15:44:31"
+  "updated_at": "2026-04-04 15:25:58"
 }
