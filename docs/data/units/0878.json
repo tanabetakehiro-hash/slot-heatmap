@@ -38,7 +38,8 @@
     "2026-04-01",
     "2026-04-02",
     "2026-04-03",
-    "2026-04-04"
+    "2026-04-04",
+    "2026-04-05"
   ],
   "series": [
     {
@@ -484,7 +485,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120352&n=0878",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120352&d=1"
+    },
+    {
+      "date": "2026-04-05",
+      "unit_no": "0878",
+      "model_name": "ＬゴブリンスレイヤーＩＩ－⑤",
+      "max_payout": 1005,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120352&n=0878",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120352&d=1"
     }
   ],
-  "updated_at": "2026-04-04 15:25:58"
+  "updated_at": "2026-04-05 15:35:24"
 }
