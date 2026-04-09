@@ -42,7 +42,8 @@
     "2026-04-05",
     "2026-04-07",
     "2026-04-08",
-    "2026-04-09"
+    "2026-04-09",
+    "2026-04-10"
   ],
   "series": [
     {
@@ -536,7 +537,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0312",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
+    },
+    {
+      "date": "2026-04-10",
+      "unit_no": "0312",
+      "model_name": "Ｌハナビ",
+      "max_payout": 1686,
+      "diff_medals": null,
+      "bb": 21,
+      "rb": 11,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0312",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
     }
   ],
-  "updated_at": "2026-04-08 16:25:14"
+  "updated_at": "2026-04-09 16:35:58"
 }
