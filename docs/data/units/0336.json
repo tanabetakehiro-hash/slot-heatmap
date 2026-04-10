@@ -43,7 +43,8 @@
     "2026-04-07",
     "2026-04-08",
     "2026-04-09",
-    "2026-04-10"
+    "2026-04-10",
+    "2026-04-11"
   ],
   "series": [
     {
@@ -549,7 +550,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120341&n=0336",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120341&d=1"
+    },
+    {
+      "date": "2026-04-11",
+      "unit_no": "0336",
+      "model_name": "ＬＢ不二子－Ｖ",
+      "max_payout": 1952,
+      "diff_medals": null,
+      "bb": 29,
+      "rb": 10,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120341&n=0336",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120341&d=1"
     }
   ],
-  "updated_at": "2026-04-09 16:35:58"
+  "updated_at": "2026-04-10 15:42:23"
 }
