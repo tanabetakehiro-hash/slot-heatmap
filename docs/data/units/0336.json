@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0336",
       "model_name": "ＬＢ不二子－Ｖ",
-      "max_payout": 1952,
+      "max_payout": 1085,
       "diff_medals": null,
-      "bb": 29,
-      "rb": 10,
+      "bb": 16,
+      "rb": 9,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120341&n=0336",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120341&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:23"
+  "updated_at": "2026-04-11 15:36:37"
 }

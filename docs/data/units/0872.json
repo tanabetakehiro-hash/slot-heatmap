@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0872",
       "model_name": "Ｌいざ！番長",
-      "max_payout": 2674,
+      "max_payout": 2092,
       "diff_medals": null,
       "bb": 0,
-      "rb": 7,
+      "rb": 12,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0872",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:24"
+  "updated_at": "2026-04-11 15:36:37"
 }

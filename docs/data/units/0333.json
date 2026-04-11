@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0333",
       "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
-      "max_payout": 588,
+      "max_payout": 1704,
       "diff_medals": null,
-      "bb": 4,
+      "bb": 11,
       "rb": 8,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0333",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:23"
+  "updated_at": "2026-04-11 15:36:37"
 }

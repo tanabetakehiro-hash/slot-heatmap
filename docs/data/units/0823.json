@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0823",
       "model_name": "Ｌからくりサーカス",
-      "max_payout": 0,
+      "max_payout": 565,
       "diff_medals": null,
       "bb": 0,
-      "rb": 0,
+      "rb": 3,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0823",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:24"
+  "updated_at": "2026-04-11 15:36:37"
 }

@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0794",
       "model_name": "Ｌ革命機ヴァルヴレイヴ２",
-      "max_payout": 1641,
+      "max_payout": 1592,
       "diff_medals": null,
-      "bb": 31,
-      "rb": 2,
+      "bb": 32,
+      "rb": 7,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0794",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:24"
+  "updated_at": "2026-04-11 15:36:37"
 }

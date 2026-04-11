@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0771",
       "model_name": "ＳアイムジャグラーＥＸ",
-      "max_payout": 395,
+      "max_payout": 1492,
       "diff_medals": null,
-      "bb": 2,
-      "rb": 4,
+      "bb": 25,
+      "rb": 25,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119916&n=0771",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119916&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:24"
+  "updated_at": "2026-04-11 15:36:37"
 }

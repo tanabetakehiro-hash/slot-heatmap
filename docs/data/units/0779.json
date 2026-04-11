@@ -555,14 +555,14 @@
       "date": "2026-04-11",
       "unit_no": "0779",
       "model_name": "Ｓファンキージャグラー２ＫＴ",
-      "max_payout": 595,
+      "max_payout": 2078,
       "diff_medals": null,
-      "bb": 9,
-      "rb": 16,
+      "bb": 32,
+      "rb": 11,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99119996&n=0779",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99119996&d=1"
     }
   ],
-  "updated_at": "2026-04-10 15:42:24"
+  "updated_at": "2026-04-11 15:36:37"
 }
