@@ -1,5 +1,5 @@
 {
-  "latest_date": "2026-04-12",
+  "latest_date": "2026-04-14",
   "units": [
     {
       "unit_no": "0307",
@@ -939,19 +939,19 @@
     },
     {
       "unit_no": "0863",
-      "model_name": "Ｌバイオハザード５"
+      "model_name": "Ｌいざ！番長"
     },
     {
       "unit_no": "0864",
-      "model_name": "Ｌバイオハザード５"
+      "model_name": "Ｌいざ！番長"
     },
     {
       "unit_no": "0865",
-      "model_name": "Ｌバイオハザード５"
+      "model_name": "Ｌいざ！番長"
     },
     {
       "unit_no": "0866",
-      "model_name": "Ｌバイオハザード５"
+      "model_name": "Ｌいざ！番長"
     },
     {
       "unit_no": "0867",
@@ -971,19 +971,19 @@
     },
     {
       "unit_no": "0871",
-      "model_name": "Ｌいざ！番長"
+      "model_name": "Ｌ主役は銭形５"
     },
     {
       "unit_no": "0872",
-      "model_name": "Ｌいざ！番長"
+      "model_name": "Ｌ主役は銭形５"
     },
     {
       "unit_no": "0873",
-      "model_name": "Ｌいざ！番長"
+      "model_name": "Ｌ主役は銭形５"
     },
     {
       "unit_no": "0874",
-      "model_name": "Ｌいざ！番長"
+      "model_name": "Ｌ主役は銭形５"
     },
     {
       "unit_no": "0875",
@@ -1083,19 +1083,19 @@
     },
     {
       "unit_no": "0899",
-      "model_name": "Ｌ主役は銭形５"
+      "model_name": "Ｌバイオハザード５"
     },
     {
       "unit_no": "0900",
-      "model_name": "Ｌ主役は銭形５"
+      "model_name": "Ｌバイオハザード５"
     },
     {
       "unit_no": "0901",
-      "model_name": "Ｌ主役は銭形５"
+      "model_name": "Ｌバイオハザード５"
     },
     {
       "unit_no": "0902",
-      "model_name": "Ｌ主役は銭形５"
+      "model_name": "Ｌバイオハザード５"
     },
     {
       "unit_no": "0903",
@@ -1562,5 +1562,5 @@
       "model_name": "沖ドキ！ＧＯＬＤ－３０"
     }
   ],
-  "updated_at": "2026-04-12 15:37:06"
+  "updated_at": "2026-04-13 16:27:04"
 }

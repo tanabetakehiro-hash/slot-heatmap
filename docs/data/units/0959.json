@@ -45,7 +45,8 @@
     "2026-04-09",
     "2026-04-10",
     "2026-04-11",
-    "2026-04-12"
+    "2026-04-12",
+    "2026-04-14"
   ],
   "series": [
     {
@@ -575,7 +576,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120320&n=0959",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120320&d=1"
+    },
+    {
+      "date": "2026-04-14",
+      "unit_no": "0959",
+      "model_name": "Ｌ転生したら剣でした",
+      "max_payout": 496,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 5,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120320&n=0959",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120320&d=1"
     }
   ],
-  "updated_at": "2026-04-12 15:37:06"
+  "updated_at": "2026-04-13 16:27:04"
 }
