@@ -45,13 +45,14 @@
     "2026-04-11",
     "2026-04-12",
     "2026-04-14",
-    "2026-04-15"
+    "2026-04-15",
+    "2026-04-16"
   ],
-  "latest_date": "2026-04-15",
+  "latest_date": "2026-04-16",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-04-14 16:05:24"
+  "updated_at": "2026-04-15 16:01:21"
 }
