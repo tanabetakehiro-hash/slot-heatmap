@@ -48,7 +48,8 @@
     "2026-04-12",
     "2026-04-14",
     "2026-04-15",
-    "2026-04-16"
+    "2026-04-16",
+    "2026-04-17"
   ],
   "series": [
     {
@@ -614,7 +615,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120327&n=0852",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120327&d=1"
+    },
+    {
+      "date": "2026-04-17",
+      "unit_no": "0852",
+      "model_name": "Ｌ東京リベンジャーズ",
+      "max_payout": 1985,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120327&n=0852",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120327&d=1"
     }
   ],
-  "updated_at": "2026-04-15 16:01:20"
+  "updated_at": "2026-04-16 16:34:50"
 }
