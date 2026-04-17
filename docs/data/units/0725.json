@@ -49,7 +49,8 @@
     "2026-04-14",
     "2026-04-15",
     "2026-04-16",
-    "2026-04-17"
+    "2026-04-17",
+    "2026-04-18"
   ],
   "series": [
     {
@@ -627,7 +628,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120096&n=0725",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120096&d=1"
+    },
+    {
+      "date": "2026-04-18",
+      "unit_no": "0725",
+      "model_name": "ハッピージャグラーＶＩＩＩ",
+      "max_payout": 462,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120096&n=0725",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120096&d=1"
     }
   ],
-  "updated_at": "2026-04-16 16:34:50"
+  "updated_at": "2026-04-17 15:53:21"
 }
