@@ -50,7 +50,8 @@
     "2026-04-15",
     "2026-04-16",
     "2026-04-17",
-    "2026-04-18"
+    "2026-04-18",
+    "2026-04-19"
   ],
   "series": [
     {
@@ -640,7 +641,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120311&n=0949",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120311&d=1"
+    },
+    {
+      "date": "2026-04-19",
+      "unit_no": "0949",
+      "model_name": "Ｌわたしの幸せな結婚",
+      "max_payout": 2196,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120311&n=0949",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120311&d=1"
     }
   ],
-  "updated_at": "2026-04-18 15:41:51"
+  "updated_at": "2026-04-19 15:39:40"
 }
