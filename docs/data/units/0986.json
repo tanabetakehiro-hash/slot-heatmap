@@ -1,6 +1,6 @@
 {
   "unit_no": "0986",
-  "model_name_latest": "沖ドキ！ＧＯＬＤ－３０",
+  "model_name_latest": "Ｌ沖ドキ！ＤＵＯ　アンコール",
   "dates": [
     "2026-02-21",
     "2026-02-22",
@@ -51,7 +51,8 @@
     "2026-04-16",
     "2026-04-17",
     "2026-04-18",
-    "2026-04-19"
+    "2026-04-19",
+    "2026-04-21"
   ],
   "series": [
     {
@@ -653,7 +654,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=0986",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
+    },
+    {
+      "date": "2026-04-21",
+      "unit_no": "0986",
+      "model_name": "Ｌ沖ドキ！ＤＵＯ　アンコール",
+      "max_payout": 11499,
+      "diff_medals": null,
+      "bb": 76,
+      "rb": 31,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120342&n=0986",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120342&d=1"
     }
   ],
-  "updated_at": "2026-04-19 15:39:40"
+  "updated_at": "2026-04-20 16:23:57"
 }
