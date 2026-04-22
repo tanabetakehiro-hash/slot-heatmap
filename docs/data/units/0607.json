@@ -53,7 +53,8 @@
     "2026-04-18",
     "2026-04-19",
     "2026-04-21",
-    "2026-04-22"
+    "2026-04-22",
+    "2026-04-23"
   ],
   "series": [
     {
@@ -679,7 +680,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120354&n=0607",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120354&d=1"
+    },
+    {
+      "date": "2026-04-23",
+      "unit_no": "0607",
+      "model_name": "Ｌ甲鉄城のカバネリ海門決戦",
+      "max_payout": 10376,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120354&n=0607",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120354&d=1"
     }
   ],
-  "updated_at": "2026-04-21 16:25:24"
+  "updated_at": "2026-04-22 16:22:28"
 }
