@@ -54,7 +54,8 @@
     "2026-04-19",
     "2026-04-21",
     "2026-04-22",
-    "2026-04-23"
+    "2026-04-23",
+    "2026-04-24"
   ],
   "series": [
     {
@@ -692,7 +693,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0793",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
+    },
+    {
+      "date": "2026-04-24",
+      "unit_no": "0793",
+      "model_name": "Ｌミリオンゴッド神々の軌跡",
+      "max_payout": 4304,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0793",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
     }
   ],
-  "updated_at": "2026-04-22 16:22:29"
+  "updated_at": "2026-04-23 16:49:08"
 }

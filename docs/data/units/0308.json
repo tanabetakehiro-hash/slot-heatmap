@@ -54,7 +54,8 @@
     "2026-04-19",
     "2026-04-21",
     "2026-04-22",
-    "2026-04-23"
+    "2026-04-23",
+    "2026-04-24"
   ],
   "series": [
     {
@@ -692,7 +693,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120346&n=0308",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120346&d=1"
+    },
+    {
+      "date": "2026-04-24",
+      "unit_no": "0308",
+      "model_name": "ＬＢニューキングハナハナＶ",
+      "max_payout": 370,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120346&n=0308",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120346&d=1"
     }
   ],
-  "updated_at": "2026-04-22 16:22:28"
+  "updated_at": "2026-04-23 16:49:08"
 }
