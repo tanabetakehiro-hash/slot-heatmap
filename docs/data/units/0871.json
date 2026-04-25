@@ -711,14 +711,14 @@
       "date": "2026-04-25",
       "unit_no": "0871",
       "model_name": "Ｌかぐや様は告らせたい－Ｖ",
-      "max_payout": 795,
+      "max_payout": 789,
       "diff_medals": null,
-      "bb": 9,
-      "rb": 1,
+      "bb": 8,
+      "rb": 5,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0871",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
     }
   ],
-  "updated_at": "2026-04-24 16:07:39"
+  "updated_at": "2026-04-25 15:42:34"
 }

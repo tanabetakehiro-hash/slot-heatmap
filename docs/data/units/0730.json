@@ -711,14 +711,14 @@
       "date": "2026-04-25",
       "unit_no": "0730",
       "model_name": "ネオアイムジャグラーＥＸ",
-      "max_payout": 1232,
+      "max_payout": 1456,
       "diff_medals": null,
-      "bb": 19,
-      "rb": 12,
+      "bb": 15,
+      "rb": 15,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120312&n=0730",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
     }
   ],
-  "updated_at": "2026-04-24 16:07:39"
+  "updated_at": "2026-04-25 15:42:34"
 }

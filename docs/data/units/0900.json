@@ -711,14 +711,14 @@
       "date": "2026-04-25",
       "unit_no": "0900",
       "model_name": "Ｌバイオハザード５",
-      "max_payout": 11,
+      "max_payout": 238,
       "diff_medals": null,
       "bb": 0,
-      "rb": 0,
+      "rb": 4,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0900",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
     }
   ],
-  "updated_at": "2026-04-24 16:07:39"
+  "updated_at": "2026-04-25 15:42:34"
 }

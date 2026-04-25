@@ -711,14 +711,14 @@
       "date": "2026-04-25",
       "unit_no": "0710",
       "model_name": "ゴーゴージャグラー３",
-      "max_payout": 276,
+      "max_payout": 639,
       "diff_medals": null,
-      "bb": 2,
-      "rb": 1,
+      "bb": 10,
+      "rb": 6,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120141&n=0710",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
     }
   ],
-  "updated_at": "2026-04-24 16:07:39"
+  "updated_at": "2026-04-25 15:42:34"
 }

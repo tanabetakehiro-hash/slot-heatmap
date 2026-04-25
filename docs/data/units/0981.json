@@ -711,14 +711,14 @@
       "date": "2026-04-25",
       "unit_no": "0981",
       "model_name": "沖ドキ！ＢＬＡＣＫ",
-      "max_payout": 506,
+      "max_payout": 1938,
       "diff_medals": null,
-      "bb": 4,
-      "rb": 3,
+      "bb": 19,
+      "rb": 15,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120234&n=0981",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
     }
   ],
-  "updated_at": "2026-04-24 16:07:39"
+  "updated_at": "2026-04-25 15:42:34"
 }
