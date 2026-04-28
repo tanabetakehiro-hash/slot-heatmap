@@ -58,7 +58,8 @@
     "2026-04-24",
     "2026-04-25",
     "2026-04-26",
-    "2026-04-28"
+    "2026-04-28",
+    "2026-04-29"
   ],
   "series": [
     {
@@ -744,7 +745,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0940",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
+    },
+    {
+      "date": "2026-04-29",
+      "unit_no": "0940",
+      "model_name": "Ｌ防振り",
+      "max_payout": 409,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0940",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
     }
   ],
-  "updated_at": "2026-04-27 16:41:10"
+  "updated_at": "2026-04-28 17:02:32"
 }
