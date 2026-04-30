@@ -60,7 +60,8 @@
     "2026-04-26",
     "2026-04-28",
     "2026-04-29",
-    "2026-04-30"
+    "2026-04-30",
+    "2026-05-01"
   ],
   "series": [
     {
@@ -770,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0868",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
+    },
+    {
+      "date": "2026-05-01",
+      "unit_no": "0868",
+      "model_name": "Ｌ吉宗",
+      "max_payout": 2792,
+      "diff_medals": null,
+      "bb": 7,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0868",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
     }
   ],
-  "updated_at": "2026-04-29 16:46:22"
+  "updated_at": "2026-04-30 16:34:29"
 }
