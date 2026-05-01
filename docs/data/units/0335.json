@@ -2,7 +2,6 @@
   "unit_no": "0335",
   "model_name_latest": "Ｌアニマルスロットドッチ－Ｖ",
   "dates": [
-    "2026-02-21",
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
@@ -61,21 +60,10 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "series": [
-    {
-      "date": "2026-02-21",
-      "unit_no": "0335",
-      "model_name": "Ｌモンスターハンターライズ",
-      "max_payout": 3416,
-      "diff_medals": 2551,
-      "bb": 0,
-      "rb": 25,
-      "total_start": 7930,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0335",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
-    },
     {
       "date": "2026-02-22",
       "unit_no": "0335",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120362&n=0335",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120362&d=1"
+    },
+    {
+      "date": "2026-05-02",
+      "unit_no": "0335",
+      "model_name": "Ｌアニマルスロットドッチ－Ｖ",
+      "max_payout": 1223,
+      "diff_medals": null,
+      "bb": 28,
+      "rb": 18,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120362&n=0335",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120362&d=1"
     }
   ],
-  "updated_at": "2026-04-30 16:34:28"
+  "updated_at": "2026-05-01 15:57:41"
 }

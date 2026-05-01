@@ -2,7 +2,6 @@
   "unit_no": "0902",
   "model_name_latest": "Ｌバイオハザード５",
   "dates": [
-    "2026-02-21",
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
@@ -61,21 +60,10 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "series": [
-    {
-      "date": "2026-02-21",
-      "unit_no": "0902",
-      "model_name": "Ｌ主役は銭形５",
-      "max_payout": 5642,
-      "diff_medals": 4574,
-      "bb": 0,
-      "rb": 8,
-      "total_start": 4188,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0902",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
-    },
     {
       "date": "2026-02-22",
       "unit_no": "0902",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0902",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
+    },
+    {
+      "date": "2026-05-02",
+      "unit_no": "0902",
+      "model_name": "Ｌバイオハザード５",
+      "max_payout": 720,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0902",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
     }
   ],
-  "updated_at": "2026-04-30 16:34:29"
+  "updated_at": "2026-05-01 15:57:41"
 }

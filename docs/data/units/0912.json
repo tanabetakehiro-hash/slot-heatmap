@@ -2,7 +2,6 @@
   "unit_no": "0912",
   "model_name_latest": "Ｌとある科学超電磁砲２－⑤",
   "dates": [
-    "2026-02-21",
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
@@ -61,21 +60,10 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "series": [
-    {
-      "date": "2026-02-21",
-      "unit_no": "0912",
-      "model_name": "Ｌとある科学超電磁砲２－⑤",
-      "max_payout": 1168,
-      "diff_medals": -1547,
-      "bb": 0,
-      "rb": 8,
-      "total_start": 6385,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0912",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
-    },
     {
       "date": "2026-02-22",
       "unit_no": "0912",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0912",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
+    },
+    {
+      "date": "2026-05-02",
+      "unit_no": "0912",
+      "model_name": "Ｌとある科学超電磁砲２－⑤",
+      "max_payout": 1199,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0912",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
     }
   ],
-  "updated_at": "2026-04-30 16:34:29"
+  "updated_at": "2026-05-01 15:57:41"
 }

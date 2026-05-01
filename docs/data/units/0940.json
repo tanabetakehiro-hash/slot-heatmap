@@ -2,7 +2,6 @@
   "unit_no": "0940",
   "model_name_latest": "Ｌ防振り",
   "dates": [
-    "2026-02-21",
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
@@ -61,21 +60,10 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "series": [
-    {
-      "date": "2026-02-21",
-      "unit_no": "0940",
-      "model_name": "Ｌ防振り",
-      "max_payout": 3746,
-      "diff_medals": 2521,
-      "bb": 41,
-      "rb": 28,
-      "total_start": 6183,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0940",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
-    },
     {
       "date": "2026-02-22",
       "unit_no": "0940",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0940",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
+    },
+    {
+      "date": "2026-05-02",
+      "unit_no": "0940",
+      "model_name": "Ｌ防振り",
+      "max_payout": 3168,
+      "diff_medals": null,
+      "bb": 20,
+      "rb": 20,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0940",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
     }
   ],
-  "updated_at": "2026-04-30 16:34:29"
+  "updated_at": "2026-05-01 15:57:41"
 }

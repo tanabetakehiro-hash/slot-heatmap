@@ -2,7 +2,6 @@
   "unit_no": "0307",
   "model_name_latest": "ＬＢニューキングハナハナＶ",
   "dates": [
-    "2026-02-21",
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
@@ -61,21 +60,10 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "series": [
-    {
-      "date": "2026-02-21",
-      "unit_no": "0307",
-      "model_name": "ＬＢニューキングハナハナＶ",
-      "max_payout": 782,
-      "diff_medals": -1274,
-      "bb": 6,
-      "rb": 11,
-      "total_start": 3502,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120346&n=0307",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120346&d=1"
-    },
     {
       "date": "2026-02-22",
       "unit_no": "0307",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120346&n=0307",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120346&d=1"
+    },
+    {
+      "date": "2026-05-02",
+      "unit_no": "0307",
+      "model_name": "ＬＢニューキングハナハナＶ",
+      "max_payout": 395,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 6,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120346&n=0307",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120346&d=1"
     }
   ],
-  "updated_at": "2026-04-30 16:34:28"
+  "updated_at": "2026-05-01 15:57:41"
 }

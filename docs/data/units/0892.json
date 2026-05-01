@@ -2,7 +2,6 @@
   "unit_no": "0892",
   "model_name_latest": "Ｌガンダムユニコーン覚醒－⑤",
   "dates": [
-    "2026-02-21",
     "2026-02-22",
     "2026-02-23",
     "2026-02-24",
@@ -61,21 +60,10 @@
     "2026-04-28",
     "2026-04-29",
     "2026-04-30",
-    "2026-05-01"
+    "2026-05-01",
+    "2026-05-02"
   ],
   "series": [
-    {
-      "date": "2026-02-21",
-      "unit_no": "0892",
-      "model_name": "Ｌ革命機ヴァルヴレイヴ",
-      "max_payout": 1188,
-      "diff_medals": 126,
-      "bb": 9,
-      "rb": 1,
-      "total_start": 1410,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0892",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
-    },
     {
       "date": "2026-02-22",
       "unit_no": "0892",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120359&n=0892",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120359&d=1"
+    },
+    {
+      "date": "2026-05-02",
+      "unit_no": "0892",
+      "model_name": "Ｌガンダムユニコーン覚醒－⑤",
+      "max_payout": 486,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120359&n=0892",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120359&d=1"
     }
   ],
-  "updated_at": "2026-04-30 16:34:29"
+  "updated_at": "2026-05-01 15:57:41"
 }
