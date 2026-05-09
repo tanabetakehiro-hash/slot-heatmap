@@ -2,7 +2,6 @@
   "unit_no": "0338",
   "model_name_latest": "ＬＢサンダーＶ",
   "dates": [
-    "2026-02-28",
     "2026-03-01",
     "2026-03-02",
     "2026-03-04",
@@ -61,21 +60,10 @@
     "2026-05-05",
     "2026-05-07",
     "2026-05-08",
-    "2026-05-09"
+    "2026-05-09",
+    "2026-05-10"
   ],
   "series": [
-    {
-      "date": "2026-02-28",
-      "unit_no": "0338",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 1524,
-      "diff_medals": -787,
-      "bb": 14,
-      "rb": 13,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120322&n=0338",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
     {
       "date": "2026-03-01",
       "unit_no": "0338",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0338",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
+    },
+    {
+      "date": "2026-05-10",
+      "unit_no": "0338",
+      "model_name": "ＬＢサンダーＶ",
+      "max_payout": 679,
+      "diff_medals": null,
+      "bb": 9,
+      "rb": 14,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0338",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
     }
   ],
-  "updated_at": "2026-05-08 16:33:54"
+  "updated_at": "2026-05-09 15:47:15"
 }
