@@ -2,7 +2,6 @@
   "unit_no": "0601",
   "model_name_latest": "Ｌスマスロ北斗",
   "dates": [
-    "2026-03-01",
     "2026-03-02",
     "2026-03-04",
     "2026-03-05",
@@ -61,21 +60,10 @@
     "2026-05-07",
     "2026-05-08",
     "2026-05-09",
-    "2026-05-10"
+    "2026-05-10",
+    "2026-05-11"
   ],
   "series": [
-    {
-      "date": "2026-03-01",
-      "unit_no": "0601",
-      "model_name": "Ｌスマスロ北斗",
-      "max_payout": 2910,
-      "diff_medals": 403,
-      "bb": 75,
-      "rb": 22,
-      "total_start": 6753,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0601",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
-    },
     {
       "date": "2026-03-02",
       "unit_no": "0601",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0601",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-05-11",
+      "unit_no": "0601",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 1067,
+      "diff_medals": null,
+      "bb": 30,
+      "rb": 10,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0601",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
     }
   ],
-  "updated_at": "2026-05-09 15:47:15"
+  "updated_at": "2026-05-10 15:51:55"
 }

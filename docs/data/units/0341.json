@@ -2,7 +2,6 @@
   "unit_no": "0341",
   "model_name_latest": "ＬＢアレックス　ブライト",
   "dates": [
-    "2026-03-01",
     "2026-03-02",
     "2026-03-04",
     "2026-03-05",
@@ -61,21 +60,10 @@
     "2026-05-07",
     "2026-05-08",
     "2026-05-09",
-    "2026-05-10"
+    "2026-05-10",
+    "2026-05-11"
   ],
   "series": [
-    {
-      "date": "2026-03-01",
-      "unit_no": "0341",
-      "model_name": "ＬＢアレックス　ブライト",
-      "max_payout": 3966,
-      "diff_medals": 3725,
-      "bb": 22,
-      "rb": 6,
-      "total_start": 3523,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120310&n=0341",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120310&d=1"
-    },
     {
       "date": "2026-03-02",
       "unit_no": "0341",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120310&n=0341",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120310&d=1"
+    },
+    {
+      "date": "2026-05-11",
+      "unit_no": "0341",
+      "model_name": "ＬＢアレックス　ブライト",
+      "max_payout": 1180,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 6,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120310&n=0341",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120310&d=1"
     }
   ],
-  "updated_at": "2026-05-09 15:47:15"
+  "updated_at": "2026-05-10 15:51:55"
 }
