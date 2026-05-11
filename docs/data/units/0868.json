@@ -1,8 +1,7 @@
 {
   "unit_no": "0868",
-  "model_name_latest": "Ｌ吉宗",
+  "model_name_latest": "Ｌからくりサーカス",
   "dates": [
-    "2026-03-02",
     "2026-03-04",
     "2026-03-05",
     "2026-03-06",
@@ -61,21 +60,10 @@
     "2026-05-08",
     "2026-05-09",
     "2026-05-10",
-    "2026-05-11"
+    "2026-05-11",
+    "2026-05-12"
   ],
   "series": [
-    {
-      "date": "2026-03-02",
-      "unit_no": "0868",
-      "model_name": "Ｌ吉宗",
-      "max_payout": 714,
-      "diff_medals": -1288,
-      "bb": 1,
-      "rb": 1,
-      "total_start": 1392,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0868",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
-    },
     {
       "date": "2026-03-04",
       "unit_no": "0868",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0868",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
+    },
+    {
+      "date": "2026-05-12",
+      "unit_no": "0868",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 1111,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 6,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0868",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
     }
   ],
-  "updated_at": "2026-05-10 15:51:55"
+  "updated_at": "2026-05-11 17:25:21"
 }

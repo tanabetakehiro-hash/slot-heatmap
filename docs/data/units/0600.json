@@ -1,8 +1,7 @@
 {
   "unit_no": "0600",
-  "model_name_latest": "Ｌスマスロ北斗",
+  "model_name_latest": "ＬバイオハザードＲＥ：３",
   "dates": [
-    "2026-03-02",
     "2026-03-04",
     "2026-03-05",
     "2026-03-06",
@@ -61,21 +60,10 @@
     "2026-05-08",
     "2026-05-09",
     "2026-05-10",
-    "2026-05-11"
+    "2026-05-11",
+    "2026-05-12"
   ],
   "series": [
-    {
-      "date": "2026-03-02",
-      "unit_no": "0600",
-      "model_name": "Ｌスマスロ北斗",
-      "max_payout": 814,
-      "diff_medals": -94,
-      "bb": 14,
-      "rb": 5,
-      "total_start": 1508,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0600",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
-    },
     {
       "date": "2026-03-04",
       "unit_no": "0600",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0600",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-05-12",
+      "unit_no": "0600",
+      "model_name": "ＬバイオハザードＲＥ：３",
+      "max_payout": 5468,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 74,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120365&n=0600",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120365&d=1"
     }
   ],
-  "updated_at": "2026-05-10 15:51:55"
+  "updated_at": "2026-05-11 17:25:21"
 }

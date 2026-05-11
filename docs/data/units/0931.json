@@ -2,7 +2,6 @@
   "unit_no": "0931",
   "model_name_latest": "Ｌ化物語",
   "dates": [
-    "2026-03-02",
     "2026-03-04",
     "2026-03-05",
     "2026-03-06",
@@ -61,21 +60,10 @@
     "2026-05-08",
     "2026-05-09",
     "2026-05-10",
-    "2026-05-11"
+    "2026-05-11",
+    "2026-05-12"
   ],
   "series": [
-    {
-      "date": "2026-03-02",
-      "unit_no": "0931",
-      "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
-      "max_payout": 895,
-      "diff_medals": -1756,
-      "bb": 13,
-      "rb": 0,
-      "total_start": 2503,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0931",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
-    },
     {
       "date": "2026-03-04",
       "unit_no": "0931",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120339&n=0931",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120339&d=1"
+    },
+    {
+      "date": "2026-05-12",
+      "unit_no": "0931",
+      "model_name": "Ｌ化物語",
+      "max_payout": 221,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 5,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120339&n=0931",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120339&d=1"
     }
   ],
-  "updated_at": "2026-05-10 15:51:55"
+  "updated_at": "2026-05-11 17:25:22"
 }
