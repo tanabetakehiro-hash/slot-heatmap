@@ -2,7 +2,6 @@
   "unit_no": "0949",
   "model_name_latest": "Ｌとある科学超電磁砲２－⑤",
   "dates": [
-    "2026-03-04",
     "2026-03-05",
     "2026-03-06",
     "2026-03-07",
@@ -61,21 +60,10 @@
     "2026-05-09",
     "2026-05-10",
     "2026-05-11",
-    "2026-05-12"
+    "2026-05-12",
+    "2026-05-13"
   ],
   "series": [
-    {
-      "date": "2026-03-04",
-      "unit_no": "0949",
-      "model_name": "Ｌわたしの幸せな結婚",
-      "max_payout": 2276,
-      "diff_medals": null,
-      "bb": 9,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120311&n=0949",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120311&d=1"
-    },
     {
       "date": "2026-03-05",
       "unit_no": "0949",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0949",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
+    },
+    {
+      "date": "2026-05-13",
+      "unit_no": "0949",
+      "model_name": "Ｌとある科学超電磁砲２－⑤",
+      "max_payout": 3,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0949",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
     }
   ],
-  "updated_at": "2026-05-11 17:25:22"
+  "updated_at": "2026-05-12 17:12:19"
 }

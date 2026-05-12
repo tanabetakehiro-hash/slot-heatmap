@@ -2,7 +2,6 @@
   "unit_no": "0942",
   "model_name_latest": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
   "dates": [
-    "2026-03-04",
     "2026-03-05",
     "2026-03-06",
     "2026-03-07",
@@ -61,21 +60,10 @@
     "2026-05-09",
     "2026-05-10",
     "2026-05-11",
-    "2026-05-12"
+    "2026-05-12",
+    "2026-05-13"
   ],
   "series": [
-    {
-      "date": "2026-03-04",
-      "unit_no": "0942",
-      "model_name": "Ｌ　ＨＥＹ！エリートサラリーマン鏡",
-      "max_payout": 1946,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120104&n=0942",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120104&d=1"
-    },
     {
       "date": "2026-03-05",
       "unit_no": "0942",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0942",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
+    },
+    {
+      "date": "2026-05-13",
+      "unit_no": "0942",
+      "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
+      "max_payout": 3569,
+      "diff_medals": null,
+      "bb": 25,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0942",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
     }
   ],
-  "updated_at": "2026-05-11 17:25:22"
+  "updated_at": "2026-05-12 17:12:19"
 }

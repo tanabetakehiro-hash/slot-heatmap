@@ -2,7 +2,6 @@
   "unit_no": "0990",
   "model_name_latest": "Ｌ沖ドキ！ＤＵＯ　アンコール",
   "dates": [
-    "2026-03-04",
     "2026-03-05",
     "2026-03-06",
     "2026-03-07",
@@ -61,21 +60,10 @@
     "2026-05-09",
     "2026-05-10",
     "2026-05-11",
-    "2026-05-12"
+    "2026-05-12",
+    "2026-05-13"
   ],
   "series": [
-    {
-      "date": "2026-03-04",
-      "unit_no": "0990",
-      "model_name": "Ｌ沖ドキ！ＤＵＯ　アンコール",
-      "max_payout": 666,
-      "diff_medals": null,
-      "bb": 9,
-      "rb": 6,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120342&n=0990",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120342&d=1"
-    },
     {
       "date": "2026-03-05",
       "unit_no": "0990",
@@ -783,7 +771,19 @@
       "total_start": null,
       "detail_url": null,
       "source_url": null
+    },
+    {
+      "date": "2026-05-13",
+      "unit_no": "0990",
+      "model_name": "Ｌ沖ドキ！ＤＵＯ　アンコール",
+      "max_payout": 992,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 6,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120342&n=0990",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120342&d=1"
     }
   ],
-  "updated_at": "2026-05-11 17:25:22"
+  "updated_at": "2026-05-12 17:12:19"
 }
