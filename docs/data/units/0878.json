@@ -2,7 +2,6 @@
   "unit_no": "0878",
   "model_name_latest": "Ｌかぐや様は告らせたい－Ｖ",
   "dates": [
-    "2026-03-08",
     "2026-03-10",
     "2026-03-11",
     "2026-03-12",
@@ -61,21 +60,10 @@
     "2026-05-13",
     "2026-05-14",
     "2026-05-15",
-    "2026-05-16"
+    "2026-05-16",
+    "2026-05-17"
   ],
   "series": [
-    {
-      "date": "2026-03-08",
-      "unit_no": "0878",
-      "model_name": "ＬゴブリンスレイヤーＩＩ－⑤",
-      "max_payout": 586,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120352&n=0878",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120352&d=1"
-    },
     {
       "date": "2026-03-10",
       "unit_no": "0878",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0878",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-05-17",
+      "unit_no": "0878",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 4733,
+      "diff_medals": null,
+      "bb": 34,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0878",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
     }
   ],
-  "updated_at": "2026-05-15 16:50:05"
+  "updated_at": "2026-05-16 15:52:48"
 }
