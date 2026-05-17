@@ -2,7 +2,6 @@
   "unit_no": "0838",
   "model_name_latest": "Ｌ革命機ヴァルヴレイヴ２",
   "dates": [
-    "2026-03-10",
     "2026-03-11",
     "2026-03-12",
     "2026-03-13",
@@ -61,21 +60,10 @@
     "2026-05-14",
     "2026-05-15",
     "2026-05-16",
-    "2026-05-17"
+    "2026-05-17",
+    "2026-05-18"
   ],
   "series": [
-    {
-      "date": "2026-03-10",
-      "unit_no": "0838",
-      "model_name": "Ｌ東京喰種",
-      "max_payout": 1198,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 10,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0838",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
-    },
     {
       "date": "2026-03-11",
       "unit_no": "0838",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0838",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
+    },
+    {
+      "date": "2026-05-18",
+      "unit_no": "0838",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ２",
+      "max_payout": 499,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0838",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
     }
   ],
-  "updated_at": "2026-05-16 15:52:48"
+  "updated_at": "2026-05-17 15:59:26"
 }
