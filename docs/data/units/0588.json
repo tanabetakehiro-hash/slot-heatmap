@@ -2,7 +2,6 @@
   "unit_no": "0588",
   "model_name_latest": "ＬモンキーターンＶ",
   "dates": [
-    "2026-03-11",
     "2026-03-12",
     "2026-03-13",
     "2026-03-14",
@@ -61,21 +60,10 @@
     "2026-05-15",
     "2026-05-16",
     "2026-05-17",
-    "2026-05-18"
+    "2026-05-18",
+    "2026-05-19"
   ],
   "series": [
-    {
-      "date": "2026-03-11",
-      "unit_no": "0588",
-      "model_name": "ＬモンキーターンＶ",
-      "max_payout": 7788,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 17,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120181&n=0588",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
-    },
     {
       "date": "2026-03-12",
       "unit_no": "0588",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120181&n=0588",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
+    },
+    {
+      "date": "2026-05-19",
+      "unit_no": "0588",
+      "model_name": "ＬモンキーターンＶ",
+      "max_payout": 499,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120181&n=0588",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120181&d=1"
     }
   ],
-  "updated_at": "2026-05-17 15:59:26"
+  "updated_at": "2026-05-18 17:50:36"
 }
