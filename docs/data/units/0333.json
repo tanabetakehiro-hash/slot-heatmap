@@ -2,7 +2,6 @@
   "unit_no": "0333",
   "model_name_latest": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
   "dates": [
-    "2026-03-14",
     "2026-03-15",
     "2026-03-17",
     "2026-03-18",
@@ -61,21 +60,10 @@
     "2026-05-18",
     "2026-05-19",
     "2026-05-20",
-    "2026-05-21"
+    "2026-05-21",
+    "2026-05-22"
   ],
   "series": [
-    {
-      "date": "2026-03-14",
-      "unit_no": "0333",
-      "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
-      "max_payout": 4635,
-      "diff_medals": null,
-      "bb": 34,
-      "rb": 31,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0333",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
-    },
     {
       "date": "2026-03-15",
       "unit_no": "0333",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0333",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
+    },
+    {
+      "date": "2026-05-22",
+      "unit_no": "0333",
+      "model_name": "ＬＢ　ＳＨＡＫＥ　ＢＯＮＵＳ　ＴＲＩＧＧＥＲ",
+      "max_payout": 1252,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120328&n=0333",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120328&d=1"
     }
   ],
-  "updated_at": "2026-05-20 18:05:40"
+  "updated_at": "2026-05-21 17:31:18"
 }

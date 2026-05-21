@@ -2,7 +2,6 @@
   "unit_no": "0795",
   "model_name_latest": "Ｌ北斗　転生の章２",
   "dates": [
-    "2026-03-14",
     "2026-03-15",
     "2026-03-17",
     "2026-03-18",
@@ -61,21 +60,10 @@
     "2026-05-18",
     "2026-05-19",
     "2026-05-20",
-    "2026-05-21"
+    "2026-05-21",
+    "2026-05-22"
   ],
   "series": [
-    {
-      "date": "2026-03-14",
-      "unit_no": "0795",
-      "model_name": "Ｌ革命機ヴァルヴレイヴ２",
-      "max_payout": 1512,
-      "diff_medals": null,
-      "bb": 55,
-      "rb": 9,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0795",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
-    },
     {
       "date": "2026-03-15",
       "unit_no": "0795",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0795",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
+    },
+    {
+      "date": "2026-05-22",
+      "unit_no": "0795",
+      "model_name": "Ｌ北斗　転生の章２",
+      "max_payout": 276,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0795",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
     }
   ],
-  "updated_at": "2026-05-20 18:05:40"
+  "updated_at": "2026-05-21 17:31:18"
 }
