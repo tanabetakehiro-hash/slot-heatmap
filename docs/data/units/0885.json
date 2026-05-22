@@ -2,7 +2,6 @@
   "unit_no": "0885",
   "model_name_latest": "Ｌ新鬼武者３",
   "dates": [
-    "2026-03-15",
     "2026-03-17",
     "2026-03-18",
     "2026-03-20",
@@ -61,21 +60,10 @@
     "2026-05-19",
     "2026-05-20",
     "2026-05-21",
-    "2026-05-22"
+    "2026-05-22",
+    "2026-05-23"
   ],
   "series": [
-    {
-      "date": "2026-03-15",
-      "unit_no": "0885",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 5913,
-      "diff_medals": null,
-      "bb": 53,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120187&n=0885",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
     {
       "date": "2026-03-17",
       "unit_no": "0885",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0885",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
+    },
+    {
+      "date": "2026-05-23",
+      "unit_no": "0885",
+      "model_name": "Ｌ新鬼武者３",
+      "max_payout": 8054,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 10,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0885",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
     }
   ],
-  "updated_at": "2026-05-21 17:31:18"
+  "updated_at": "2026-05-22 17:18:56"
 }

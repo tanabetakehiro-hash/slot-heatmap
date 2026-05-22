@@ -2,7 +2,6 @@
   "unit_no": "0851",
   "model_name_latest": "Ｌ東京リベンジャーズ",
   "dates": [
-    "2026-03-15",
     "2026-03-17",
     "2026-03-18",
     "2026-03-20",
@@ -61,21 +60,10 @@
     "2026-05-19",
     "2026-05-20",
     "2026-05-21",
-    "2026-05-22"
+    "2026-05-22",
+    "2026-05-23"
   ],
   "series": [
-    {
-      "date": "2026-03-15",
-      "unit_no": "0851",
-      "model_name": "Ｌ東京リベンジャーズ",
-      "max_payout": 1161,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 11,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120327&n=0851",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120327&d=1"
-    },
     {
       "date": "2026-03-17",
       "unit_no": "0851",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120327&n=0851",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120327&d=1"
+    },
+    {
+      "date": "2026-05-23",
+      "unit_no": "0851",
+      "model_name": "Ｌ東京リベンジャーズ",
+      "max_payout": 7179,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 11,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120327&n=0851",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120327&d=1"
     }
   ],
-  "updated_at": "2026-05-21 17:31:18"
+  "updated_at": "2026-05-22 17:18:56"
 }
