@@ -2,7 +2,6 @@
   "unit_no": "0947",
   "model_name_latest": "Ｌマジカルハロウィン８",
   "dates": [
-    "2026-03-17",
     "2026-03-18",
     "2026-03-20",
     "2026-03-21",
@@ -61,21 +60,10 @@
     "2026-05-20",
     "2026-05-21",
     "2026-05-22",
-    "2026-05-23"
+    "2026-05-23",
+    "2026-05-24"
   ],
   "series": [
-    {
-      "date": "2026-03-17",
-      "unit_no": "0947",
-      "model_name": "Ｌマジカルハロウィン８",
-      "max_payout": 3782,
-      "diff_medals": null,
-      "bb": 33,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120179&n=0947",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120179&d=1"
-    },
     {
       "date": "2026-03-18",
       "unit_no": "0947",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120179&n=0947",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120179&d=1"
+    },
+    {
+      "date": "2026-05-24",
+      "unit_no": "0947",
+      "model_name": "Ｌマジカルハロウィン８",
+      "max_payout": 3199,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120179&n=0947",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120179&d=1"
     }
   ],
-  "updated_at": "2026-05-22 17:18:56"
+  "updated_at": "2026-05-23 15:57:31"
 }
