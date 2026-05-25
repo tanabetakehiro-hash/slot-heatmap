@@ -2,7 +2,6 @@
   "unit_no": "0334",
   "model_name_latest": "ＬＢ異世界かるてっと－Ｖ",
   "dates": [
-    "2026-03-20",
     "2026-03-21",
     "2026-03-22",
     "2026-03-24",
@@ -61,21 +60,10 @@
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
-    "2026-05-25"
+    "2026-05-25",
+    "2026-05-26"
   ],
   "series": [
-    {
-      "date": "2026-03-20",
-      "unit_no": "0334",
-      "model_name": "ＬＢマジカルハロウィン　ボーナストリガー",
-      "max_payout": 1335,
-      "diff_medals": null,
-      "bb": 12,
-      "rb": 5,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120326&n=0334",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120326&d=1"
-    },
     {
       "date": "2026-03-21",
       "unit_no": "0334",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120360&n=0334",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120360&d=1"
+    },
+    {
+      "date": "2026-05-26",
+      "unit_no": "0334",
+      "model_name": "ＬＢ異世界かるてっと－Ｖ",
+      "max_payout": 582,
+      "diff_medals": null,
+      "bb": 5,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120360&n=0334",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120360&d=1"
     }
   ],
-  "updated_at": "2026-05-24 16:02:00"
+  "updated_at": "2026-05-25 17:13:02"
 }

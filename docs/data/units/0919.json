@@ -1,8 +1,7 @@
 {
   "unit_no": "0919",
-  "model_name_latest": "Ｌモンスターハンターライズ",
+  "model_name_latest": "Ｌ七つの魔剣が支配する",
   "dates": [
-    "2026-03-20",
     "2026-03-21",
     "2026-03-22",
     "2026-03-24",
@@ -61,21 +60,10 @@
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
-    "2026-05-25"
+    "2026-05-25",
+    "2026-05-26"
   ],
   "series": [
-    {
-      "date": "2026-03-20",
-      "unit_no": "0919",
-      "model_name": "Ｌモンスターハンターライズ",
-      "max_payout": 684,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 3,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0919",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
-    },
     {
       "date": "2026-03-21",
       "unit_no": "0919",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0919",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-05-26",
+      "unit_no": "0919",
+      "model_name": "Ｌ七つの魔剣が支配する",
+      "max_payout": 2141,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 14,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120274&n=0919",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120274&d=1"
     }
   ],
-  "updated_at": "2026-05-24 16:02:00"
+  "updated_at": "2026-05-25 17:13:02"
 }

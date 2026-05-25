@@ -2,7 +2,6 @@
   "unit_no": "0963",
   "model_name_latest": "Ｌとある科学超電磁砲２－⑤",
   "dates": [
-    "2026-03-20",
     "2026-03-21",
     "2026-03-22",
     "2026-03-24",
@@ -61,21 +60,10 @@
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
-    "2026-05-25"
+    "2026-05-25",
+    "2026-05-26"
   ],
   "series": [
-    {
-      "date": "2026-03-20",
-      "unit_no": "0963",
-      "model_name": "Ｌ忍魂参　奥義皆伝ノ章",
-      "max_payout": 2611,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120204&n=0963",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120204&d=1"
-    },
     {
       "date": "2026-03-21",
       "unit_no": "0963",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0963",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
+    },
+    {
+      "date": "2026-05-26",
+      "unit_no": "0963",
+      "model_name": "Ｌとある科学超電磁砲２－⑤",
+      "max_payout": 1003,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 5,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0963",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
     }
   ],
-  "updated_at": "2026-05-24 16:02:00"
+  "updated_at": "2026-05-25 17:13:02"
 }

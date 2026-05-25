@@ -2,7 +2,6 @@
   "unit_no": "0833",
   "model_name_latest": "Ｌ革命機ヴァルヴレイヴ２",
   "dates": [
-    "2026-03-20",
     "2026-03-21",
     "2026-03-22",
     "2026-03-24",
@@ -61,21 +60,10 @@
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
-    "2026-05-25"
+    "2026-05-25",
+    "2026-05-26"
   ],
   "series": [
-    {
-      "date": "2026-03-20",
-      "unit_no": "0833",
-      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
-      "max_payout": 2051,
-      "diff_medals": null,
-      "bb": 15,
-      "rb": 7,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0833",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
-    },
     {
       "date": "2026-03-21",
       "unit_no": "0833",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0833",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
+    },
+    {
+      "date": "2026-05-26",
+      "unit_no": "0833",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ２",
+      "max_payout": 5282,
+      "diff_medals": null,
+      "bb": 49,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0833",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
     }
   ],
-  "updated_at": "2026-05-24 16:02:00"
+  "updated_at": "2026-05-25 17:13:02"
 }

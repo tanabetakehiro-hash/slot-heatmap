@@ -2,7 +2,6 @@
   "unit_no": "0959",
   "model_name_latest": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
   "dates": [
-    "2026-03-20",
     "2026-03-21",
     "2026-03-22",
     "2026-03-24",
@@ -61,21 +60,10 @@
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
-    "2026-05-25"
+    "2026-05-25",
+    "2026-05-26"
   ],
   "series": [
-    {
-      "date": "2026-03-20",
-      "unit_no": "0959",
-      "model_name": "Ｌ転生したら剣でした",
-      "max_payout": 6221,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 9,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120320&n=0959",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120320&d=1"
-    },
     {
       "date": "2026-03-21",
       "unit_no": "0959",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120187&n=0959",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
+    },
+    {
+      "date": "2026-05-26",
+      "unit_no": "0959",
+      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
+      "max_payout": 1085,
+      "diff_medals": null,
+      "bb": 21,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120187&n=0959",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
     }
   ],
-  "updated_at": "2026-05-24 16:02:00"
+  "updated_at": "2026-05-25 17:13:02"
 }
