@@ -1,5 +1,5 @@
 {
-  "latest_date": "2026-05-26",
+  "latest_date": "2026-05-27",
   "units": [
     {
       "unit_no": "0307",
@@ -219,39 +219,39 @@
     },
     {
       "unit_no": "0595",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0596",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0597",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0598",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0599",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0600",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0601",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0602",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0603",
-      "model_name": "ＬバイオハザードＲＥ：３"
+      "model_name": "NEW ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0604",
@@ -1123,19 +1123,19 @@
     },
     {
       "unit_no": "0909",
-      "model_name": "Ｌスーパーリオエース２－⑤"
+      "model_name": "NEW Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0910",
-      "model_name": "Ｌスーパーリオエース２－⑤"
+      "model_name": "NEW Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0911",
-      "model_name": "Ｌスーパーリオエース２－⑤"
+      "model_name": "NEW Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0912",
-      "model_name": "Ｌスーパーリオエース２－⑤"
+      "model_name": "NEW Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0913",
@@ -1155,15 +1155,15 @@
     },
     {
       "unit_no": "0917",
-      "model_name": "Ｌ七つの魔剣が支配する"
+      "model_name": "NEW Ｌ七つの魔剣が支配する"
     },
     {
       "unit_no": "0918",
-      "model_name": "Ｌ七つの魔剣が支配する"
+      "model_name": "NEW Ｌ七つの魔剣が支配する"
     },
     {
       "unit_no": "0919",
-      "model_name": "Ｌ七つの魔剣が支配する"
+      "model_name": "NEW Ｌ七つの魔剣が支配する"
     },
     {
       "unit_no": "0920",
@@ -1291,7 +1291,7 @@
     },
     {
       "unit_no": "0951",
-      "model_name": "Ｌビッグドリーム－Ｖ"
+      "model_name": "NEW Ｌビッグドリーム－Ｖ"
     },
     {
       "unit_no": "0952",
@@ -1327,7 +1327,7 @@
     },
     {
       "unit_no": "0960",
-      "model_name": "Ｌタクトオーパス　デスティニー－Ｖ"
+      "model_name": "NEW Ｌタクトオーパス　デスティニー－Ｖ"
     },
     {
       "unit_no": "0961",
@@ -1562,5 +1562,5 @@
       "model_name": "沖ドキ！ＧＯＬＤ－３０"
     }
   ],
-  "updated_at": "2026-05-25 17:13:02"
+  "updated_at": "2026-05-26 18:17:29"
 }
