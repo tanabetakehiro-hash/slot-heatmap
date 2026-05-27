@@ -84,13 +84,14 @@
     "2026-05-24",
     "2026-05-25",
     "2026-05-26",
-    "2026-05-27"
+    "2026-05-27",
+    "2026-05-28"
   ],
-  "latest_date": "2026-05-27",
+  "latest_date": "2026-05-28",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-05-26 18:17:30"
+  "updated_at": "2026-05-27 18:14:38"
 }
