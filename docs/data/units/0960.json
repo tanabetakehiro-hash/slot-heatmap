@@ -2,7 +2,6 @@
   "unit_no": "0960",
   "model_name_latest": "NEW Ｌタクトオーパス　デスティニー－Ｖ",
   "dates": [
-    "2026-03-24",
     "2026-03-25",
     "2026-03-26",
     "2026-03-27",
@@ -61,21 +60,10 @@
     "2026-05-25",
     "2026-05-26",
     "2026-05-27",
-    "2026-05-28"
+    "2026-05-28",
+    "2026-05-29"
   ],
   "series": [
-    {
-      "date": "2026-03-24",
-      "unit_no": "0960",
-      "model_name": "Ｌ炎炎ノ消防隊",
-      "max_payout": 246,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 5,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120216&n=0960",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120216&d=1"
-    },
     {
       "date": "2026-03-25",
       "unit_no": "0960",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120366&n=0960",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120366&d=1"
+    },
+    {
+      "date": "2026-05-29",
+      "unit_no": "0960",
+      "model_name": "NEW Ｌタクトオーパス　デスティニー－Ｖ",
+      "max_payout": 550,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 12,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120366&n=0960",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120366&d=1"
     }
   ],
-  "updated_at": "2026-05-27 18:14:38"
+  "updated_at": "2026-05-28 18:21:47"
 }

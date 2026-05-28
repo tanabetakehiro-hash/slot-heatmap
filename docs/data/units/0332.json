@@ -2,7 +2,6 @@
   "unit_no": "0332",
   "model_name_latest": "ＬディスクアップＵＬＴＲＡＲＥＭＩＸ",
   "dates": [
-    "2026-03-24",
     "2026-03-25",
     "2026-03-26",
     "2026-03-27",
@@ -61,21 +60,10 @@
     "2026-05-25",
     "2026-05-26",
     "2026-05-27",
-    "2026-05-28"
+    "2026-05-28",
+    "2026-05-29"
   ],
   "series": [
-    {
-      "date": "2026-03-24",
-      "unit_no": "0332",
-      "model_name": "Ｌ鉄拳６",
-      "max_payout": 2180,
-      "diff_medals": null,
-      "bb": 28,
-      "rb": 18,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0332",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
-    },
     {
       "date": "2026-03-25",
       "unit_no": "0332",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120277&n=0332",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120277&d=1"
+    },
+    {
+      "date": "2026-05-29",
+      "unit_no": "0332",
+      "model_name": "ＬディスクアップＵＬＴＲＡＲＥＭＩＸ",
+      "max_payout": 604,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120277&n=0332",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120277&d=1"
     }
   ],
-  "updated_at": "2026-05-27 18:14:37"
+  "updated_at": "2026-05-28 18:21:47"
 }
