@@ -2,7 +2,6 @@
   "unit_no": "0902",
   "model_name_latest": "Ｌ吉宗",
   "dates": [
-    "2026-03-27",
     "2026-03-28",
     "2026-03-29",
     "2026-03-31",
@@ -61,21 +60,10 @@
     "2026-05-28",
     "2026-05-29",
     "2026-05-30",
-    "2026-05-31"
+    "2026-05-31",
+    "2026-06-01"
   ],
   "series": [
-    {
-      "date": "2026-03-27",
-      "unit_no": "0902",
-      "model_name": "Ｌ主役は銭形５",
-      "max_payout": 510,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 8,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0902",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
-    },
     {
       "date": "2026-03-28",
       "unit_no": "0902",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0902",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
+    },
+    {
+      "date": "2026-06-01",
+      "unit_no": "0902",
+      "model_name": "Ｌ吉宗",
+      "max_payout": 12566,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 5,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0902",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
     }
   ],
-  "updated_at": "2026-05-30 16:05:31"
+  "updated_at": "2026-05-31 16:16:35"
 }
