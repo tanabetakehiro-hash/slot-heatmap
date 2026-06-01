@@ -1,8 +1,7 @@
 {
   "unit_no": "0955",
-  "model_name_latest": "Ｌ革命機ヴァルヴレイヴ２",
+  "model_name_latest": "Ｌダンベル何キロ持てる？",
   "dates": [
-    "2026-03-28",
     "2026-03-29",
     "2026-03-31",
     "2026-04-01",
@@ -61,21 +60,10 @@
     "2026-05-29",
     "2026-05-30",
     "2026-05-31",
-    "2026-06-01"
+    "2026-06-01",
+    "2026-06-02"
   ],
   "series": [
-    {
-      "date": "2026-03-28",
-      "unit_no": "0955",
-      "model_name": "Ｌ回胴黙示録カイジ　狂宴",
-      "max_payout": 752,
-      "diff_medals": null,
-      "bb": 13,
-      "rb": 6,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120286&n=0955",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120286&d=1"
-    },
     {
       "date": "2026-03-29",
       "unit_no": "0955",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0955",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
+    },
+    {
+      "date": "2026-06-02",
+      "unit_no": "0955",
+      "model_name": "Ｌダンベル何キロ持てる？",
+      "max_payout": 706,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 12,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120268&n=0955",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120268&d=1"
     }
   ],
-  "updated_at": "2026-05-31 16:16:35"
+  "updated_at": "2026-06-01 20:05:02"
 }
