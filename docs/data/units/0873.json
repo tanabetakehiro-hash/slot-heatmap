@@ -2,7 +2,6 @@
   "unit_no": "0873",
   "model_name_latest": "Ｌスマスロ北斗",
   "dates": [
-    "2026-03-29",
     "2026-03-31",
     "2026-04-01",
     "2026-04-02",
@@ -61,21 +60,10 @@
     "2026-05-30",
     "2026-05-31",
     "2026-06-01",
-    "2026-06-02"
+    "2026-06-02",
+    "2026-06-03"
   ],
   "series": [
-    {
-      "date": "2026-03-29",
-      "unit_no": "0873",
-      "model_name": "Ｌいざ！番長",
-      "max_payout": 1262,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0873",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
-    },
     {
       "date": "2026-03-31",
       "unit_no": "0873",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0873",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
+    },
+    {
+      "date": "2026-06-03",
+      "unit_no": "0873",
+      "model_name": "Ｌスマスロ北斗",
+      "max_payout": 133,
+      "diff_medals": null,
+      "bb": 1,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0873",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
     }
   ],
-  "updated_at": "2026-06-01 20:05:01"
+  "updated_at": "2026-06-02 18:51:31"
 }

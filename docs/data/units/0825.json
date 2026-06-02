@@ -2,7 +2,6 @@
   "unit_no": "0825",
   "model_name_latest": "Ｌ革命機ヴァルヴレイヴ２",
   "dates": [
-    "2026-03-29",
     "2026-03-31",
     "2026-04-01",
     "2026-04-02",
@@ -61,21 +60,10 @@
     "2026-05-30",
     "2026-05-31",
     "2026-06-01",
-    "2026-06-02"
+    "2026-06-02",
+    "2026-06-03"
   ],
   "series": [
-    {
-      "date": "2026-03-29",
-      "unit_no": "0825",
-      "model_name": "Ｌからくりサーカス",
-      "max_payout": 10114,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 10,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0825",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
-    },
     {
       "date": "2026-03-31",
       "unit_no": "0825",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0825",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
+    },
+    {
+      "date": "2026-06-03",
+      "unit_no": "0825",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ２",
+      "max_payout": 1172,
+      "diff_medals": null,
+      "bb": 11,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0825",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
     }
   ],
-  "updated_at": "2026-06-01 20:05:01"
+  "updated_at": "2026-06-02 18:51:31"
 }
