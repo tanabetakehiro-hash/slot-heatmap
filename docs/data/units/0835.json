@@ -2,7 +2,6 @@
   "unit_no": "0835",
   "model_name_latest": "Ｌかぐや様は告らせたい－Ｖ",
   "dates": [
-    "2026-04-04",
     "2026-04-05",
     "2026-04-07",
     "2026-04-08",
@@ -61,21 +60,10 @@
     "2026-06-04",
     "2026-06-05",
     "2026-06-06",
-    "2026-06-08"
+    "2026-06-08",
+    "2026-06-09"
   ],
   "series": [
-    {
-      "date": "2026-04-04",
-      "unit_no": "0835",
-      "model_name": "Ｌ東京喰種",
-      "max_payout": 6988,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 18,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0835",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
-    },
     {
       "date": "2026-04-05",
       "unit_no": "0835",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0835",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-06-09",
+      "unit_no": "0835",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1966,
+      "diff_medals": null,
+      "bb": 10,
+      "rb": 5,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0835",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
     }
   ],
-  "updated_at": "2026-06-07 16:20:28"
+  "updated_at": "2026-06-08 18:13:11"
 }
