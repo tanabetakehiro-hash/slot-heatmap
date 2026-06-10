@@ -2,7 +2,7 @@
   "target_date": "2026-06-11",
   "method": "moving_average",
   "window_days": 7,
-  "generated_at": "2026-06-09 17:23:26",
+  "generated_at": "2026-06-10 17:33:57",
   "top": [
     {
       "unit_no": "0811",
