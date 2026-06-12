@@ -1,8 +1,7 @@
 {
   "unit_no": "0848",
-  "model_name_latest": "NEW ＬバイオハザードＲＥ：３",
+  "model_name_latest": "ＬバイオハザードＲＥ：３",
   "dates": [
-    "2026-04-07",
     "2026-04-08",
     "2026-04-09",
     "2026-04-10",
@@ -61,21 +60,10 @@
     "2026-06-06",
     "2026-06-08",
     "2026-06-09",
-    "2026-06-10"
+    "2026-06-10",
+    "2026-06-13"
   ],
   "series": [
-    {
-      "date": "2026-04-07",
-      "unit_no": "0848",
-      "model_name": "Ｌ東京喰種",
-      "max_payout": 3394,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 17,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0848",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
-    },
     {
       "date": "2026-04-08",
       "unit_no": "0848",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120365&n=0848",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120365&d=1"
+    },
+    {
+      "date": "2026-06-13",
+      "unit_no": "0848",
+      "model_name": "ＬバイオハザードＲＥ：３",
+      "max_payout": 5120,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 24,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120365&n=0848",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120365&d=1"
     }
   ],
-  "updated_at": "2026-06-11 17:45:38"
+  "updated_at": "2026-06-12 18:00:29"
 }

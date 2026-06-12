@@ -1,5 +1,5 @@
 {
-  "latest_date": "2026-06-10",
+  "latest_date": "2026-06-13",
   "units": [
     {
       "unit_no": "0307",
@@ -991,27 +991,27 @@
     },
     {
       "unit_no": "0843",
-      "model_name": "NEW ＬバイオハザードＲＥ：３"
+      "model_name": "ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0844",
-      "model_name": "NEW ＬバイオハザードＲＥ：３"
+      "model_name": "ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0845",
-      "model_name": "NEW ＬバイオハザードＲＥ：３"
+      "model_name": "ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0846",
-      "model_name": "NEW ＬバイオハザードＲＥ：３"
+      "model_name": "ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0847",
-      "model_name": "NEW ＬバイオハザードＲＥ：３"
+      "model_name": "ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0848",
-      "model_name": "NEW ＬバイオハザードＲＥ：３"
+      "model_name": "ＬバイオハザードＲＥ：３"
     },
     {
       "unit_no": "0849",
@@ -1255,19 +1255,19 @@
     },
     {
       "unit_no": "0909",
-      "model_name": "NEW Ｌスーパーリオエース２－⑤"
+      "model_name": "Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0910",
-      "model_name": "NEW Ｌスーパーリオエース２－⑤"
+      "model_name": "Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0911",
-      "model_name": "NEW Ｌスーパーリオエース２－⑤"
+      "model_name": "Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0912",
-      "model_name": "NEW Ｌスーパーリオエース２－⑤"
+      "model_name": "Ｌスーパーリオエース２－⑤"
     },
     {
       "unit_no": "0913",
@@ -1423,7 +1423,7 @@
     },
     {
       "unit_no": "0951",
-      "model_name": "NEW Ｌビッグドリーム－Ｖ"
+      "model_name": "Ｌビッグドリーム－Ｖ"
     },
     {
       "unit_no": "0952",
@@ -1459,7 +1459,7 @@
     },
     {
       "unit_no": "0960",
-      "model_name": "NEW Ｌタクトオーパス　デスティニー－Ｖ"
+      "model_name": "Ｌタクトオーパス　デスティニー－Ｖ"
     },
     {
       "unit_no": "0961",
@@ -1694,5 +1694,5 @@
       "model_name": "沖ドキ！ＧＯＬＤ－３０"
     }
   ],
-  "updated_at": "2026-06-11 17:45:38"
+  "updated_at": "2026-06-12 18:00:29"
 }
