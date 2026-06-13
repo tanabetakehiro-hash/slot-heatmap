@@ -2,7 +2,6 @@
   "unit_no": "0892",
   "model_name_latest": "Ｌ鉄拳６",
   "dates": [
-    "2026-04-08",
     "2026-04-09",
     "2026-04-10",
     "2026-04-11",
@@ -61,21 +60,10 @@
     "2026-06-08",
     "2026-06-09",
     "2026-06-10",
-    "2026-06-13"
+    "2026-06-13",
+    "2026-06-14"
   ],
   "series": [
-    {
-      "date": "2026-04-08",
-      "unit_no": "0892",
-      "model_name": "Ｌ革命機ヴァルヴレイヴ",
-      "max_payout": 2431,
-      "diff_medals": null,
-      "bb": 24,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0892",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
-    },
     {
       "date": "2026-04-09",
       "unit_no": "0892",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0892",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-06-14",
+      "unit_no": "0892",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 554,
+      "diff_medals": null,
+      "bb": 18,
+      "rb": 8,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0892",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
     }
   ],
-  "updated_at": "2026-06-12 18:00:29"
+  "updated_at": "2026-06-13 16:36:25"
 }
