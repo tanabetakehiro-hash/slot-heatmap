@@ -100,13 +100,14 @@
     "2026-06-10",
     "2026-06-13",
     "2026-06-14",
-    "2026-06-15"
+    "2026-06-15",
+    "2026-06-16"
   ],
-  "latest_date": "2026-06-15",
+  "latest_date": "2026-06-16",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-06-14 16:43:17"
+  "updated_at": "2026-06-15 19:32:13"
 }
