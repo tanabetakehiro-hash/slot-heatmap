@@ -2,7 +2,6 @@
   "unit_no": "0969",
   "model_name_latest": "沖ドキ！ＢＬＡＣＫ",
   "dates": [
-    "2026-04-11",
     "2026-04-12",
     "2026-04-14",
     "2026-04-15",
@@ -61,21 +60,10 @@
     "2026-06-13",
     "2026-06-14",
     "2026-06-15",
-    "2026-06-16"
+    "2026-06-16",
+    "2026-06-17"
   ],
   "series": [
-    {
-      "date": "2026-04-11",
-      "unit_no": "0969",
-      "model_name": "沖ドキ！ＢＬＡＣＫ",
-      "max_payout": 2192,
-      "diff_medals": null,
-      "bb": 14,
-      "rb": 15,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120234&n=0969",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
-    },
     {
       "date": "2026-04-12",
       "unit_no": "0969",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120234&n=0969",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
+    },
+    {
+      "date": "2026-06-17",
+      "unit_no": "0969",
+      "model_name": "沖ドキ！ＢＬＡＣＫ",
+      "max_payout": 660,
+      "diff_medals": null,
+      "bb": 3,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120234&n=0969",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120234&d=1"
     }
   ],
-  "updated_at": "2026-06-15 19:32:13"
+  "updated_at": "2026-06-16 19:26:54"
 }
