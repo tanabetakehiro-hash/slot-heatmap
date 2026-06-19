@@ -104,13 +104,14 @@
     "2026-06-16",
     "2026-06-17",
     "2026-06-18",
-    "2026-06-19"
+    "2026-06-19",
+    "2026-06-20"
   ],
-  "latest_date": "2026-06-19",
+  "latest_date": "2026-06-20",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-06-18 18:14:33"
+  "updated_at": "2026-06-19 17:20:27"
 }
