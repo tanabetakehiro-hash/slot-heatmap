@@ -2,7 +2,6 @@
   "unit_no": "0920",
   "model_name_latest": "Ｌ防振り",
   "dates": [
-    "2026-04-21",
     "2026-04-22",
     "2026-04-23",
     "2026-04-24",
@@ -61,21 +60,10 @@
     "2026-06-21",
     "2026-06-22",
     "2026-06-23",
-    "2026-06-24"
+    "2026-06-24",
+    "2026-06-25"
   ],
   "series": [
-    {
-      "date": "2026-04-21",
-      "unit_no": "0920",
-      "model_name": "Ｌモンスターハンターライズ",
-      "max_payout": 3,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0920",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
-    },
     {
       "date": "2026-04-22",
       "unit_no": "0920",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0920",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
+    },
+    {
+      "date": "2026-06-25",
+      "unit_no": "0920",
+      "model_name": "Ｌ防振り",
+      "max_payout": 272,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0920",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
     }
   ],
-  "updated_at": "2026-06-23 17:19:52"
+  "updated_at": "2026-06-24 17:09:29"
 }

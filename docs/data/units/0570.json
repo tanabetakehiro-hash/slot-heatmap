@@ -2,7 +2,6 @@
   "unit_no": "0570",
   "model_name_latest": "Ｌ東京喰種",
   "dates": [
-    "2026-04-21",
     "2026-04-22",
     "2026-04-23",
     "2026-04-24",
@@ -61,21 +60,10 @@
     "2026-06-21",
     "2026-06-22",
     "2026-06-23",
-    "2026-06-24"
+    "2026-06-24",
+    "2026-06-25"
   ],
   "series": [
-    {
-      "date": "2026-04-21",
-      "unit_no": "0570",
-      "model_name": null,
-      "max_payout": null,
-      "diff_medals": null,
-      "bb": null,
-      "rb": null,
-      "total_start": null,
-      "detail_url": null,
-      "source_url": null
-    },
     {
       "date": "2026-04-22",
       "unit_no": "0570",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0570",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
+    },
+    {
+      "date": "2026-06-25",
+      "unit_no": "0570",
+      "model_name": "Ｌ東京喰種",
+      "max_payout": 187,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120279&n=0570",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120279&d=1"
     }
   ],
-  "updated_at": "2026-06-23 17:19:52"
+  "updated_at": "2026-06-24 17:09:29"
 }
