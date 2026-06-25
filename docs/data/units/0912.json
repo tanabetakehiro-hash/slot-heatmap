@@ -2,7 +2,6 @@
   "unit_no": "0912",
   "model_name_latest": "Ｌスーパーリオエース２－⑤",
   "dates": [
-    "2026-04-22",
     "2026-04-23",
     "2026-04-24",
     "2026-04-25",
@@ -61,21 +60,10 @@
     "2026-06-22",
     "2026-06-23",
     "2026-06-24",
-    "2026-06-25"
+    "2026-06-25",
+    "2026-06-26"
   ],
   "series": [
-    {
-      "date": "2026-04-22",
-      "unit_no": "0912",
-      "model_name": "Ｌとある科学超電磁砲２－⑤",
-      "max_payout": 130,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120332&n=0912",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120332&d=1"
-    },
     {
       "date": "2026-04-23",
       "unit_no": "0912",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0912",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
+    },
+    {
+      "date": "2026-06-26",
+      "unit_no": "0912",
+      "model_name": "Ｌスーパーリオエース２－⑤",
+      "max_payout": 491,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0912",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
     }
   ],
-  "updated_at": "2026-06-24 17:09:29"
+  "updated_at": "2026-06-25 17:13:15"
 }
