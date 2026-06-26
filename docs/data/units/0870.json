@@ -2,7 +2,6 @@
   "unit_no": "0870",
   "model_name_latest": "Ｌモンスターハンターライズ",
   "dates": [
-    "2026-04-23",
     "2026-04-24",
     "2026-04-25",
     "2026-04-26",
@@ -61,21 +60,10 @@
     "2026-06-23",
     "2026-06-24",
     "2026-06-25",
-    "2026-06-26"
+    "2026-06-26",
+    "2026-06-27"
   ],
   "series": [
-    {
-      "date": "2026-04-23",
-      "unit_no": "0870",
-      "model_name": "Ｌ吉宗",
-      "max_payout": 75,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120284&n=0870",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120284&d=1"
-    },
     {
       "date": "2026-04-24",
       "unit_no": "0870",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0870",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-06-27",
+      "unit_no": "0870",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 1874,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 12,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0870",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-06-25 17:13:15"
+  "updated_at": "2026-06-26 17:10:17"
 }

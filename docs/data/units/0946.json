@@ -2,7 +2,6 @@
   "unit_no": "0946",
   "model_name_latest": "Ｌバイオハザード５",
   "dates": [
-    "2026-04-23",
     "2026-04-24",
     "2026-04-25",
     "2026-04-26",
@@ -61,21 +60,10 @@
     "2026-06-23",
     "2026-06-24",
     "2026-06-25",
-    "2026-06-26"
+    "2026-06-26",
+    "2026-06-27"
   ],
   "series": [
-    {
-      "date": "2026-04-23",
-      "unit_no": "0946",
-      "model_name": "Ｌバーニングエクスプレス－Ｖ",
-      "max_payout": 735,
-      "diff_medals": null,
-      "bb": 1,
-      "rb": 1,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120338&n=0946",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120338&d=1"
-    },
     {
       "date": "2026-04-24",
       "unit_no": "0946",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0946",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
+    },
+    {
+      "date": "2026-06-27",
+      "unit_no": "0946",
+      "model_name": "Ｌバイオハザード５",
+      "max_payout": 644,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120282&n=0946",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120282&d=1"
     }
   ],
-  "updated_at": "2026-06-25 17:13:15"
+  "updated_at": "2026-06-26 17:10:17"
 }
