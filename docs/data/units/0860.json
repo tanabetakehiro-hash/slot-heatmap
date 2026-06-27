@@ -2,7 +2,6 @@
   "unit_no": "0860",
   "model_name_latest": "NEW Ｌ　ＢＩＲＤＩＥ　ＷＩＮＧ－Ｖ",
   "dates": [
-    "2026-04-24",
     "2026-04-25",
     "2026-04-26",
     "2026-04-28",
@@ -61,21 +60,10 @@
     "2026-06-24",
     "2026-06-25",
     "2026-06-26",
-    "2026-06-27"
+    "2026-06-27",
+    "2026-06-28"
   ],
   "series": [
-    {
-      "date": "2026-04-24",
-      "unit_no": "0860",
-      "model_name": "Ｌヨルムンガンド",
-      "max_payout": 1554,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 8,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120364&n=0860",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120364&d=1"
-    },
     {
       "date": "2026-04-25",
       "unit_no": "0860",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120370&n=0860",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120370&d=1"
+    },
+    {
+      "date": "2026-06-28",
+      "unit_no": "0860",
+      "model_name": "NEW Ｌ　ＢＩＲＤＩＥ　ＷＩＮＧ－Ｖ",
+      "max_payout": 1003,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 24,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120370&n=0860",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120370&d=1"
     }
   ],
-  "updated_at": "2026-06-26 17:10:17"
+  "updated_at": "2026-06-27 16:13:50"
 }
