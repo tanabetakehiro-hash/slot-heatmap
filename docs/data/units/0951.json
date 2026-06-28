@@ -2,7 +2,6 @@
   "unit_no": "0951",
   "model_name_latest": "Ｌビッグドリーム－Ｖ",
   "dates": [
-    "2026-04-25",
     "2026-04-26",
     "2026-04-28",
     "2026-04-29",
@@ -61,21 +60,10 @@
     "2026-06-25",
     "2026-06-26",
     "2026-06-27",
-    "2026-06-28"
+    "2026-06-28",
+    "2026-06-29"
   ],
   "series": [
-    {
-      "date": "2026-04-25",
-      "unit_no": "0951",
-      "model_name": "Ｌルパン三世　大航海者の秘宝",
-      "max_payout": 239,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120263&n=0951",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120263&d=1"
-    },
     {
       "date": "2026-04-26",
       "unit_no": "0951",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120367&n=0951",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120367&d=1"
+    },
+    {
+      "date": "2026-06-29",
+      "unit_no": "0951",
+      "model_name": "Ｌビッグドリーム－Ｖ",
+      "max_payout": 5083,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 6,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120367&n=0951",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120367&d=1"
     }
   ],
-  "updated_at": "2026-06-27 16:13:51"
+  "updated_at": "2026-06-28 16:24:49"
 }
