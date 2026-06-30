@@ -2,7 +2,6 @@
   "unit_no": "0726",
   "model_name_latest": "ハッピージャグラーＶＩＩＩ",
   "dates": [
-    "2026-04-28",
     "2026-04-29",
     "2026-04-30",
     "2026-05-01",
@@ -61,21 +60,10 @@
     "2026-06-27",
     "2026-06-28",
     "2026-06-29",
-    "2026-06-30"
+    "2026-06-30",
+    "2026-07-01"
   ],
   "series": [
-    {
-      "date": "2026-04-28",
-      "unit_no": "0726",
-      "model_name": "ハッピージャグラーＶＩＩＩ",
-      "max_payout": 425,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 6,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120096&n=0726",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120096&d=1"
-    },
     {
       "date": "2026-04-29",
       "unit_no": "0726",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120096&n=0726",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120096&d=1"
+    },
+    {
+      "date": "2026-07-01",
+      "unit_no": "0726",
+      "model_name": "ハッピージャグラーＶＩＩＩ",
+      "max_payout": 3569,
+      "diff_medals": null,
+      "bb": 40,
+      "rb": 29,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120096&n=0726",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120096&d=1"
     }
   ],
-  "updated_at": "2026-06-29 17:57:37"
+  "updated_at": "2026-06-30 17:16:30"
 }
