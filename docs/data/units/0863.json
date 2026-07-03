@@ -2,7 +2,6 @@
   "unit_no": "0863",
   "model_name_latest": "Ｌいざ！番長",
   "dates": [
-    "2026-04-30",
     "2026-05-01",
     "2026-05-02",
     "2026-05-03",
@@ -61,21 +60,10 @@
     "2026-06-29",
     "2026-06-30",
     "2026-07-01",
-    "2026-07-03"
+    "2026-07-03",
+    "2026-07-04"
   ],
   "series": [
-    {
-      "date": "2026-04-30",
-      "unit_no": "0863",
-      "model_name": "Ｌいざ！番長",
-      "max_payout": 4478,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 20,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0863",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
-    },
     {
       "date": "2026-05-01",
       "unit_no": "0863",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0863",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
+    },
+    {
+      "date": "2026-07-04",
+      "unit_no": "0863",
+      "model_name": "Ｌいざ！番長",
+      "max_payout": 506,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0863",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
     }
   ],
-  "updated_at": "2026-07-02 16:53:45"
+  "updated_at": "2026-07-03 16:38:06"
 }
