@@ -2,7 +2,6 @@
   "unit_no": "0955",
   "model_name_latest": "NEW Ｌ南国育ちＳＰＥＣＩＡＬ－Ｖ",
   "dates": [
-    "2026-05-04",
     "2026-05-05",
     "2026-05-07",
     "2026-05-08",
@@ -61,21 +60,10 @@
     "2026-07-04",
     "2026-07-05",
     "2026-07-06",
-    "2026-07-07"
+    "2026-07-07",
+    "2026-07-08"
   ],
   "series": [
-    {
-      "date": "2026-05-04",
-      "unit_no": "0955",
-      "model_name": "Ｌ回胴黙示録カイジ　狂宴",
-      "max_payout": 1379,
-      "diff_medals": null,
-      "bb": 12,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120286&n=0955",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120286&d=1"
-    },
     {
       "date": "2026-05-05",
       "unit_no": "0955",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120378&n=0955",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120378&d=1"
+    },
+    {
+      "date": "2026-07-08",
+      "unit_no": "0955",
+      "model_name": "NEW Ｌ南国育ちＳＰＥＣＩＡＬ－Ｖ",
+      "max_payout": 5392,
+      "diff_medals": null,
+      "bb": 39,
+      "rb": 14,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120378&n=0955",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120378&d=1"
     }
   ],
-  "updated_at": "2026-07-06 17:52:47"
+  "updated_at": "2026-07-07 17:19:57"
 }
