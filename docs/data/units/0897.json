@@ -2,7 +2,6 @@
   "unit_no": "0897",
   "model_name_latest": "Ｌチバリヨ２プラス",
   "dates": [
-    "2026-05-07",
     "2026-05-08",
     "2026-05-09",
     "2026-05-10",
@@ -61,21 +60,10 @@
     "2026-07-06",
     "2026-07-07",
     "2026-07-08",
-    "2026-07-09"
+    "2026-07-09",
+    "2026-07-10"
   ],
   "series": [
-    {
-      "date": "2026-05-07",
-      "unit_no": "0897",
-      "model_name": "Ｌチバリヨ２プラス",
-      "max_payout": 2627,
-      "diff_medals": null,
-      "bb": 22,
-      "rb": 29,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120269&n=0897",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120269&d=1"
-    },
     {
       "date": "2026-05-08",
       "unit_no": "0897",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120269&n=0897",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120269&d=1"
+    },
+    {
+      "date": "2026-07-10",
+      "unit_no": "0897",
+      "model_name": "Ｌチバリヨ２プラス",
+      "max_payout": 720,
+      "diff_medals": null,
+      "bb": 6,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120269&n=0897",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120269&d=1"
     }
   ],
-  "updated_at": "2026-07-08 16:49:49"
+  "updated_at": "2026-07-09 17:21:39"
 }
