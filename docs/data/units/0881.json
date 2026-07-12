@@ -2,7 +2,6 @@
   "unit_no": "0881",
   "model_name_latest": "Ｌ革命機ヴァルヴレイヴ",
   "dates": [
-    "2026-05-09",
     "2026-05-10",
     "2026-05-11",
     "2026-05-12",
@@ -61,21 +60,10 @@
     "2026-07-08",
     "2026-07-09",
     "2026-07-10",
-    "2026-07-11"
+    "2026-07-11",
+    "2026-07-13"
   ],
   "series": [
-    {
-      "date": "2026-05-09",
-      "unit_no": "0881",
-      "model_name": "Ｌバジリスク絆２天膳ＢＬＡＣＫ",
-      "max_payout": 931,
-      "diff_medals": null,
-      "bb": 17,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120187&n=0881",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120187&d=1"
-    },
     {
       "date": "2026-05-10",
       "unit_no": "0881",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0881",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-07-13",
+      "unit_no": "0881",
+      "model_name": "Ｌ革命機ヴァルヴレイヴ",
+      "max_payout": 441,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0881",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
     }
   ],
-  "updated_at": "2026-07-11 15:12:45"
+  "updated_at": "2026-07-12 15:54:15"
 }
