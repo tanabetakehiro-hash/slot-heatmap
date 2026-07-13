@@ -134,5 +134,5 @@
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-07-12 15:54:15"
+  "updated_at": "2026-07-13 16:43:25"
 }
