@@ -1,8 +1,7 @@
 {
   "unit_no": "0810",
-  "model_name_latest": "Ｌ北斗　転生の章２",
+  "model_name_latest": null,
   "dates": [
-    "2026-05-11",
     "2026-05-12",
     "2026-05-13",
     "2026-05-14",
@@ -61,25 +60,14 @@
     "2026-07-10",
     "2026-07-11",
     "2026-07-13",
-    "2026-07-15"
+    "2026-07-15",
+    "2026-07-16"
   ],
   "series": [
     {
-      "date": "2026-05-11",
-      "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
-      "max_payout": 1957,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 11,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0810",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
-    },
-    {
       "date": "2026-05-12",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -91,7 +79,7 @@
     {
       "date": "2026-05-13",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -103,7 +91,7 @@
     {
       "date": "2026-05-14",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -115,7 +103,7 @@
     {
       "date": "2026-05-15",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -127,7 +115,7 @@
     {
       "date": "2026-05-16",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -139,7 +127,7 @@
     {
       "date": "2026-05-17",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -151,7 +139,7 @@
     {
       "date": "2026-05-18",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -163,7 +151,7 @@
     {
       "date": "2026-05-19",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -175,7 +163,7 @@
     {
       "date": "2026-05-20",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -187,7 +175,7 @@
     {
       "date": "2026-05-21",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -199,7 +187,7 @@
     {
       "date": "2026-05-22",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -211,7 +199,7 @@
     {
       "date": "2026-05-23",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -223,7 +211,7 @@
     {
       "date": "2026-05-24",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -235,7 +223,7 @@
     {
       "date": "2026-05-25",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -247,7 +235,7 @@
     {
       "date": "2026-05-26",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -259,7 +247,7 @@
     {
       "date": "2026-05-27",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -271,7 +259,7 @@
     {
       "date": "2026-05-28",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -283,7 +271,7 @@
     {
       "date": "2026-05-29",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -295,7 +283,7 @@
     {
       "date": "2026-05-30",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -307,7 +295,7 @@
     {
       "date": "2026-05-31",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -319,7 +307,7 @@
     {
       "date": "2026-06-01",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -331,7 +319,7 @@
     {
       "date": "2026-06-02",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -343,7 +331,7 @@
     {
       "date": "2026-06-03",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -355,7 +343,7 @@
     {
       "date": "2026-06-04",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -367,7 +355,7 @@
     {
       "date": "2026-06-05",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -379,7 +367,7 @@
     {
       "date": "2026-06-06",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -391,7 +379,7 @@
     {
       "date": "2026-06-08",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -403,7 +391,7 @@
     {
       "date": "2026-06-09",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -415,7 +403,7 @@
     {
       "date": "2026-06-10",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -427,7 +415,7 @@
     {
       "date": "2026-06-13",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -439,7 +427,7 @@
     {
       "date": "2026-06-14",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -451,7 +439,7 @@
     {
       "date": "2026-06-15",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -463,7 +451,7 @@
     {
       "date": "2026-06-16",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -475,7 +463,7 @@
     {
       "date": "2026-06-17",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -487,7 +475,7 @@
     {
       "date": "2026-06-18",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -499,7 +487,7 @@
     {
       "date": "2026-06-19",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -511,7 +499,7 @@
     {
       "date": "2026-06-20",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -523,7 +511,7 @@
     {
       "date": "2026-06-21",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -535,7 +523,7 @@
     {
       "date": "2026-06-22",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -547,7 +535,7 @@
     {
       "date": "2026-06-23",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -559,7 +547,7 @@
     {
       "date": "2026-06-24",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -571,7 +559,7 @@
     {
       "date": "2026-06-25",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -583,7 +571,7 @@
     {
       "date": "2026-06-26",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -595,7 +583,7 @@
     {
       "date": "2026-06-27",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -607,7 +595,7 @@
     {
       "date": "2026-06-28",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -619,7 +607,7 @@
     {
       "date": "2026-06-29",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -631,7 +619,7 @@
     {
       "date": "2026-06-30",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -643,7 +631,7 @@
     {
       "date": "2026-07-01",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -655,7 +643,7 @@
     {
       "date": "2026-07-03",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -667,7 +655,7 @@
     {
       "date": "2026-07-04",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -679,7 +667,7 @@
     {
       "date": "2026-07-05",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -691,7 +679,7 @@
     {
       "date": "2026-07-06",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -703,7 +691,7 @@
     {
       "date": "2026-07-07",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -715,7 +703,7 @@
     {
       "date": "2026-07-08",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -727,7 +715,7 @@
     {
       "date": "2026-07-09",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -739,7 +727,7 @@
     {
       "date": "2026-07-10",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -751,7 +739,7 @@
     {
       "date": "2026-07-11",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -763,7 +751,7 @@
     {
       "date": "2026-07-13",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -775,7 +763,19 @@
     {
       "date": "2026-07-15",
       "unit_no": "0810",
-      "model_name": "Ｌ北斗　転生の章２",
+      "model_name": null,
+      "max_payout": null,
+      "diff_medals": null,
+      "bb": null,
+      "rb": null,
+      "total_start": null,
+      "detail_url": null,
+      "source_url": null
+    },
+    {
+      "date": "2026-07-16",
+      "unit_no": "0810",
+      "model_name": null,
       "max_payout": null,
       "diff_medals": null,
       "bb": null,
@@ -785,5 +785,5 @@
       "source_url": null
     }
   ],
-  "updated_at": "2026-07-14 16:28:30"
+  "updated_at": "2026-07-15 16:31:55"
 }
