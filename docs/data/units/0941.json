@@ -2,7 +2,6 @@
   "unit_no": "0941",
   "model_name_latest": "Ｌからくりサーカス",
   "dates": [
-    "2026-05-14",
     "2026-05-15",
     "2026-05-16",
     "2026-05-17",
@@ -61,21 +60,10 @@
     "2026-07-15",
     "2026-07-16",
     "2026-07-18",
-    "2026-07-19"
+    "2026-07-19",
+    "2026-07-20"
   ],
   "series": [
-    {
-      "date": "2026-05-14",
-      "unit_no": "0941",
-      "model_name": "ＬゴブリンスレイヤーＩＩ－⑤",
-      "max_payout": 324,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120352&n=0941",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120352&d=1"
-    },
     {
       "date": "2026-05-15",
       "unit_no": "0941",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0941",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-07-20",
+      "unit_no": "0941",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 11090,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 15,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0941",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
     }
   ],
-  "updated_at": "2026-07-18 15:48:30"
+  "updated_at": "2026-07-19 15:58:32"
 }
