@@ -132,13 +132,14 @@
     "2026-07-18",
     "2026-07-19",
     "2026-07-20",
-    "2026-07-21"
+    "2026-07-21",
+    "2026-07-22"
   ],
-  "latest_date": "2026-07-21",
+  "latest_date": "2026-07-22",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-07-20 16:37:17"
+  "updated_at": "2026-07-21 16:30:30"
 }

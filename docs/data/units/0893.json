@@ -2,7 +2,6 @@
   "unit_no": "0893",
   "model_name_latest": "Ｌ鉄拳６",
   "dates": [
-    "2026-05-16",
     "2026-05-17",
     "2026-05-18",
     "2026-05-19",
@@ -61,21 +60,10 @@
     "2026-07-18",
     "2026-07-19",
     "2026-07-20",
-    "2026-07-21"
+    "2026-07-21",
+    "2026-07-22"
   ],
   "series": [
-    {
-      "date": "2026-05-16",
-      "unit_no": "0893",
-      "model_name": "Ｌガンダムユニコーン覚醒－⑤",
-      "max_payout": 339,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120359&n=0893",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120359&d=1"
-    },
     {
       "date": "2026-05-17",
       "unit_no": "0893",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0893",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
+    },
+    {
+      "date": "2026-07-22",
+      "unit_no": "0893",
+      "model_name": "Ｌ鉄拳６",
+      "max_payout": 232,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0893",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
     }
   ],
-  "updated_at": "2026-07-20 16:37:16"
+  "updated_at": "2026-07-21 16:30:30"
 }
