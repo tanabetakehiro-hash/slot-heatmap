@@ -2,7 +2,6 @@
   "unit_no": "0715",
   "model_name_latest": "ジャグラーガールズＳＳ",
   "dates": [
-    "2026-05-20",
     "2026-05-21",
     "2026-05-22",
     "2026-05-23",
@@ -61,21 +60,10 @@
     "2026-07-22",
     "2026-07-24",
     "2026-07-25",
-    "2026-07-26"
+    "2026-07-26",
+    "2026-07-27"
   ],
   "series": [
-    {
-      "date": "2026-05-20",
-      "unit_no": "0715",
-      "model_name": "ジャグラーガールズＳＳ",
-      "max_payout": 2638,
-      "diff_medals": null,
-      "bb": 34,
-      "rb": 23,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120214&n=0715",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120214&d=1"
-    },
     {
       "date": "2026-05-21",
       "unit_no": "0715",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120214&n=0715",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120214&d=1"
+    },
+    {
+      "date": "2026-07-27",
+      "unit_no": "0715",
+      "model_name": "ジャグラーガールズＳＳ",
+      "max_payout": 864,
+      "diff_medals": null,
+      "bb": 21,
+      "rb": 27,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120214&n=0715",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120214&d=1"
     }
   ],
-  "updated_at": "2026-07-25 15:55:18"
+  "updated_at": "2026-07-26 15:56:09"
 }
