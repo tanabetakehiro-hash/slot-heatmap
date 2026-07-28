@@ -2,7 +2,6 @@
   "unit_no": "0886",
   "model_name_latest": "Ｌ新鬼武者３",
   "dates": [
-    "2026-05-21",
     "2026-05-22",
     "2026-05-23",
     "2026-05-24",
@@ -61,21 +60,10 @@
     "2026-07-24",
     "2026-07-25",
     "2026-07-26",
-    "2026-07-27"
+    "2026-07-27",
+    "2026-07-29"
   ],
   "series": [
-    {
-      "date": "2026-05-21",
-      "unit_no": "0886",
-      "model_name": "Ｌ新鬼武者３",
-      "max_payout": 228,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0886",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
-    },
     {
       "date": "2026-05-22",
       "unit_no": "0886",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0886",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
+    },
+    {
+      "date": "2026-07-29",
+      "unit_no": "0886",
+      "model_name": "Ｌ新鬼武者３",
+      "max_payout": 1564,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0886",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
     }
   ],
-  "updated_at": "2026-07-27 16:35:06"
+  "updated_at": "2026-07-28 17:00:20"
 }
