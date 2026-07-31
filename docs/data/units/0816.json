@@ -2,7 +2,6 @@
   "unit_no": "0816",
   "model_name_latest": "Ｌミリオンゴッド神々の軌跡",
   "dates": [
-    "2026-05-24",
     "2026-05-25",
     "2026-05-26",
     "2026-05-27",
@@ -61,21 +60,10 @@
     "2026-07-27",
     "2026-07-29",
     "2026-07-30",
-    "2026-07-31"
+    "2026-07-31",
+    "2026-08-01"
   ],
   "series": [
-    {
-      "date": "2026-05-24",
-      "unit_no": "0816",
-      "model_name": "Ｌミリオンゴッド神々の軌跡",
-      "max_payout": 1106,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0816",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
-    },
     {
       "date": "2026-05-25",
       "unit_no": "0816",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0816",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
+    },
+    {
+      "date": "2026-08-01",
+      "unit_no": "0816",
+      "model_name": "Ｌミリオンゴッド神々の軌跡",
+      "max_payout": 686,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0816",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
     }
   ],
-  "updated_at": "2026-07-30 16:47:19"
+  "updated_at": "2026-07-31 16:55:39"
 }

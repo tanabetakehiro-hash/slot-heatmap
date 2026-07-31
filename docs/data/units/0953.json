@@ -2,7 +2,6 @@
   "unit_no": "0953",
   "model_name_latest": "Ｌスーパーブラックジャック",
   "dates": [
-    "2026-05-24",
     "2026-05-25",
     "2026-05-26",
     "2026-05-27",
@@ -61,21 +60,10 @@
     "2026-07-27",
     "2026-07-29",
     "2026-07-30",
-    "2026-07-31"
+    "2026-07-31",
+    "2026-08-01"
   ],
   "series": [
-    {
-      "date": "2026-05-24",
-      "unit_no": "0953",
-      "model_name": "Ｌ範馬刃牙－Ｖ",
-      "max_payout": 2506,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120353&n=0953",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120353&d=1"
-    },
     {
       "date": "2026-05-25",
       "unit_no": "0953",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0953",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
+    },
+    {
+      "date": "2026-08-01",
+      "unit_no": "0953",
+      "model_name": "Ｌスーパーブラックジャック",
+      "max_payout": 3360,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0953",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
     }
   ],
-  "updated_at": "2026-07-30 16:47:19"
+  "updated_at": "2026-07-31 16:55:39"
 }
