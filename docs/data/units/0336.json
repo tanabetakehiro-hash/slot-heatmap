@@ -2,7 +2,6 @@
   "unit_no": "0336",
   "model_name_latest": "ＬＢ不二子－Ｖ",
   "dates": [
-    "2026-05-25",
     "2026-05-26",
     "2026-05-27",
     "2026-05-28",
@@ -61,21 +60,10 @@
     "2026-07-29",
     "2026-07-30",
     "2026-07-31",
-    "2026-08-01"
+    "2026-08-01",
+    "2026-08-02"
   ],
   "series": [
-    {
-      "date": "2026-05-25",
-      "unit_no": "0336",
-      "model_name": "ＬＢ不二子－Ｖ",
-      "max_payout": 1289,
-      "diff_medals": null,
-      "bb": 24,
-      "rb": 9,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120341&n=0336",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120341&d=1"
-    },
     {
       "date": "2026-05-26",
       "unit_no": "0336",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120341&n=0336",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120341&d=1"
+    },
+    {
+      "date": "2026-08-02",
+      "unit_no": "0336",
+      "model_name": "ＬＢ不二子－Ｖ",
+      "max_payout": 499,
+      "diff_medals": null,
+      "bb": 14,
+      "rb": 10,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120341&n=0336",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120341&d=1"
     }
   ],
-  "updated_at": "2026-07-31 16:55:39"
+  "updated_at": "2026-08-01 16:01:05"
 }
