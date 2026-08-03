@@ -1,8 +1,7 @@
 {
   "unit_no": "0881",
-  "model_name_latest": "Ｌ革命機ヴァルヴレイヴ",
+  "model_name_latest": "NEW Ｌストリートファイター６－⑤",
   "dates": [
-    "2026-05-27",
     "2026-05-28",
     "2026-05-29",
     "2026-05-30",
@@ -61,21 +60,10 @@
     "2026-07-31",
     "2026-08-01",
     "2026-08-02",
-    "2026-08-03"
+    "2026-08-03",
+    "2026-08-04"
   ],
   "series": [
-    {
-      "date": "2026-05-27",
-      "unit_no": "0881",
-      "model_name": "Ｌスマスロ北斗",
-      "max_payout": 736,
-      "diff_medals": null,
-      "bb": 20,
-      "rb": 7,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120122&n=0881",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120122&d=1"
-    },
     {
       "date": "2026-05-28",
       "unit_no": "0881",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120103&n=0881",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120103&d=1"
+    },
+    {
+      "date": "2026-08-04",
+      "unit_no": "0881",
+      "model_name": "NEW Ｌストリートファイター６－⑤",
+      "max_payout": 1381,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 19,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120385&n=0881",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120385&d=1"
     }
   ],
-  "updated_at": "2026-08-02 15:54:47"
+  "updated_at": "2026-08-03 17:27:20"
 }
