@@ -2,7 +2,6 @@
   "unit_no": "0889",
   "model_name_latest": "Ｌかぐや様は告らせたい－Ｖ",
   "dates": [
-    "2026-05-28",
     "2026-05-29",
     "2026-05-30",
     "2026-05-31",
@@ -61,21 +60,10 @@
     "2026-08-01",
     "2026-08-02",
     "2026-08-03",
-    "2026-08-04"
+    "2026-08-04",
+    "2026-08-05"
   ],
   "series": [
-    {
-      "date": "2026-05-28",
-      "unit_no": "0889",
-      "model_name": "Ｌ新鬼武者３",
-      "max_payout": 991,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 8,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0889",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
-    },
     {
       "date": "2026-05-29",
       "unit_no": "0889",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0889",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
+    },
+    {
+      "date": "2026-08-05",
+      "unit_no": "0889",
+      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
+      "max_payout": 1355,
+      "diff_medals": null,
+      "bb": 11,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0889",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
     }
   ],
-  "updated_at": "2026-08-03 17:27:20"
+  "updated_at": "2026-08-04 17:08:06"
 }
