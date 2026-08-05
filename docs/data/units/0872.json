@@ -2,7 +2,6 @@
   "unit_no": "0872",
   "model_name_latest": "Ｌ戦国乙女５",
   "dates": [
-    "2026-05-29",
     "2026-05-30",
     "2026-05-31",
     "2026-06-01",
@@ -61,21 +60,10 @@
     "2026-08-02",
     "2026-08-03",
     "2026-08-04",
-    "2026-08-05"
+    "2026-08-05",
+    "2026-08-06"
   ],
   "series": [
-    {
-      "date": "2026-05-29",
-      "unit_no": "0872",
-      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
-      "max_payout": 0,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0872",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
-    },
     {
       "date": "2026-05-30",
       "unit_no": "0872",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120373&n=0872",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120373&d=1"
+    },
+    {
+      "date": "2026-08-06",
+      "unit_no": "0872",
+      "model_name": "Ｌ戦国乙女５",
+      "max_payout": 479,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120373&n=0872",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120373&d=1"
     }
   ],
-  "updated_at": "2026-08-04 17:08:05"
+  "updated_at": "2026-08-05 16:51:50"
 }
