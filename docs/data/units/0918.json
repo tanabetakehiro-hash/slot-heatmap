@@ -2,7 +2,6 @@
   "unit_no": "0918",
   "model_name_latest": "NEW Ｌワールドダイスター",
   "dates": [
-    "2026-05-30",
     "2026-05-31",
     "2026-06-01",
     "2026-06-02",
@@ -61,21 +60,10 @@
     "2026-08-03",
     "2026-08-04",
     "2026-08-05",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-08"
   ],
   "series": [
-    {
-      "date": "2026-05-30",
-      "unit_no": "0918",
-      "model_name": "NEW Ｌ七つの魔剣が支配する",
-      "max_payout": 690,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 9,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120274&n=0918",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120274&d=1"
-    },
     {
       "date": "2026-05-31",
       "unit_no": "0918",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120379&n=0918",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120379&d=1"
+    },
+    {
+      "date": "2026-08-08",
+      "unit_no": "0918",
+      "model_name": "NEW Ｌワールドダイスター",
+      "max_payout": 8314,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 48,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120379&n=0918",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120379&d=1"
     }
   ],
-  "updated_at": "2026-08-07 15:07:35"
+  "updated_at": "2026-08-08 15:29:52"
 }

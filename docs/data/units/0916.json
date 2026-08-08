@@ -2,7 +2,6 @@
   "unit_no": "0916",
   "model_name_latest": "Ｌ戦国コレクション６－⑤",
   "dates": [
-    "2026-05-30",
     "2026-05-31",
     "2026-06-01",
     "2026-06-02",
@@ -61,21 +60,10 @@
     "2026-08-03",
     "2026-08-04",
     "2026-08-05",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-08"
   ],
   "series": [
-    {
-      "date": "2026-05-30",
-      "unit_no": "0916",
-      "model_name": "Ｌ戦国乙女４",
-      "max_payout": 63,
-      "diff_medals": null,
-      "bb": 1,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120155&n=0916",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120155&d=1"
-    },
     {
       "date": "2026-05-31",
       "unit_no": "0916",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120376&n=0916",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120376&d=1"
+    },
+    {
+      "date": "2026-08-08",
+      "unit_no": "0916",
+      "model_name": "Ｌ戦国コレクション６－⑤",
+      "max_payout": 1334,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 17,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120376&n=0916",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120376&d=1"
     }
   ],
-  "updated_at": "2026-08-07 15:07:35"
+  "updated_at": "2026-08-08 15:29:52"
 }
