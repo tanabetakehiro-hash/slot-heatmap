@@ -2,7 +2,6 @@
   "unit_no": "0903",
   "model_name_latest": "Ｌヤバチバ",
   "dates": [
-    "2026-05-31",
     "2026-06-01",
     "2026-06-02",
     "2026-06-03",
@@ -61,21 +60,10 @@
     "2026-08-04",
     "2026-08-05",
     "2026-08-06",
-    "2026-08-08"
+    "2026-08-08",
+    "2026-08-09"
   ],
   "series": [
-    {
-      "date": "2026-05-31",
-      "unit_no": "0903",
-      "model_name": "Ｌゴッドイーター　リザレクション－Ｖ",
-      "max_payout": 583,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 6,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120230&n=0903",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120230&d=1"
-    },
     {
       "date": "2026-06-01",
       "unit_no": "0903",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120375&n=0903",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120375&d=1"
+    },
+    {
+      "date": "2026-08-09",
+      "unit_no": "0903",
+      "model_name": "Ｌヤバチバ",
+      "max_payout": 7715,
+      "diff_medals": null,
+      "bb": 23,
+      "rb": 8,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120375&n=0903",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120375&d=1"
     }
   ],
-  "updated_at": "2026-08-08 15:29:52"
+  "updated_at": "2026-08-09 15:36:24"
 }
