@@ -2,7 +2,6 @@
   "unit_no": "0923",
   "model_name_latest": "NEW Ｌとある魔術の禁書目録２",
   "dates": [
-    "2026-06-06",
     "2026-06-08",
     "2026-06-09",
     "2026-06-10",
@@ -61,21 +60,10 @@
     "2026-08-13",
     "2026-08-14",
     "2026-08-15",
-    "2026-08-16"
+    "2026-08-16",
+    "2026-08-17"
   ],
   "series": [
-    {
-      "date": "2026-06-06",
-      "unit_no": "0923",
-      "model_name": "Ｌ少女☆歌劇レヴュースタァライト－Ｖ",
-      "max_payout": 1046,
-      "diff_medals": null,
-      "bb": 21,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120276&n=0923",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120276&d=1"
-    },
     {
       "date": "2026-06-08",
       "unit_no": "0923",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120381&n=0923",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120381&d=1"
+    },
+    {
+      "date": "2026-08-17",
+      "unit_no": "0923",
+      "model_name": "NEW Ｌとある魔術の禁書目録２",
+      "max_payout": 2321,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 26,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120381&n=0923",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120381&d=1"
     }
   ],
-  "updated_at": "2026-08-16 15:13:58"
+  "updated_at": "2026-08-17 15:18:14"
 }
