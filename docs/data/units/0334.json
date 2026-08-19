@@ -2,7 +2,6 @@
   "unit_no": "0334",
   "model_name_latest": "ＬＢ異世界かるてっと－Ｖ",
   "dates": [
-    "2026-06-09",
     "2026-06-10",
     "2026-06-13",
     "2026-06-14",
@@ -61,21 +60,10 @@
     "2026-08-15",
     "2026-08-16",
     "2026-08-17",
-    "2026-08-18"
+    "2026-08-18",
+    "2026-08-19"
   ],
   "series": [
-    {
-      "date": "2026-06-09",
-      "unit_no": "0334",
-      "model_name": "ＬＢ異世界かるてっと－Ｖ",
-      "max_payout": 161,
-      "diff_medals": null,
-      "bb": 1,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120360&n=0334",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120360&d=1"
-    },
     {
       "date": "2026-06-10",
       "unit_no": "0334",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120360&n=0334",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120360&d=1"
+    },
+    {
+      "date": "2026-08-19",
+      "unit_no": "0334",
+      "model_name": "ＬＢ異世界かるてっと－Ｖ",
+      "max_payout": 1951,
+      "diff_medals": null,
+      "bb": 21,
+      "rb": 16,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120360&n=0334",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120360&d=1"
     }
   ],
-  "updated_at": "2026-08-18 15:27:23"
+  "updated_at": "2026-08-19 15:32:40"
 }

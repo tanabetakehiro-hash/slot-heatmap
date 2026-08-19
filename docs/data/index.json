@@ -155,13 +155,14 @@
     "2026-08-15",
     "2026-08-16",
     "2026-08-17",
-    "2026-08-18"
+    "2026-08-18",
+    "2026-08-19"
   ],
-  "latest_date": "2026-08-18",
+  "latest_date": "2026-08-19",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-08-18 15:27:24"
+  "updated_at": "2026-08-19 15:32:40"
 }
