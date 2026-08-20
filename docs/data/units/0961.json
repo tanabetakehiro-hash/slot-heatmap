@@ -2,7 +2,6 @@
   "unit_no": "0961",
   "model_name_latest": "NEW Ｌ喰霊－零－Ｒｅ－Ｖ",
   "dates": [
-    "2026-06-10",
     "2026-06-13",
     "2026-06-14",
     "2026-06-15",
@@ -61,21 +60,10 @@
     "2026-08-16",
     "2026-08-17",
     "2026-08-18",
-    "2026-08-19"
+    "2026-08-19",
+    "2026-08-20"
   ],
   "series": [
-    {
-      "date": "2026-06-10",
-      "unit_no": "0961",
-      "model_name": "Ｌガンダムユニコーン覚醒－⑤",
-      "max_payout": 1290,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 7,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120359&n=0961",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120359&d=1"
-    },
     {
       "date": "2026-06-13",
       "unit_no": "0961",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120383&n=0961",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120383&d=1"
+    },
+    {
+      "date": "2026-08-20",
+      "unit_no": "0961",
+      "model_name": "NEW Ｌ喰霊－零－Ｒｅ－Ｖ",
+      "max_payout": 1149,
+      "diff_medals": null,
+      "bb": 24,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120383&n=0961",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120383&d=1"
     }
   ],
-  "updated_at": "2026-08-19 15:32:40"
+  "updated_at": "2026-08-20 15:38:07"
 }
