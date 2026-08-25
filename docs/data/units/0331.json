@@ -2,7 +2,6 @@
   "unit_no": "0331",
   "model_name_latest": "Ｌ炎炎ノ消防隊２",
   "dates": [
-    "2026-06-16",
     "2026-06-17",
     "2026-06-18",
     "2026-06-19",
@@ -61,21 +60,10 @@
     "2026-08-20",
     "2026-08-22",
     "2026-08-23",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-26"
   ],
   "series": [
-    {
-      "date": "2026-06-16",
-      "unit_no": "0331",
-      "model_name": "Ｌ炎炎ノ消防隊２",
-      "max_payout": 91,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 1,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0331",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
-    },
     {
       "date": "2026-06-17",
       "unit_no": "0331",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0331",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
+    },
+    {
+      "date": "2026-08-26",
+      "unit_no": "0331",
+      "model_name": "Ｌ炎炎ノ消防隊２",
+      "max_payout": 371,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0331",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
     }
   ],
-  "updated_at": "2026-08-24 15:34:40"
+  "updated_at": "2026-08-25 15:38:11"
 }
