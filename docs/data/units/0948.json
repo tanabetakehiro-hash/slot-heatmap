@@ -776,14 +776,14 @@
       "date": "2026-08-26",
       "unit_no": "0948",
       "model_name": "Ｌソードアート・オンライン",
-      "max_payout": 941,
+      "max_payout": 8737,
       "diff_medals": null,
       "bb": 0,
-      "rb": 5,
+      "rb": 23,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120129&n=0948",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120129&d=1"
     }
   ],
-  "updated_at": "2026-08-25 15:38:11"
+  "updated_at": "2026-08-26 15:37:11"
 }

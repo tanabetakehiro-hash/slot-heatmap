@@ -776,14 +776,14 @@
       "date": "2026-08-26",
       "unit_no": "1016",
       "model_name": "沖ドキ！ＧＯＬＤ－３０",
-      "max_payout": 2184,
+      "max_payout": 1695,
       "diff_medals": null,
-      "bb": 12,
-      "rb": 2,
+      "bb": 13,
+      "rb": 5,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120110&n=1016",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120110&d=1"
     }
   ],
-  "updated_at": "2026-08-25 15:38:11"
+  "updated_at": "2026-08-26 15:37:11"
 }

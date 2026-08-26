@@ -776,7 +776,7 @@
       "date": "2026-08-26",
       "unit_no": "0790",
       "model_name": "Ｌミリオンゴッド神々の軌跡",
-      "max_payout": 2082,
+      "max_payout": 1433,
       "diff_medals": null,
       "bb": 0,
       "rb": 0,
@@ -785,5 +785,5 @@
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
     }
   ],
-  "updated_at": "2026-08-25 15:38:11"
+  "updated_at": "2026-08-26 15:37:11"
 }

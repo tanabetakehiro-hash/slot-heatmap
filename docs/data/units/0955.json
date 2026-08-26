@@ -776,14 +776,14 @@
       "date": "2026-08-26",
       "unit_no": "0955",
       "model_name": "Ｌ南国育ちＳＰＥＣＩＡＬ－Ｖ",
-      "max_payout": 1640,
+      "max_payout": 5965,
       "diff_medals": null,
-      "bb": 12,
-      "rb": 5,
+      "bb": 38,
+      "rb": 10,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120378&n=0955",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120378&d=1"
     }
   ],
-  "updated_at": "2026-08-25 15:38:11"
+  "updated_at": "2026-08-26 15:37:11"
 }

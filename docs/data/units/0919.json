@@ -776,14 +776,14 @@
       "date": "2026-08-26",
       "unit_no": "0919",
       "model_name": "NEW Ｌワールドダイスター",
-      "max_payout": 9629,
+      "max_payout": 1410,
       "diff_medals": null,
       "bb": 0,
-      "rb": 30,
+      "rb": 44,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120379&n=0919",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120379&d=1"
     }
   ],
-  "updated_at": "2026-08-25 15:38:11"
+  "updated_at": "2026-08-26 15:37:11"
 }

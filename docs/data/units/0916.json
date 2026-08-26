@@ -776,14 +776,14 @@
       "date": "2026-08-26",
       "unit_no": "0916",
       "model_name": "Ｌ戦国コレクション６－⑤",
-      "max_payout": 465,
+      "max_payout": 7733,
       "diff_medals": null,
       "bb": 0,
-      "rb": 3,
+      "rb": 18,
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120376&n=0916",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120376&d=1"
     }
   ],
-  "updated_at": "2026-08-25 15:38:11"
+  "updated_at": "2026-08-26 15:37:11"
 }
