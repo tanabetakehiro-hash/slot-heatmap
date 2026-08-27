@@ -169,5 +169,5 @@
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-08-26 15:37:11"
+  "updated_at": "2026-08-27 23:47:07"
 }
