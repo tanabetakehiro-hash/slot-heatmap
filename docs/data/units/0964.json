@@ -2,7 +2,6 @@
   "unit_no": "0964",
   "model_name_latest": "NEW Ｌとんでもスキル－Ｖ",
   "dates": [
-    "2026-06-17",
     "2026-06-18",
     "2026-06-19",
     "2026-06-20",
@@ -61,21 +60,10 @@
     "2026-08-22",
     "2026-08-23",
     "2026-08-24",
-    "2026-08-26"
+    "2026-08-26",
+    "2026-08-29"
   ],
   "series": [
-    {
-      "date": "2026-06-17",
-      "unit_no": "0964",
-      "model_name": "Ｌスーパーブラックジャック",
-      "max_payout": 2764,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 3,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120273&n=0964",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120273&d=1"
-    },
     {
       "date": "2026-06-18",
       "unit_no": "0964",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120386&n=0964",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120386&d=1"
+    },
+    {
+      "date": "2026-08-29",
+      "unit_no": "0964",
+      "model_name": "NEW Ｌとんでもスキル－Ｖ",
+      "max_payout": 333,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120386&n=0964",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120386&d=1"
     }
   ],
-  "updated_at": "2026-08-27 23:47:07"
+  "updated_at": "2026-08-29 00:14:05"
 }
