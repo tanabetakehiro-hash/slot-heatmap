@@ -2,7 +2,6 @@
   "unit_no": "0954",
   "model_name_latest": "Ｌ　ＵＬＴＲＡＭＡＮ最終決戦－Ｖ",
   "dates": [
-    "2026-06-20",
     "2026-06-21",
     "2026-06-22",
     "2026-06-23",
@@ -61,21 +60,10 @@
     "2026-08-26",
     "2026-08-29",
     "2026-08-30",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-01"
   ],
   "series": [
-    {
-      "date": "2026-06-20",
-      "unit_no": "0954",
-      "model_name": "Ｌ主役は銭形５",
-      "max_payout": 2805,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 10,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0954",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
-    },
     {
       "date": "2026-06-21",
       "unit_no": "0954",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120382&n=0954",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120382&d=1"
+    },
+    {
+      "date": "2026-09-01",
+      "unit_no": "0954",
+      "model_name": "Ｌ　ＵＬＴＲＡＭＡＮ最終決戦－Ｖ",
+      "max_payout": 3761,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120382&n=0954",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120382&d=1"
     }
   ],
-  "updated_at": "2026-08-30 18:49:30"
+  "updated_at": "2026-08-31 20:38:36"
 }

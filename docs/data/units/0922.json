@@ -2,7 +2,6 @@
   "unit_no": "0922",
   "model_name_latest": "NEW Ｌ邪神ちゃんドロップキック－⑤",
   "dates": [
-    "2026-06-20",
     "2026-06-21",
     "2026-06-22",
     "2026-06-23",
@@ -61,21 +60,10 @@
     "2026-08-26",
     "2026-08-29",
     "2026-08-30",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-01"
   ],
   "series": [
-    {
-      "date": "2026-06-20",
-      "unit_no": "0922",
-      "model_name": "Ｌ防振り",
-      "max_payout": 897,
-      "diff_medals": null,
-      "bb": 5,
-      "rb": 5,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120228&n=0922",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120228&d=1"
-    },
     {
       "date": "2026-06-21",
       "unit_no": "0922",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120387&n=0922",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120387&d=1"
+    },
+    {
+      "date": "2026-09-01",
+      "unit_no": "0922",
+      "model_name": "NEW Ｌ邪神ちゃんドロップキック－⑤",
+      "max_payout": 3234,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120387&n=0922",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120387&d=1"
     }
   ],
-  "updated_at": "2026-08-30 18:49:30"
+  "updated_at": "2026-08-31 20:38:36"
 }
