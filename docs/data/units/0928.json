@@ -2,7 +2,6 @@
   "unit_no": "0928",
   "model_name_latest": "NEW Ｌとある魔術の禁書目録２",
   "dates": [
-    "2026-06-21",
     "2026-06-22",
     "2026-06-23",
     "2026-06-24",
@@ -61,21 +60,10 @@
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
   "series": [
-    {
-      "date": "2026-06-21",
-      "unit_no": "0928",
-      "model_name": "Ｌガールズ＆パンツァー最終",
-      "max_payout": 416,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 3,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120198&n=0928",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120198&d=1"
-    },
     {
       "date": "2026-06-22",
       "unit_no": "0928",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120381&n=0928",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120381&d=1"
+    },
+    {
+      "date": "2026-09-02",
+      "unit_no": "0928",
+      "model_name": "NEW Ｌとある魔術の禁書目録２",
+      "max_payout": 2416,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 11,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120381&n=0928",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120381&d=1"
     }
   ],
-  "updated_at": "2026-08-31 20:38:36"
+  "updated_at": "2026-09-01 18:34:56"
 }

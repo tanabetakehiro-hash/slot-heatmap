@@ -2,7 +2,6 @@
   "unit_no": "0912",
   "model_name_latest": "Ｌスーパーリオエース２－⑤",
   "dates": [
-    "2026-06-21",
     "2026-06-22",
     "2026-06-23",
     "2026-06-24",
@@ -61,21 +60,10 @@
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
   "series": [
-    {
-      "date": "2026-06-21",
-      "unit_no": "0912",
-      "model_name": "Ｌスーパーリオエース２－⑤",
-      "max_payout": 5030,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 38,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0912",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
-    },
     {
       "date": "2026-06-22",
       "unit_no": "0912",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0912",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
+    },
+    {
+      "date": "2026-09-02",
+      "unit_no": "0912",
+      "model_name": "Ｌスーパーリオエース２－⑤",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0912",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
     }
   ],
-  "updated_at": "2026-08-31 20:38:36"
+  "updated_at": "2026-09-01 18:34:56"
 }

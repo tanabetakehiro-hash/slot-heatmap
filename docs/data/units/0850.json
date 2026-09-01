@@ -2,7 +2,6 @@
   "unit_no": "0850",
   "model_name_latest": "Ｌソードアート・オンラインＩＩ－５",
   "dates": [
-    "2026-06-21",
     "2026-06-22",
     "2026-06-23",
     "2026-06-24",
@@ -61,21 +60,10 @@
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
   "series": [
-    {
-      "date": "2026-06-21",
-      "unit_no": "0850",
-      "model_name": "NEW Ｌソードアート・オンラインＩＩ－５",
-      "max_payout": 6991,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120371&n=0850",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120371&d=1"
-    },
     {
       "date": "2026-06-22",
       "unit_no": "0850",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120371&n=0850",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120371&d=1"
+    },
+    {
+      "date": "2026-09-02",
+      "unit_no": "0850",
+      "model_name": "Ｌソードアート・オンラインＩＩ－５",
+      "max_payout": 1241,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120371&n=0850",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120371&d=1"
     }
   ],
-  "updated_at": "2026-08-31 20:38:36"
+  "updated_at": "2026-09-01 18:34:56"
 }
