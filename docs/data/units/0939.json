@@ -2,7 +2,6 @@
   "unit_no": "0939",
   "model_name_latest": "NEW Ｌ喰霊－零－Ｒｅ－Ｖ",
   "dates": [
-    "2026-06-23",
     "2026-06-24",
     "2026-06-25",
     "2026-06-26",
@@ -61,21 +60,10 @@
     "2026-08-31",
     "2026-09-01",
     "2026-09-02",
-    "2026-09-03"
+    "2026-09-03",
+    "2026-09-04"
   ],
   "series": [
-    {
-      "date": "2026-06-23",
-      "unit_no": "0939",
-      "model_name": "NEW Ｌ花笠",
-      "max_payout": 306,
-      "diff_medals": null,
-      "bb": 1,
-      "rb": 1,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120313&n=0939",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120313&d=1"
-    },
     {
       "date": "2026-06-24",
       "unit_no": "0939",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120383&n=0939",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120383&d=1"
+    },
+    {
+      "date": "2026-09-04",
+      "unit_no": "0939",
+      "model_name": "NEW Ｌ喰霊－零－Ｒｅ－Ｖ",
+      "max_payout": 538,
+      "diff_medals": null,
+      "bb": 22,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120383&n=0939",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120383&d=1"
     }
   ],
-  "updated_at": "2026-09-02 18:29:12"
+  "updated_at": "2026-09-03 18:28:04"
 }

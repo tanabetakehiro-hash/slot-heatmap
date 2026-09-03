@@ -2,7 +2,6 @@
   "unit_no": "0836",
   "model_name_latest": "Ｌからくりサーカス２－Ｖ",
   "dates": [
-    "2026-06-23",
     "2026-06-24",
     "2026-06-25",
     "2026-06-26",
@@ -61,21 +60,10 @@
     "2026-08-31",
     "2026-09-01",
     "2026-09-02",
-    "2026-09-03"
+    "2026-09-03",
+    "2026-09-04"
   ],
   "series": [
-    {
-      "date": "2026-06-23",
-      "unit_no": "0836",
-      "model_name": "Ｌかぐや様は告らせたい－Ｖ",
-      "max_payout": 581,
-      "diff_medals": null,
-      "bb": 2,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120244&n=0836",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120244&d=1"
-    },
     {
       "date": "2026-06-24",
       "unit_no": "0836",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120372&n=0836",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120372&d=1"
+    },
+    {
+      "date": "2026-09-04",
+      "unit_no": "0836",
+      "model_name": "Ｌからくりサーカス２－Ｖ",
+      "max_payout": 646,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120372&n=0836",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120372&d=1"
     }
   ],
-  "updated_at": "2026-09-02 18:29:12"
+  "updated_at": "2026-09-03 18:28:04"
 }
