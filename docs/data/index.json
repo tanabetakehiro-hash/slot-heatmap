@@ -171,13 +171,14 @@
     "2026-09-04",
     "2026-09-05",
     "2026-09-06",
-    "2026-09-07"
+    "2026-09-07",
+    "2026-09-08"
   ],
-  "latest_date": "2026-09-07",
+  "latest_date": "2026-09-08",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-09-06 17:37:11"
+  "updated_at": "2026-09-07 19:29:27"
 }
