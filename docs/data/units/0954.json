@@ -2,7 +2,6 @@
   "unit_no": "0954",
   "model_name_latest": "NEW Ｌモグモグ風林火山－Ｖ",
   "dates": [
-    "2026-06-28",
     "2026-06-29",
     "2026-06-30",
     "2026-07-01",
@@ -61,21 +60,10 @@
     "2026-09-05",
     "2026-09-06",
     "2026-09-07",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ],
   "series": [
-    {
-      "date": "2026-06-28",
-      "unit_no": "0954",
-      "model_name": "Ｌ主役は銭形５",
-      "max_payout": 2439,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 6,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120331&n=0954",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120331&d=1"
-    },
     {
       "date": "2026-06-29",
       "unit_no": "0954",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120395&n=0954",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120395&d=1"
+    },
+    {
+      "date": "2026-09-09",
+      "unit_no": "0954",
+      "model_name": "NEW Ｌモグモグ風林火山－Ｖ",
+      "max_payout": 1165,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 12,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120395&n=0954",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120395&d=1"
     }
   ],
-  "updated_at": "2026-09-07 19:29:27"
+  "updated_at": "2026-09-08 18:38:41"
 }

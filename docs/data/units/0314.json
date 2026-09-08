@@ -2,7 +2,6 @@
   "unit_no": "0314",
   "model_name_latest": "NEW ＬＢタコスロ－Ｖ",
   "dates": [
-    "2026-06-28",
     "2026-06-29",
     "2026-06-30",
     "2026-07-01",
@@ -61,21 +60,10 @@
     "2026-09-05",
     "2026-09-06",
     "2026-09-07",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ],
   "series": [
-    {
-      "date": "2026-06-28",
-      "unit_no": "0314",
-      "model_name": "ＬＢクレアの秘宝伝",
-      "max_payout": 1267,
-      "diff_medals": null,
-      "bb": 6,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120322&n=0314",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120322&d=1"
-    },
     {
       "date": "2026-06-29",
       "unit_no": "0314",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120393&n=0314",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120393&d=1"
+    },
+    {
+      "date": "2026-09-09",
+      "unit_no": "0314",
+      "model_name": "NEW ＬＢタコスロ－Ｖ",
+      "max_payout": 1503,
+      "diff_medals": null,
+      "bb": 19,
+      "rb": 18,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120393&n=0314",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120393&d=1"
     }
   ],
-  "updated_at": "2026-09-07 19:29:27"
+  "updated_at": "2026-09-08 18:38:41"
 }
