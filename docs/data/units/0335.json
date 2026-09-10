@@ -2,7 +2,6 @@
   "unit_no": "0335",
   "model_name_latest": "ＬＢケロット５",
   "dates": [
-    "2026-06-29",
     "2026-06-30",
     "2026-07-01",
     "2026-07-03",
@@ -61,21 +60,10 @@
     "2026-09-06",
     "2026-09-07",
     "2026-09-08",
-    "2026-09-09"
+    "2026-09-09",
+    "2026-09-11"
   ],
   "series": [
-    {
-      "date": "2026-06-29",
-      "unit_no": "0335",
-      "model_name": "Ｌアニマルスロットドッチ－Ｖ",
-      "max_payout": 279,
-      "diff_medals": null,
-      "bb": 4,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120362&n=0335",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120362&d=1"
-    },
     {
       "date": "2026-06-30",
       "unit_no": "0335",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120380&n=0335",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120380&d=1"
+    },
+    {
+      "date": "2026-09-11",
+      "unit_no": "0335",
+      "model_name": "ＬＢケロット５",
+      "max_payout": 665,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120380&n=0335",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120380&d=1"
     }
   ],
-  "updated_at": "2026-09-08 18:38:41"
+  "updated_at": "2026-09-10 18:22:50"
 }
