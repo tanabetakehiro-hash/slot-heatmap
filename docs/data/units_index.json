@@ -1,5 +1,5 @@
 {
-  "latest_date": "2026-09-19",
+  "latest_date": "2026-09-20",
   "units": [
     {
       "unit_no": "0307",
@@ -1051,23 +1051,23 @@
     },
     {
       "unit_no": "0858",
-      "model_name": null
+      "model_name": "Ｌやじきた道中記参る！"
     },
     {
       "unit_no": "0859",
-      "model_name": null
+      "model_name": "Ｌやじきた道中記参る！"
     },
     {
       "unit_no": "0860",
-      "model_name": null
+      "model_name": "Ｌやじきた道中記参る！"
     },
     {
       "unit_no": "0861",
-      "model_name": null
+      "model_name": "Ｌやじきた道中記参る！"
     },
     {
       "unit_no": "0862",
-      "model_name": null
+      "model_name": "Ｌやじきた道中記参る！"
     },
     {
       "unit_no": "0863",
@@ -1367,7 +1367,7 @@
     },
     {
       "unit_no": "0937",
-      "model_name": null
+      "model_name": "Ｌ無職転生－Ｖ"
     },
     {
       "unit_no": "0938",
@@ -1694,5 +1694,5 @@
       "model_name": "沖ドキ！ＧＯＬＤ－３０"
     }
   ],
-  "updated_at": "2026-09-18 18:25:17"
+  "updated_at": "2026-09-19 18:01:17"
 }
