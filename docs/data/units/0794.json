@@ -2,7 +2,6 @@
   "unit_no": "0794",
   "model_name_latest": "Ｌミリオンゴッド神々の軌跡",
   "dates": [
-    "2026-07-15",
     "2026-07-16",
     "2026-07-18",
     "2026-07-19",
@@ -61,21 +60,10 @@
     "2026-09-21",
     "2026-09-22",
     "2026-09-24",
-    "2026-09-25"
+    "2026-09-25",
+    "2026-09-26"
   ],
   "series": [
-    {
-      "date": "2026-07-15",
-      "unit_no": "0794",
-      "model_name": "Ｌ北斗　転生の章２",
-      "max_payout": 17008,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 15,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120343&n=0794",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120343&d=1"
-    },
     {
       "date": "2026-07-16",
       "unit_no": "0794",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0794",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
+    },
+    {
+      "date": "2026-09-26",
+      "unit_no": "0794",
+      "model_name": "Ｌミリオンゴッド神々の軌跡",
+      "max_payout": 2035,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120358&n=0794",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120358&d=1"
     }
   ],
-  "updated_at": "2026-09-24 19:02:26"
+  "updated_at": "2026-09-25 19:12:29"
 }

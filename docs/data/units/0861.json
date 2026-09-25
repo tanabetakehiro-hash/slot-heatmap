@@ -2,7 +2,6 @@
   "unit_no": "0861",
   "model_name_latest": "Ｌやじきた道中記参る！",
   "dates": [
-    "2026-07-15",
     "2026-07-16",
     "2026-07-18",
     "2026-07-19",
@@ -61,21 +60,10 @@
     "2026-09-21",
     "2026-09-22",
     "2026-09-24",
-    "2026-09-25"
+    "2026-09-25",
+    "2026-09-26"
   ],
   "series": [
-    {
-      "date": "2026-07-15",
-      "unit_no": "0861",
-      "model_name": "Ｌいざ！番長",
-      "max_payout": 443,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 1,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120302&n=0861",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120302&d=1"
-    },
     {
       "date": "2026-07-16",
       "unit_no": "0861",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120384&n=0861",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120384&d=1"
+    },
+    {
+      "date": "2026-09-26",
+      "unit_no": "0861",
+      "model_name": "Ｌやじきた道中記参る！",
+      "max_payout": 1903,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120384&n=0861",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120384&d=1"
     }
   ],
-  "updated_at": "2026-09-24 19:02:26"
+  "updated_at": "2026-09-25 19:12:29"
 }
