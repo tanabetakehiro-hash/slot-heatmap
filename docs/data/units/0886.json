@@ -2,7 +2,6 @@
   "unit_no": "0886",
   "model_name_latest": "NEW Ｌ彼女、お借りします",
   "dates": [
-    "2026-07-16",
     "2026-07-18",
     "2026-07-19",
     "2026-07-20",
@@ -61,21 +60,10 @@
     "2026-09-22",
     "2026-09-24",
     "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "series": [
-    {
-      "date": "2026-07-16",
-      "unit_no": "0886",
-      "model_name": "Ｌ新鬼武者３",
-      "max_payout": 113,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0886",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
-    },
     {
       "date": "2026-07-18",
       "unit_no": "0886",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120394&n=0886",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120394&d=1"
+    },
+    {
+      "date": "2026-09-27",
+      "unit_no": "0886",
+      "model_name": "NEW Ｌ彼女、お借りします",
+      "max_payout": 1658,
+      "diff_medals": null,
+      "bb": 37,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120394&n=0886",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120394&d=1"
     }
   ],
-  "updated_at": "2026-09-25 19:12:29"
+  "updated_at": "2026-09-26 18:21:31"
 }
