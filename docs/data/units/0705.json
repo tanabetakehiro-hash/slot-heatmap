@@ -2,7 +2,6 @@
   "unit_no": "0705",
   "model_name_latest": "ゴーゴージャグラー３",
   "dates": [
-    "2026-07-24",
     "2026-07-25",
     "2026-07-26",
     "2026-07-27",
@@ -61,21 +60,10 @@
     "2026-09-29",
     "2026-09-30",
     "2026-10-01",
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-03"
   ],
   "series": [
-    {
-      "date": "2026-07-24",
-      "unit_no": "0705",
-      "model_name": "ゴーゴージャグラー３",
-      "max_payout": 244,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120141&n=0705",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
-    },
     {
       "date": "2026-07-25",
       "unit_no": "0705",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120141&n=0705",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
+    },
+    {
+      "date": "2026-10-03",
+      "unit_no": "0705",
+      "model_name": "ゴーゴージャグラー３",
+      "max_payout": 249,
+      "diff_medals": null,
+      "bb": 2,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120141&n=0705",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120141&d=1"
     }
   ],
-  "updated_at": "2026-10-01 20:21:57"
+  "updated_at": "2026-10-02 19:54:44"
 }
