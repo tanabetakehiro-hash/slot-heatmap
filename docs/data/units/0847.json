@@ -1,8 +1,7 @@
 {
   "unit_no": "0847",
-  "model_name_latest": "Ｌからくりサーカス２－Ｖ",
+  "model_name_latest": "Ｌからくりサーカス",
   "dates": [
-    "2026-07-27",
     "2026-07-29",
     "2026-07-30",
     "2026-07-31",
@@ -61,21 +60,10 @@
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
   ],
   "series": [
-    {
-      "date": "2026-07-27",
-      "unit_no": "0847",
-      "model_name": "ＬバイオハザードＲＥ：３",
-      "max_payout": 2290,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 44,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120365&n=0847",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120365&d=1"
-    },
     {
       "date": "2026-07-29",
       "unit_no": "0847",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120372&n=0847",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120372&d=1"
+    },
+    {
+      "date": "2026-10-06",
+      "unit_no": "0847",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 173,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0847",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
     }
   ],
-  "updated_at": "2026-10-04 18:50:04"
+  "updated_at": "2026-10-05 22:05:55"
 }
