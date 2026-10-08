@@ -1,8 +1,7 @@
 {
   "unit_no": "0321",
-  "model_name_latest": "NEW Ｌリコリス・リコイル",
+  "model_name_latest": "Ｌリコリス・リコイル",
   "dates": [
-    "2026-07-30",
     "2026-07-31",
     "2026-08-01",
     "2026-08-02",
@@ -61,21 +60,10 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-09"
   ],
   "series": [
-    {
-      "date": "2026-07-30",
-      "unit_no": "0321",
-      "model_name": "Ｌ炎炎ノ消防隊２",
-      "max_payout": 983,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 4,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120349&n=0321",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120349&d=1"
-    },
     {
       "date": "2026-07-31",
       "unit_no": "0321",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120391&n=0321",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120391&d=1"
+    },
+    {
+      "date": "2026-10-09",
+      "unit_no": "0321",
+      "model_name": "Ｌリコリス・リコイル",
+      "max_payout": 1367,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120391&n=0321",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120391&d=1"
     }
   ],
-  "updated_at": "2026-10-06 20:14:16"
+  "updated_at": "2026-10-08 20:37:57"
 }

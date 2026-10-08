@@ -1,5 +1,5 @@
 {
-  "latest_date": "2026-10-07",
+  "latest_date": "2026-10-09",
   "units": [
     {
       "unit_no": "0307",
@@ -19,19 +19,19 @@
     },
     {
       "unit_no": "0311",
-      "model_name": "NEW ＬＢタコスロ－Ｖ"
+      "model_name": "ＬＢタコスロ－Ｖ"
     },
     {
       "unit_no": "0312",
-      "model_name": "NEW ＬＢタコスロ－Ｖ"
+      "model_name": "ＬＢタコスロ－Ｖ"
     },
     {
       "unit_no": "0313",
-      "model_name": "NEW ＬＢタコスロ－Ｖ"
+      "model_name": "ＬＢタコスロ－Ｖ"
     },
     {
       "unit_no": "0314",
-      "model_name": "NEW ＬＢタコスロ－Ｖ"
+      "model_name": "ＬＢタコスロ－Ｖ"
     },
     {
       "unit_no": "0315",
@@ -47,31 +47,31 @@
     },
     {
       "unit_no": "0318",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0319",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0320",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0321",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0322",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0323",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0324",
-      "model_name": "NEW Ｌリコリス・リコイル"
+      "model_name": "Ｌリコリス・リコイル"
     },
     {
       "unit_no": "0325",
@@ -1151,19 +1151,19 @@
     },
     {
       "unit_no": "0883",
-      "model_name": "NEW Ｌ彼女、お借りします"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0884",
-      "model_name": "NEW Ｌ彼女、お借りします"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0885",
-      "model_name": "NEW Ｌ彼女、お借りします"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0886",
-      "model_name": "NEW Ｌ彼女、お借りします"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0887",
@@ -1255,19 +1255,19 @@
     },
     {
       "unit_no": "0909",
-      "model_name": "NEW Ｌ青春ブタ野郎はバニーガール"
+      "model_name": "Ｌ青春ブタ野郎はバニーガール"
     },
     {
       "unit_no": "0910",
-      "model_name": "NEW Ｌ青春ブタ野郎はバニーガール"
+      "model_name": "Ｌ青春ブタ野郎はバニーガール"
     },
     {
       "unit_no": "0911",
-      "model_name": "NEW Ｌ青春ブタ野郎はバニーガール"
+      "model_name": "Ｌ青春ブタ野郎はバニーガール"
     },
     {
       "unit_no": "0912",
-      "model_name": "NEW Ｌ青春ブタ野郎はバニーガール"
+      "model_name": "Ｌ青春ブタ野郎はバニーガール"
     },
     {
       "unit_no": "0913",
@@ -1383,7 +1383,7 @@
     },
     {
       "unit_no": "0941",
-      "model_name": "NEW Ｌモグモグ風林火山－Ｖ"
+      "model_name": "Ｌモグモグ風林火山－Ｖ"
     },
     {
       "unit_no": "0942",
@@ -1435,7 +1435,7 @@
     },
     {
       "unit_no": "0954",
-      "model_name": "NEW Ｌモグモグ風林火山－Ｖ"
+      "model_name": "Ｌモグモグ風林火山－Ｖ"
     },
     {
       "unit_no": "0955",
@@ -1694,5 +1694,5 @@
       "model_name": "沖ドキ！ＧＯＬＤ－３０"
     }
   ],
-  "updated_at": "2026-10-06 20:14:16"
+  "updated_at": "2026-10-08 20:37:57"
 }
