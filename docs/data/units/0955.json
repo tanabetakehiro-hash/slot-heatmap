@@ -2,7 +2,6 @@
   "unit_no": "0955",
   "model_name_latest": "Ｌ南国育ちＳＰＥＣＩＡＬ－Ｖ",
   "dates": [
-    "2026-08-01",
     "2026-08-02",
     "2026-08-03",
     "2026-08-04",
@@ -61,21 +60,10 @@
     "2026-10-06",
     "2026-10-07",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
   ],
   "series": [
-    {
-      "date": "2026-08-01",
-      "unit_no": "0955",
-      "model_name": "NEW Ｌ南国育ちＳＰＥＣＩＡＬ－Ｖ",
-      "max_payout": 1925,
-      "diff_medals": null,
-      "bb": 19,
-      "rb": 8,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120378&n=0955",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120378&d=1"
-    },
     {
       "date": "2026-08-02",
       "unit_no": "0955",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120378&n=0955",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120378&d=1"
+    },
+    {
+      "date": "2026-10-11",
+      "unit_no": "0955",
+      "model_name": "Ｌ南国育ちＳＰＥＣＩＡＬ－Ｖ",
+      "max_payout": 2081,
+      "diff_medals": null,
+      "bb": 15,
+      "rb": 8,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120378&n=0955",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120378&d=1"
     }
   ],
-  "updated_at": "2026-10-09 20:09:34"
+  "updated_at": "2026-10-10 19:13:44"
 }
