@@ -1,5 +1,5 @@
 {
-  "latest_date": "2026-10-13",
+  "latest_date": "2026-10-14",
   "units": [
     {
       "unit_no": "0307",
@@ -655,23 +655,23 @@
     },
     {
       "unit_no": "0759",
-      "model_name": "ＳマイジャグラーＶ"
+      "model_name": "NEW マイジャグラーＶＩ"
     },
     {
       "unit_no": "0760",
-      "model_name": "ＳマイジャグラーＶ"
+      "model_name": "NEW マイジャグラーＶＩ"
     },
     {
       "unit_no": "0761",
-      "model_name": "ＳマイジャグラーＶ"
+      "model_name": "NEW マイジャグラーＶＩ"
     },
     {
       "unit_no": "0762",
-      "model_name": "ＳマイジャグラーＶ"
+      "model_name": "NEW マイジャグラーＶＩ"
     },
     {
       "unit_no": "0763",
-      "model_name": "ＳマイジャグラーＶ"
+      "model_name": "NEW マイジャグラーＶＩ"
     },
     {
       "unit_no": "0764",
@@ -1087,19 +1087,19 @@
     },
     {
       "unit_no": "0867",
-      "model_name": "Ｌモンスターハンターライズ"
+      "model_name": "Ｌ鉄拳６"
     },
     {
       "unit_no": "0868",
-      "model_name": "Ｌモンスターハンターライズ"
+      "model_name": "Ｌ鉄拳６"
     },
     {
       "unit_no": "0869",
-      "model_name": "Ｌモンスターハンターライズ"
+      "model_name": "Ｌ鉄拳６"
     },
     {
       "unit_no": "0870",
-      "model_name": "Ｌモンスターハンターライズ"
+      "model_name": "Ｌ鉄拳６"
     },
     {
       "unit_no": "0871",
@@ -1151,19 +1151,19 @@
     },
     {
       "unit_no": "0883",
-      "model_name": "Ｌ彼女、お借りします"
+      "model_name": "Ｌモンスターハンターライズ"
     },
     {
       "unit_no": "0884",
-      "model_name": "Ｌ彼女、お借りします"
+      "model_name": "Ｌモンスターハンターライズ"
     },
     {
       "unit_no": "0885",
-      "model_name": "Ｌ彼女、お借りします"
+      "model_name": "Ｌモンスターハンターライズ"
     },
     {
       "unit_no": "0886",
-      "model_name": "Ｌ彼女、お借りします"
+      "model_name": "Ｌモンスターハンターライズ"
     },
     {
       "unit_no": "0887",
@@ -1183,19 +1183,19 @@
     },
     {
       "unit_no": "0891",
-      "model_name": "Ｌ鉄拳６"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0892",
-      "model_name": "Ｌ鉄拳６"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0893",
-      "model_name": "Ｌ鉄拳６"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0894",
-      "model_name": "Ｌ鉄拳６"
+      "model_name": "Ｌ彼女、お借りします"
     },
     {
       "unit_no": "0895",
@@ -1694,5 +1694,5 @@
       "model_name": "沖ドキ！ＧＯＬＤ－３０"
     }
   ],
-  "updated_at": "2026-10-12 22:53:25"
+  "updated_at": "2026-10-13 20:51:22"
 }
