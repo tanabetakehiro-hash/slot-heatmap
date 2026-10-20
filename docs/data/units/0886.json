@@ -2,7 +2,6 @@
   "unit_no": "0886",
   "model_name_latest": "Ｌモンスターハンターライズ",
   "dates": [
-    "2026-08-14",
     "2026-08-15",
     "2026-08-16",
     "2026-08-17",
@@ -61,21 +60,10 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "series": [
-    {
-      "date": "2026-08-14",
-      "unit_no": "0886",
-      "model_name": "Ｌ新鬼武者３",
-      "max_payout": 4626,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 12,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120325&n=0886",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120325&d=1"
-    },
     {
       "date": "2026-08-15",
       "unit_no": "0886",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0886",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-10-21",
+      "unit_no": "0886",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 1447,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0886",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-10-19 20:34:18"
+  "updated_at": "2026-10-20 19:12:48"
 }
