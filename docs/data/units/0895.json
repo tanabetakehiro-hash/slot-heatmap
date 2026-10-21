@@ -2,7 +2,6 @@
   "unit_no": "0895",
   "model_name_latest": "NEW Ｌパリピ孔明",
   "dates": [
-    "2026-08-15",
     "2026-08-16",
     "2026-08-17",
     "2026-08-18",
@@ -61,21 +60,10 @@
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "series": [
-    {
-      "date": "2026-08-15",
-      "unit_no": "0895",
-      "model_name": "NEW Ｌやじきた道中記参る！",
-      "max_payout": 1351,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 19,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120384&n=0895",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120384&d=1"
-    },
     {
       "date": "2026-08-16",
       "unit_no": "0895",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120396&n=0895",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120396&d=1"
+    },
+    {
+      "date": "2026-10-22",
+      "unit_no": "0895",
+      "model_name": "NEW Ｌパリピ孔明",
+      "max_payout": 602,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120396&n=0895",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120396&d=1"
     }
   ],
-  "updated_at": "2026-10-20 19:12:48"
+  "updated_at": "2026-10-21 19:15:07"
 }
