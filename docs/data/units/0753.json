@@ -2,7 +2,6 @@
   "unit_no": "0753",
   "model_name_latest": "ネオアイムジャグラーＥＸ",
   "dates": [
-    "2026-08-16",
     "2026-08-17",
     "2026-08-18",
     "2026-08-19",
@@ -61,21 +60,10 @@
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
   "series": [
-    {
-      "date": "2026-08-16",
-      "unit_no": "0753",
-      "model_name": "ネオアイムジャグラーＥＸ",
-      "max_payout": 1296,
-      "diff_medals": null,
-      "bb": 21,
-      "rb": 11,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120312&n=0753",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
-    },
     {
       "date": "2026-08-17",
       "unit_no": "0753",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120312&n=0753",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
+    },
+    {
+      "date": "2026-10-23",
+      "unit_no": "0753",
+      "model_name": "ネオアイムジャグラーＥＸ",
+      "max_payout": 2141,
+      "diff_medals": null,
+      "bb": 20,
+      "rb": 5,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120312&n=0753",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120312&d=1"
     }
   ],
-  "updated_at": "2026-10-21 19:15:07"
+  "updated_at": "2026-10-22 19:15:03"
 }

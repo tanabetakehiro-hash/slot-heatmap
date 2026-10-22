@@ -2,7 +2,6 @@
   "unit_no": "0893",
   "model_name_latest": "Ｌ彼女、お借りします",
   "dates": [
-    "2026-08-16",
     "2026-08-17",
     "2026-08-18",
     "2026-08-19",
@@ -61,21 +60,10 @@
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
   "series": [
-    {
-      "date": "2026-08-16",
-      "unit_no": "0893",
-      "model_name": "Ｌ鉄拳６",
-      "max_payout": 1999,
-      "diff_medals": null,
-      "bb": 16,
-      "rb": 9,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120344&n=0893",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120344&d=1"
-    },
     {
       "date": "2026-08-17",
       "unit_no": "0893",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120394&n=0893",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120394&d=1"
+    },
+    {
+      "date": "2026-10-23",
+      "unit_no": "0893",
+      "model_name": "Ｌ彼女、お借りします",
+      "max_payout": 1750,
+      "diff_medals": null,
+      "bb": 23,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120394&n=0893",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120394&d=1"
     }
   ],
-  "updated_at": "2026-10-21 19:15:07"
+  "updated_at": "2026-10-22 19:15:03"
 }
