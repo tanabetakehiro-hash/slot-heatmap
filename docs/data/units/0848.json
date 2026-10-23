@@ -2,7 +2,6 @@
   "unit_no": "0848",
   "model_name_latest": "Ｌからくりサーカス",
   "dates": [
-    "2026-08-17",
     "2026-08-18",
     "2026-08-19",
     "2026-08-20",
@@ -61,21 +60,10 @@
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
   "series": [
-    {
-      "date": "2026-08-17",
-      "unit_no": "0848",
-      "model_name": "Ｌからくりサーカス２－Ｖ",
-      "max_payout": 259,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 3,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120372&n=0848",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120372&d=1"
-    },
     {
       "date": "2026-08-18",
       "unit_no": "0848",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0848",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
+    },
+    {
+      "date": "2026-10-24",
+      "unit_no": "0848",
+      "model_name": "Ｌからくりサーカス",
+      "max_payout": 2301,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120142&n=0848",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120142&d=1"
     }
   ],
-  "updated_at": "2026-10-22 19:15:03"
+  "updated_at": "2026-10-23 19:05:38"
 }
