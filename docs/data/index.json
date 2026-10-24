@@ -214,13 +214,14 @@
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
-  "latest_date": "2026-10-24",
+  "latest_date": "2026-10-25",
   "daily_path_format": "data/daily/{date}.json",
   "history_path": "data/history.json",
   "prediction_path": "data/prediction_next.json",
   "units_path_format": "data/units/{unit}.json",
   "units_index_path": "data/units_index.json",
-  "updated_at": "2026-10-23 19:05:38"
+  "updated_at": "2026-10-24 18:02:18"
 }
