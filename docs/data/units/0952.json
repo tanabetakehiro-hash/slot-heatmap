@@ -2,7 +2,6 @@
   "unit_no": "0952",
   "model_name_latest": "Ｌスーパーリオエース２－⑤",
   "dates": [
-    "2026-08-20",
     "2026-08-22",
     "2026-08-23",
     "2026-08-24",
@@ -61,21 +60,10 @@
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
   "series": [
-    {
-      "date": "2026-08-20",
-      "unit_no": "0952",
-      "model_name": "Ｌ　ＴｏＬＯＶＥるダークネスｖｅｒ．８．７",
-      "max_payout": 5096,
-      "diff_medals": null,
-      "bb": 15,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120304&n=0952",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120304&d=1"
-    },
     {
       "date": "2026-08-22",
       "unit_no": "0952",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0952",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
+    },
+    {
+      "date": "2026-10-27",
+      "unit_no": "0952",
+      "model_name": "Ｌスーパーリオエース２－⑤",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120369&n=0952",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120369&d=1"
     }
   ],
-  "updated_at": "2026-10-25 18:17:53"
+  "updated_at": "2026-10-26 20:39:03"
 }
