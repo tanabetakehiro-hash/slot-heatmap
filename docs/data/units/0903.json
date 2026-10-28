@@ -2,7 +2,6 @@
   "unit_no": "0903",
   "model_name_latest": "NEW Ｌモンスターハンター：サンブレイク－⑤",
   "dates": [
-    "2026-08-23",
     "2026-08-24",
     "2026-08-26",
     "2026-08-29",
@@ -61,21 +60,10 @@
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
-    "2026-10-28"
+    "2026-10-28",
+    "2026-10-29"
   ],
   "series": [
-    {
-      "date": "2026-08-23",
-      "unit_no": "0903",
-      "model_name": "Ｌヤバチバ",
-      "max_payout": 300,
-      "diff_medals": null,
-      "bb": 3,
-      "rb": 8,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120375&n=0903",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120375&d=1"
-    },
     {
       "date": "2026-08-24",
       "unit_no": "0903",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120399&n=0903",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120399&d=1"
+    },
+    {
+      "date": "2026-10-29",
+      "unit_no": "0903",
+      "model_name": "NEW Ｌモンスターハンター：サンブレイク－⑤",
+      "max_payout": 7033,
+      "diff_medals": null,
+      "bb": 28,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120399&n=0903",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120399&d=1"
     }
   ],
-  "updated_at": "2026-10-27 20:10:21"
+  "updated_at": "2026-10-28 20:12:51"
 }
