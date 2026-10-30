@@ -2,7 +2,6 @@
   "unit_no": "0949",
   "model_name_latest": "NEW Ｌ転生王女と天才令嬢－Ｖ",
   "dates": [
-    "2026-08-26",
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
@@ -61,21 +60,10 @@
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "series": [
-    {
-      "date": "2026-08-26",
-      "unit_no": "0949",
-      "model_name": "Ｌ戦国乙女４",
-      "max_payout": 3415,
-      "diff_medals": null,
-      "bb": 32,
-      "rb": 0,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120155&n=0949",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120155&d=1"
-    },
     {
       "date": "2026-08-29",
       "unit_no": "0949",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120398&n=0949",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120398&d=1"
+    },
+    {
+      "date": "2026-10-31",
+      "unit_no": "0949",
+      "model_name": "NEW Ｌ転生王女と天才令嬢－Ｖ",
+      "max_payout": 207,
+      "diff_medals": null,
+      "bb": 4,
+      "rb": 8,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120398&n=0949",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120398&d=1"
     }
   ],
-  "updated_at": "2026-10-29 20:11:40"
+  "updated_at": "2026-10-30 20:00:42"
 }

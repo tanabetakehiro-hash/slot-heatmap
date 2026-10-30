@@ -2,7 +2,6 @@
   "unit_no": "0954",
   "model_name_latest": "Ｌモグモグ風林火山－Ｖ",
   "dates": [
-    "2026-08-26",
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
@@ -61,21 +60,10 @@
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "series": [
-    {
-      "date": "2026-08-26",
-      "unit_no": "0954",
-      "model_name": "Ｌ　ＵＬＴＲＡＭＡＮ最終決戦－Ｖ",
-      "max_payout": 1092,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 20,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120382&n=0954",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120382&d=1"
-    },
     {
       "date": "2026-08-29",
       "unit_no": "0954",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120395&n=0954",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120395&d=1"
+    },
+    {
+      "date": "2026-10-31",
+      "unit_no": "0954",
+      "model_name": "Ｌモグモグ風林火山－Ｖ",
+      "max_payout": 244,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 1,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120395&n=0954",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120395&d=1"
     }
   ],
-  "updated_at": "2026-10-29 20:11:40"
+  "updated_at": "2026-10-30 20:00:42"
 }
