@@ -2,7 +2,6 @@
   "unit_no": "0313",
   "model_name_latest": "ＬＢタコスロ－Ｖ",
   "dates": [
-    "2026-08-29",
     "2026-08-30",
     "2026-08-31",
     "2026-09-01",
@@ -61,21 +60,10 @@
     "2026-10-28",
     "2026-10-29",
     "2026-10-30",
-    "2026-10-31"
+    "2026-10-31",
+    "2026-11-01"
   ],
   "series": [
-    {
-      "date": "2026-08-29",
-      "unit_no": "0313",
-      "model_name": "Ｌハナビ",
-      "max_payout": 698,
-      "diff_medals": null,
-      "bb": 7,
-      "rb": 5,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120351&n=0313",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120351&d=1"
-    },
     {
       "date": "2026-08-30",
       "unit_no": "0313",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120393&n=0313",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120393&d=1"
+    },
+    {
+      "date": "2026-11-01",
+      "unit_no": "0313",
+      "model_name": "ＬＢタコスロ－Ｖ",
+      "max_payout": 588,
+      "diff_medals": null,
+      "bb": 3,
+      "rb": 3,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120393&n=0313",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120393&d=1"
     }
   ],
-  "updated_at": "2026-10-30 20:00:42"
+  "updated_at": "2026-10-31 19:15:12"
 }
