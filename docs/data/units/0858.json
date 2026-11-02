@@ -1,8 +1,7 @@
 {
   "unit_no": "0858",
-  "model_name_latest": "Ｌやじきた道中記参る！",
+  "model_name_latest": "NEW Ｌゴジラ対エヴァンゲリオン２",
   "dates": [
-    "2026-08-31",
     "2026-09-01",
     "2026-09-02",
     "2026-09-03",
@@ -61,21 +60,10 @@
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "series": [
-    {
-      "date": "2026-08-31",
-      "unit_no": "0858",
-      "model_name": "ＬバイオハザードＲＥ：３",
-      "max_payout": 319,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 10,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120365&n=0858",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120365&d=1"
-    },
     {
       "date": "2026-09-01",
       "unit_no": "0858",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120384&n=0858",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120384&d=1"
+    },
+    {
+      "date": "2026-11-03",
+      "unit_no": "0858",
+      "model_name": "NEW Ｌゴジラ対エヴァンゲリオン２",
+      "max_payout": 4601,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 9,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120407&n=0858",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120407&d=1"
     }
   ],
-  "updated_at": "2026-11-01 19:34:53"
+  "updated_at": "2026-11-02 23:23:13"
 }
