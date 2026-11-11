@@ -2,7 +2,6 @@
   "unit_no": "0884",
   "model_name_latest": "Ｌモンスターハンターライズ",
   "dates": [
-    "2026-09-09",
     "2026-09-11",
     "2026-09-12",
     "2026-09-14",
@@ -61,21 +60,10 @@
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
-    "2026-11-11"
+    "2026-11-11",
+    "2026-11-12"
   ],
   "series": [
-    {
-      "date": "2026-09-09",
-      "unit_no": "0884",
-      "model_name": "NEW Ｌ彼女、お借りします",
-      "max_payout": 871,
-      "diff_medals": null,
-      "bb": 21,
-      "rb": 5,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120394&n=0884",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120394&d=1"
-    },
     {
       "date": "2026-09-11",
       "unit_no": "0884",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0884",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
+    },
+    {
+      "date": "2026-11-12",
+      "unit_no": "0884",
+      "model_name": "Ｌモンスターハンターライズ",
+      "max_payout": 1209,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120258&n=0884",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120258&d=1"
     }
   ],
-  "updated_at": "2026-11-10 21:25:24"
+  "updated_at": "2026-11-11 22:02:32"
 }
