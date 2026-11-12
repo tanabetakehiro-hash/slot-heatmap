@@ -1,8 +1,7 @@
 {
   "unit_no": "0760",
-  "model_name_latest": "NEW マイジャグラーＶＩ",
+  "model_name_latest": "マイジャグラーＶＩ",
   "dates": [
-    "2026-09-11",
     "2026-09-12",
     "2026-09-14",
     "2026-09-15",
@@ -61,21 +60,10 @@
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
   ],
   "series": [
-    {
-      "date": "2026-09-11",
-      "unit_no": "0760",
-      "model_name": "ＳマイジャグラーＶ",
-      "max_payout": 836,
-      "diff_medals": null,
-      "bb": 12,
-      "rb": 6,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120010&n=0760",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120010&d=1"
-    },
     {
       "date": "2026-09-12",
       "unit_no": "0760",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120389&n=0760",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120389&d=1"
+    },
+    {
+      "date": "2026-11-13",
+      "unit_no": "0760",
+      "model_name": "マイジャグラーＶＩ",
+      "max_payout": 997,
+      "diff_medals": null,
+      "bb": 21,
+      "rb": 23,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120389&n=0760",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120389&d=1"
     }
   ],
-  "updated_at": "2026-11-11 22:02:32"
+  "updated_at": "2026-11-12 22:08:15"
 }
