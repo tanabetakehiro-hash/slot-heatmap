@@ -2,7 +2,6 @@
   "unit_no": "0829",
   "model_name_latest": "NEW Ｌ聖闘士星矢　黄金十二宮",
   "dates": [
-    "2026-09-12",
     "2026-09-14",
     "2026-09-15",
     "2026-09-16",
@@ -61,21 +60,10 @@
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
   "series": [
-    {
-      "date": "2026-09-12",
-      "unit_no": "0829",
-      "model_name": "Ｌ革命機ヴァルヴレイヴ２",
-      "max_payout": 1152,
-      "diff_medals": null,
-      "bb": 18,
-      "rb": 1,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120336&n=0829",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120336&d=1"
-    },
     {
       "date": "2026-09-14",
       "unit_no": "0829",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120402&n=0829",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120402&d=1"
+    },
+    {
+      "date": "2026-11-14",
+      "unit_no": "0829",
+      "model_name": "NEW Ｌ聖闘士星矢　黄金十二宮",
+      "max_payout": 463,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 7,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120402&n=0829",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120402&d=1"
     }
   ],
-  "updated_at": "2026-11-12 22:08:15"
+  "updated_at": "2026-11-13 21:32:56"
 }
