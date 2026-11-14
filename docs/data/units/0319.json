@@ -2,7 +2,6 @@
   "unit_no": "0319",
   "model_name_latest": "Ｌリコリス・リコイル",
   "dates": [
-    "2026-09-14",
     "2026-09-15",
     "2026-09-16",
     "2026-09-17",
@@ -61,21 +60,10 @@
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
   ],
   "series": [
-    {
-      "date": "2026-09-14",
-      "unit_no": "0319",
-      "model_name": "NEW Ｌリコリス・リコイル",
-      "max_payout": 2301,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 17,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120391&n=0319",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120391&d=1"
-    },
     {
       "date": "2026-09-15",
       "unit_no": "0319",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120391&n=0319",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120391&d=1"
+    },
+    {
+      "date": "2026-11-15",
+      "unit_no": "0319",
+      "model_name": "Ｌリコリス・リコイル",
+      "max_payout": 2679,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 2,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120391&n=0319",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120391&d=1"
     }
   ],
-  "updated_at": "2026-11-13 21:32:56"
+  "updated_at": "2026-11-14 19:51:57"
 }
