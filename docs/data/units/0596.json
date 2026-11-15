@@ -2,7 +2,6 @@
   "unit_no": "0596",
   "model_name_latest": "Ｌ甲鉄城のカバネリ海門決戦",
   "dates": [
-    "2026-09-15",
     "2026-09-16",
     "2026-09-17",
     "2026-09-18",
@@ -61,21 +60,10 @@
     "2026-11-12",
     "2026-11-13",
     "2026-11-14",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-16"
   ],
   "series": [
-    {
-      "date": "2026-09-15",
-      "unit_no": "0596",
-      "model_name": "Ｌ甲鉄城のカバネリ海門決戦",
-      "max_payout": 3005,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 2,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120354&n=0596",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120354&d=1"
-    },
     {
       "date": "2026-09-16",
       "unit_no": "0596",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120354&n=0596",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120354&d=1"
+    },
+    {
+      "date": "2026-11-16",
+      "unit_no": "0596",
+      "model_name": "Ｌ甲鉄城のカバネリ海門決戦",
+      "max_payout": 2930,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 4,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120354&n=0596",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120354&d=1"
     }
   ],
-  "updated_at": "2026-11-14 19:51:57"
+  "updated_at": "2026-11-15 20:22:37"
 }
