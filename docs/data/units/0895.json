@@ -2,7 +2,6 @@
   "unit_no": "0895",
   "model_name_latest": "Ｌパリピ孔明",
   "dates": [
-    "2026-09-18",
     "2026-09-19",
     "2026-09-20",
     "2026-09-21",
@@ -61,21 +60,10 @@
     "2026-11-15",
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
   ],
   "series": [
-    {
-      "date": "2026-09-18",
-      "unit_no": "0895",
-      "model_name": "Ｌビッグドリーム－Ｖ",
-      "max_payout": 7321,
-      "diff_medals": null,
-      "bb": 0,
-      "rb": 16,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120367&n=0895",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120367&d=1"
-    },
     {
       "date": "2026-09-19",
       "unit_no": "0895",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120396&n=0895",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120396&d=1"
+    },
+    {
+      "date": "2026-11-19",
+      "unit_no": "0895",
+      "model_name": "Ｌパリピ孔明",
+      "max_payout": 0,
+      "diff_medals": null,
+      "bb": 0,
+      "rb": 0,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120396&n=0895",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120396&d=1"
     }
   ],
-  "updated_at": "2026-11-17 23:01:31"
+  "updated_at": "2026-11-18 22:33:25"
 }
