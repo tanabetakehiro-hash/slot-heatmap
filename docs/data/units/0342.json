@@ -2,7 +2,6 @@
   "unit_no": "0342",
   "model_name_latest": "ＬＢサンダーＶ",
   "dates": [
-    "2026-09-20",
     "2026-09-21",
     "2026-09-22",
     "2026-09-24",
@@ -61,21 +60,10 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "series": [
-    {
-      "date": "2026-09-20",
-      "unit_no": "0342",
-      "model_name": "ＬＢサンダーＶ",
-      "max_payout": 3617,
-      "diff_medals": null,
-      "bb": 37,
-      "rb": 24,
-      "total_start": 0,
-      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0342",
-      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
-    },
     {
       "date": "2026-09-21",
       "unit_no": "0342",
@@ -783,7 +771,19 @@
       "total_start": 0,
       "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0342",
       "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
+    },
+    {
+      "date": "2026-11-21",
+      "unit_no": "0342",
+      "model_name": "ＬＢサンダーＶ",
+      "max_payout": 1952,
+      "diff_medals": null,
+      "bb": 15,
+      "rb": 19,
+      "total_start": 0,
+      "detail_url": "https://reitoweb.com/b_moba/doc/machine.php?h=2&t=29&m=99120355&n=0342",
+      "source_url": "https://reitoweb.com/b_moba/doc/data.php?h=2&t=29&m=99120355&d=1"
     }
   ],
-  "updated_at": "2026-11-19 22:44:47"
+  "updated_at": "2026-11-20 22:28:26"
 }
